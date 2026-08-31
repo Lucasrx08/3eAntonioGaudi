@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#96c22b" />
+  <meta name="description" content="Ma 3e - espace numérique de vie de classe" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Ma 3e</title>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navigation principale">
+      <div class="brand">
+        <div class="brand-mark">M3</div>
+        <div>
+          <strong>MA 3e</strong>
+          <span>Bon Sauveur</span>
+        </div>
+      </div>
+
+      <nav class="side-nav">
+        <button class="nav-item active" data-view="home">Accueil</button>
+        <button class="nav-item" data-view="agenda">Agenda</button>
+        <button class="nav-item" data-view="resources">Ressources</button>
+        <button class="nav-item" data-view="profile">Mon espace</button>
+      </nav>
+
+      <div class="teacher-chip">Prototype élève</div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">ESPACE CLASSE</p>
+          <h1 id="page-title">Bonjour Lucas</h1>
+          <p class="muted">3e Gaudí · Année 2026-2027</p>
+        </div>
+        <button class="avatar" aria-label="Mon profil">LR</button>
+      </header>
+
+      <section id="home" class="view active-view">
+        <div class="hero-card">
+          <div>
+            <span class="pill">Aujourd'hui</span>
+            <h2>Ta semaine en un coup d’œil</h2>
+            <p>Les prochains rendez-vous, documents et actions importantes de ta classe.</p>
+          </div>
+          <div class="hero-number">3</div>
+        </div>
+
+        <div class="grid two-col">
+          <section class="panel">
+            <div class="panel-head">
+              <h3>À venir</h3>
+              <button class="text-btn" data-go="agenda">Voir l'agenda</button>
+            </div>
+            <div class="timeline">
+              <article class="timeline-item">
+                <div class="date-badge"><strong>08</strong><span>SEP.</span></div>
+                <div><h4>Photos fratries</h4><p>École · Collège · Lycée</p></div>
+              </article>
+              <article class="timeline-item">
+                <div class="date-badge blue"><strong>09</strong><span>SEP.</span></div>
+                <div><h4>Photos de classe</h4><p>Photos fratries collège</p></div>
+              </article>
+              <article class="timeline-item">
+                <div class="date-badge orange"><strong>02</strong><span>OCT.</span></div>
+                <div><h4>Célébration de rentrée</h4><p>10h00</p></div>
+              </article>
+            </div>
+          </section>
+
+          <section class="panel attention-panel">
+            <div class="panel-head"><h3>À ne pas oublier</h3><span class="status-dot"></span></div>
+            <div class="task-card">
+              <div>
+                <span class="task-label">Stage</span>
+                <h4>Convention de stage</h4>
+                <p>À rendre avant le 12 octobre</p>
+              </div>
+              <button class="primary-btn">Voir</button>
+            </div>
+            <div class="task-card soft">
+              <div>
+                <span class="task-label">Vie de classe</span>
+                <h4>Fiche de renseignements</h4>
+                <p>Document personnel disponible</p>
+              </div>
+              <button class="secondary-btn">Ouvrir</button>
+            </div>
+          </section>
+        </div>
+
+        <section class="section-block">
+          <div class="section-heading">
+            <div><p class="eyebrow">MES ESPACES</p><h2>Tout ce qu’il te faut cette année</h2></div>
+          </div>
+          <div class="resource-grid">
+            <button class="resource-card green" data-resource="Vie de classe"><span class="icon">✓</span><strong>Vie de classe</strong><small>Objectifs, séances, documents</small></button>
+            <button class="resource-card blue" data-resource="Orientation"><span class="icon">↗</span><strong>Orientation</strong><small>Étapes, choix et ressources</small></button>
+            <button class="resource-card orange" data-resource="DNB"><span class="icon">★</span><strong>Mon DNB</strong><small>Épreuves, dates et repères</small></button>
+            <button class="resource-card lightblue" data-resource="Stage"><span class="icon">▣</span><strong>Mon stage</strong><small>Convention et informations</small></button>
+            <button class="resource-card pale" data-resource="Certifications"><span class="icon">◎</span><strong>Certifications</strong><small>PIX, ASSR2, Ev@lang, PSC</small></button>
+            <button class="resource-card white" data-go="profile"><span class="icon">↧</span><strong>Mes documents</strong><small>Évaluations et fichiers personnels</small></button>
+          </div>
+        </section>
+      </section>
+
+      <section id="agenda" class="view">
+        <div class="section-heading"><div><p class="eyebrow">AGENDA</p><h2>Mes dates importantes</h2></div><span class="sync-badge">● Calendrier Apple synchronisé</span></div>
+        <div class="agenda-list">
+          <article><span class="month">SEP.</span><strong>8</strong><div><h3>Photos fratries</h3><p>École · Collège · Lycée</p></div></article>
+          <article><span class="month">SEP.</span><strong>9</strong><div><h3>Photos de classe</h3><p>Collège</p></div></article>
+          <article class="orange-line"><span class="month">OCT.</span><strong>15</strong><div><h3>Cross du Bon Sauveur</h3><p>Temps fort établissement</p></div></article>
+          <article><span class="month">NOV.</span><strong>25</strong><div><h3>Réunion d'orientation</h3><p>À noter dans l'agenda familial</p></div></article>
+          <article class="orange-line"><span class="month">FÉV.</span><strong>9</strong><div><h3>Stage en entreprise</h3><p>Du 9 au 13 février</p></div></article>
+        </div>
+      </section>
+
+      <section id="resources" class="view">
+        <div class="section-heading"><div><p class="eyebrow">RESSOURCES</p><h2>Mes parcours de 3e</h2></div></div>
+        <div class="resource-list">
+          <article><div class="resource-stripe green-bg"></div><div><h3>Ma vie de classe</h3><p>Retrouve les séances, les objectifs et les documents utilisés en heure de vie de classe.</p></div><button>Ouvrir</button></article>
+          <article><div class="resource-stripe blue-bg"></div><div><h3>Mon orientation</h3><p>Suivre les étapes de l'année, de la réflexion jusqu'à l'affectation.</p></div><button>Ouvrir</button></article>
+          <article><div class="resource-stripe orange-bg"></div><div><h3>Mon DNB</h3><p>Comprendre les épreuves, le contrôle continu et les principales échéances.</p></div><button>Ouvrir</button></article>
+          <article><div class="resource-stripe blue-bg"></div><div><h3>Mon premier stage</h3><p>Dates, convention, documents utiles et informations importantes.</p></div><button>Ouvrir</button></article>
+          <article><div class="resource-stripe green-bg"></div><div><h3>Mes certifications</h3><p>PIX, ASSR2, Ev@lang et PSC.</p></div><button>Ouvrir</button></article>
+        </div>
+      </section>
+
+      <section id="profile" class="view">
+        <div class="section-heading"><div><p class="eyebrow">MON ESPACE</p><h2>Mes documents personnels</h2></div></div>
+        <div class="profile-card">
+          <div class="profile-avatar">LR</div>
+          <div><h3>Lucas Rigaux</h3><p>3e Gaudí</p></div>
+          <span class="private-badge">Espace privé</span>
+        </div>
+        <div class="documents-table">
+          <div class="doc-row"><span class="doc-icon">PDF</span><div><strong>Évaluation EPS - Biathlon</strong><small>Déposée le 14 septembre · Personnel</small></div><button>Voir</button></div>
+          <div class="doc-row"><span class="doc-icon">PDF</span><div><strong>Fiche de renseignements</strong><small>À compléter · Vie de classe</small></div><button>Ouvrir</button></div>
+          <div class="doc-row"><span class="doc-icon">PDF</span><div><strong>Convention de stage</strong><small>À rendre avant le 12 octobre</small></div><button>Télécharger</button></div>
+        </div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Navigation mobile">
+      <button class="active" data-view="home">Accueil</button>
+      <button data-view="agenda">Agenda</button>
+      <button data-view="resources">Ressources</button>
+      <button data-view="profile">Mon espace</button>
+    </nav>
+  </div>
+
+  <dialog id="resource-dialog">
+    <button class="dialog-close" aria-label="Fermer">×</button>
+    <p class="eyebrow">APERÇU</p>
+    <h2 id="dialog-title">Ressource</h2>
+    <p>Dans la version finale, cette carte peut ouvrir une page HTML, un PDF, un Canva intégré ou une ressource externe.</p>
+    <button class="primary-btn dialog-ok">Compris</button>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

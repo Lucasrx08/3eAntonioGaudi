@@ -1,0 +1,10 @@
+{
+  "name": "Ma 3e - Bon Sauveur",
+  "short_name": "Ma 3e",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f9f8",
+  "theme_color": "#96c22b",
+  "description": "Espace numérique de vie de classe pour les élèves et les familles.",
+  "icons": []
+}
