@@ -1,0 +1,51 @@
+name: Synchroniser les calendriers et publier
+
+on:
+  push:
+    branches: ["main"]
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer l’application
+        uses: actions/checkout@v4
+
+      - name: Synchroniser le calendrier Apple
+        env:
+          APPLE_CALENDAR_URL: ${{ secrets.APPLE_CALENDAR_URL }}
+        run: node sync-calendar.mjs
+
+      - name: Synchroniser l’emploi du temps ÉcoleDirecte
+        env:
+          CALENDAR_MODE: timetable
+          CALENDAR_URL: ${{ secrets.ECOLEDIRECTE_ICAL_URL }}
+          CALENDAR_OUTPUT: timetable.json
+        run: node sync-calendar.mjs
+
+      - name: Préparer GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Préparer les fichiers du site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Publier le site
+        id: deployment
+        uses: actions/deploy-pages@v4
