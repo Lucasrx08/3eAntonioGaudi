@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-31T15:08:08.956Z",
+  "timeZone": "Europe/Paris",
+  "events": [
+    {
+      "id": "2a33176de98bafed",
+      "title": "Photos de classe",
+      "start": "2026-09-08",
+      "end": "2026-09-09",
+      "allDay": true,
+      "location": "",
+      "description": "",
+      "category": "classe"
+    },
+    {
+      "id": "bacea215ff12c5b5",
+      "title": "Excercie Incendie",
+      "start": "2026-09-17T08:15:00.000Z",
+      "end": "2026-09-17T09:15:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "",
+      "category": "etablissement"
+    },
+    {
+      "id": "35d1b4ce22691026",
+      "title": "Cross de l'établissement",
+      "start": "2026-10-14T06:00:00.000Z",
+      "end": "2026-10-14T10:00:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "",
+      "category": "sport"
+    },
+    {
+      "id": "56d4226d9a551e6e",
+      "title": "Odysée des métiers - 3ème",
+      "start": "2026-11-19T08:00:00.000Z",
+      "end": "2026-11-19T11:00:00.000Z",
+      "allDay": false,
+      "location": "Parc des Expositions\n759 Rue de Torigni, 50000 Saint-Lô, France",
+      "description": "",
+      "category": "orientation"
+    },
+    {
+      "id": "187d7aa2bcf472dd",
+      "title": "Vacances de Noël",
+      "start": "2026-12-20",
+      "end": "2027-01-04",
+      "allDay": true,
+      "location": "",
+      "description": "",
+      "category": "vacances"
+    },
+    {
+      "id": "f56b3ecbc5c643b5",
+      "title": "Portes ouvertes",
+      "start": "2027-02-12T16:00:00.000Z",
+      "end": "2027-02-12T19:00:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "",
+      "category": "orientation"
+    },
+    {
+      "id": "b3788e8dac711156",
+      "title": "Portes ouvertes",
+      "start": "2027-02-13T08:00:00.000Z",
+      "end": "2027-02-13T11:00:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "",
+      "category": "orientation"
+    },
+    {
+      "id": "c24bc0d529eef421",
+      "title": "Vacances d'Hiver",
+      "start": "2027-02-21",
+      "end": "2027-03-08",
+      "allDay": true,
+      "location": "",
+      "description": "",
+      "category": "vacances"
+    },
+    {
+      "id": "d3caffa0b6cc31fb",
+      "title": "Vacances de Printemps",
+      "start": "2027-04-18",
+      "end": "2027-05-03",
+      "allDay": true,
+      "location": "",
+      "description": "",
+      "category": "vacances"
+    },
+    {
+      "id": "7f8593d13c53a440",
+      "title": "Pont de l’Ascension",
+      "start": "2027-05-06",
+      "end": "2027-05-10",
+      "allDay": true,
+      "location": "",
+      "description": "",
+      "category": "vacances"
+    }
+  ]
+}

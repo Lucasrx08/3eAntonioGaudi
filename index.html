@@ -32,7 +32,7 @@
   <main class="content">
     <header class="topbar">
       <div>
-        <span class="eyebrow">LUNDI 31 AOÛT</span>
+        <span id="today-label" class="eyebrow">AUJOURD’HUI</span>
         <h1>Bonjour<span>.</span></h1>
         <p>L’essentiel de votre année de 3e, au même endroit.</p>
       </div>
@@ -49,18 +49,18 @@
           <div class="hero-pattern pattern-b"></div>
           <div class="hero-topline"><span>MA 3E</span><span class="status">EN COURS</span></div>
           <div class="hero-content">
-            <p>PROCHAINE ÉCHÉANCE</p>
+            <p id="hero-kicker">PROCHAINE ÉCHÉANCE</p>
             <div class="hero-date-row">
-              <div class="mega-date">08<small>SEP.</small></div>
+              <div id="hero-date" class="mega-date">—<small>AGENDA</small></div>
               <div class="hero-event">
-                <span>VIE DE CLASSE</span>
-                <h2>Photos fratries</h2>
-                <p>École · Collège · Lycée</p>
+                <span id="hero-category">CALENDRIER APPLE</span>
+                <h2 id="hero-title">Synchronisation en cours</h2>
+                <p id="hero-meta">Chargement des prochaines dates de la classe…</p>
                 <button data-go="agenda">Voir l’événement <b>→</b></button>
               </div>
             </div>
           </div>
-          <div class="countdown"><small>DANS</small><strong>8</strong><span>JOURS</span></div>
+          <div class="countdown"><small id="countdown-prefix">DANS</small><strong id="countdown-value">—</strong><span id="countdown-unit">JOURS</span></div>
         </article>
 
         <article class="focus-card">
@@ -78,10 +78,8 @@
         <button data-go="agenda">Tout l’agenda →</button>
       </div>
 
-      <div class="timeline-strip">
-        <article><time><b>09</b><span>SEP.</span></time><div class="event-dot green"></div><div class="event-copy"><span>CLASSE</span><strong>Photos de classe</strong><small>Mardi · 09:00</small></div><b class="arrow">→</b></article>
-        <article><time><b>12</b><span>SEP.</span></time><div class="event-dot orange"></div><div class="event-copy"><span>DOCUMENT</span><strong>Fiche de renseignements</strong><small>Vendredi · 16:00</small></div><em>À RENDRE</em></article>
-        <article><time><b>15</b><span>SEP.</span></time><div class="event-dot blue"></div><div class="event-copy"><span>VIE DE CLASSE</span><strong>Réunion des délégués</strong><small>Lundi · 11:30</small></div><b class="arrow">→</b></article>
+      <div id="timeline-strip" class="timeline-strip" aria-live="polite">
+        <article class="calendar-loading"><div class="loading-pulse"></div><div><strong>Chargement de l’agenda…</strong><small>Calendrier Apple</small></div></article>
       </div>
 
       <div class="section-head">
@@ -111,13 +109,12 @@
 
     <section id="agenda" class="view">
       <div class="page-title"><span>AGENDA</span><h2>Mes dates importantes<span>.</span></h2><p>Les événements utiles de la classe, classés chronologiquement.</p></div>
-      <div class="month-banner"><span>SEPTEMBRE</span><b>2026</b><i></i></div>
-      <div class="agenda-list">
-        <article><time><b>08</b><span>SEP.</span></time><div><small>VIE DE CLASSE</small><strong>Photos fratries</strong><p>École · Collège · Lycée</p></div><span class="tag green-tag">CLASSE</span></article>
-        <article><time><b>09</b><span>SEP.</span></time><div><small>ÉTABLISSEMENT</small><strong>Photos de classe</strong><p>Collège</p></div><span class="tag blue-tag">09:00</span></article>
-        <article><time><b>12</b><span>SEP.</span></time><div><small>DOCUMENT</small><strong>Fiche de renseignements</strong><p>À compléter avant vendredi</p></div><span class="tag orange-tag">À RENDRE</span></article>
-        <article><time><b>15</b><span>OCT.</span></time><div><small>ÉTABLISSEMENT</small><strong>Cross du Bon Sauveur</strong><p>Temps fort de l’établissement</p></div><span class="tag green-tag">SPORT</span></article>
-        <article><time><b>09</b><span>FÉV.</span></time><div><small>STAGE</small><strong>Stage en entreprise</strong><p>Du 9 au 13 février</p></div><span class="tag blue-tag">5 JOURS</span></article>
+      <div class="agenda-sync-bar">
+        <div><span class="sync-dot"></span><strong>Calendrier Apple</strong><small id="agenda-status" aria-live="polite">Synchronisation en cours…</small></div>
+        <button id="agenda-refresh" type="button">Actualiser ↻</button>
+      </div>
+      <div id="agenda-root">
+        <div class="calendar-empty"><strong>Chargement de l’agenda…</strong><p>Les événements de la 3e Gaudí vont apparaître ici.</p></div>
       </div>
     </section>
 
