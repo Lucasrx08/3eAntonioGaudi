@@ -20,6 +20,7 @@
     <nav class="side-nav" aria-label="Navigation principale">
       <button class="nav-item active" data-view="home"><span class="nav-icon">⌂</span><span>Accueil</span></button>
       <button class="nav-item" data-view="agenda"><span class="nav-icon">◷</span><span>Agenda</span></button>
+      <button class="nav-item" data-view="timetable"><span class="nav-icon">▦</span><span>Mon emploi du temps</span></button>
       <button class="nav-item" data-view="resources"><span class="nav-icon">◇</span><span>Mon année</span></button>
       <button class="nav-item" data-view="profile"><span class="nav-icon">▱</span><span>Mon espace</span></button>
     </nav>
@@ -118,6 +119,24 @@
       </div>
     </section>
 
+    <section id="timetable" class="view">
+      <div class="page-title"><span>ÉCOLEDIRECTE</span><h2>Mon emploi du temps<span>.</span></h2><p>Les cours de la semaine, synchronisés automatiquement.</p></div>
+      <div class="agenda-sync-bar timetable-sync-bar">
+        <div><span class="sync-dot"></span><strong>ÉcoleDirecte</strong><small id="timetable-status" aria-live="polite">Synchronisation en cours…</small></div>
+        <button id="timetable-refresh" type="button">Actualiser ↻</button>
+      </div>
+      <div class="timetable-toolbar" aria-label="Navigation dans les semaines">
+        <button id="timetable-prev" type="button" aria-label="Semaine précédente">←</button>
+        <div><small>SEMAINE</small><strong id="timetable-week-label">—</strong></div>
+        <button id="timetable-today" type="button">Aujourd’hui</button>
+        <button id="timetable-next" type="button" aria-label="Semaine suivante">→</button>
+      </div>
+      <div id="timetable-board" class="timetable-desktop" aria-live="polite">
+        <div class="calendar-empty"><strong>Chargement de l’emploi du temps…</strong><p>Les cours ÉcoleDirecte vont apparaître ici.</p></div>
+      </div>
+      <div id="timetable-mobile" class="timetable-mobile" aria-live="polite"></div>
+    </section>
+
     <section id="resources" class="view">
       <div class="page-title"><span>MON ANNÉE</span><h2>Tout ce qui compte<span>.</span></h2><p>Des espaces simples pour avancer tout au long de l’année.</p></div>
       <div class="resource-feature-grid">
@@ -144,6 +163,7 @@
     <button class="active" data-view="home"><span>⌂</span><small>Accueil</small></button>
     <button data-view="agenda"><span>◷</span><small>Agenda</small></button>
     <button data-view="resources" class="plus"><span>+</span><small>Mon année</small></button>
+    <button data-view="timetable"><span>▦</span><small>Emploi du temps</small></button>
     <button data-view="profile"><span>▱</span><small>Mon espace</small></button>
   </nav>
 </div>

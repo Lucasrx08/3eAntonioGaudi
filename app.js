@@ -1,5 +1,7 @@
 const CALENDAR_FILE='./calendar.json';
 const CALENDAR_CACHE_KEY='ma3e_calendar_cache_v1';
+const TIMETABLE_FILE='./timetable.json';
+const TIMETABLE_CACHE_KEY='ma3e_timetable_cache_v1';
 const DISPLAY_TIME_ZONE='Europe/Paris';
 const CALENDAR_REFRESH_MS=5*60*1000;
 
@@ -41,6 +43,10 @@ const monthLongFormatter=new Intl.DateTimeFormat('fr-FR',{month:'long',timeZone:
 const weekdayFormatter=new Intl.DateTimeFormat('fr-FR',{weekday:'long',timeZone:DISPLAY_TIME_ZONE});
 const hourFormatter=new Intl.DateTimeFormat('fr-FR',{hour:'2-digit',minute:'2-digit',timeZone:DISPLAY_TIME_ZONE});
 const statusFormatter=new Intl.DateTimeFormat('fr-FR',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',timeZone:DISPLAY_TIME_ZONE});
+const timetableDayFormatter=new Intl.DateTimeFormat('fr-FR',{weekday:'short',timeZone:DISPLAY_TIME_ZONE});
+const timetableDateFormatter=new Intl.DateTimeFormat('fr-FR',{day:'numeric',month:'short',timeZone:DISPLAY_TIME_ZONE});
+const timetableEndFormatter=new Intl.DateTimeFormat('fr-FR',{day:'numeric',month:'short',year:'numeric',timeZone:DISPLAY_TIME_ZONE});
+const timetableTimePartsFormatter=new Intl.DateTimeFormat('en-GB',{hour:'2-digit',minute:'2-digit',hourCycle:'h23',timeZone:DISPLAY_TIME_ZONE});
 
 function titleCase(value){
   return String(value||'').replace(/^./,letter=>letter.toLocaleUpperCase('fr-FR'));
@@ -71,6 +77,22 @@ function dateKey(date){
   }).formatToParts(date);
   const values=Object.fromEntries(parts.map(part=>[part.type,part.value]));
   return `${values.year}-${values.month}-${values.day}`;
+}
+
+function addDaysToDateKey(key,days){
+  const [year,month,day]=key.split('-').map(Number);
+  return new Date(Date.UTC(year,month-1,day+days)).toISOString().slice(0,10);
+}
+
+function dateFromKeyAtNoon(key){
+  const [year,month,day]=key.split('-').map(Number);
+  return new Date(Date.UTC(year,month-1,day,12));
+}
+
+function mondayFromKey(key){
+  const date=dateFromKeyAtNoon(key);
+  const offset=(date.getUTCDay()+6)%7;
+  return addDaysToDateKey(key,-offset);
 }
 
 function startOfKey(key){
@@ -260,6 +282,207 @@ function renderAgenda(events){
   });
 }
 
+let selectedTimetableWeek=mondayFromKey(dateKey(new Date()));
+let currentTimetableData={events:[]};
+
+function timetableEventKey(event){
+  return event.allDay?String(event.start).slice(0,10):dateKey(eventDate(event));
+}
+
+function timetableMinutes(event,field){
+  const date=eventDate(event,field);
+  const parts=timetableTimePartsFormatter.formatToParts(date);
+  const values=Object.fromEntries(parts.map(part=>[part.type,part.value]));
+  return Number(values.hour)*60+Number(values.minute);
+}
+
+function timetableRange(event){
+  const start=timetableMinutes(event,'start');
+  let end=timetableMinutes(event,'end');
+  if(dateKey(eventDate(event,'start'))!==dateKey(eventDate(event,'end')))end=24*60;
+  if(end<=start)end=start+60;
+  return {start,end};
+}
+
+function timetableTone(title){
+  const hash=[...String(title)].reduce((value,character)=>(value*31+character.codePointAt(0))>>>0,7);
+  return `tone-${hash%4}`;
+}
+
+function timetableCourseDetail(event){
+  return [...new Set([event.location,event.description]
+    .filter(Boolean)
+    .map(value=>value.replace(/\s*\n\s*/g,' · ').trim())
+    .filter(Boolean))].join(' · ');
+}
+
+function timetableDays(events){
+  const days=[0,1,2,3,4].map(offset=>addDaysToDateKey(selectedTimetableWeek,offset));
+  [5,6].forEach(offset=>{
+    const key=addDaysToDateKey(selectedTimetableWeek,offset);
+    if(events.some(event=>timetableEventKey(event)===key))days.push(key);
+  });
+  return days;
+}
+
+function timetableWeekEvents(events){
+  const end=addDaysToDateKey(selectedTimetableWeek,6);
+  return sortEvents(events.filter(event=>{
+    const key=timetableEventKey(event);
+    return key>=selectedTimetableWeek&&key<=end;
+  }));
+}
+
+function timetableWeekLabel(){
+  const start=dateFromKeyAtNoon(selectedTimetableWeek);
+  const end=dateFromKeyAtNoon(addDaysToDateKey(selectedTimetableWeek,6));
+  return `${timetableDateFormatter.format(start)} — ${timetableEndFormatter.format(end)}`;
+}
+
+function timetableEmpty(message){
+  const empty=createElement('div','calendar-empty');
+  empty.append(createElement('strong','',message),createElement('p','', 'Choisissez une autre semaine ou attendez la prochaine synchronisation ÉcoleDirecte.'));
+  return empty;
+}
+
+function renderTimetableDesktop(events,days){
+  const root=document.querySelector('#timetable-board');
+  root.replaceChildren();
+  if(!events.length){
+    root.append(timetableEmpty('Aucun cours cette semaine'));
+    return;
+  }
+
+  const timed=events.filter(event=>!event.allDay);
+  const earliest=timed.length?Math.min(...timed.map(event=>timetableRange(event).start)):8*60;
+  const latest=timed.length?Math.max(...timed.map(event=>timetableRange(event).end)):18*60;
+  const startHour=Math.max(6,Math.min(8,Math.floor(earliest/60)));
+  const endHour=Math.min(21,Math.max(18,Math.ceil(latest/60)));
+  const hourHeight=72;
+  const bodyHeight=(endHour-startHour)*hourHeight;
+  const today=dateKey(new Date());
+  const scroll=createElement('div','timetable-scroll');
+  const grid=createElement('div','timetable-grid');
+  grid.style.setProperty('--day-count',String(days.length));
+  grid.style.minWidth=`${64+days.length*150}px`;
+  grid.append(createElement('div','timetable-corner','HEURE'));
+
+  days.forEach(key=>{
+    const header=createElement('div',`timetable-day-head${key===today?' is-today':''}`);
+    header.append(
+      createElement('small','',timetableDayFormatter.format(dateFromKeyAtNoon(key)).replace('.','').toLocaleUpperCase('fr-FR')),
+      createElement('strong','',timetableDateFormatter.format(dateFromKeyAtNoon(key)))
+    );
+    events.filter(event=>event.allDay&&timetableEventKey(event)===key).forEach(event=>{
+      header.append(createElement('span','timetable-all-day',event.title));
+    });
+    grid.append(header);
+  });
+
+  const rail=createElement('div','timetable-time-rail');
+  rail.style.height=`${bodyHeight}px`;
+  for(let hour=startHour;hour<=endHour;hour+=1){
+    const label=createElement('span','',`${String(hour).padStart(2,'0')}:00`);
+    label.style.top=`${(hour-startHour)*hourHeight}px`;
+    rail.append(label);
+  }
+  grid.append(rail);
+
+  days.forEach(key=>{
+    const column=createElement('div',`timetable-day-column${key===today?' is-today':''}`);
+    column.style.height=`${bodyHeight}px`;
+    column.style.setProperty('--hour-height',`${hourHeight}px`);
+    events.filter(event=>!event.allDay&&timetableEventKey(event)===key).forEach(event=>{
+      const range=timetableRange(event);
+      const clippedStart=Math.max(range.start,startHour*60);
+      const clippedEnd=Math.min(range.end,endHour*60);
+      if(clippedEnd<=clippedStart)return;
+      const top=(clippedStart-startHour*60)/60*hourHeight;
+      const height=Math.max(30,(clippedEnd-clippedStart)/60*hourHeight-4);
+      const card=createElement('article',`timetable-course ${timetableTone(event.title)}${height<52?' is-compact':''}`);
+      card.style.top=`${top+2}px`;
+      card.style.height=`${height}px`;
+      const detail=timetableCourseDetail(event);
+      card.title=[event.title,detail].filter(Boolean).join(' · ');
+      card.append(
+        createElement('span','',`${hourFormatter.format(eventDate(event,'start'))} – ${hourFormatter.format(eventDate(event,'end'))}`),
+        createElement('strong','',event.title)
+      );
+      if(detail)card.append(createElement('small','',detail));
+      column.append(card);
+    });
+    grid.append(column);
+  });
+
+  scroll.append(grid);
+  root.append(scroll);
+}
+
+function renderTimetableMobile(events,days){
+  const root=document.querySelector('#timetable-mobile');
+  root.replaceChildren();
+  if(!events.length){
+    root.append(timetableEmpty('Aucun cours cette semaine'));
+    return;
+  }
+  const today=dateKey(new Date());
+  days.forEach(key=>{
+    const dayEvents=events.filter(event=>timetableEventKey(event)===key);
+    const section=createElement('section',`timetable-day-card${key===today?' is-today':''}`);
+    const heading=createElement('header');
+    heading.append(
+      createElement('span','',timetableDayFormatter.format(dateFromKeyAtNoon(key)).replace('.','').toLocaleUpperCase('fr-FR')),
+      createElement('strong','',timetableDateFormatter.format(dateFromKeyAtNoon(key)))
+    );
+    section.append(heading);
+    if(!dayEvents.length){
+      section.append(createElement('p','timetable-day-empty','Aucun cours'));
+    }else{
+      dayEvents.forEach(event=>{
+        const article=createElement('article',timetableTone(event.title));
+        const time=createElement('time','',event.allDay?'Journée':hourFormatter.format(eventDate(event,'start')));
+        const copy=createElement('div');
+        copy.append(createElement('strong','',event.title));
+        const details=[];
+        if(!event.allDay)details.push(`${hourFormatter.format(eventDate(event,'start'))} – ${hourFormatter.format(eventDate(event,'end'))}`);
+        const detail=timetableCourseDetail(event);
+        if(detail)details.push(detail);
+        if(details.length)copy.append(createElement('small','',details.join(' · ')));
+        article.append(time,copy);
+        section.append(article);
+      });
+    }
+    root.append(section);
+  });
+}
+
+function renderTimetableWeek(){
+  const events=timetableWeekEvents(currentTimetableData.events||[]);
+  const days=timetableDays(events);
+  const label=document.querySelector('#timetable-week-label');
+  if(label)label.textContent=timetableWeekLabel();
+  document.querySelector('#timetable-today')?.classList.toggle('is-current',selectedTimetableWeek===mondayFromKey(dateKey(new Date())));
+  renderTimetableDesktop(events,days);
+  renderTimetableMobile(events,days);
+}
+
+function renderTimetable(data,{offline=false}={}){
+  currentTimetableData={...data,events:sortEvents(data.events||[])};
+  renderTimetableWeek();
+  const status=document.querySelector('#timetable-status');
+  const bar=status?.closest('.agenda-sync-bar');
+  if(offline){
+    status.textContent='Version enregistrée hors connexion';
+    bar?.classList.add('is-offline');
+  }else if(data.updatedAt){
+    status.textContent=`Mis à jour le ${statusFormatter.format(new Date(data.updatedAt))}`;
+    bar?.classList.remove('is-offline');
+  }else{
+    status.textContent='En attente de la première synchronisation';
+    bar?.classList.remove('is-offline');
+  }
+}
+
 function validCalendar(data){
   return data&&Array.isArray(data.events)&&data.events.every(event=>event&&event.title&&event.start&&event.end);
 }
@@ -294,6 +517,15 @@ function readCachedCalendar(){
   }
 }
 
+function readCachedTimetable(){
+  try{
+    const cached=JSON.parse(localStorage.getItem(TIMETABLE_CACHE_KEY)||'null');
+    return validCalendar(cached)?cached:null;
+  }catch(_error){
+    return null;
+  }
+}
+
 let calendarLoading=false;
 async function loadCalendar({manual=false}={}){
   if(calendarLoading)return;
@@ -320,12 +552,60 @@ async function loadCalendar({manual=false}={}){
   }
 }
 
+let timetableLoading=false;
+async function loadTimetable({manual=false}={}){
+  if(timetableLoading)return;
+  timetableLoading=true;
+  const refreshButton=document.querySelector('#timetable-refresh');
+  const status=document.querySelector('#timetable-status');
+  refreshButton?.classList.add('is-loading');
+  if(manual&&status)status.textContent='Actualisation…';
+  try{
+    const response=await fetch(`${TIMETABLE_FILE}?v=${Date.now()}`,{cache:'no-store'});
+    if(!response.ok)throw new Error(`Emploi du temps indisponible (${response.status})`);
+    const data=await response.json();
+    if(!validCalendar(data))throw new Error('Format de l’emploi du temps incorrect');
+    localStorage.setItem(TIMETABLE_CACHE_KEY,JSON.stringify(data));
+    renderTimetable(data);
+  }catch(error){
+    const cached=readCachedTimetable();
+    if(cached)renderTimetable(cached,{offline:true});
+    else renderTimetable({events:[]},{offline:true});
+    console.warn(error);
+  }finally{
+    timetableLoading=false;
+    refreshButton?.classList.remove('is-loading');
+  }
+}
+
 document.querySelector('#agenda-refresh')?.addEventListener('click',()=>loadCalendar({manual:true}));
-document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')loadCalendar();});
-window.setInterval(()=>loadCalendar(),CALENDAR_REFRESH_MS);
+document.querySelector('#timetable-refresh')?.addEventListener('click',()=>loadTimetable({manual:true}));
+document.querySelector('#timetable-prev')?.addEventListener('click',()=>{
+  selectedTimetableWeek=addDaysToDateKey(selectedTimetableWeek,-7);
+  renderTimetableWeek();
+});
+document.querySelector('#timetable-next')?.addEventListener('click',()=>{
+  selectedTimetableWeek=addDaysToDateKey(selectedTimetableWeek,7);
+  renderTimetableWeek();
+});
+document.querySelector('#timetable-today')?.addEventListener('click',()=>{
+  selectedTimetableWeek=mondayFromKey(dateKey(new Date()));
+  renderTimetableWeek();
+});
+document.addEventListener('visibilitychange',()=>{
+  if(document.visibilityState==='visible'){
+    loadCalendar();
+    loadTimetable();
+  }
+});
+window.setInterval(()=>{
+  loadCalendar();
+  loadTimetable();
+},CALENDAR_REFRESH_MS);
 
 renderToday();
 loadCalendar();
+loadTimetable();
 
 if('serviceWorker' in navigator){
   window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));

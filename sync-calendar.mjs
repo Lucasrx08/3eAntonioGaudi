@@ -4,7 +4,10 @@ import {fileURLToPath} from 'node:url';
 import {dirname,join} from 'node:path';
 
 const ROOT=dirname(fileURLToPath(import.meta.url));
-const OUTPUT=join(ROOT,'calendar.json');
+const OUTPUT_NAME=(process.env.CALENDAR_OUTPUT||'calendar.json').trim();
+const OUTPUT=join(ROOT,OUTPUT_NAME);
+const CALENDAR_MODE=process.env.CALENDAR_MODE==='timetable'?'timetable':'apple';
+const SOURCE_LABEL=CALENDAR_MODE==='timetable'?'ÉcoleDirecte':'Apple Calendar';
 const DEFAULT_TIME_ZONE='Europe/Paris';
 const DAY_MS=86400000;
 const WINDOW_PAST_DAYS=45;
@@ -260,26 +263,54 @@ function expandEvent(event,overrideIds,windowStart,windowEnd){
   return results;
 }
 
+function assertAllowedUrl(url){
+  if(url.protocol!=='https:')throw new Error('Le calendrier doit utiliser une adresse HTTPS.');
+  if(CALENDAR_MODE==='timetable'){
+    if(url.hostname!=='api.ecoledirecte.com'||!url.pathname.startsWith('/v3/ical/')||!url.pathname.endsWith('.ics')){
+      throw new Error('Le lien doit être un calendrier iCal ÉcoleDirecte.');
+    }
+    return;
+  }
+  if(!url.hostname.endsWith('.icloud.com')||!url.pathname.startsWith('/published/')){
+    throw new Error('Le lien doit être un calendrier public iCloud.');
+  }
+}
+
+async function fetchCalendar(initialUrl){
+  let url=initialUrl;
+  for(let redirects=0;redirects<=3;redirects+=1){
+    assertAllowedUrl(url);
+    const response=await fetch(url,{headers:{'user-agent':'Ma-3e-Calendar-Sync/2.0'},redirect:'manual'});
+    if([301,302,303,307,308].includes(response.status)){
+      const location=response.headers.get('location');
+      if(!location)throw new Error(`${SOURCE_LABEL} a renvoyé une redirection invalide.`);
+      url=new URL(location,url);
+      continue;
+    }
+    return response;
+  }
+  throw new Error(`${SOURCE_LABEL} a renvoyé trop de redirections.`);
+}
+
 async function calendarText(){
-  if(process.env.APPLE_CALENDAR_FILE)return readFile(process.env.APPLE_CALENDAR_FILE,'utf8');
-  const rawUrl=process.env.APPLE_CALENDAR_URL?.trim();
+  const localFile=process.env.CALENDAR_FILE||process.env.APPLE_CALENDAR_FILE;
+  if(localFile)return readFile(localFile,'utf8');
+  const rawUrl=(process.env.CALENDAR_URL||process.env.APPLE_CALENDAR_URL)?.trim();
   if(!rawUrl)return null;
   const httpsUrl=rawUrl.replace(/^webcal:\/\//i,'https://');
   const url=new URL(httpsUrl);
-  if(url.protocol!=='https:'||!url.hostname.endsWith('.icloud.com')||!url.pathname.startsWith('/published/')){
-    throw new Error('Le lien doit être un calendrier public iCloud.');
-  }
-  const response=await fetch(url,{headers:{'user-agent':'Ma-3e-Calendar-Sync/1.0'},redirect:'follow'});
-  if(!response.ok)throw new Error(`iCloud a répondu ${response.status}.`);
+  const response=await fetchCalendar(url);
+  if(!response.ok)throw new Error(`${SOURCE_LABEL} a répondu ${response.status}.`);
   const text=await response.text();
-  if(!text.includes('BEGIN:VCALENDAR'))throw new Error('Le contenu reçu n’est pas un calendrier iCloud valide.');
+  if(!text.includes('BEGIN:VCALENDAR'))throw new Error(`Le contenu reçu n’est pas un calendrier ${SOURCE_LABEL} valide.`);
   return text;
 }
 
 async function main(){
+  if(!/^[A-Za-z0-9][A-Za-z0-9._-]*$/.test(OUTPUT_NAME))throw new Error('Nom de fichier de sortie invalide.');
   const text=await calendarText();
   if(!text){
-    console.log('APPLE_CALENDAR_URL absent : conservation du calendrier existant.');
+    console.log(`Adresse ${SOURCE_LABEL} absente : conservation du calendrier existant.`);
     return;
   }
   const blocks=unfoldIcs(text).match(/BEGIN:VEVENT[\s\S]*?END:VEVENT/g)||[];
@@ -295,9 +326,9 @@ async function main(){
   overrides.filter(event=>event.status!=='CANCELLED').forEach(event=>events.push(...expandEvent({...event,rrule:''},new Set(),windowStart,windowEnd)));
   const unique=[...new Map(events.map(event=>[`${event.id}|${event.start}`,event])).values()]
     .sort((first,second)=>String(first.start).localeCompare(String(second.start))||first.title.localeCompare(second.title,'fr'));
-  const output={version:1,updatedAt:new Date().toISOString(),timeZone:DEFAULT_TIME_ZONE,events:unique};
+  const output={version:1,source:SOURCE_LABEL,updatedAt:new Date().toISOString(),timeZone:DEFAULT_TIME_ZONE,events:unique};
   await writeFile(OUTPUT,`${JSON.stringify(output,null,2)}\n`,'utf8');
-  console.log(`${unique.length} événement(s) Apple synchronisé(s).`);
+  console.log(`${unique.length} événement(s) ${SOURCE_LABEL} synchronisé(s).`);
 }
 
 main().catch(error=>{
