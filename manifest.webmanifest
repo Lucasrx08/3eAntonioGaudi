@@ -1,1 +1,9 @@
-{"name":"Ma 3e — Bon Sauveur","short_name":"Ma 3e","start_url":"./","display":"standalone","background_color":"#f4f7f7","theme_color":"#0076ac","icons":[{"src":"logo-bon-sauveur.png","sizes":"512x512","type":"image/png"}]}
+{
+  "name":"Ma 3e · Bon Sauveur",
+  "short_name":"Ma 3e",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#f6f8f5",
+  "theme_color":"#96c22b",
+  "description":"Espace classe de 3e du Bon Sauveur Saint-Lô"
+}
