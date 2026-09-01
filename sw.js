@@ -1,4 +1,4 @@
-const CACHE='ma3e-v6-enseignant';
+const CACHE='ma3e-v6-parcours';
 const FILES=['./','./index.html','./styles.css','./app.js','./calendar.json','./timetable.json','./resources.json','./manifest.webmanifest','./logo-bon-sauveur.png'];
 const CALENDAR_REQUEST=new Request(new URL('./calendar.json',self.location).href);
 const TIMETABLE_REQUEST=new Request(new URL('./timetable.json',self.location).href);

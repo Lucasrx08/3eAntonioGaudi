@@ -161,6 +161,127 @@ const resourceTypeDetails={
   Formulaire:{mark:'✓',action:'Ouvrir le formulaire'},
   Vidéo:{mark:'▶',action:'Voir la vidéo'}
 };
+const INFOGRAPHIC_URL='https://lucasrigaux.my.canva.site/monanneeen3emegaudi';
+const pathwayGuides={
+  Orientation:{
+    order:'02',mark:'↗',tone:'blue',eyebrow:'MON ORIENTATION',title:'Construire mon projet après la 3e',
+    intro:'En 3e, je prépare un choix important : la voie générale et technologique, la voie professionnelle ou un CAP. Élève, famille et équipe éducative avancent ensemble, étape par étape.',
+    stats:[
+      {value:'3',label:'voies à explorer'},
+      {value:'4',label:'demi-journées dédiées'},
+      {value:'1',label:'dialogue continu'}
+    ],
+    notice:'Le calendrier ci-dessous reprend l’infographie de la classe. Les dates exactes de saisie des intentions, des vœux et de l’affectation 2027 seront communiquées par l’établissement et l’académie.',
+    sectionTitle:'Le calendrier de mon orientation',
+    items:[
+      {meta:'OCT. — NOV.',title:'Je m’informe et je réfléchis',text:'Je découvre les métiers et les formations, j’identifie mes goûts et mes points forts, puis j’en parle en vie de classe et à la maison.'},
+      {meta:'DÉC. — JANV.',title:'Premier bilan scolaire',text:'Je prends connaissance du bilan du conseil de classe. Les mini-stages en lycée professionnel et les premières portes ouvertes peuvent commencer.'},
+      {meta:'FÉVRIER',title:'Intentions d’orientation',text:'Ma famille indique les premières intentions sur le service ou la fiche de dialogue transmis par l’établissement.'},
+      {meta:'MARS',title:'Avis provisoire',text:'Le conseil de classe formule une proposition provisoire. Je poursuis mes recherches et je participe aux portes ouvertes.'},
+      {meta:'AVRIL — MAI',title:'Choix et vœux définitifs',text:'Ma famille confirme la voie demandée et renseigne les formations et établissements souhaités selon la procédure Affelnet.'},
+      {meta:'JUIN',title:'Décision, affectation et inscription',text:'Après la décision d’orientation, je consulte mon affectation puis je m’inscris rapidement dans le lycée indiqué.'}
+    ],
+    highlights:[
+      {title:'Seconde générale et technologique',text:'Pour préparer un bac général ou technologique après une seconde commune.'},
+      {title:'Seconde professionnelle',text:'Pour préparer un bac professionnel, sous statut scolaire ou en apprentissage.'},
+      {title:'CAP ou CAP agricole',text:'Une formation professionnelle généralement préparée en deux ans.'}
+    ],
+    links:[
+      {label:'Comprendre l’orientation en 3e',detail:'Ministère de l’Éducation nationale',url:'https://www.education.gouv.fr/reussir-au-lycee/l-orientation-en-3e-et-l-affectation-en-lycee-9257'},
+      {label:'Explorer Avenir(s)',detail:'Onisep · élèves et parents',url:'https://www.onisep.fr/avenir-s'},
+      {label:'Voir l’infographie de la classe',detail:'Support complet de M. Rigaux',url:INFOGRAPHIC_URL}
+    ]
+  },
+  DNB:{
+    order:'03',mark:'60%',tone:'dark',eyebrow:'MON PREMIER DIPLÔME',title:'Objectif DNB 2027',
+    intro:'Le brevet est obtenu avec une moyenne finale d’au moins 10/20. Le contrôle continu valorise le travail de toute l’année et les épreuves terminales comptent pour 60 %.',
+    stats:[
+      {value:'40%',label:'contrôle continu'},
+      {value:'60%',label:'épreuves finales'},
+      {value:'10/20',label:'pour être admis'}
+    ],
+    notice:'Nouveauté session 2027 : les sujets des épreuves écrites portent sur les programmes de la classe de 3e. Les dates nationales seront ajoutées lorsqu’elles seront publiées.',
+    sectionTitle:'Les cinq épreuves terminales',
+    items:[
+      {meta:'3 H · COEF. 2',title:'Français',text:'Compréhension et interprétation, grammaire, dictée et rédaction.'},
+      {meta:'2 H · COEF. 2',title:'Mathématiques',text:'Automatismes, raisonnement et résolution de problèmes.'},
+      {meta:'2 H · COEF. 2',title:'Histoire-géographie et EMC',text:'Histoire-géographie coefficient 1,5 et EMC coefficient 0,5.'},
+      {meta:'1 H · COEF. 2',title:'Sciences',text:'Deux disciplines parmi physique-chimie, SVT et technologie.'},
+      {meta:'15 OU 25 MIN · COEF. 2',title:'Épreuve orale',text:'Présentation individuelle ou collective d’un projet, puis entretien avec le jury.'}
+    ],
+    highlights:[
+      {title:'Assez bien',text:'À partir de 12/20'},
+      {title:'Bien',text:'À partir de 14/20'},
+      {title:'Très bien',text:'À partir de 16/20'},
+      {title:'Félicitations du jury',text:'À partir de 18/20'}
+    ],
+    links:[
+      {label:'Tout savoir sur le DNB',detail:'Ministère de l’Éducation nationale',url:'https://www.education.gouv.fr/le-diplome-national-du-brevet-10613'},
+      {label:'Détail officiel des épreuves',detail:'Éduscol · durées et coefficients',url:'https://eduscol.education.gouv.fr/5607/les-epreuves-du-dnb'},
+      {label:'Voir l’infographie de la classe',detail:'Support complet de M. Rigaux',url:INFOGRAPHIC_URL}
+    ]
+  },
+  Stage:{
+    order:'04',mark:'▰',tone:'orange',eyebrow:'MON PREMIER STAGE',title:'Préparer mon stage de 3e',
+    intro:'Cette séquence d’observation obligatoire permet de découvrir le quotidien de professionnels, de gagner en autonomie et de préciser un projet d’orientation.',
+    stats:[
+      {value:'30 h',label:'de découverte'},
+      {value:'1 sem.',label:'au maximum'},
+      {value:'4',label:'signatures requises'}
+    ],
+    notice:'La période du stage 2026-2027 doit être confirmée par l’établissement. La convention doit être complétée et signée par l’élève, ses responsables, la structure d’accueil et le collège avant le début du stage.',
+    sectionTitle:'Avant, pendant et après le stage',
+    items:[
+      {meta:'1 · AVANT',title:'Je cherche et je prépare',text:'Je cible des secteurs qui m’intéressent, je contacte des structures et je prépare une courte présentation de ma demande.'},
+      {meta:'2 · CONVENTION',title:'Je sécurise mon accueil',text:'Je vérifie les horaires, les missions, le tuteur et les quatre signatures. Sans convention finalisée, le stage ne peut pas commencer.'},
+      {meta:'3 · PENDANT',title:'J’observe comme un professionnel',text:'Je suis ponctuel, curieux et respectueux. Je prends des notes, je pose des questions et je respecte la confidentialité.'},
+      {meta:'4 · APRÈS',title:'Je fais le bilan',text:'Je remercie la structure, je trie mes observations et je prépare le compte rendu ou l’oral demandé par le collège.'}
+    ],
+    highlights:[
+      {title:'À préparer',text:'CV simple, message de demande et liste de contacts.'},
+      {title:'À vérifier',text:'Dates, horaires, trajet, repas, tenue et nom du tuteur.'},
+      {title:'À conserver',text:'Convention, notes quotidiennes et coordonnées utiles.'}
+    ],
+    links:[
+      {label:'Télécharger la convention',detail:'Exemplaire fourni dans l’infographie',url:'https://drive.google.com/file/d/1YxK5yJz-CRDWgvJDtSp2kNBqBs7SqeVv/view?usp=sharing'},
+      {label:'Trouver une offre de stage',detail:'1élève1stage · service du ministère',url:'https://1eleve1stage.education.gouv.fr/offres-de-stage'},
+      {label:'Connaître les règles du stage',detail:'Service-Public.fr',url:'https://www.service-public.gouv.fr/particuliers/vosdroits/F1882'},
+      {label:'Voir l’infographie de la classe',detail:'Support complet de M. Rigaux',url:INFOGRAPHIC_URL}
+    ]
+  },
+  Certifications:{
+    order:'05',mark:'✦',tone:'green',eyebrow:'MES TESTS ET CERTIFICATIONS',title:'Quatre repères en classe de 3e',
+    intro:'Ces évaluations attestent des compétences utiles pour la poursuite d’études, la citoyenneté, la mobilité et la vie quotidienne.',
+    stats:[
+      {value:'PIX',label:'compétences numériques'},
+      {value:'ASSR2',label:'sécurité routière'},
+      {value:'PSC',label:'premiers secours'}
+    ],
+    notice:'Pour 2026-2027, la certification Pix des collèges est organisée entre le 15 mars et le 18 juin 2027. Les dates précises des autres passations seront communiquées par l’établissement.',
+    sectionTitle:'Ce que chaque évaluation vérifie',
+    items:[
+      {meta:'ANGLAIS · 1 H',title:'Ev@lang',text:'Test de positionnement 100 % en ligne. Il situe le niveau d’anglais de A1 à B1+ avant l’entrée en seconde.'},
+      {meta:'NUMÉRIQUE',title:'Pix',text:'Certification des compétences numériques en 3e. Le niveau de maîtrise attendu est « indépendant 1 ».'},
+      {meta:'ROUTE',title:'ASSR2',text:'Attestation passée en 3e. Elle est notamment obligatoire pour la délivrance d’un premier permis aux moins de 21 ans.'},
+      {meta:'SECOURS',title:'PSC ou gestes qui sauvent',text:'Le PSC atteste la capacité à prévenir les risques et à réaliser les gestes élémentaires de secours. À défaut, une sensibilisation GQS est prévue.'}
+    ],
+    highlights:[
+      {title:'Ev@lang',text:'Compréhension orale, compréhension écrite, grammaire et lexique.'},
+      {title:'Pix',text:'S’entraîner régulièrement sur son compte avant la certification.'},
+      {title:'ASSR2',text:'Conserver précieusement l’attestation après sa délivrance.'},
+      {title:'PSC',text:'Une formation pratique, pas seulement un questionnaire.'}
+    ],
+    links:[
+      {label:'Comprendre Ev@lang',detail:'Éduscol · test de positionnement',url:'https://eduscol.education.gouv.fr/4824/evlang-college'},
+      {label:'M’entraîner sur Pix',detail:'Plateforme officielle Pix',url:'https://pix.org/fr/'},
+      {label:'Calendrier et certification Pix',detail:'Éduscol · année 2026-2027',url:'https://eduscol.education.gouv.fr/5520/evaluer-developper-et-certifier-les-competences-numeriques'},
+      {label:'Tout savoir sur l’ASSR2',detail:'Éduscol · sécurité routière',url:'https://eduscol.education.gouv.fr/4728/l-education-la-securite-routiere-au-college'},
+      {label:'M’entraîner à l’ASSR2',detail:'Plateforme nationale',url:'https://e-assr.education-securite-routiere.fr/preparer/assr/2/ASSR2'},
+      {label:'Comprendre le PSC',detail:'Éduscol · premiers secours',url:'https://eduscol.education.gouv.fr/4716/sensibilisation-aux-premiers-secours-dans-le-second-degre-au-college-et-au-lycee'},
+      {label:'Voir l’infographie de la classe',detail:'Support complet de M. Rigaux',url:INFOGRAPHIC_URL}
+    ]
+  }
+};
 const resourceDateFormatter=new Intl.DateTimeFormat('fr-FR',{day:'numeric',month:'short',year:'numeric',timeZone:DISPLAY_TIME_ZONE});
 let selectedResourceCategory='Tous';
 let currentResourcesData={resources:[],updatedAt:null};
@@ -184,9 +305,103 @@ function safeResourceUrl(value){
   }
 }
 
+function pathwayLink(link){
+  const url=safeResourceUrl(link.url);
+  const anchor=createElement('a','pathway-link');
+  anchor.href=url||'#';
+  anchor.target='_blank';
+  anchor.rel='noopener noreferrer';
+  const copy=createElement('span');
+  copy.append(createElement('strong','',link.label),createElement('small','',link.detail));
+  anchor.append(copy,createElement('b','', '↗'));
+  return anchor;
+}
+
+function renderPathwayGuide(category='Tous'){
+  const root=document.querySelector('#pathway-guide-root');
+  if(!root)return;
+  root.replaceChildren();
+  const guide=pathwayGuides[category];
+  if(!guide){
+    const intro=createElement('div','pathway-overview-head');
+    const introCopy=createElement('div');
+    introCopy.append(
+      createElement('span','', 'LES QUATRE GRANDS REPÈRES'),
+      createElement('h3','', 'Comprendre mon année, étape par étape'),
+      createElement('p','', 'Contenu adapté de l’infographie de la classe et vérifié à partir des ressources officielles pour l’année 2026-2027.')
+    );
+    const source=pathwayLink({label:'Infographie complète',detail:'Ouvrir le support Canva',url:INFOGRAPHIC_URL});
+    intro.append(introCopy,source);
+    const grid=createElement('div','pathway-overview-grid');
+    Object.entries(pathwayGuides).forEach(([key,item])=>{
+      const button=createElement('button',`pathway-overview-card tone-${item.tone}`);
+      button.type='button';
+      button.setAttribute('aria-label',`Ouvrir la rubrique ${key}`);
+      const top=createElement('div','pathway-overview-top');
+      top.append(createElement('span','',item.order),createElement('b','',item.mark));
+      button.append(top,createElement('small','',item.eyebrow),createElement('h3','',item.title),createElement('p','',item.intro),createElement('strong','', 'Découvrir →'));
+      button.addEventListener('click',()=>setResourceFilter(key));
+      grid.append(button);
+    });
+    root.append(intro,grid);
+    return;
+  }
+
+  const article=createElement('article',`pathway-detail tone-${guide.tone}`);
+  const hero=createElement('header','pathway-detail-hero');
+  const back=createElement('button','pathway-back','← Toutes les rubriques');
+  back.type='button';
+  back.addEventListener('click',()=>setResourceFilter('Tous'));
+  const heading=createElement('div','pathway-detail-heading');
+  heading.append(createElement('span','',guide.eyebrow),createElement('h3','',guide.title),createElement('p','',guide.intro));
+  const mark=createElement('div','pathway-detail-mark',guide.mark);
+  hero.append(back,heading,mark);
+  const stats=createElement('div','pathway-stats');
+  guide.stats.forEach(stat=>{
+    const item=createElement('div');
+    item.append(createElement('strong','',stat.value),createElement('span','',stat.label));
+    stats.append(item);
+  });
+  hero.append(stats);
+
+  const notice=createElement('div','pathway-notice');
+  notice.append(createElement('b','', 'À RETENIR'),createElement('p','',guide.notice));
+
+  const layout=createElement('div','pathway-layout');
+  const main=createElement('section','pathway-main');
+  main.append(createElement('span','pathway-section-kicker','LE PARCOURS'),createElement('h4','',guide.sectionTitle));
+  const steps=createElement('div','pathway-steps');
+  guide.items.forEach(item=>{
+    const step=createElement('article','pathway-step');
+    step.append(createElement('span','',item.meta));
+    const copy=createElement('div');
+    copy.append(createElement('h5','',item.title),createElement('p','',item.text));
+    step.append(copy);
+    steps.append(step);
+  });
+  main.append(steps);
+
+  const side=createElement('aside','pathway-side');
+  side.append(createElement('span','pathway-section-kicker','REPÈRES RAPIDES'),createElement('h4','', 'L’essentiel en un coup d’œil'));
+  const highlights=createElement('div','pathway-highlights');
+  guide.highlights.forEach(item=>{
+    const highlight=createElement('article');
+    highlight.append(createElement('strong','',item.title),createElement('p','',item.text));
+    highlights.append(highlight);
+  });
+  side.append(highlights,createElement('span','pathway-section-kicker pathway-links-kicker','LIENS UTILES'));
+  const links=createElement('div','pathway-links');
+  guide.links.forEach(link=>links.append(pathwayLink(link)));
+  side.append(links);
+  layout.append(main,side);
+  article.append(hero,notice,layout);
+  root.append(article);
+}
+
 function setResourceFilter(category='Tous'){
   selectedResourceCategory=category;
   document.querySelectorAll('[data-resource-filter]').forEach(button=>button.classList.toggle('active',button.dataset.resourceFilter===category));
+  renderPathwayGuide(category);
   renderResources();
 }
 
@@ -813,6 +1028,7 @@ window.setInterval(()=>{
 },CALENDAR_REFRESH_MS);
 
 renderToday();
+renderPathwayGuide();
 loadCalendar();
 loadTimetable();
 loadResources();

@@ -2,6 +2,17 @@
 
 Application PWA responsive publiée sur GitHub Pages pour la 3e Antonio Gaudí. Apple Calendar alimente l’agenda général, ÉcoleDirecte alimente l’emploi du temps et les ressources communes sont publiées au moyen d’un formulaire enseignant.
 
+## Repères DNB, orientation, stage et certifications
+
+La page **Ressources** contient quatre guides intégrés, adaptés de l’infographie Canva de la classe et complétés par des liens officiels :
+
+- **DNB 2027** : nouveau calcul 40 % contrôle continu / 60 % épreuves terminales, épreuves, coefficients et mentions ;
+- **Orientation** : calendrier indicatif, voies possibles et accès à Avenir(s) ;
+- **Stage** : préparation, convention, règles et recherche d’offres sur 1élève1stage ;
+- **Certifications** : Ev@lang, Pix, ASSR2 et PSC avec les liens d’information et d’entraînement.
+
+Les dates nationales ou académiques non encore publiées ne sont pas inventées. Les échéances propres au collège restent à confirmer par l’établissement.
+
 ## Synchronisation des calendriers
 
 - Apple Calendar et ÉcoleDirecte sont vérifiés automatiquement toutes les 5 minutes ;
