@@ -10,15 +10,13 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="overrides.css?v=20260901">
   <title>Ma 3e · Bon Sauveur</title>
 </head>
 <body>
 <div class="app-shell">
   <aside class="sidebar">
-    <div class="brand">
-      <img src="logo-bon-sauveur.png" alt="Bon Sauveur Saint-Lô" class="brand-logo">
-      <div class="brand-copy"><strong>MA 3E</strong><span>ESPACE CLASSE</span></div>
-    </div>
+    <div class="brand"><img src="logo-bon-sauveur.png" alt="Bon Sauveur Saint-Lô" class="brand-logo"><div class="brand-copy"><strong>MA 3E</strong><span>ESPACE CLASSE</span></div></div>
     <nav class="side-nav" aria-label="Navigation principale">
       <button class="nav-item active" data-view="home"><span class="nav-icon">⌂</span><span>Accueil</span></button>
       <button class="nav-item" data-view="agenda"><span class="nav-icon">◷</span><span>Agenda</span></button>
@@ -26,164 +24,22 @@
       <button class="nav-item" data-view="resources"><span class="nav-icon">◇</span><span>Ressources</span></button>
       <a class="nav-item nav-link" href="https://www.ecoledirecte.com/login?cameFrom=%2FA%2F71%2FMessagerie" target="_blank" rel="noopener noreferrer"><span class="nav-icon">✉</span><span>Messagerie ED ↗</span></a>
     </nav>
-    <div class="sidebar-footer">
-      <span class="level-pill">3e</span>
-      <div><strong>2026 · 2027</strong><small>Bon Sauveur · Saint-Lô</small></div>
-    </div>
+    <div class="sidebar-footer"><span class="level-pill">3e</span><div><strong>2026 · 2027</strong><small>Bon Sauveur · Saint-Lô</small></div></div>
   </aside>
-
   <main class="content">
-    <header class="topbar">
-      <div>
-        <span id="today-label" class="eyebrow">AUJOURD’HUI</span>
-        <h1>Bonjour<span>.</span></h1>
-        <p>L’essentiel de votre année de 3e, au même endroit.</p>
-      </div>
-      <div class="top-actions">
-        <a class="icon-button" href="https://www.ecoledirecte.com/login?cameFrom=%2FA%2F71%2FMessagerie" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir la messagerie ÉcoleDirecte"><span>●</span>✉</a>
-        <button class="avatar" aria-label="Mon profil">3G</button>
-      </div>
-    </header>
-
+    <header class="topbar"><div><span id="today-label" class="eyebrow">AUJOURD’HUI</span><h1>Bonjour<span>.</span></h1><p>Les dates, documents et informations utiles pour votre année de 3e.</p></div><div class="top-actions"><a class="icon-button" href="https://www.ecoledirecte.com/login?cameFrom=%2FA%2F71%2FMessagerie" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir la messagerie ÉcoleDirecte"><span>●</span>✉</a><button class="avatar" aria-label="Classe de 3e Gaudí">3G</button></div></header>
     <section id="home" class="view active-view">
-      <section class="hero-grid">
-        <article class="hero-main">
-          <div class="hero-pattern pattern-a"></div>
-          <div class="hero-pattern pattern-b"></div>
-          <div class="hero-topline"><span>MA 3E</span><span class="status">EN COURS</span></div>
-          <div class="hero-content">
-            <p id="hero-kicker">PROCHAINE ÉCHÉANCE</p>
-            <div class="hero-date-row">
-              <div id="hero-date" class="mega-date">—<small>AGENDA</small></div>
-              <div class="hero-event">
-                <span id="hero-category">CALENDRIER APPLE</span>
-                <h2 id="hero-title">Synchronisation en cours</h2>
-                <p id="hero-meta">Chargement des prochaines dates de la classe…</p>
-                <button data-go="agenda">Voir l’événement <b>→</b></button>
-              </div>
-            </div>
-          </div>
-          <div class="countdown"><small id="countdown-prefix">DANS</small><strong id="countdown-value">—</strong><span id="countdown-unit">JOURS</span></div>
-        </article>
-
-        <article id="reminder-card" class="focus-card">
-          <div class="focus-badge">À FAIRE</div>
-          <span class="focus-kicker">À NE PAS OUBLIER</span>
-          <h3 id="reminder-title">Convention<br>de stage</h3>
-          <p id="reminder-detail">À rendre avant le <strong>12 octobre</strong></p>
-          <button id="reminder-action" type="button">Voir les ressources →</button>
-          <div class="target-ring"><i></i><i></i><i></i></div>
-        </article>
-      </section>
-
-      <div class="section-head compact">
-        <div><span>MA SEMAINE</span><h2>Les prochains rendez-vous</h2></div>
-        <button data-go="agenda">Tout l’agenda →</button>
-      </div>
-
-      <div id="timeline-strip" class="timeline-strip" aria-live="polite">
-        <article class="calendar-loading"><div class="loading-pulse"></div><div><strong>Chargement de l’agenda…</strong><small>Calendrier Apple</small></div></article>
-      </div>
-
-      <div class="section-head">
-        <div><span>MON PARCOURS</span><h2>Une année, cinq objectifs</h2></div>
-      </div>
-
-      <div class="journey-grid">
-        <button class="journey-card large" data-resource="Vie de classe">
-          <span class="card-num">01</span>
-          <div class="journey-icon people">●●●</div>
-          <h3>Vie de<br>classe</h3><p>Leçons, projets et informations essentielles.</p><b>Explorer →</b>
-        </button>
-        <button class="journey-card" data-resource="Orientation">
-          <span class="card-num">02</span><div class="journey-symbol">↗</div><h3>Orientation</h3><p>Mon parcours, mes choix, les échéances.</p><b>Découvrir →</b>
-        </button>
-        <button class="journey-card dnb" data-resource="DNB">
-          <span class="card-num">03</span><div class="score-ring"><span>60%</span></div><h3>Objectif DNB</h3><p>Épreuves, repères et préparation.</p><b>Voir le DNB →</b>
-        </button>
-        <button class="journey-card" data-resource="Stage">
-          <span class="card-num">04</span><div class="journey-symbol">▰</div><h3>Mon stage</h3><p>Convention, conseils et documents.</p><b>Préparer →</b>
-        </button>
-        <button class="journey-card" data-resource="Certifications">
-          <span class="card-num">05</span><div class="journey-symbol">✦</div><h3>Certifications</h3><p>PIX · ASSR2 · Ev@lang · PSC</p><b>Suivre →</b>
-        </button>
-      </div>
+      <section class="hero-grid"><article class="hero-main"><div class="hero-pattern pattern-a"></div><div class="hero-pattern pattern-b"></div><div class="hero-topline"><span>MA 3E</span><span class="status">2026 · 2027</span></div><div class="hero-content"><p id="hero-kicker">PROCHAINE DATE</p><div class="hero-date-row"><div id="hero-date" class="mega-date">—<small>AGENDA</small></div><div class="hero-event"><span id="hero-category">AGENDA DE LA CLASSE</span><h2 id="hero-title">Chargement de l’agenda</h2><p id="hero-meta">Les prochaines dates apparaissent automatiquement.</p><button data-go="agenda">Voir l’agenda <b>→</b></button></div></div></div><div class="countdown"><small id="countdown-prefix">DANS</small><strong id="countdown-value">—</strong><span id="countdown-unit">JOURS</span></div></article>
+        <article id="reminder-card" class="focus-card"><div class="focus-badge">À FAIRE</div><span class="focus-kicker">À NE PAS OUBLIER</span><h3 id="reminder-title">Convention<br>de stage</h3><p id="reminder-detail">Retrouvez ici les documents et échéances à ne pas manquer.</p><button id="reminder-action" type="button">Voir les ressources →</button><div class="target-ring"><i></i><i></i><i></i></div></article></section>
+      <div class="section-head compact"><div><span>MA SEMAINE</span><h2>Les prochains rendez-vous</h2></div><button data-go="agenda">Tout l’agenda →</button></div><div id="timeline-strip" class="timeline-strip" aria-live="polite"><article class="calendar-loading"><div class="loading-pulse"></div><div><strong>Chargement de l’agenda…</strong><small>Dates de la classe</small></div></article></div>
+      <div class="section-head"><div><span>MON ANNÉE DE 3E</span><h2>Les cinq sujets à connaître</h2></div></div>
+      <div class="journey-grid"><button class="journey-card large" data-resource="Vie de classe"><span class="card-num">01</span><div class="journey-icon people">●●●</div><h3>Vie de<br>classe</h3><p>Les séances, documents et informations données en classe.</p><b>Voir →</b></button><button class="journey-card" data-resource="Orientation"><span class="card-num">02</span><div class="journey-symbol">↗</div><h3>Orientation</h3><p>Les choix à faire, à quel moment et comment préparer l’après-3e.</p><b>Comprendre →</b></button><button class="journey-card dnb" data-resource="DNB"><span class="card-num">03</span><div class="score-ring"><span>60%</span></div><h3>DNB 2027</h3><p>Dates, épreuves, coefficients et conditions pour obtenir le brevet.</p><b>Préparer →</b></button><button class="journey-card" data-resource="Stage"><span class="card-num">04</span><div class="journey-symbol">▰</div><h3>Mon stage</h3><p>Ce qu’il faut faire avant, pendant et après la semaine en entreprise.</p><b>Voir →</b></button><button class="journey-card" data-resource="Certifications"><span class="card-num">05</span><div class="journey-symbol">✦</div><h3>Certifications</h3><p>Ev@lang, PIX, ASSR2 et PSC : ce qui est attendu en 3e.</p><b>Voir →</b></button></div>
     </section>
-
-    <section id="agenda" class="view">
-      <div class="page-title"><span>AGENDA</span><h2>Mes dates importantes<span>.</span></h2><p>Les événements utiles de la classe, classés chronologiquement.</p></div>
-      <div class="agenda-sync-bar">
-        <div><span class="sync-dot"></span><strong>Calendrier Apple</strong><small id="agenda-status" aria-live="polite">Synchronisation en cours…</small></div>
-        <button id="agenda-refresh" type="button">Vérifier les nouveautés ↻</button>
-      </div>
-      <div id="agenda-root">
-        <div class="calendar-empty"><strong>Chargement de l’agenda…</strong><p>Les événements de la 3e Gaudí vont apparaître ici.</p></div>
-      </div>
-    </section>
-
-    <section id="timetable" class="view">
-      <div class="page-title"><span>ÉCOLEDIRECTE</span><h2>Mon emploi du temps<span>.</span></h2><p>Les cours de la semaine, synchronisés automatiquement.</p></div>
-      <div class="agenda-sync-bar timetable-sync-bar">
-        <div><span class="sync-dot"></span><strong>ÉcoleDirecte</strong><small id="timetable-status" aria-live="polite">Synchronisation en cours…</small></div>
-        <button id="timetable-refresh" type="button">Vérifier les nouveautés ↻</button>
-      </div>
-      <div class="timetable-toolbar" aria-label="Navigation dans les semaines">
-        <button id="timetable-prev" type="button" aria-label="Semaine précédente">←</button>
-        <div><small>SEMAINE</small><strong id="timetable-week-label">—</strong></div>
-        <button id="timetable-today" type="button">Aujourd’hui</button>
-        <button id="timetable-next" type="button" aria-label="Semaine suivante">→</button>
-      </div>
-      <div id="timetable-board" class="timetable-desktop" aria-live="polite">
-        <div class="calendar-empty"><strong>Chargement de l’emploi du temps…</strong><p>Les cours ÉcoleDirecte vont apparaître ici.</p></div>
-      </div>
-      <div id="timetable-mobile" class="timetable-mobile" aria-live="polite"></div>
-    </section>
-
-    <section id="resources" class="view">
-      <div class="page-title"><span>MON ANNÉE DE 3E</span><h2>Mes repères et ressources<span>.</span></h2><p>DNB, orientation, stage et certifications : les étapes essentielles, les documents de la classe et les liens officiels.</p></div>
-      <div id="pathway-guide-root" class="pathway-board" aria-live="polite">
-        <div class="calendar-empty"><strong>Préparation des rubriques…</strong><p>Les repères de l’année vont apparaître ici.</p></div>
-      </div>
-      <div class="section-head pathway-publications-head">
-        <div><span>ESPACE ENSEIGNANT</span><h2>Documents communs</h2></div>
-      </div>
-      <div class="resource-publish-bar">
-        <div><span class="sync-dot"></span><strong>Publications communes</strong><small id="resources-status" aria-live="polite">Chargement des ressources…</small></div>
-        <div class="resource-publish-actions">
-          <button id="resources-refresh" type="button">Vérifier ↻</button>
-          <a href="https://github.com/Lucasrx08/3eAntonioGaudi/issues/new?template=publication.yml" target="_blank" rel="noopener noreferrer">Déposer un document ↗</a>
-          <a id="reminder-edit-link" href="https://github.com/Lucasrx08/3eAntonioGaudi/issues/new?template=reminder.yml" target="_blank" rel="noopener noreferrer">Modifier le rappel ↗</a>
-        </div>
-      </div>
-      <div class="teacher-security-note"><span>🔒</span><div><strong>Espace enseignant protégé</strong><p>Ton compte GitHub vérifie ton identité. Tu peux glisser-déposer un PDF commun ou modifier le rappel sans toucher au code du site.</p></div></div>
-      <div class="resource-privacy-note"><strong>Ressources communes uniquement.</strong><span>Les documents individuels restent dans ÉcoleDirecte.</span></div>
-      <div class="resource-tools">
-        <label class="resource-search"><span>⌕</span><input id="resource-search" type="search" placeholder="Rechercher un document ou un lien" autocomplete="off"></label>
-        <div id="resource-filters" class="resource-filters" aria-label="Filtrer les ressources">
-          <button class="active" type="button" data-resource-filter="Tous">Tout</button>
-          <button type="button" data-resource-filter="Vie de classe">Vie de classe</button>
-          <button type="button" data-resource-filter="Orientation">Orientation</button>
-          <button type="button" data-resource-filter="DNB">DNB</button>
-          <button type="button" data-resource-filter="Stage">Stage</button>
-          <button type="button" data-resource-filter="Certifications">Certifications</button>
-        </div>
-      </div>
-      <div id="resources-root" class="resource-library" aria-live="polite">
-        <div class="calendar-empty"><strong>Chargement des ressources…</strong><p>Les publications communes vont apparaître ici.</p></div>
-      </div>
-    </section>
-
+    <section id="agenda" class="view"><div class="page-title"><span>AGENDA DE LA CLASSE</span><h2>Mes dates importantes<span>.</span></h2><p>Les dates à connaître pour s’organiser : classe, orientation, DNB, stage, certifications et établissement.</p></div><div class="agenda-sync-bar"><div><span class="sync-dot"></span><strong>Agenda de la 3e Gaudí</strong><small id="agenda-status" aria-live="polite">Recherche des dernières dates…</small></div><button id="agenda-refresh" type="button">Actualiser maintenant ↻</button></div><div id="agenda-root"><div class="calendar-empty"><strong>Chargement de l’agenda…</strong><p>Les événements de la 3e Gaudí vont apparaître ici.</p></div></div></section>
+    <section id="timetable" class="view"><div class="page-title"><span>ÉCOLEDIRECTE</span><h2>Mon emploi du temps<span>.</span></h2><p>Les cours de la semaine. En cas de différence, l’emploi du temps affiché dans ÉcoleDirecte reste la référence.</p></div><div class="agenda-sync-bar timetable-sync-bar"><div><span class="sync-dot"></span><strong>ÉcoleDirecte</strong><small id="timetable-status" aria-live="polite">Recherche des dernières modifications…</small></div><button id="timetable-refresh" type="button">Actualiser ↻</button></div><div class="timetable-toolbar" aria-label="Navigation dans les semaines"><button id="timetable-prev" type="button" aria-label="Semaine précédente">←</button><div><small>SEMAINE</small><strong id="timetable-week-label">—</strong></div><button id="timetable-today" type="button">Aujourd’hui</button><button id="timetable-next" type="button" aria-label="Semaine suivante">→</button></div><div id="timetable-board" class="timetable-desktop" aria-live="polite"><div class="calendar-empty"><strong>Chargement de l’emploi du temps…</strong><p>Les cours ÉcoleDirecte vont apparaître ici.</p></div></div><div id="timetable-mobile" class="timetable-mobile" aria-live="polite"></div></section>
+    <section id="resources" class="view"><div class="page-title"><span>MON ANNÉE DE 3E</span><h2>Ce qu’il faut savoir<span>.</span></h2><p>Des informations simples et concrètes pour comprendre les étapes de la 3e et savoir quoi faire au bon moment.</p></div><div id="pathway-guide-root" class="pathway-board" aria-live="polite"><div class="calendar-empty"><strong>Chargement…</strong><p>Les informations vont apparaître ici.</p></div></div><div class="section-head pathway-publications-head"><div><span>DOCUMENTS DE LA CLASSE</span><h2>Documents et liens utiles</h2></div></div><div class="resource-publish-bar"><div><span class="sync-dot"></span><strong>Ressources communes</strong><small id="resources-status" aria-live="polite">Recherche des dernières publications…</small></div><div class="resource-publish-actions"><button id="resources-refresh" type="button">Actualiser ↻</button><a href="https://github.com/Lucasrx08/3eAntonioGaudi/issues/new?template=publication.yml" target="_blank" rel="noopener noreferrer">Espace enseignant ↗</a><a id="reminder-edit-link" href="https://github.com/Lucasrx08/3eAntonioGaudi/issues/new?template=reminder.yml" target="_blank" rel="noopener noreferrer">Modifier le rappel ↗</a></div></div><div class="resource-privacy-note"><strong>Documents communs à la classe.</strong><span>Les documents individuels restent dans ÉcoleDirecte.</span></div><div class="resource-tools"><label class="resource-search"><span>⌕</span><input id="resource-search" type="search" placeholder="Rechercher un document ou un lien" autocomplete="off"></label><div id="resource-filters" class="resource-filters" aria-label="Filtrer les ressources"><button class="active" type="button" data-resource-filter="Tous">Tout</button><button type="button" data-resource-filter="Vie de classe">Vie de classe</button><button type="button" data-resource-filter="Orientation">Orientation</button><button type="button" data-resource-filter="DNB">DNB</button><button type="button" data-resource-filter="Stage">Stage</button><button type="button" data-resource-filter="Certifications">Certifications</button></div></div><div id="resources-root" class="resource-library" aria-live="polite"><div class="calendar-empty"><strong>Chargement des ressources…</strong><p>Les publications communes vont apparaître ici.</p></div></div></section>
   </main>
-
-  <nav class="bottom-nav" aria-label="Navigation mobile">
-    <button class="active" data-view="home"><span>⌂</span><small>Accueil</small></button>
-    <button data-view="agenda"><span>◷</span><small>Agenda</small></button>
-    <button data-view="resources" class="plus"><span>+</span><small>Ressources</small></button>
-    <button data-view="timetable"><span>▦</span><small>Emploi du temps</small></button>
-    <a href="https://www.ecoledirecte.com/login?cameFrom=%2FA%2F71%2FMessagerie" target="_blank" rel="noopener noreferrer"><span>✉</span><small>Messagerie ED</small></a>
-  </nav>
+  <nav class="bottom-nav" aria-label="Navigation mobile"><button class="active" data-view="home"><span>⌂</span><small>Accueil</small></button><button data-view="agenda"><span>◷</span><small>Agenda</small></button><button data-view="resources" class="plus"><span>+</span><small>Ressources</small></button><button data-view="timetable"><span>▦</span><small>Emploi du temps</small></button><a href="https://www.ecoledirecte.com/login?cameFrom=%2FA%2F71%2FMessagerie" target="_blank" rel="noopener noreferrer"><span>✉</span><small>Messagerie ED</small></a></nav>
 </div>
-
-<script src="app.js"></script>
-</body>
-</html>
+<script src="app.js?v=20260901"></script><script src="overrides.js?v=20260901"></script>
+</body></html>
