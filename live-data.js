@@ -2,7 +2,7 @@
 // Les fichiers sont publiés par GitHub Actions sur la branche live-data.
 (function(){
   const BASE='https://raw.githubusercontent.com/Lucasrx08/3eAntonioGaudi/live-data';
-  const REFRESH_MS=60*1000;
+  const REFRESH_MS=5*1000;
   let running=false;
 
   async function getJson(name){
@@ -42,7 +42,6 @@
     }
   }
 
-  // Supprime définitivement les anciens service workers et leurs caches.
   async function cleanupLegacyCache(){
     try{
       if('serviceWorker' in navigator){
