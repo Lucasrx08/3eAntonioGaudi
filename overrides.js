@@ -6,6 +6,27 @@
     {date:'29 juin 2027',label:'Épreuves écrites du DNB'},
     {date:'30 juin 2027',label:'Épreuves écrites du DNB'}
   ];
+
+  // Le formulaire de rappel peut contenir plusieurs lignes à afficher sur la carte orange.
+  if(typeof renderReminder==='function'){
+    const baseRenderReminder=renderReminder;
+    renderReminder=function(reminder){
+      const card=document.querySelector('#reminder-card');
+      card?.querySelector('.focus-reminder-list')?.remove();
+      baseRenderReminder(reminder);
+      if(!card||!reminder||!Array.isArray(reminder.items)||!reminder.items.length)return;
+      const list=document.createElement('ul');
+      list.className='focus-reminder-list';
+      reminder.items.forEach(text=>{
+        const item=document.createElement('li');
+        item.textContent=text;
+        list.append(item);
+      });
+      const detail=document.querySelector('#reminder-detail');
+      if(detail)detail.insertAdjacentElement('afterend',list);
+    };
+  }
+
   try{
     const calendar=typeof readCachedCalendar==='function'?readCachedCalendar():null;if(calendar&&typeof renderCalendar==='function')renderCalendar(calendar);
     const timetable=typeof readCachedTimetable==='function'?readCachedTimetable():null;if(timetable&&typeof renderTimetable==='function')renderTimetable(timetable);
@@ -21,7 +42,6 @@
     [...board.querySelectorAll('*')].forEach(el=>{
       if(el.children.length===0&&(el.textContent||'').trim()==='60%'){
         const parent=el.parentElement;
-        // Ne supprime pas la donnée utile « 60 % épreuves finales » dans les statistiques.
         if(parent&&!/épreuves finales/i.test(parent.textContent||'')&&parent.children.length<=2)parent.remove();
       }
     });
