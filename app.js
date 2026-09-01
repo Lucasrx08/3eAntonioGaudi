@@ -2,6 +2,8 @@ const CALENDAR_FILE='./calendar.json';
 const CALENDAR_CACHE_KEY='ma3e_calendar_cache_v1';
 const TIMETABLE_FILE='./timetable.json';
 const TIMETABLE_CACHE_KEY='ma3e_timetable_cache_v1';
+const RESOURCES_FILE='./resources.json';
+const RESOURCES_CACHE_KEY='ma3e_resources_cache_v1';
 const DISPLAY_TIME_ZONE='Europe/Paris';
 const CALENDAR_REFRESH_MS=5*60*1000;
 
@@ -15,15 +17,12 @@ function showView(id){
 document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>showView(button.dataset.view)));
 document.querySelectorAll('[data-go]').forEach(button=>button.addEventListener('click',()=>showView(button.dataset.go)));
 
-const dialog=document.querySelector('#resource-dialog');
-const dialogTitle=document.querySelector('#dialog-title');
 document.querySelectorAll('[data-resource]').forEach(button=>button.addEventListener('click',()=>{
-  dialogTitle.textContent=button.dataset.resource;
-  dialog.showModal();
+  setResourceFilter(button.dataset.resource);
+  showView('resources');
 }));
-document.querySelector('.dialog-close')?.addEventListener('click',()=>dialog.close());
-document.querySelector('.dialog-secondary')?.addEventListener('click',()=>dialog.close());
-document.querySelector('.dialog-primary')?.addEventListener('click',()=>dialog.close());
+document.querySelectorAll('[data-resource-filter]').forEach(button=>button.addEventListener('click',()=>setResourceFilter(button.dataset.resourceFilter)));
+document.querySelector('#resource-search')?.addEventListener('input',()=>renderResources());
 
 const categoryStyles={
   classe:{label:'VIE DE CLASSE',color:'green',tag:'green-tag'},
@@ -153,6 +152,100 @@ function eventDetail(event){
   if(event.location)return event.location.replace(/\s*\n\s*/g,' · ');
   if(event.description)return event.description.replace(/\s*\n\s*/g,' · ');
   return formatEventWhen(event);
+}
+
+const resourceTypeDetails={
+  PDF:{mark:'PDF',action:'Ouvrir le PDF'},
+  'Présentation Canva':{mark:'C',action:'Voir la présentation'},
+  Lien:{mark:'↗',action:'Ouvrir le lien'},
+  Formulaire:{mark:'✓',action:'Ouvrir le formulaire'},
+  Vidéo:{mark:'▶',action:'Voir la vidéo'}
+};
+const resourceDateFormatter=new Intl.DateTimeFormat('fr-FR',{day:'numeric',month:'short',year:'numeric',timeZone:DISPLAY_TIME_ZONE});
+let selectedResourceCategory='Tous';
+let currentResourcesData={resources:[],updatedAt:null};
+
+function normalizeSearch(value){
+  return String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('fr');
+}
+
+function validResources(data){
+  return data&&Array.isArray(data.resources)&&data.resources.every(resource=>resource&&resource.title&&resource.category&&resource.type&&resource.url);
+}
+
+function safeResourceUrl(value){
+  try{
+    const url=new URL(value);
+    return url.protocol==='https:'?url.href:'';
+  }catch(_error){
+    return '';
+  }
+}
+
+function setResourceFilter(category='Tous'){
+  selectedResourceCategory=category;
+  document.querySelectorAll('[data-resource-filter]').forEach(button=>button.classList.toggle('active',button.dataset.resourceFilter===category));
+  renderResources();
+}
+
+function resourceStatus(data,{offline=false}={}){
+  const status=document.querySelector('#resources-status');
+  const bar=status?.closest('.resource-publish-bar');
+  if(!status)return;
+  if(offline){
+    status.textContent='Version enregistrée hors connexion';
+    bar?.classList.add('is-offline');
+  }else if(data.updatedAt){
+    status.textContent=`Publications vérifiées le ${statusFormatter.format(new Date(data.updatedAt))}`;
+    bar?.classList.remove('is-offline');
+  }else{
+    status.textContent='Aucune publication pour le moment';
+    bar?.classList.remove('is-offline');
+  }
+}
+
+function renderResources(data=currentResourcesData,{offline=false}={}){
+  currentResourcesData={...data,resources:[...(data.resources||[])]};
+  resourceStatus(currentResourcesData,{offline});
+  const root=document.querySelector('#resources-root');
+  if(!root)return;
+  root.replaceChildren();
+  const query=normalizeSearch(document.querySelector('#resource-search')?.value);
+  const resources=currentResourcesData.resources.filter(resource=>{
+    const categoryMatches=selectedResourceCategory==='Tous'||resource.category===selectedResourceCategory;
+    const searchMatches=!query||normalizeSearch(`${resource.title} ${resource.description} ${resource.category} ${resource.type}`).includes(query);
+    return categoryMatches&&searchMatches;
+  });
+  if(!resources.length){
+    const empty=createElement('div','calendar-empty');
+    const hasPublications=currentResourcesData.resources.length>0;
+    empty.append(
+      createElement('strong','',hasPublications?'Aucune ressource ne correspond à ce filtre':'Aucune ressource commune publiée'),
+      createElement('p','',hasPublications?'Essayez une autre rubrique ou effacez votre recherche.':'L’enseignant peut publier le premier PDF, lien Canva, formulaire ou vidéo depuis le bouton ci-dessus.')
+    );
+    root.append(empty);
+    return;
+  }
+  resources.forEach(resource=>{
+    const url=safeResourceUrl(resource.url);
+    if(!url)return;
+    const type=resourceTypeDetails[resource.type]||resourceTypeDetails.Lien;
+    const article=createElement('article','resource-card');
+    const mark=createElement('div',`resource-mark type-${normalizeSearch(resource.type).replace(/[^a-z0-9]+/g,'-')}`,type.mark);
+    const copy=createElement('div','resource-card-copy');
+    copy.append(createElement('small','',`${resource.category} · ${resource.type}`),createElement('h3','',resource.title));
+    if(resource.description)copy.append(createElement('p','',resource.description));
+    const footer=createElement('div','resource-card-footer');
+    const published=resource.publishedAt?`Publié le ${resourceDateFormatter.format(new Date(resource.publishedAt))}`:'Ressource de la classe';
+    const link=createElement('a','resource-open',`${type.action} →`);
+    link.href=url;
+    link.target='_blank';
+    link.rel='noopener noreferrer';
+    footer.append(createElement('span','',published),link);
+    copy.append(footer);
+    article.append(mark,copy);
+    root.append(article);
+  });
 }
 
 function renderToday(){
@@ -341,7 +434,10 @@ function timetableWeekLabel(){
 
 function timetableEmpty(message){
   const empty=createElement('div','calendar-empty');
-  empty.append(createElement('strong','',message),createElement('p','', 'Choisissez une autre semaine ou attendez la prochaine synchronisation ÉcoleDirecte.'));
+  const detail=currentTimetableData.status==='empty-feed'
+    ?'Le lien iCal ÉcoleDirecte a bien été vérifié, mais il ne contient actuellement aucun cours. Une nouvelle vérification aura lieu automatiquement.'
+    :'Choisissez une autre semaine ou attendez la prochaine synchronisation ÉcoleDirecte.';
+  empty.append(createElement('strong','',message),createElement('p','',detail));
   return empty;
 }
 
@@ -474,8 +570,11 @@ function renderTimetable(data,{offline=false}={}){
   if(offline){
     status.textContent='Version enregistrée hors connexion';
     bar?.classList.add('is-offline');
+  }else if(data.updatedAt&&data.status==='empty-feed'){
+    status.textContent=`Flux vérifié le ${statusFormatter.format(new Date(data.updatedAt))} · aucun cours transmis`;
+    bar?.classList.remove('is-offline');
   }else if(data.updatedAt){
-    status.textContent=`Mis à jour le ${statusFormatter.format(new Date(data.updatedAt))}`;
+    status.textContent=`Dernière synchronisation ÉcoleDirecte : ${statusFormatter.format(new Date(data.updatedAt))}`;
     bar?.classList.remove('is-offline');
   }else{
     status.textContent='En attente de la première synchronisation';
@@ -501,7 +600,7 @@ function renderCalendar(data,{offline=false}={}){
     status.textContent='Version enregistrée hors connexion';
     status.closest('.agenda-sync-bar')?.classList.add('is-offline');
   }else if(data.updatedAt){
-    status.textContent=`Mis à jour le ${statusFormatter.format(new Date(data.updatedAt))}`;
+    status.textContent=`Dernière synchronisation Apple : ${statusFormatter.format(new Date(data.updatedAt))}`;
     status.closest('.agenda-sync-bar')?.classList.remove('is-offline');
   }else{
     status.textContent='En attente de la première synchronisation';
@@ -526,14 +625,29 @@ function readCachedTimetable(){
   }
 }
 
+function readCachedResources(){
+  try{
+    const cached=JSON.parse(localStorage.getItem(RESOURCES_CACHE_KEY)||'null');
+    return validResources(cached)?cached:null;
+  }catch(_error){
+    return null;
+  }
+}
+
+function sameItems(previous,next,key){
+  return JSON.stringify(previous?.[key]||[])===JSON.stringify(next?.[key]||[]);
+}
+
 let calendarLoading=false;
 async function loadCalendar({manual=false}={}){
   if(calendarLoading)return;
   calendarLoading=true;
+  const previous=readCachedCalendar();
   const refreshButton=document.querySelector('#agenda-refresh');
   const status=document.querySelector('#agenda-status');
   refreshButton?.classList.add('is-loading');
-  if(manual&&status)status.textContent='Actualisation…';
+  refreshButton?.setAttribute('aria-busy','true');
+  if(manual&&status)status.textContent='Vérification de la dernière version publiée…';
   try{
     const response=await fetch(`${CALENDAR_FILE}?v=${Date.now()}`,{cache:'no-store'});
     if(!response.ok)throw new Error(`Calendrier indisponible (${response.status})`);
@@ -541,6 +655,11 @@ async function loadCalendar({manual=false}={}){
     if(!validCalendar(data))throw new Error('Format de calendrier incorrect');
     localStorage.setItem(CALENDAR_CACHE_KEY,JSON.stringify(data));
     renderCalendar(data);
+    if(manual&&status&&data.updatedAt){
+      status.textContent=sameItems(previous,data,'events')
+        ?`Aucun changement · calendrier vérifié le ${statusFormatter.format(new Date(data.updatedAt))}`
+        :`Nouveautés chargées · synchronisation du ${statusFormatter.format(new Date(data.updatedAt))}`;
+    }
   }catch(error){
     const cached=readCachedCalendar();
     if(cached)renderCalendar(cached,{offline:true});
@@ -549,6 +668,7 @@ async function loadCalendar({manual=false}={}){
   }finally{
     calendarLoading=false;
     refreshButton?.classList.remove('is-loading');
+    refreshButton?.removeAttribute('aria-busy');
   }
 }
 
@@ -556,10 +676,12 @@ let timetableLoading=false;
 async function loadTimetable({manual=false}={}){
   if(timetableLoading)return;
   timetableLoading=true;
+  const previous=readCachedTimetable();
   const refreshButton=document.querySelector('#timetable-refresh');
   const status=document.querySelector('#timetable-status');
   refreshButton?.classList.add('is-loading');
-  if(manual&&status)status.textContent='Actualisation…';
+  refreshButton?.setAttribute('aria-busy','true');
+  if(manual&&status)status.textContent='Vérification de la dernière version publiée…';
   try{
     const response=await fetch(`${TIMETABLE_FILE}?v=${Date.now()}`,{cache:'no-store'});
     if(!response.ok)throw new Error(`Emploi du temps indisponible (${response.status})`);
@@ -567,6 +689,12 @@ async function loadTimetable({manual=false}={}){
     if(!validCalendar(data))throw new Error('Format de l’emploi du temps incorrect');
     localStorage.setItem(TIMETABLE_CACHE_KEY,JSON.stringify(data));
     renderTimetable(data);
+    if(manual&&status&&data.updatedAt){
+      if(data.status==='empty-feed')status.textContent=`Aucun cours transmis · flux vérifié le ${statusFormatter.format(new Date(data.updatedAt))}`;
+      else status.textContent=sameItems(previous,data,'events')
+        ?`Aucun changement · emploi du temps vérifié le ${statusFormatter.format(new Date(data.updatedAt))}`
+        :`Nouveaux cours chargés · synchronisation du ${statusFormatter.format(new Date(data.updatedAt))}`;
+    }
   }catch(error){
     const cached=readCachedTimetable();
     if(cached)renderTimetable(cached,{offline:true});
@@ -575,11 +703,47 @@ async function loadTimetable({manual=false}={}){
   }finally{
     timetableLoading=false;
     refreshButton?.classList.remove('is-loading');
+    refreshButton?.removeAttribute('aria-busy');
+  }
+}
+
+let resourcesLoading=false;
+async function loadResources({manual=false}={}){
+  if(resourcesLoading)return;
+  resourcesLoading=true;
+  const previous=readCachedResources();
+  const refreshButton=document.querySelector('#resources-refresh');
+  const status=document.querySelector('#resources-status');
+  refreshButton?.classList.add('is-loading');
+  refreshButton?.setAttribute('aria-busy','true');
+  if(manual&&status)status.textContent='Vérification des dernières publications…';
+  try{
+    const response=await fetch(`${RESOURCES_FILE}?v=${Date.now()}`,{cache:'no-store'});
+    if(!response.ok)throw new Error(`Ressources indisponibles (${response.status})`);
+    const data=await response.json();
+    if(!validResources(data))throw new Error('Format des ressources incorrect');
+    localStorage.setItem(RESOURCES_CACHE_KEY,JSON.stringify(data));
+    renderResources(data);
+    if(manual&&status&&data.updatedAt){
+      status.textContent=sameItems(previous,data,'resources')
+        ?`Aucune nouvelle publication · vérifié le ${statusFormatter.format(new Date(data.updatedAt))}`
+        :`Nouvelles ressources chargées · ${statusFormatter.format(new Date(data.updatedAt))}`;
+    }
+  }catch(error){
+    const cached=readCachedResources();
+    if(cached)renderResources(cached,{offline:true});
+    else renderResources({resources:[]},{offline:true});
+    console.warn(error);
+  }finally{
+    resourcesLoading=false;
+    refreshButton?.classList.remove('is-loading');
+    refreshButton?.removeAttribute('aria-busy');
   }
 }
 
 document.querySelector('#agenda-refresh')?.addEventListener('click',()=>loadCalendar({manual:true}));
 document.querySelector('#timetable-refresh')?.addEventListener('click',()=>loadTimetable({manual:true}));
+document.querySelector('#resources-refresh')?.addEventListener('click',()=>loadResources({manual:true}));
 document.querySelector('#timetable-prev')?.addEventListener('click',()=>{
   selectedTimetableWeek=addDaysToDateKey(selectedTimetableWeek,-7);
   renderTimetableWeek();
@@ -596,16 +760,19 @@ document.addEventListener('visibilitychange',()=>{
   if(document.visibilityState==='visible'){
     loadCalendar();
     loadTimetable();
+    loadResources();
   }
 });
 window.setInterval(()=>{
   loadCalendar();
   loadTimetable();
+  loadResources();
 },CALENDAR_REFRESH_MS);
 
 renderToday();
 loadCalendar();
 loadTimetable();
+loadResources();
 
 if('serviceWorker' in navigator){
   window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));

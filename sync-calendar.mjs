@@ -326,7 +326,15 @@ async function main(){
   overrides.filter(event=>event.status!=='CANCELLED').forEach(event=>events.push(...expandEvent({...event,rrule:''},new Set(),windowStart,windowEnd)));
   const unique=[...new Map(events.map(event=>[`${event.id}|${event.start}`,event])).values()]
     .sort((first,second)=>String(first.start).localeCompare(String(second.start))||first.title.localeCompare(second.title,'fr'));
-  const output={version:1,source:SOURCE_LABEL,updatedAt:new Date().toISOString(),timeZone:DEFAULT_TIME_ZONE,events:unique};
+  const output={
+    version:2,
+    source:SOURCE_LABEL,
+    status:unique.length?'ready':'empty-feed',
+    eventCount:unique.length,
+    updatedAt:new Date().toISOString(),
+    timeZone:DEFAULT_TIME_ZONE,
+    events:unique
+  };
   await writeFile(OUTPUT,`${JSON.stringify(output,null,2)}\n`,'utf8');
   console.log(`${unique.length} événement(s) ${SOURCE_LABEL} synchronisé(s).`);
 }

@@ -1,0 +1,57 @@
+name: Publier une ressource de classe
+description: Ajouter un PDF commun, une présentation Canva, un formulaire, une vidéo ou un lien au site.
+title: "[Publication] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Nouvelle ressource commune
+        Cette fiche publiera son contenu sur le site de la classe. N’ajoutez jamais de nom d’élève, de note, d’appréciation ou de document individuel.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Rubrique
+      options:
+        - Vie de classe
+        - Orientation
+        - DNB
+        - Stage
+        - Certifications
+        - Autre
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type de ressource
+      options:
+        - PDF
+        - Présentation Canva
+        - Lien
+        - Formulaire
+        - Vidéo
+    validations:
+      required: true
+  - type: textarea
+    id: link
+    attributes:
+      label: Lien ou fichier
+      description: Collez un lien public HTTPS. Pour un PDF commun, glissez le fichier dans cette zone et attendez la fin du téléversement.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Une phrase courte pour expliquer aux élèves ce qu’ils trouveront.
+      placeholder: Consignes, objectif ou date utile…
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Vérification avant publication
+      options:
+        - label: Je confirme que cette ressource est commune à la classe et ne contient aucune donnée personnelle d’élève.
+          required: true

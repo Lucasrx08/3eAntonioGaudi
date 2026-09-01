@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#96c22b">
+  <meta name="description" content="Agenda, emploi du temps et ressources communes de la 3e Antonio Gaudí.">
+  <meta name="robots" content="noindex,nofollow,noarchive">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="manifest" href="manifest.webmanifest">
@@ -21,8 +23,8 @@
       <button class="nav-item active" data-view="home"><span class="nav-icon">⌂</span><span>Accueil</span></button>
       <button class="nav-item" data-view="agenda"><span class="nav-icon">◷</span><span>Agenda</span></button>
       <button class="nav-item" data-view="timetable"><span class="nav-icon">▦</span><span>Mon emploi du temps</span></button>
-      <button class="nav-item" data-view="resources"><span class="nav-icon">◇</span><span>Mon année</span></button>
-      <button class="nav-item" data-view="profile"><span class="nav-icon">▱</span><span>Mon espace</span></button>
+      <button class="nav-item" data-view="resources"><span class="nav-icon">◇</span><span>Ressources</span></button>
+      <button class="nav-item" data-view="profile"><span class="nav-icon">▱</span><span>ÉcoleDirecte</span></button>
     </nav>
     <div class="sidebar-footer">
       <span class="level-pill">3e</span>
@@ -69,7 +71,7 @@
           <span class="focus-kicker">À NE PAS OUBLIER</span>
           <h3>Convention<br>de stage</h3>
           <p>À rendre avant le <strong>12 octobre</strong></p>
-          <button data-go="profile">Voir le document →</button>
+          <button data-resource="Stage">Voir les ressources →</button>
           <div class="target-ring"><i></i><i></i><i></i></div>
         </article>
       </section>
@@ -112,7 +114,7 @@
       <div class="page-title"><span>AGENDA</span><h2>Mes dates importantes<span>.</span></h2><p>Les événements utiles de la classe, classés chronologiquement.</p></div>
       <div class="agenda-sync-bar">
         <div><span class="sync-dot"></span><strong>Calendrier Apple</strong><small id="agenda-status" aria-live="polite">Synchronisation en cours…</small></div>
-        <button id="agenda-refresh" type="button">Actualiser ↻</button>
+        <button id="agenda-refresh" type="button">Vérifier les nouveautés ↻</button>
       </div>
       <div id="agenda-root">
         <div class="calendar-empty"><strong>Chargement de l’agenda…</strong><p>Les événements de la 3e Gaudí vont apparaître ici.</p></div>
@@ -123,7 +125,7 @@
       <div class="page-title"><span>ÉCOLEDIRECTE</span><h2>Mon emploi du temps<span>.</span></h2><p>Les cours de la semaine, synchronisés automatiquement.</p></div>
       <div class="agenda-sync-bar timetable-sync-bar">
         <div><span class="sync-dot"></span><strong>ÉcoleDirecte</strong><small id="timetable-status" aria-live="polite">Synchronisation en cours…</small></div>
-        <button id="timetable-refresh" type="button">Actualiser ↻</button>
+        <button id="timetable-refresh" type="button">Vérifier les nouveautés ↻</button>
       </div>
       <div class="timetable-toolbar" aria-label="Navigation dans les semaines">
         <button id="timetable-prev" type="button" aria-label="Semaine précédente">←</button>
@@ -138,23 +140,41 @@
     </section>
 
     <section id="resources" class="view">
-      <div class="page-title"><span>MON ANNÉE</span><h2>Tout ce qui compte<span>.</span></h2><p>Des espaces simples pour avancer tout au long de l’année.</p></div>
-      <div class="resource-feature-grid">
-        <button class="resource-feature green-feature" data-resource="Vie de classe"><span>01</span><div><small>VIE DE CLASSE</small><h3>Construire mon année</h3><p>Objectifs, séances, projets, documents et informations.</p><b>18 séances →</b></div></button>
-        <button class="resource-feature light-feature" data-resource="Orientation"><span>02</span><div><small>ORIENTATION</small><h3>Préparer la suite</h3><p>Étapes de l’orientation, choix et ressources.</p><b>Mon parcours →</b></div></button>
-        <button class="resource-feature dark-feature" data-resource="DNB"><span>03</span><div><small>DIPLÔME NATIONAL DU BREVET</small><h3>Objectif DNB</h3><p>Comprendre les épreuves et préparer les échéances.</p><b>J-283 →</b></div></button>
-        <button class="resource-feature light-feature" data-resource="Stage"><span>04</span><div><small>STAGE</small><h3>Mon premier stage</h3><p>Convention, calendrier et documents utiles.</p><b>9 — 13 février →</b></div></button>
-        <button class="resource-feature light-feature" data-resource="Certifications"><span>05</span><div><small>CERTIFICATIONS</small><h3>Mes validations</h3><p>PIX, ASSR2, Ev@lang et PSC.</p><b>Suivre →</b></div></button>
+      <div class="page-title"><span>RESSOURCES DE LA CLASSE</span><h2>Documents et liens utiles<span>.</span></h2><p>PDF communs, présentations Canva, formulaires, vidéos et liens de la classe.</p></div>
+      <div class="resource-publish-bar">
+        <div><span class="sync-dot"></span><strong>Publications communes</strong><small id="resources-status" aria-live="polite">Chargement des ressources…</small></div>
+        <div class="resource-publish-actions">
+          <button id="resources-refresh" type="button">Vérifier ↻</button>
+          <a href="https://github.com/Lucasrx08/3eAntonioGaudi/issues/new?template=publication.yml" target="_blank" rel="noopener noreferrer">Espace enseignant · publier ↗</a>
+        </div>
+      </div>
+      <div class="resource-privacy-note"><strong>Ressources communes uniquement.</strong><span>Les documents individuels restent dans ÉcoleDirecte.</span></div>
+      <div class="resource-tools">
+        <label class="resource-search"><span>⌕</span><input id="resource-search" type="search" placeholder="Rechercher un document ou un lien" autocomplete="off"></label>
+        <div id="resource-filters" class="resource-filters" aria-label="Filtrer les ressources">
+          <button class="active" type="button" data-resource-filter="Tous">Tout</button>
+          <button type="button" data-resource-filter="Vie de classe">Vie de classe</button>
+          <button type="button" data-resource-filter="Orientation">Orientation</button>
+          <button type="button" data-resource-filter="DNB">DNB</button>
+          <button type="button" data-resource-filter="Stage">Stage</button>
+          <button type="button" data-resource-filter="Certifications">Certifications</button>
+        </div>
+      </div>
+      <div id="resources-root" class="resource-library" aria-live="polite">
+        <div class="calendar-empty"><strong>Chargement des ressources…</strong><p>Les publications communes vont apparaître ici.</p></div>
       </div>
     </section>
 
     <section id="profile" class="view">
-      <div class="page-title"><span>MON ESPACE</span><h2>Mes documents<span>.</span></h2><p>Les documents personnels déposés par votre enseignant.</p></div>
-      <div class="profile-summary"><div class="profile-mark">3G</div><div><span>ESPACE PERSONNEL</span><h3>Mes documents individuels</h3><p>3 documents disponibles · 1 document à rendre</p></div><button>Paramètres</button></div>
-      <div class="documents-grid">
-        <article><span class="doc-type">PDF</span><div><small>ÉVALUATION</small><strong>EPS — Biathlon</strong><p>Déposée le 14 septembre</p></div><button>Voir →</button></article>
-        <article class="attention"><span class="doc-type">PDF</span><div><small>VIE DE CLASSE</small><strong>Fiche de renseignements</strong><p>À compléter</p></div><button>Ouvrir →</button></article>
-        <article><span class="doc-type">PDF</span><div><small>STAGE</small><strong>Convention de stage</strong><p>À rendre avant le 12 octobre</p></div><button>Voir →</button></article>
+      <div class="page-title"><span>DOCUMENTS INDIVIDUELS</span><h2>Mon espace ÉcoleDirecte<span>.</span></h2><p>Un accès sécurisé pour chaque élève, géré par l’établissement.</p></div>
+      <div class="ed-card">
+        <div class="ed-card-copy"><span>ESPACE PERSONNEL SÉCURISÉ</span><h3>Retrouver mes documents individuels</h3><p>Les évaluations, fiches personnelles et documents nominatifs ne sont jamais stockés sur ce site public. Ils restent protégés dans ÉcoleDirecte.</p></div>
+        <a href="https://www.ecoledirecte.com/login" target="_blank" rel="noopener noreferrer">Se connecter à ÉcoleDirecte <b>↗</b></a>
+      </div>
+      <div class="privacy-grid">
+        <article><span>01</span><div><strong>Connexion personnelle</strong><p>Utilisez les identifiants remis par l’établissement.</p></div></article>
+        <article><span>02</span><div><strong>Documents protégés</strong><p>Chaque élève ne consulte que les éléments associés à son compte.</p></div></article>
+        <article><span>03</span><div><strong>Aucune copie ici</strong><p>Le site de classe ne conserve ni nom, ni mot de passe, ni document individuel.</p></div></article>
       </div>
     </section>
   </main>
@@ -162,19 +182,12 @@
   <nav class="bottom-nav" aria-label="Navigation mobile">
     <button class="active" data-view="home"><span>⌂</span><small>Accueil</small></button>
     <button data-view="agenda"><span>◷</span><small>Agenda</small></button>
-    <button data-view="resources" class="plus"><span>+</span><small>Mon année</small></button>
+    <button data-view="resources" class="plus"><span>+</span><small>Ressources</small></button>
     <button data-view="timetable"><span>▦</span><small>Emploi du temps</small></button>
-    <button data-view="profile"><span>▱</span><small>Mon espace</small></button>
+    <button data-view="profile"><span>▱</span><small>ÉcoleDirecte</small></button>
   </nav>
 </div>
 
-<dialog id="resource-dialog">
-  <button class="dialog-close" aria-label="Fermer">×</button>
-  <span class="eyebrow">APERÇU DU PARCOURS</span>
-  <h2 id="dialog-title"></h2>
-  <p>Cette rubrique est prête à accueillir vos contenus Canva, documents PDF, liens, questionnaires et informations interactives.</p>
-  <div class="dialog-actions"><button class="dialog-primary">Ouvrir la rubrique</button><button class="dialog-secondary">Fermer</button></div>
-</dialog>
 <script src="app.js"></script>
 </body>
 </html>
