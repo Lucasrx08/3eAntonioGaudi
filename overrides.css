@@ -1,21 +1,19 @@
-:root{--green-dark:#0076ac;--ink:#102126;--muted:#596b73}
-body{font-size:17px;line-height:1.55}
-.topbar p,.page-title p{font-size:clamp(17px,1.4vw,22px);line-height:1.5}
-.eyebrow,.page-title>span,.section-head span{font-size:12px;letter-spacing:2px;color:#0076ac}
-.section-head h2,.page-title h2{font-size:clamp(34px,3.4vw,52px)}
-.journey-card p{font-size:15px;line-height:1.5}.journey-card>b{font-size:13px}.journey-card h3{font-size:28px}
-.event-copy strong{font-size:18px}.event-copy small{font-size:14px}.timeline-strip time b{color:#0076ac}.timeline-strip time span{font-size:11px}
-.agenda-list time b{color:#0076ac}.agenda-list time span{font-size:11px}.agenda-list strong{font-size:20px}.agenda-list p{font-size:15px}.agenda-list small{font-size:10px}
-.month-banner{background:#0076ac;color:#fff}.month-banner span{font-size:38px}
-.pathway-board,.resource-library{font-size:17px}
-.pathway-board p,.pathway-board li,.pathway-board small{font-size:16px!important;line-height:1.55!important}
-.pathway-board h3{font-size:clamp(24px,2vw,34px)!important}.pathway-board h4{font-size:21px!important}
-.pathway-board [class*="meta"],.pathway-board [class*="eyebrow"],.pathway-board [class*="label"]{font-size:11px!important}
-.resource-library strong{font-size:18px}.resource-library small,.resource-library p{font-size:15px!important}
-/* Le bleu institutionnel remplace le vert foncé pour les repères de lecture. */
+:root{--green-dark:#0076ac;--ink:#102126;--muted:#64747a;--text:16px;--small:13px;--label:11px;--card-title:24px;--section-title:38px}
+body{font-size:var(--text);line-height:1.5;color:var(--ink)}
+/* Hiérarchie volontairement courte : label, texte, titre de carte, titre de section, titre principal. */
+.topbar h1{font-size:clamp(48px,5vw,66px);line-height:.95}.topbar p,.page-title p{font-size:18px;line-height:1.5;max-width:1000px}
+.eyebrow,.page-title>span,.section-head span,.focus-kicker,.card-num{font-size:var(--label);letter-spacing:1.7px;color:#0076ac}
+.section-head h2,.page-title h2{font-size:clamp(34px,3vw,44px);line-height:1.05}
+.hero-event h2{font-size:clamp(34px,3.6vw,50px)}.hero-event p{font-size:16px}.hero-event>span,.hero-content>p{font-size:var(--label)}
+.journey-card h3{font-size:var(--card-title);line-height:1}.journey-card p{font-size:14px;line-height:1.5}.journey-card>b{font-size:13px}
+.event-copy span,.agenda-list small{font-size:var(--label)}.event-copy strong{font-size:17px}.event-copy small{font-size:14px}.timeline-strip time b,.agenda-list time b{color:#0076ac}.timeline-strip time span,.agenda-list time span{font-size:var(--label)}
+.agenda-list strong{font-size:18px}.agenda-list p{font-size:14px;line-height:1.45}.month-banner{background:#0076ac;color:#fff}.month-banner span{font-size:34px}
+.pathway-board,.resource-library{font-size:var(--text)}
+.pathway-board p,.pathway-board li,.pathway-board small{font-size:15px!important;line-height:1.55!important}.pathway-board h3{font-size:28px!important;line-height:1.1!important}.pathway-board h4{font-size:20px!important}.pathway-board [class*="meta"],.pathway-board [class*="eyebrow"],.pathway-board [class*="label"]{font-size:var(--label)!important}
+.resource-library strong{font-size:17px}.resource-library small,.resource-library p{font-size:14px!important;line-height:1.5!important}
 .nav-item.active,.section-head button,.journey-card>b,.profile-summary span,.doc-type{color:#0076ac}
-.official-dnb-dates{margin:20px 0 28px;padding:22px;border-radius:22px;background:#eef7fb;border:1px solid #d6ebf4}
-.official-dnb-dates .official-title{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:14px}
-.official-dnb-dates h3{margin:0!important;font-size:26px!important}.official-dnb-dates a{color:#0076ac;font-weight:800;text-decoration:none}
-.official-dnb-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.official-dnb-day{background:#fff;border-radius:16px;padding:16px;border:1px solid #e3eef2}.official-dnb-day b{display:block;font-size:20px;color:#0076ac}.official-dnb-day span{display:block;margin-top:5px;font-size:15px}
-@media(max-width:760px){body{font-size:16px}.content{padding-left:18px;padding-right:18px}.topbar h1{font-size:48px}.page-title h2{font-size:38px}.page-title p,.topbar p{font-size:17px}.journey-card p{font-size:14px}.official-dnb-grid{grid-template-columns:1fr}.pathway-board p,.pathway-board li,.pathway-board small{font-size:15px!important}}
+.official-dnb-dates{margin:20px 0 28px;padding:22px;border-radius:22px;background:#eef7fb;border:1px solid #d6ebf4}.official-dnb-dates .official-title{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:14px}.official-dnb-dates h3{margin:0!important;font-size:28px!important}.official-dnb-dates button{border:0;background:#0076ac;color:#fff;border-radius:999px;padding:11px 16px;font-weight:800;cursor:pointer}.official-dnb-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.official-dnb-day{background:#fff;border-radius:16px;padding:16px;border:1px solid #e3eef2}.official-dnb-day b{display:block;font-size:18px;color:#0076ac}.official-dnb-day span{display:block;margin-top:5px;font-size:14px}
+/* Les écrans hors accueil sont moins coûteux à mettre en page tant qu’ils sont invisibles. */
+.view:not(.active-view){content-visibility:hidden}.pathway-board,.resource-library,.agenda-month-section{contain:layout style paint}
+@media(max-width:760px){body{font-size:16px}.content{padding-left:18px;padding-right:18px}.topbar h1{font-size:48px}.topbar p,.page-title p{font-size:16px}.page-title h2,.section-head h2{font-size:34px}.hero-event h2{font-size:34px}.journey-card h3{font-size:23px}.journey-card p{font-size:14px}.pathway-board p,.pathway-board li,.pathway-board small{font-size:15px!important}.official-dnb-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.official-dnb-grid{grid-template-columns:1fr}}
