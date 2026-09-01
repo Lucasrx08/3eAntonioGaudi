@@ -16,7 +16,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: ma3e-${{ github.event_name }}
   cancel-in-progress: true
 
 jobs:
@@ -32,11 +32,13 @@ jobs:
           fetch-depth: 0
 
       - name: Synchroniser le calendrier Apple
+        if: github.event_name != 'issues'
         env:
           APPLE_CALENDAR_URL: ${{ secrets.APPLE_CALENDAR_URL }}
         run: node sync-calendar.mjs
 
       - name: Synchroniser l’emploi du temps ÉcoleDirecte
+        if: github.event_name != 'issues'
         env:
           CALENDAR_MODE: timetable
           CALENDAR_URL: ${{ secrets.ECOLEDIRECTE_ICAL_URL }}
@@ -76,13 +78,16 @@ jobs:
           fi
 
       - name: Préparer GitHub Pages
+        if: github.event_name != 'issues'
         uses: actions/configure-pages@v5
 
       - name: Préparer les fichiers du site
+        if: github.event_name != 'issues'
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
 
       - name: Publier le site
+        if: github.event_name != 'issues'
         id: deployment
         uses: actions/deploy-pages@v4
