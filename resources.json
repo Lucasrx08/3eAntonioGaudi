@@ -1,12 +1,18 @@
 {
-  "version": 2,
+  "version": 3,
   "source": "GitHub Issues",
-  "updatedAt": "2026-09-01T17:43:29.115Z",
+  "updatedAt": "2026-09-01T17:54:32.571Z",
   "reminder": {
     "id": "issue-1",
     "title": "Documents de rentrée",
     "detail": "À rendre pour le",
     "deadline": "10 septembre - 9h00",
+    "items": [
+      "Assurance",
+      "Autorisation de sortie",
+      "Étude du soir",
+      "Signature du carnet de liaison"
+    ],
     "category": "Autre",
     "url": "",
     "manageUrl": "https://github.com/Lucasrx08/3eAntonioGaudi/issues/1",
