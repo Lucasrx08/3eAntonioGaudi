@@ -4,8 +4,7 @@
   "updatedAt": "2026-09-01T19:29:00+02:00",
   "reminder": {
     "title": "Documents de rentrée",
-    "detail": "Assurance\nAutorisation de sortie\nÉtude du soir\nSignature du carnet de liaison",
-    "deadline": "À rendre le 10 septembre à 9h00",
+    "detail": "À rendre le 10 septembre à 9h00\n\n• Assurance\n• Autorisation de sortie\n• Étude du soir\n• Signature du carnet de liaison",
     "category": "Vie de classe",
     "manageUrl": "https://github.com/Lucasrx08/3eAntonioGaudi/issues/1"
   },
