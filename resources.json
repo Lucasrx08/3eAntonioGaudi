@@ -1,6 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "source": "GitHub Issues",
   "updatedAt": null,
+  "reminder": null,
   "resources": []
 }

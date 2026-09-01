@@ -60,6 +60,22 @@ function resourceFromIssue(issue){
   };
 }
 
+function reminderFromIssue(issue){
+  const title=String(issue.title||'').replace(/^\[Rappel\]\s*/i,'').trim().slice(0,100);
+  if(!title)return null;
+  const category=plainText(issueSection(issue.body,'Rubrique associée'));
+  return {
+    id:`issue-${issue.number}`,
+    title,
+    detail:plainText(issueSection(issue.body,'Texte du rappel')),
+    deadline:plainText(issueSection(issue.body,'Échéance')).slice(0,80),
+    category:ALLOWED_CATEGORIES.has(category)?category:'Autre',
+    url:publicUrl(issueSection(issue.body,'Lien associé')),
+    manageUrl:String(issue.html_url||''),
+    updatedAt:issue.updated_at
+  };
+}
+
 async function loadIssues(){
   if(process.env.RESOURCES_ISSUES_FILE){
     return JSON.parse(await readFile(process.env.RESOURCES_ISSUES_FILE,'utf8'));
@@ -80,16 +96,23 @@ async function loadIssues(){
 
 async function main(){
   const issues=await loadIssues();
-  const resources=issues
+  const ownedIssues=issues
     .filter(issue=>!issue.pull_request)
-    .filter(issue=>String(issue.title||'').startsWith('[Publication]'))
-    .filter(issue=>String(issue.user?.login||'').toLocaleLowerCase('fr')===PUBLICATION_AUTHOR)
+    .filter(issue=>String(issue.user?.login||'').toLocaleLowerCase('fr')===PUBLICATION_AUTHOR);
+  const resources=ownedIssues
+    .filter(issue=>/^\[Publication\]/i.test(String(issue.title||'')))
     .map(resourceFromIssue)
     .filter(Boolean)
     .sort((first,second)=>String(second.publishedAt).localeCompare(String(first.publishedAt)));
-  const output={version:1,source:'GitHub Issues',updatedAt:new Date().toISOString(),resources};
+  const reminder=ownedIssues
+    .filter(issue=>/^\[Rappel\]/i.test(String(issue.title||'')))
+    .sort((first,second)=>String(second.updated_at).localeCompare(String(first.updated_at)))
+    .map(reminderFromIssue)
+    .find(Boolean)||null;
+  const output={version:2,source:'GitHub Issues',updatedAt:new Date().toISOString(),reminder,resources};
   await writeFile(OUTPUT,`${JSON.stringify(output,null,2)}\n`,'utf8');
   console.log(`${resources.length} ressource(s) commune(s) publiée(s).`);
+  console.log(reminder?`Rappel publié : ${reminder.title}`:'Aucun rappel publié.');
 }
 
 main().catch(error=>{

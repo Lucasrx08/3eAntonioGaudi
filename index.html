@@ -24,7 +24,7 @@
       <button class="nav-item" data-view="agenda"><span class="nav-icon">◷</span><span>Agenda</span></button>
       <button class="nav-item" data-view="timetable"><span class="nav-icon">▦</span><span>Mon emploi du temps</span></button>
       <button class="nav-item" data-view="resources"><span class="nav-icon">◇</span><span>Ressources</span></button>
-      <button class="nav-item" data-view="profile"><span class="nav-icon">▱</span><span>ÉcoleDirecte</span></button>
+      <a class="nav-item nav-link" href="https://www.ecoledirecte.com/login?cameFrom=%2FA%2F71%2FMessagerie" target="_blank" rel="noopener noreferrer"><span class="nav-icon">✉</span><span>Messagerie ED ↗</span></a>
     </nav>
     <div class="sidebar-footer">
       <span class="level-pill">3e</span>
@@ -40,7 +40,7 @@
         <p>L’essentiel de votre année de 3e, au même endroit.</p>
       </div>
       <div class="top-actions">
-        <button class="icon-button" aria-label="Notifications"><span>●</span>♢</button>
+        <a class="icon-button" href="https://www.ecoledirecte.com/login?cameFrom=%2FA%2F71%2FMessagerie" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir la messagerie ÉcoleDirecte"><span>●</span>✉</a>
         <button class="avatar" aria-label="Mon profil">3G</button>
       </div>
     </header>
@@ -66,12 +66,12 @@
           <div class="countdown"><small id="countdown-prefix">DANS</small><strong id="countdown-value">—</strong><span id="countdown-unit">JOURS</span></div>
         </article>
 
-        <article class="focus-card">
+        <article id="reminder-card" class="focus-card">
           <div class="focus-badge">À FAIRE</div>
           <span class="focus-kicker">À NE PAS OUBLIER</span>
-          <h3>Convention<br>de stage</h3>
-          <p>À rendre avant le <strong>12 octobre</strong></p>
-          <button data-resource="Stage">Voir les ressources →</button>
+          <h3 id="reminder-title">Convention<br>de stage</h3>
+          <p id="reminder-detail">À rendre avant le <strong>12 octobre</strong></p>
+          <button id="reminder-action" type="button">Voir les ressources →</button>
           <div class="target-ring"><i></i><i></i><i></i></div>
         </article>
       </section>
@@ -91,7 +91,7 @@
 
       <div class="journey-grid">
         <button class="journey-card large" data-resource="Vie de classe">
-          <span class="card-num">01</span><span class="mini-chip">18 séances</span>
+          <span class="card-num">01</span>
           <div class="journey-icon people">●●●</div>
           <h3>Vie de<br>classe</h3><p>Leçons, projets et informations essentielles.</p><b>Explorer →</b>
         </button>
@@ -145,9 +145,11 @@
         <div><span class="sync-dot"></span><strong>Publications communes</strong><small id="resources-status" aria-live="polite">Chargement des ressources…</small></div>
         <div class="resource-publish-actions">
           <button id="resources-refresh" type="button">Vérifier ↻</button>
-          <a href="https://github.com/Lucasrx08/3eAntonioGaudi/issues/new?template=publication.yml" target="_blank" rel="noopener noreferrer">Espace enseignant · publier ↗</a>
+          <a href="https://github.com/Lucasrx08/3eAntonioGaudi/issues/new?template=publication.yml" target="_blank" rel="noopener noreferrer">Déposer un document ↗</a>
+          <a id="reminder-edit-link" href="https://github.com/Lucasrx08/3eAntonioGaudi/issues/new?template=reminder.yml" target="_blank" rel="noopener noreferrer">Modifier le rappel ↗</a>
         </div>
       </div>
+      <div class="teacher-security-note"><span>🔒</span><div><strong>Espace enseignant protégé</strong><p>Ton compte GitHub vérifie ton identité. Tu peux glisser-déposer un PDF commun ou modifier le rappel sans toucher au code du site.</p></div></div>
       <div class="resource-privacy-note"><strong>Ressources communes uniquement.</strong><span>Les documents individuels restent dans ÉcoleDirecte.</span></div>
       <div class="resource-tools">
         <label class="resource-search"><span>⌕</span><input id="resource-search" type="search" placeholder="Rechercher un document ou un lien" autocomplete="off"></label>
@@ -165,18 +167,6 @@
       </div>
     </section>
 
-    <section id="profile" class="view">
-      <div class="page-title"><span>DOCUMENTS INDIVIDUELS</span><h2>Mon espace ÉcoleDirecte<span>.</span></h2><p>Un accès sécurisé pour chaque élève, géré par l’établissement.</p></div>
-      <div class="ed-card">
-        <div class="ed-card-copy"><span>ESPACE PERSONNEL SÉCURISÉ</span><h3>Retrouver mes documents individuels</h3><p>Les évaluations, fiches personnelles et documents nominatifs ne sont jamais stockés sur ce site public. Ils restent protégés dans ÉcoleDirecte.</p></div>
-        <a href="https://www.ecoledirecte.com/login" target="_blank" rel="noopener noreferrer">Se connecter à ÉcoleDirecte <b>↗</b></a>
-      </div>
-      <div class="privacy-grid">
-        <article><span>01</span><div><strong>Connexion personnelle</strong><p>Utilisez les identifiants remis par l’établissement.</p></div></article>
-        <article><span>02</span><div><strong>Documents protégés</strong><p>Chaque élève ne consulte que les éléments associés à son compte.</p></div></article>
-        <article><span>03</span><div><strong>Aucune copie ici</strong><p>Le site de classe ne conserve ni nom, ni mot de passe, ni document individuel.</p></div></article>
-      </div>
-    </section>
   </main>
 
   <nav class="bottom-nav" aria-label="Navigation mobile">
@@ -184,7 +174,7 @@
     <button data-view="agenda"><span>◷</span><small>Agenda</small></button>
     <button data-view="resources" class="plus"><span>+</span><small>Ressources</small></button>
     <button data-view="timetable"><span>▦</span><small>Emploi du temps</small></button>
-    <button data-view="profile"><span>▱</span><small>ÉcoleDirecte</small></button>
+    <a href="https://www.ecoledirecte.com/login?cameFrom=%2FA%2F71%2FMessagerie" target="_blank" rel="noopener noreferrer"><span>✉</span><small>Messagerie ED</small></a>
   </nav>
 </div>
 

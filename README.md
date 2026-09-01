@@ -14,7 +14,7 @@ Le bouton du site ne peut pas lancer directement une GitHub Action sans exposer 
 
 ## Publier un PDF, un Canva, un formulaire, une vidéo ou un lien
 
-1. Sur le site, ouvrir **Ressources**, puis cliquer sur **Espace enseignant · publier**.
+1. Sur le site, ouvrir **Ressources**, puis cliquer sur **Déposer un document**.
 2. Donner un titre à la publication.
 3. Choisir sa rubrique et son type.
 4. Coller un lien public HTTPS. Pour un PDF commun, glisser le fichier dans la zone « Lien ou fichier » et attendre la fin du téléversement.
@@ -22,9 +22,15 @@ Le bouton du site ne peut pas lancer directement une GitHub Action sans exposer 
 
 La publication apparaît automatiquement après le prochain déploiement. Pour la modifier, éditer la demande correspondante dans l’onglet **Issues**. Pour la retirer du site, fermer cette demande. Seules les publications créées par le propriétaire du dépôt sont affichées.
 
+L’espace enseignant est protégé par le compte GitHub du propriétaire. Un simple code ajouté dans GitHub Pages ne constituerait pas une authentification : il serait consultable dans le site public.
+
+## Modifier « À ne pas oublier »
+
+Dans **Ressources**, cliquer sur **Modifier le rappel**. Le titre de la fiche devient le titre du rappel ; le texte, l’échéance, la rubrique et un éventuel lien sont ensuite synchronisés automatiquement. Le dernier rappel ouvert du propriétaire est affiché. Fermer sa fiche le retire de l’accueil.
+
 ## Documents individuels
 
-Les évaluations, fiches personnelles, documents nominatifs et mots de passe ne sont jamais stockés sur ce site. La rubrique **ÉcoleDirecte** renvoie les élèves vers l’espace sécurisé déjà fourni par l’établissement.
+Les évaluations, fiches personnelles, documents nominatifs et mots de passe ne sont jamais stockés sur ce site. Il n’existe plus de rubrique ÉcoleDirecte ; seul un raccourci externe ouvre directement sa messagerie.
 
 ## Confidentialité
 

@@ -11,7 +11,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,Bl
 .brand-copy strong::first-letter{color:var(--green)}
 .brand-copy span{font-size:9px;font-weight:850;letter-spacing:1.4px;color:#94a09b}
 .side-nav{display:grid;gap:8px;margin-top:42px}
-.nav-item{border:0;background:transparent;color:#6f7b7e;padding:13px 14px;border-radius:14px;display:flex;gap:12px;align-items:center;font-weight:750;text-align:left;cursor:pointer}
+.nav-item{border:0;background:transparent;color:#6f7b7e;padding:13px 14px;border-radius:14px;display:flex;gap:12px;align-items:center;font-weight:750;text-align:left;text-decoration:none;cursor:pointer}
 .nav-item:hover{background:#f7f9f4}
 .nav-item.active{background:var(--green-pale);color:#4f6c0f}
 .nav-icon{font-size:19px}
@@ -28,7 +28,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,Bl
 .topbar p,.page-title p{margin:0;color:var(--muted);font-weight:520}
 .top-actions{display:flex;gap:10px;align-items:center}
 .icon-button,.avatar{border:0;cursor:pointer}
-.icon-button{position:relative;width:46px;height:46px;border-radius:15px;background:#fff;box-shadow:0 8px 25px rgba(20,34,24,.06);font-size:21px}
+.icon-button{position:relative;width:46px;height:46px;border-radius:15px;background:#fff;box-shadow:0 8px 25px rgba(20,34,24,.06);font-size:21px;color:var(--ink);text-decoration:none;display:grid;place-items:center}
 .icon-button span{position:absolute;width:8px;height:8px;border-radius:50%;background:var(--orange);right:10px;top:8px;color:transparent}
 .avatar{width:46px;height:46px;border-radius:15px;background:var(--green);color:#26360d;font-weight:950}
 .view{display:none}
@@ -200,9 +200,9 @@ dialog::backdrop{background:rgba(16,29,20,.62);backdrop-filter:blur(4px)}
 .documents-grid article{grid-template-columns:48px 1fr}
 .documents-grid button{grid-column:2;justify-self:start}
 .bottom-nav{display:flex;position:fixed;left:10px;right:10px;bottom:10px;z-index:50;background:rgba(255,255,255,.94);border:1px solid #e5ebe5;border-radius:22px;padding:7px 6px calc(7px + env(safe-area-inset-bottom));box-shadow:0 18px 45px rgba(20,34,22,.15);backdrop-filter:blur(18px);justify-content:space-around}
-.bottom-nav button{border:0;background:transparent;min-width:62px;color:#6f7d76;display:grid;place-items:center;gap:2px;font-weight:850}
-.bottom-nav button span{font-size:19px;line-height:1}
-.bottom-nav button small{font-size:8px}
+.bottom-nav button,.bottom-nav a{border:0;background:transparent;min-width:62px;color:#6f7d76;display:grid;place-items:center;gap:2px;font-weight:850;text-decoration:none;font-family:inherit}
+.bottom-nav button span,.bottom-nav a span{font-size:19px;line-height:1}
+.bottom-nav button small,.bottom-nav a small{font-size:8px}
 .bottom-nav button.active{color:var(--green-dark)}
 .bottom-nav .plus span{width:42px;height:42px;border-radius:15px;background:var(--green);display:grid;place-items:center;font-size:26px;color:#233500;margin-top:-22px;box-shadow:0 10px 25px rgba(101,140,12,.3)}
 .bottom-nav .plus small{margin-top:2px}
@@ -320,8 +320,8 @@ dialog::backdrop{background:rgba(16,29,20,.62);backdrop-filter:blur(4px)}
   .timetable-day-card article strong{font-size:13px;line-height:1.2}
   .timetable-day-card article small{font-size:9px;line-height:1.35;opacity:.72;overflow-wrap:anywhere}
   .timetable-day-empty{margin:0;border-radius:12px;background:#f7f9f6;color:#929d98;text-align:center;padding:11px;font-size:10px}
-  .bottom-nav button{min-width:0;flex:1;padding:0 2px}
-  .bottom-nav button small{font-size:7.5px;white-space:nowrap}
+  .bottom-nav button,.bottom-nav a{min-width:0;flex:1;padding:0 2px}
+  .bottom-nav button small,.bottom-nav a small{font-size:7.5px;white-space:nowrap}
 }
 
 /* Ressources communes et espace ÉcoleDirecte — V6 */
@@ -330,12 +330,16 @@ dialog::backdrop{background:rgba(16,29,20,.62);backdrop-filter:blur(4px)}
 .resource-publish-bar strong{font-size:12px}
 .resource-publish-bar small{grid-column:2;color:var(--muted);font-size:10px;margin-top:2px}
 .resource-publish-bar.is-offline .sync-dot{background:var(--orange);box-shadow:0 0 0 5px rgba(230,125,25,.12)}
-.resource-publish-actions{display:flex;align-items:center;gap:8px}
+.resource-publish-actions{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}
 .resource-publish-actions button,.resource-publish-actions a{border:0;border-radius:999px;padding:10px 13px;font-size:10px;font-weight:900;text-decoration:none;cursor:pointer;white-space:nowrap}
 .resource-publish-actions button{background:var(--green-pale);color:var(--green-dark)}
 .resource-publish-actions button.is-loading{opacity:.55;pointer-events:none}
 .resource-publish-actions a{background:#172321;color:#fff}
 .resource-publish-actions a:hover{background:#2a3935}
+.teacher-security-note{display:grid;grid-template-columns:34px 1fr;gap:11px;align-items:start;margin:11px 0 8px;padding:13px 15px;border-radius:16px;background:#edf5dd;color:#52620f}
+.teacher-security-note>span{width:30px;height:30px;border-radius:10px;background:#fff;display:grid;place-items:center;font-size:13px}
+.teacher-security-note strong{font-size:11px}
+.teacher-security-note p{font-size:9px;line-height:1.45;margin:3px 0 0;color:#75805e}
 .resource-privacy-note{display:flex;align-items:center;gap:8px;margin:11px 2px 18px;color:#68766f;font-size:10px}
 .resource-privacy-note strong{color:var(--green-dark)}
 .resource-tools{display:grid;gap:12px;margin-bottom:18px}
@@ -389,7 +393,7 @@ dialog::backdrop{background:rgba(16,29,20,.62);backdrop-filter:blur(4px)}
 @media(max-width:800px){
   .resource-publish-bar{align-items:flex-start;flex-direction:column;margin-top:-16px}
   .resource-publish-actions{width:100%}
-  .resource-publish-actions button,.resource-publish-actions a{flex:1;text-align:center}
+  .resource-publish-actions button,.resource-publish-actions a{flex:1 1 145px;text-align:center}
   .resource-privacy-note{align-items:flex-start;flex-direction:column;gap:2px;margin-left:3px}
   .resource-filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}
   .resource-filters::-webkit-scrollbar{display:none}

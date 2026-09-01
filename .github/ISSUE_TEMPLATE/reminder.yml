@@ -1,0 +1,51 @@
+name: Modifier « À ne pas oublier »
+description: Publier ou remplacer le rappel affiché sur la page d’accueil.
+title: "[Rappel] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Rappel de la page d’accueil
+        Le dernier rappel ouvert créé par le propriétaire du dépôt est affiché. Pour le retirer, il suffit de fermer sa fiche.
+  - type: textarea
+    id: detail
+    attributes:
+      label: Texte du rappel
+      description: Une consigne courte placée sous le titre.
+      placeholder: À rendre avant le
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Échéance
+      description: Date ou indication importante affichée en gras.
+      placeholder: 12 octobre
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Rubrique associée
+      options:
+        - Vie de classe
+        - Orientation
+        - DNB
+        - Stage
+        - Certifications
+        - Autre
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Lien associé
+      description: Facultatif. Laissez vide pour renvoyer vers la rubrique choisie sur le site.
+      placeholder: https://...
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Vérification avant publication
+      options:
+        - label: Je confirme que ce rappel ne contient aucune donnée personnelle d’élève.
+          required: true

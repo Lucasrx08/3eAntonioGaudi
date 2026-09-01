@@ -3,7 +3,7 @@ const CALENDAR_CACHE_KEY='ma3e_calendar_cache_v1';
 const TIMETABLE_FILE='./timetable.json';
 const TIMETABLE_CACHE_KEY='ma3e_timetable_cache_v1';
 const RESOURCES_FILE='./resources.json';
-const RESOURCES_CACHE_KEY='ma3e_resources_cache_v1';
+const RESOURCES_CACHE_KEY='ma3e_resources_cache_v2';
 const DISPLAY_TIME_ZONE='Europe/Paris';
 const CALENDAR_REFRESH_MS=5*60*1000;
 
@@ -170,7 +170,9 @@ function normalizeSearch(value){
 }
 
 function validResources(data){
-  return data&&Array.isArray(data.resources)&&data.resources.every(resource=>resource&&resource.title&&resource.category&&resource.type&&resource.url);
+  return data&&Array.isArray(data.resources)
+    &&data.resources.every(resource=>resource&&resource.title&&resource.category&&resource.type&&resource.url)
+    &&(!data.reminder||Boolean(data.reminder.title));
 }
 
 function safeResourceUrl(value){
@@ -204,8 +206,48 @@ function resourceStatus(data,{offline=false}={}){
   }
 }
 
+function renderReminder(reminder){
+  const card=document.querySelector('#reminder-card');
+  const title=document.querySelector('#reminder-title');
+  const detail=document.querySelector('#reminder-detail');
+  const action=document.querySelector('#reminder-action');
+  const editLink=document.querySelector('#reminder-edit-link');
+  const badge=card?.querySelector('.focus-badge');
+  if(!card||!title||!detail||!action)return;
+  const newReminderUrl='https://github.com/Lucasrx08/3eAntonioGaudi/issues/new?template=reminder.yml';
+  if(!reminder){
+    badge.textContent='À JOUR';
+    title.textContent='Aucun rappel important';
+    detail.textContent='Tout est à jour pour le moment.';
+    action.hidden=true;
+    if(editLink){editLink.href=newReminderUrl;editLink.textContent='Créer un rappel ↗';}
+    return;
+  }
+  badge.textContent='À FAIRE';
+  title.textContent=reminder.title;
+  detail.replaceChildren(document.createTextNode(reminder.detail||'À retenir'));
+  if(reminder.deadline){
+    detail.append(document.createTextNode(' '),createElement('strong','',reminder.deadline));
+  }
+  action.hidden=false;
+  const linkedUrl=safeResourceUrl(reminder.url);
+  if(linkedUrl){
+    action.textContent='Ouvrir le lien →';
+    action.onclick=()=>window.open(linkedUrl,'_blank','noopener,noreferrer');
+  }else{
+    action.textContent='Voir les ressources →';
+    action.onclick=()=>{setResourceFilter(reminder.category||'Tous');showView('resources');};
+  }
+  if(editLink){
+    const manageUrl=safeResourceUrl(reminder.manageUrl);
+    editLink.href=manageUrl||newReminderUrl;
+    editLink.textContent='Modifier le rappel ↗';
+  }
+}
+
 function renderResources(data=currentResourcesData,{offline=false}={}){
   currentResourcesData={...data,resources:[...(data.resources||[])]};
+  renderReminder(currentResourcesData.reminder||null);
   resourceStatus(currentResourcesData,{offline});
   const root=document.querySelector('#resources-root');
   if(!root)return;
@@ -725,7 +767,8 @@ async function loadResources({manual=false}={}){
     localStorage.setItem(RESOURCES_CACHE_KEY,JSON.stringify(data));
     renderResources(data);
     if(manual&&status&&data.updatedAt){
-      status.textContent=sameItems(previous,data,'resources')
+      const unchanged=sameItems(previous,data,'resources')&&JSON.stringify(previous?.reminder||null)===JSON.stringify(data.reminder||null);
+      status.textContent=unchanged
         ?`Aucune nouvelle publication · vérifié le ${statusFormatter.format(new Date(data.updatedAt))}`
         :`Nouvelles ressources chargées · ${statusFormatter.format(new Date(data.updatedAt))}`;
     }
