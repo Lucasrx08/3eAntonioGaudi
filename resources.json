@@ -1,7 +1,22 @@
 {
-  "version": 2,
-  "source": "GitHub Issues",
-  "updatedAt": null,
-  "reminder": null,
-  "resources": []
+  "version": 3,
+  "source": "Espace enseignant",
+  "updatedAt": "2026-09-01T19:29:00+02:00",
+  "reminder": {
+    "title": "Documents de rentrée",
+    "detail": "Assurance\nAutorisation de sortie\nÉtude du soir\nSignature du carnet de liaison",
+    "deadline": "À rendre le 10 septembre à 9h00",
+    "category": "Vie de classe",
+    "manageUrl": "https://github.com/Lucasrx08/3eAntonioGaudi/issues/1"
+  },
+  "resources": [
+    {
+      "title": "Convention de stage 3e",
+      "description": "Convention officielle du collège à compléter avec l’entreprise, la famille et l’établissement avant le début du stage.",
+      "category": "Stage",
+      "type": "PDF",
+      "url": "https://drive.google.com/file/d/1YxK5yJz-CRDWgvJDtSp2kNBqBs7SqeVv/view?usp=sharing",
+      "publishedAt": "2026-09-01T19:29:00+02:00"
+    }
+  ]
 }
