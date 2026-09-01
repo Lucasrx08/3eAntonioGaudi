@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   issues: read
   pages: write
   id-token: write
@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Récupérer l’application
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Synchroniser le calendrier Apple
         env:
@@ -45,6 +47,33 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: node sync-resources.mjs
+
+      - name: Publier les données temps réel
+        shell: bash
+        run: |
+          set -e
+          mkdir -p /tmp/ma3e-live
+          cp calendar.json timetable.json resources.json /tmp/ma3e-live/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin live-data >/dev/null 2>&1; then
+            git fetch origin live-data:live-data
+            git worktree add /tmp/ma3e-live-branch live-data
+          else
+            git worktree add --detach /tmp/ma3e-live-branch
+            cd /tmp/ma3e-live-branch
+            git checkout --orphan live-data
+            git rm -rf . || true
+            cd - >/dev/null
+          fi
+          rm -rf /tmp/ma3e-live-branch/*
+          cp /tmp/ma3e-live/*.json /tmp/ma3e-live-branch/
+          cd /tmp/ma3e-live-branch
+          git add calendar.json timetable.json resources.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Mise à jour des données de la classe"
+            git push origin HEAD:live-data
+          fi
 
       - name: Préparer GitHub Pages
         uses: actions/configure-pages@v5
