@@ -29,6 +29,16 @@ function plainText(value){
     .slice(0,600);
 }
 
+function listItems(value){
+  return String(value||'')
+    .split(/\r?\n/)
+    .map(line=>line.trim())
+    .filter(line=>/^[-*+]\s+/.test(line))
+    .map(line=>plainText(line.replace(/^[-*+]\s+/,'')))
+    .filter(Boolean)
+    .slice(0,12);
+}
+
 function publicUrl(value){
   const markdown=String(value||'').match(/\]\((https:\/\/[^\s)]+)\)/i)?.[1];
   const bare=String(value||'').match(/https:\/\/[^\s)>]+/i)?.[0];
@@ -63,13 +73,16 @@ function resourceFromIssue(issue){
 function reminderFromIssue(issue){
   const title=String(issue.title||'').replace(/^\[Rappel\]\s*/i,'').trim().slice(0,100);
   if(!title)return null;
-  const category=plainText(issueSection(issue.body,'Rubrique associée'));
+  const associatedRaw=issueSection(issue.body,'Rubrique associée');
+  const items=listItems(associatedRaw);
+  const categoryText=items.length?'':plainText(associatedRaw);
   return {
     id:`issue-${issue.number}`,
     title,
     detail:plainText(issueSection(issue.body,'Texte du rappel')),
     deadline:plainText(issueSection(issue.body,'Échéance')).slice(0,80),
-    category:ALLOWED_CATEGORIES.has(category)?category:'Autre',
+    items,
+    category:ALLOWED_CATEGORIES.has(categoryText)?categoryText:'Autre',
     url:publicUrl(issueSection(issue.body,'Lien associé')),
     manageUrl:String(issue.html_url||''),
     updatedAt:issue.updated_at
@@ -109,7 +122,7 @@ async function main(){
     .sort((first,second)=>String(second.updated_at).localeCompare(String(first.updated_at)))
     .map(reminderFromIssue)
     .find(Boolean)||null;
-  const output={version:2,source:'GitHub Issues',updatedAt:new Date().toISOString(),reminder,resources};
+  const output={version:3,source:'GitHub Issues',updatedAt:new Date().toISOString(),reminder,resources};
   await writeFile(OUTPUT,`${JSON.stringify(output,null,2)}\n`,'utf8');
   console.log(`${resources.length} ressource(s) commune(s) publiée(s).`);
   console.log(reminder?`Rappel publié : ${reminder.title}`:'Aucun rappel publié.');
