@@ -3,7 +3,7 @@
   "source": "ÉcoleDirecte",
   "status": "ready",
   "eventCount": 545,
-  "updatedAt": "2026-09-02T18:42:14.588Z",
+  "updatedAt": "2026-09-02T21:20:01.126Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -117,12 +117,12 @@
       "category": "etablissement"
     },
     {
-      "id": "9893e3578cc7bbb2",
+      "id": "bc0bd60d691868b2",
       "title": "FRANCAIS",
       "start": "2026-09-03T11:20:00.000Z",
       "end": "2026-09-03T12:35:00.000Z",
       "allDay": false,
-      "location": "23",
+      "location": "21",
       "description": "CHAMPEL C. - 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -153,7 +153,7 @@
       "end": "2026-09-03T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -597,12 +597,12 @@
       "category": "etablissement"
     },
     {
-      "id": "aabf1cfded0ea4e5",
+      "id": "6f8d72f4768b022a",
       "title": "FRANCAIS",
       "start": "2026-09-10T11:20:00.000Z",
       "end": "2026-09-10T12:35:00.000Z",
       "allDay": false,
-      "location": "23",
+      "location": "21",
       "description": "CHAMPEL C. - 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -633,7 +633,7 @@
       "end": "2026-09-10T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -1077,12 +1077,12 @@
       "category": "etablissement"
     },
     {
-      "id": "5c2af9cdee30e052",
+      "id": "5eae6588535945ab",
       "title": "FRANCAIS",
       "start": "2026-09-17T11:20:00.000Z",
       "end": "2026-09-17T12:35:00.000Z",
       "allDay": false,
-      "location": "23",
+      "location": "21",
       "description": "CHAMPEL C. - 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -1113,7 +1113,7 @@
       "end": "2026-09-17T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -1557,12 +1557,12 @@
       "category": "etablissement"
     },
     {
-      "id": "6d143dae479abeda",
+      "id": "a53f0abf1474b040",
       "title": "FRANCAIS",
       "start": "2026-09-24T11:20:00.000Z",
       "end": "2026-09-24T12:35:00.000Z",
       "allDay": false,
-      "location": "23",
+      "location": "21",
       "description": "CHAMPEL C. - 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -1593,7 +1593,7 @@
       "end": "2026-09-24T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -1672,7 +1672,7 @@
       "start": "2026-09-25T11:45:00.000Z",
       "end": "2026-09-25T12:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -2037,12 +2037,12 @@
       "category": "etablissement"
     },
     {
-      "id": "dd0b7bd49d39a663",
+      "id": "8dc8470130c63a0d",
       "title": "FRANCAIS",
       "start": "2026-10-01T11:20:00.000Z",
       "end": "2026-10-01T12:35:00.000Z",
       "allDay": false,
-      "location": "23",
+      "location": "21",
       "description": "CHAMPEL C. - 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -2073,7 +2073,7 @@
       "end": "2026-10-01T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2517,12 +2517,12 @@
       "category": "etablissement"
     },
     {
-      "id": "4ecbbcba05150dfa",
+      "id": "bb678fbc5f2b7c60",
       "title": "FRANCAIS",
       "start": "2026-10-08T11:20:00.000Z",
       "end": "2026-10-08T12:35:00.000Z",
       "allDay": false,
-      "location": "23",
+      "location": "21",
       "description": "CHAMPEL C. - 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -2553,7 +2553,7 @@
       "end": "2026-10-08T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2997,12 +2997,12 @@
       "category": "etablissement"
     },
     {
-      "id": "0514a7faac7dc734",
+      "id": "05610f52e5442e64",
       "title": "FRANCAIS",
       "start": "2026-10-15T11:20:00.000Z",
       "end": "2026-10-15T12:35:00.000Z",
       "allDay": false,
-      "location": "23",
+      "location": "21",
       "description": "CHAMPEL C. - 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -3637,12 +3637,12 @@
       "category": "etablissement"
     },
     {
-      "id": "8b6048519d39cfd6",
+      "id": "480cce0d59fcfff8",
       "title": "FRANCAIS",
       "start": "2026-11-05T12:20:00.000Z",
       "end": "2026-11-05T13:35:00.000Z",
       "allDay": false,
-      "location": "23",
+      "location": "21",
       "description": "CHAMPEL C. - 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -4097,12 +4097,12 @@
       "category": "etablissement"
     },
     {
-      "id": "bc60afc2f5a19e2e",
+      "id": "1da53631eec4be6a",
       "title": "FRANCAIS",
       "start": "2026-11-12T12:20:00.000Z",
       "end": "2026-11-12T13:35:00.000Z",
       "allDay": false,
-      "location": "23",
+      "location": "21",
       "description": "CHAMPEL C. - 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -4577,12 +4577,12 @@
       "category": "etablissement"
     },
     {
-      "id": "fdedabba8a30c6f4",
+      "id": "f870eda9549e7302",
       "title": "FRANCAIS",
       "start": "2026-11-19T12:20:00.000Z",
       "end": "2026-11-19T13:35:00.000Z",
       "allDay": false,
-      "location": "23",
+      "location": "21",
       "description": "CHAMPEL C. - 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -4692,7 +4692,7 @@
       "start": "2026-11-20T12:45:00.000Z",
       "end": "2026-11-20T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -5057,12 +5057,12 @@
       "category": "etablissement"
     },
     {
-      "id": "6499020aa6a22538",
+      "id": "6fc0af68ba07541e",
       "title": "FRANCAIS",
       "start": "2026-11-26T12:20:00.000Z",
       "end": "2026-11-26T13:35:00.000Z",
       "allDay": false,
-      "location": "23",
+      "location": "21",
       "description": "CHAMPEL C. - 3è Antonio GAUDI",
       "category": "etablissement"
     },
