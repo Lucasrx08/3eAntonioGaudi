@@ -2,40 +2,10 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 545,
-  "updatedAt": "2026-09-02T21:20:01.126Z",
+  "eventCount": 556,
+  "updatedAt": "2026-09-02T23:23:12.486Z",
   "timeZone": "Europe/Paris",
   "events": [
-    {
-      "id": "c095caaaaae053fa",
-      "title": "ED.PHYSIQUE & SPORT.",
-      "start": "2026-09-02T06:05:00.000Z",
-      "end": "2026-09-02T07:45:00.000Z",
-      "allDay": false,
-      "location": "GYM",
-      "description": "RIGAUX L. - 3è Antonio GAUDI",
-      "category": "sport"
-    },
-    {
-      "id": "29bdda4b40038de7",
-      "title": "HISTOIRE-GEOGRAPHIE",
-      "start": "2026-09-02T08:10:00.000Z",
-      "end": "2026-09-02T09:00:00.000Z",
-      "allDay": false,
-      "location": "22",
-      "description": "LEBREUILLY J. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "b6def71b9f2a789a",
-      "title": "ARTS PLASTIQUES",
-      "start": "2026-09-02T09:00:00.000Z",
-      "end": "2026-09-02T09:50:00.000Z",
-      "allDay": false,
-      "location": "ARTS",
-      "description": "FEUILLET C. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
     {
       "id": "135b7ffd4329c3c9",
       "title": "HISTOIRE-GEOGRAPHIE",
@@ -153,7 +123,7 @@
       "end": "2026-09-03T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -633,7 +603,7 @@
       "end": "2026-09-10T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2073,7 +2043,7 @@
       "end": "2026-10-01T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2553,7 +2523,7 @@
       "end": "2026-10-08T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2632,7 +2602,7 @@
       "start": "2026-10-09T11:45:00.000Z",
       "end": "2026-10-09T12:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -3033,7 +3003,7 @@
       "end": "2026-10-15T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -3673,7 +3643,7 @@
       "end": "2026-11-05T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4133,7 +4103,7 @@
       "end": "2026-11-12T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5093,7 +5063,7 @@
       "end": "2026-11-26T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5454,6 +5424,146 @@
       "allDay": false,
       "location": "ARTS",
       "description": "FEUILLET C. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "1449e1011a060b7f",
+      "title": "HISTOIRE-GEOGRAPHIE",
+      "start": "2026-12-03T07:05:00.000Z",
+      "end": "2026-12-03T07:55:00.000Z",
+      "allDay": false,
+      "location": "22",
+      "description": "LEBREUILLY J. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "2f5bfde89151b524",
+      "title": "SCIENCES VIE & TERRE",
+      "start": "2026-12-03T07:55:00.000Z",
+      "end": "2026-12-03T08:45:00.000Z",
+      "allDay": false,
+      "location": "SVT",
+      "description": "LABERTHE M. - 3A_P1",
+      "category": "etablissement"
+    },
+    {
+      "id": "8647fb32ea215591",
+      "title": "TECHNOLOGIE",
+      "start": "2026-12-03T07:55:00.000Z",
+      "end": "2026-12-03T08:45:00.000Z",
+      "allDay": false,
+      "location": "TECH1",
+      "description": "AUVRAY F. - 3A_P2",
+      "category": "etablissement"
+    },
+    {
+      "id": "5f25c7890c484128",
+      "title": "ALLEMAND LV2",
+      "start": "2026-12-03T09:10:00.000Z",
+      "end": "2026-12-03T10:00:00.000Z",
+      "allDay": false,
+      "location": "MULTI",
+      "description": "RAPHAELE A. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "676a0428600a101e",
+      "title": "Bilangue espagnol",
+      "start": "2026-12-03T09:10:00.000Z",
+      "end": "2026-12-03T10:00:00.000Z",
+      "allDay": false,
+      "location": "27",
+      "description": "MARTIN N. - 3AB_ESP_E",
+      "category": "etablissement"
+    },
+    {
+      "id": "30f37f967b9fe157",
+      "title": "ESPAGNOL LV2",
+      "start": "2026-12-03T09:10:00.000Z",
+      "end": "2026-12-03T10:00:00.000Z",
+      "allDay": false,
+      "location": "20",
+      "description": "DAROT M. - 3AB_ESP2",
+      "category": "etablissement"
+    },
+    {
+      "id": "b5102f13f515cb2a",
+      "title": "ANGLAIS LANGUE DE SECTION",
+      "start": "2026-12-03T10:00:00.000Z",
+      "end": "2026-12-03T10:50:00.000Z",
+      "allDay": false,
+      "location": "32",
+      "description": "CARRERE I. - 3A_PLA",
+      "category": "etablissement"
+    },
+    {
+      "id": "0214f3afb5f7a172",
+      "title": "ETUDE",
+      "start": "2026-12-03T10:00:00.000Z",
+      "end": "2026-12-03T10:50:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3A_NPLA",
+      "category": "etablissement"
+    },
+    {
+      "id": "0b2ce3d15da3252b",
+      "title": "FRANCAIS",
+      "start": "2026-12-03T12:20:00.000Z",
+      "end": "2026-12-03T13:35:00.000Z",
+      "allDay": false,
+      "location": "21",
+      "description": "CHAMPEL C. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "9f427029a99c6d43",
+      "title": "VIE DE CLASSE",
+      "start": "2026-12-03T13:35:00.000Z",
+      "end": "2026-12-03T14:25:00.000Z",
+      "allDay": false,
+      "location": "31",
+      "description": "RIGAUX L. - 3è Antonio GAUDI",
+      "category": "classe"
+    },
+    {
+      "id": "fb9491f9c21d4b48",
+      "title": "AP de Maths",
+      "start": "2026-12-03T14:45:00.000Z",
+      "end": "2026-12-03T15:35:00.000Z",
+      "allDay": false,
+      "location": "20",
+      "description": "CLOOS J. - 3AB_APMA",
+      "category": "etablissement"
+    },
+    {
+      "id": "88a19428e2eef9eb",
+      "title": "Développement durable",
+      "start": "2026-12-03T14:45:00.000Z",
+      "end": "2026-12-03T15:35:00.000Z",
+      "allDay": false,
+      "location": "ARTS",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "category": "etablissement"
+    },
+    {
+      "id": "3eabff9ffdaef983",
+      "title": "ETUDE",
+      "start": "2026-12-03T14:45:00.000Z",
+      "end": "2026-12-03T15:35:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "e8fa997e9f67c89a",
+      "title": "FOOTBALL",
+      "start": "2026-12-03T14:45:00.000Z",
+      "end": "2026-12-03T16:00:00.000Z",
+      "allDay": false,
+      "location": "FOOT",
+      "description": "GONTIER T. - FOOTBALL",
       "category": "etablissement"
     }
   ]
