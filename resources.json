@@ -1,7 +1,7 @@
 {
   "version": 3,
   "source": "GitHub Issues",
-  "updatedAt": "2026-09-03T10:35:07.867Z",
+  "updatedAt": "2026-09-03T11:14:18.473Z",
   "reminder": {
     "id": "issue-1",
     "title": "Documents de rentrée",
@@ -19,6 +19,16 @@
     "updatedAt": "2026-09-01T18:21:04Z"
   },
   "resources": [
+    {
+      "id": "issue-3",
+      "title": "FICHE 1 - Map du Bon Sauveur",
+      "category": "Vie de classe",
+      "type": "PDF",
+      "description": "La map du Bon Sauveur avec les entrées, les bâtiments importants et les points de rassemblement.",
+      "url": "https://github.com/user-attachments/files/31787519/FICHE.1.-.Map.du.Bon.sauveur.pdf",
+      "publishedAt": "2026-09-03T11:14:07Z",
+      "updatedAt": "2026-09-03T11:14:07Z"
+    },
     {
       "id": "issue-2",
       "title": "Convention de stage 3e",

@@ -1,19 +1,16 @@
 {
-  "version": 2,
-  "source": "Apple Calendar",
-  "status": "ready",
-  "eventCount": 22,
-  "updatedAt": "2026-09-03T10:35:05.181Z",
+  "version": 1,
+  "updatedAt": "2026-08-31T15:08:08.956Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
-      "id": "c3ced67c4aabd8ac",
+      "id": "2a33176de98bafed",
       "title": "Photos de classe",
-      "start": "2026-09-08T09:05:00.000Z",
-      "end": "2026-09-08T09:50:00.000Z",
-      "allDay": false,
+      "start": "2026-09-08",
+      "end": "2026-09-09",
+      "allDay": true,
       "location": "",
-      "description": "Photos de fraterie à 9h50",
+      "description": "",
       "category": "classe"
     },
     {
@@ -37,16 +34,6 @@
       "category": "sport"
     },
     {
-      "id": "7510e5e2f3d5f274",
-      "title": "Fin du trimestre 1",
-      "start": "2026-11-15",
-      "end": "2026-11-16",
-      "allDay": true,
-      "location": "",
-      "description": "",
-      "category": "etablissement"
-    },
-    {
       "id": "56d4226d9a551e6e",
       "title": "Odysée des métiers - 3ème",
       "start": "2026-11-19T08:00:00.000Z",
@@ -55,26 +42,6 @@
       "location": "Parc des Expositions\n759 Rue de Torigni, 50000 Saint-Lô, France",
       "description": "",
       "category": "orientation"
-    },
-    {
-      "id": "7894ae1fdbe6b756",
-      "title": "Réunion Parents-Profs 3ème",
-      "start": "2026-11-27T14:00:00.000Z",
-      "end": "2026-11-27T20:00:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "",
-      "category": "etablissement"
-    },
-    {
-      "id": "da43643eb2667f8e",
-      "title": "DNB Blanc N°1",
-      "start": "2026-12-03",
-      "end": "2026-12-05",
-      "allDay": true,
-      "location": "",
-      "description": "",
-      "category": "dnb"
     },
     {
       "id": "187d7aa2bcf472dd",
@@ -107,16 +74,6 @@
       "category": "orientation"
     },
     {
-      "id": "00cd7eb4c8d1994f",
-      "title": "Stage 3ème",
-      "start": "2027-02-15",
-      "end": "2027-02-20",
-      "allDay": true,
-      "location": "",
-      "description": "",
-      "category": "stage"
-    },
-    {
       "id": "c24bc0d529eef421",
       "title": "Vacances d'Hiver",
       "start": "2027-02-21",
@@ -125,16 +82,6 @@
       "location": "",
       "description": "",
       "category": "vacances"
-    },
-    {
-      "id": "e101f25897af0e56",
-      "title": "Fin du trimestre 2",
-      "start": "2027-03-07",
-      "end": "2027-03-08",
-      "allDay": true,
-      "location": "",
-      "description": "",
-      "category": "etablissement"
     },
     {
       "id": "d3caffa0b6cc31fb",
@@ -147,16 +94,6 @@
       "category": "vacances"
     },
     {
-      "id": "6f2efacc94d76100",
-      "title": "DNB Blanc N°2",
-      "start": "2027-05-03",
-      "end": "2027-05-05",
-      "allDay": true,
-      "location": "",
-      "description": "",
-      "category": "dnb"
-    },
-    {
       "id": "7f8593d13c53a440",
       "title": "Pont de l’Ascension",
       "start": "2027-05-06",
@@ -165,66 +102,6 @@
       "location": "",
       "description": "",
       "category": "vacances"
-    },
-    {
-      "id": "5468bea3b342a700",
-      "title": "Fin du trimestre 3",
-      "start": "2027-05-30",
-      "end": "2027-05-31",
-      "allDay": true,
-      "location": "",
-      "description": "",
-      "category": "etablissement"
-    },
-    {
-      "id": "98d1691ff5b4fc9f",
-      "title": "Oral DNB",
-      "start": "2027-06-09T06:05:00.000Z",
-      "end": "2027-06-09T09:50:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "",
-      "category": "dnb"
-    },
-    {
-      "id": "7eb2c611c2890231",
-      "title": "DNB Français",
-      "start": "2027-06-24T06:00:00.000Z",
-      "end": "2027-06-24T09:15:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "",
-      "category": "dnb"
-    },
-    {
-      "id": "6a6f57e24bfee42c",
-      "title": "DNB Histoire et EMC",
-      "start": "2027-06-25T06:00:00.000Z",
-      "end": "2027-06-25T08:00:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "",
-      "category": "dnb"
-    },
-    {
-      "id": "85acda0f30fd2354",
-      "title": "DNB Sciences",
-      "start": "2027-06-28T06:00:00.000Z",
-      "end": "2027-06-28T07:00:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "",
-      "category": "dnb"
-    },
-    {
-      "id": "3c0709bfd25e1bbb",
-      "title": "DNB Mathématiques",
-      "start": "2027-06-28T08:00:00.000Z",
-      "end": "2027-06-28T10:00:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "",
-      "category": "dnb"
     }
   ]
 }
