@@ -1,7 +1,7 @@
 {
   "version": 3,
   "source": "GitHub Issues",
-  "updatedAt": "2026-09-03T11:21:55.652Z",
+  "updatedAt": "2026-09-03T11:22:22.290Z",
   "reminder": {
     "id": "issue-1",
     "title": "Documents de rentrée",
@@ -21,13 +21,13 @@
   "resources": [
     {
       "id": "issue-4",
-      "title": "FICHE 1 - Mes renseignement",
+      "title": "VDC 1 - Mes renseignements",
       "category": "Vie de classe",
       "type": "PDF",
       "description": "Pour apprendre à mieux te connaître, complète cette fiche de renseignements.",
       "url": "https://github.com/user-attachments/files/31787608/FICHE.1.-.Mes.renseignement.pdf",
       "publishedAt": "2026-09-03T11:21:37Z",
-      "updatedAt": "2026-09-03T11:21:37Z"
+      "updatedAt": "2026-09-03T11:22:08Z"
     },
     {
       "id": "issue-3",
