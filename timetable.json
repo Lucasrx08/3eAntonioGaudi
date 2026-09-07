@@ -2,12 +2,12 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 555,
-  "updatedAt": "2026-09-07T10:28:44.655Z",
+  "eventCount": 526,
+  "updatedAt": "2026-09-07T16:00:01.288Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
-      "id": "7fdb2e6b8efa8b34",
+      "id": "10db2b2835e86c02",
       "title": "MATHEMATIQUES",
       "start": "2026-09-07T06:05:00.000Z",
       "end": "2026-09-07T06:55:00.000Z",
@@ -17,7 +17,7 @@
       "category": "etablissement"
     },
     {
-      "id": "45994e9ecdfe76f1",
+      "id": "5295f0c77cb4f9e3",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-09-07T06:55:00.000Z",
       "end": "2026-09-07T07:45:00.000Z",
@@ -27,7 +27,7 @@
       "category": "etablissement"
     },
     {
-      "id": "39cb9ec21ceba597",
+      "id": "79b81f8772eacb5b",
       "title": "ANGLAIS LV1",
       "start": "2026-09-07T06:55:00.000Z",
       "end": "2026-09-07T07:45:00.000Z",
@@ -37,7 +37,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2a2d789e68d8811d",
+      "id": "ba81a1ee7c508a43",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-09-07T08:10:00.000Z",
       "end": "2026-09-07T09:00:00.000Z",
@@ -47,7 +47,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e1f23b18db9aa947",
+      "id": "97ef3e62b89af5ea",
       "title": "FRANCAIS",
       "start": "2026-09-07T09:00:00.000Z",
       "end": "2026-09-07T10:15:00.000Z",
@@ -57,7 +57,7 @@
       "category": "etablissement"
     },
     {
-      "id": "55dfbce53265be58",
+      "id": "9ac6f0c8ad7fabd6",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-09-07T10:15:00.000Z",
       "end": "2026-09-07T11:05:00.000Z",
@@ -67,17 +67,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c5c208f03ad9d95a",
-      "title": "ALLEMAND LV2",
-      "start": "2026-09-07T11:45:00.000Z",
-      "end": "2026-09-07T12:35:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "141c19e54937b48f",
+      "id": "676f4c89cec358c3",
       "title": "Bilangue espagnol",
       "start": "2026-09-07T11:45:00.000Z",
       "end": "2026-09-07T12:35:00.000Z",
@@ -87,7 +77,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c7e431d8ec1cea01",
+      "id": "2138ff7d566b2ec0",
       "title": "ESPAGNOL LV2",
       "start": "2026-09-07T11:45:00.000Z",
       "end": "2026-09-07T12:35:00.000Z",
@@ -97,7 +87,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ee1c3f82653df3db",
+      "id": "97e92a9caa8c7961",
       "title": "TECHNOLOGIE",
       "start": "2026-09-07T12:35:00.000Z",
       "end": "2026-09-07T13:25:00.000Z",
@@ -107,7 +97,7 @@
       "category": "etablissement"
     },
     {
-      "id": "608e1ab420729e99",
+      "id": "504a2b3f14bb4721",
       "title": "ETUDE",
       "start": "2026-09-07T13:45:00.000Z",
       "end": "2026-09-07T14:35:00.000Z",
@@ -117,7 +107,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3865ca9e077fa216",
+      "id": "18a6fde1cc404997",
       "title": "FOOTBALL",
       "start": "2026-09-07T13:45:00.000Z",
       "end": "2026-09-07T15:00:00.000Z",
@@ -127,17 +117,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6f3c425ec270b26d",
-      "title": "ALLEMAND LV2",
-      "start": "2026-09-08T06:05:00.000Z",
-      "end": "2026-09-08T06:55:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "0508602203266849",
+      "id": "b9a5ad8b16bac5f0",
       "title": "Bilangue espagnol",
       "start": "2026-09-08T06:05:00.000Z",
       "end": "2026-09-08T06:55:00.000Z",
@@ -147,7 +127,7 @@
       "category": "etablissement"
     },
     {
-      "id": "fea55b8a2e3eb9c3",
+      "id": "7536b9b185a4f19d",
       "title": "ESPAGNOL LV2",
       "start": "2026-09-08T06:05:00.000Z",
       "end": "2026-09-08T06:55:00.000Z",
@@ -157,7 +137,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6153b8566ddeda50",
+      "id": "ea542b343dc89a81",
       "title": "MATHEMATIQUES",
       "start": "2026-09-08T06:55:00.000Z",
       "end": "2026-09-08T07:45:00.000Z",
@@ -167,7 +147,7 @@
       "category": "etablissement"
     },
     {
-      "id": "bc36a0c38ccae48d",
+      "id": "e522d885b75fd529",
       "title": "MATHEMATIQUES",
       "start": "2026-09-08T08:10:00.000Z",
       "end": "2026-09-08T09:00:00.000Z",
@@ -177,7 +157,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ff3fa44ed3276f0b",
+      "id": "d15638e95c66b176",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-09-08T09:00:00.000Z",
       "end": "2026-09-08T10:15:00.000Z",
@@ -187,7 +167,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3a3d1908ca17c141",
+      "id": "eebc41f50b01524e",
       "title": "ANGLAIS LV1",
       "start": "2026-09-08T09:00:00.000Z",
       "end": "2026-09-08T09:50:00.000Z",
@@ -197,7 +177,7 @@
       "category": "etablissement"
     },
     {
-      "id": "eeab38b7e7a1ba72",
+      "id": "6b1ea9bd680c942d",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-09-08T11:45:00.000Z",
       "end": "2026-09-08T12:35:00.000Z",
@@ -207,7 +187,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ee35584044b4849b",
+      "id": "db4661f487528d2e",
       "title": "FRANCAIS",
       "start": "2026-09-08T12:35:00.000Z",
       "end": "2026-09-08T13:25:00.000Z",
@@ -217,7 +197,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e731aef30bd9382e",
+      "id": "8bb54588591aeeae",
       "title": "BREVET INIT AERONOT",
       "start": "2026-09-08T13:45:00.000Z",
       "end": "2026-09-08T14:35:00.000Z",
@@ -227,7 +207,7 @@
       "category": "dnb"
     },
     {
-      "id": "9e14b4571c566587",
+      "id": "b118b0cfdcce40ae",
       "title": "ETUDE",
       "start": "2026-09-08T13:45:00.000Z",
       "end": "2026-09-08T14:35:00.000Z",
@@ -237,7 +217,7 @@
       "category": "etablissement"
     },
     {
-      "id": "18fb800cd9da0d68",
+      "id": "2107ae24e094707c",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-09-09T06:05:00.000Z",
       "end": "2026-09-09T07:45:00.000Z",
@@ -247,7 +227,7 @@
       "category": "sport"
     },
     {
-      "id": "6e5cad31cd209bf2",
+      "id": "1a94d07d434c0b8d",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-09-09T08:10:00.000Z",
       "end": "2026-09-09T09:00:00.000Z",
@@ -257,7 +237,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7bc1bf44c7ce784a",
+      "id": "64f96efea828041b",
       "title": "ARTS PLASTIQUES",
       "start": "2026-09-09T09:00:00.000Z",
       "end": "2026-09-09T09:50:00.000Z",
@@ -267,7 +247,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5cd6306cbc70a873",
+      "id": "439cad5e414e88fe",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-09-10T06:05:00.000Z",
       "end": "2026-09-10T06:55:00.000Z",
@@ -277,7 +257,7 @@
       "category": "etablissement"
     },
     {
-      "id": "86d4e30a4224a4f4",
+      "id": "972f2e3af390656f",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-09-10T06:55:00.000Z",
       "end": "2026-09-10T07:45:00.000Z",
@@ -287,7 +267,7 @@
       "category": "etablissement"
     },
     {
-      "id": "83bd3edba56619f2",
+      "id": "771f0e4f4576c689",
       "title": "TECHNOLOGIE",
       "start": "2026-09-10T06:55:00.000Z",
       "end": "2026-09-10T07:45:00.000Z",
@@ -297,17 +277,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1d053ff64c14d233",
-      "title": "ALLEMAND LV2",
-      "start": "2026-09-10T08:10:00.000Z",
-      "end": "2026-09-10T09:00:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "4b21515656db18fb",
+      "id": "d993a1cd7551f325",
       "title": "Bilangue espagnol",
       "start": "2026-09-10T08:10:00.000Z",
       "end": "2026-09-10T09:00:00.000Z",
@@ -317,7 +287,7 @@
       "category": "etablissement"
     },
     {
-      "id": "798dcdebb6d74a12",
+      "id": "7af3f1eb3d78b024",
       "title": "ESPAGNOL LV2",
       "start": "2026-09-10T08:10:00.000Z",
       "end": "2026-09-10T09:00:00.000Z",
@@ -327,7 +297,7 @@
       "category": "etablissement"
     },
     {
-      "id": "50f2f991aa06d8b3",
+      "id": "e89d9c481cae83cc",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-09-10T09:00:00.000Z",
       "end": "2026-09-10T09:50:00.000Z",
@@ -337,7 +307,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6fda4a8929ba381e",
+      "id": "7af505aa5aa63c65",
       "title": "ETUDE",
       "start": "2026-09-10T09:00:00.000Z",
       "end": "2026-09-10T09:50:00.000Z",
@@ -347,7 +317,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6f8d72f4768b022a",
+      "id": "934f383e442df8ba",
       "title": "FRANCAIS",
       "start": "2026-09-10T11:20:00.000Z",
       "end": "2026-09-10T12:35:00.000Z",
@@ -357,7 +327,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ea227eb1b0bedbe6",
+      "id": "68ca51b7e0a6cd4c",
       "title": "VIE DE CLASSE",
       "start": "2026-09-10T12:35:00.000Z",
       "end": "2026-09-10T13:25:00.000Z",
@@ -367,7 +337,7 @@
       "category": "classe"
     },
     {
-      "id": "ad44adf7de8f8cb9",
+      "id": "b037ceefa2a7eb90",
       "title": "AP de Maths",
       "start": "2026-09-10T13:45:00.000Z",
       "end": "2026-09-10T14:35:00.000Z",
@@ -377,17 +347,17 @@
       "category": "etablissement"
     },
     {
-      "id": "a2df4f7bd47d04a5",
+      "id": "3db4ce482687a27a",
       "title": "Développement durable",
       "start": "2026-09-10T13:45:00.000Z",
       "end": "2026-09-10T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
-      "id": "93c638195cb03d00",
+      "id": "1d860815dd630758",
       "title": "ETUDE",
       "start": "2026-09-10T13:45:00.000Z",
       "end": "2026-09-10T14:35:00.000Z",
@@ -397,7 +367,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c1cc8531447ac3ec",
+      "id": "2f7263811bb79830",
       "title": "FOOTBALL",
       "start": "2026-09-10T13:45:00.000Z",
       "end": "2026-09-10T15:00:00.000Z",
@@ -407,7 +377,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4815c5e22033a140",
+      "id": "8f3d6ca08870a95b",
       "title": "MATHEMATIQUES",
       "start": "2026-09-11T06:05:00.000Z",
       "end": "2026-09-11T06:55:00.000Z",
@@ -417,7 +387,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ce3dbe47722500a3",
+      "id": "5b78fb43c30858af",
       "title": "EDUCATION MUSICALE",
       "start": "2026-09-11T06:55:00.000Z",
       "end": "2026-09-11T07:45:00.000Z",
@@ -427,7 +397,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4f8d0305f3af5fc2",
+      "id": "2b2446899a290783",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-09-11T08:10:00.000Z",
       "end": "2026-09-11T09:00:00.000Z",
@@ -437,7 +407,7 @@
       "category": "etablissement"
     },
     {
-      "id": "0de1c269eb5a9313",
+      "id": "d71d48299c713fc1",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-09-11T09:00:00.000Z",
       "end": "2026-09-11T10:15:00.000Z",
@@ -447,7 +417,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1917fddfed8e3c1a",
+      "id": "3ef9d6c263c53ca2",
       "title": "ANGLAIS LV1",
       "start": "2026-09-11T09:00:00.000Z",
       "end": "2026-09-11T09:50:00.000Z",
@@ -457,17 +427,17 @@
       "category": "etablissement"
     },
     {
-      "id": "ac9addefdff22111",
+      "id": "b65cc6a4a5aa4e41",
       "title": "DEVOIR",
       "start": "2026-09-11T11:45:00.000Z",
       "end": "2026-09-11T12:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
     {
-      "id": "44a7196c8b46a8fa",
+      "id": "5b5c8e391a4e108c",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-09-11T12:35:00.000Z",
       "end": "2026-09-11T13:25:00.000Z",
@@ -477,7 +447,7 @@
       "category": "etablissement"
     },
     {
-      "id": "aa3166c0f70450c7",
+      "id": "0705b33cda013a12",
       "title": "BREVET INIT AERONOT",
       "start": "2026-09-11T13:45:00.000Z",
       "end": "2026-09-11T14:35:00.000Z",
@@ -487,7 +457,7 @@
       "category": "dnb"
     },
     {
-      "id": "4ef5af9b54c36889",
+      "id": "ac6cb09ee29185bb",
       "title": "ETUDE",
       "start": "2026-09-11T13:45:00.000Z",
       "end": "2026-09-11T14:35:00.000Z",
@@ -497,7 +467,7 @@
       "category": "etablissement"
     },
     {
-      "id": "705c39aa28e70756",
+      "id": "9041dc0dad792adb",
       "title": "MATHEMATIQUES",
       "start": "2026-09-14T06:05:00.000Z",
       "end": "2026-09-14T06:55:00.000Z",
@@ -507,7 +477,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6eec192b7cbfe5f8",
+      "id": "3be6375566f4b383",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-09-14T06:55:00.000Z",
       "end": "2026-09-14T07:45:00.000Z",
@@ -517,7 +487,7 @@
       "category": "etablissement"
     },
     {
-      "id": "72290cb80650ec24",
+      "id": "b030761633539cfd",
       "title": "ANGLAIS LV1",
       "start": "2026-09-14T06:55:00.000Z",
       "end": "2026-09-14T07:45:00.000Z",
@@ -527,7 +497,7 @@
       "category": "etablissement"
     },
     {
-      "id": "906d178ad2c0799e",
+      "id": "010b9992babc2718",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-09-14T08:10:00.000Z",
       "end": "2026-09-14T09:00:00.000Z",
@@ -537,7 +507,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6c8351ccb342fac8",
+      "id": "818b60e29d4daf39",
       "title": "FRANCAIS",
       "start": "2026-09-14T09:00:00.000Z",
       "end": "2026-09-14T10:15:00.000Z",
@@ -547,7 +517,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f81d3c0166e90a91",
+      "id": "c2fb0deb09af0978",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-09-14T10:15:00.000Z",
       "end": "2026-09-14T11:05:00.000Z",
@@ -557,18 +527,8 @@
       "category": "etablissement"
     },
     {
-      "id": "5bbf2dd48bccf997",
-      "title": "ALLEMAND LV2",
-      "start": "2026-09-14T11:45:00.000Z",
-      "end": "2026-09-14T12:35:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "3311decd6a89e4a0",
-      "title": "ANNULE - Bilangue espagnol",
+      "id": "f1c4c73bf75822a8",
+      "title": "Bilangue espagnol",
       "start": "2026-09-14T11:45:00.000Z",
       "end": "2026-09-14T12:35:00.000Z",
       "allDay": false,
@@ -577,7 +537,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d75ce0a7cff5deed",
+      "id": "a889cabf0bcc59ae",
       "title": "ESPAGNOL LV2",
       "start": "2026-09-14T11:45:00.000Z",
       "end": "2026-09-14T12:35:00.000Z",
@@ -587,7 +547,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9f31dd7107977a88",
+      "id": "8df3b5b285d1b65c",
       "title": "TECHNOLOGIE",
       "start": "2026-09-14T12:35:00.000Z",
       "end": "2026-09-14T13:25:00.000Z",
@@ -597,7 +557,7 @@
       "category": "etablissement"
     },
     {
-      "id": "61454b183bc61af1",
+      "id": "4d8b008b550bb804",
       "title": "ETUDE",
       "start": "2026-09-14T13:45:00.000Z",
       "end": "2026-09-14T14:35:00.000Z",
@@ -607,7 +567,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ef7a213b84aab4da",
+      "id": "f697d6d521281e20",
       "title": "FOOTBALL",
       "start": "2026-09-14T13:45:00.000Z",
       "end": "2026-09-14T15:00:00.000Z",
@@ -617,7 +577,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2b7a35d49a2b9a7e",
+      "id": "1b36707339d3df50",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-09-15T06:05:00.000Z",
       "end": "2026-09-15T06:55:00.000Z",
@@ -627,7 +587,7 @@
       "category": "etablissement"
     },
     {
-      "id": "30528772b795b681",
+      "id": "536cf4483c3ef0bc",
       "title": "MATHEMATIQUES",
       "start": "2026-09-15T06:55:00.000Z",
       "end": "2026-09-15T07:45:00.000Z",
@@ -637,7 +597,7 @@
       "category": "etablissement"
     },
     {
-      "id": "44819d3758a1cad0",
+      "id": "d7aa7aae8372c0fe",
       "title": "MATHEMATIQUES",
       "start": "2026-09-15T08:10:00.000Z",
       "end": "2026-09-15T09:00:00.000Z",
@@ -647,7 +607,7 @@
       "category": "etablissement"
     },
     {
-      "id": "edd37a26126cfb19",
+      "id": "ee648da57757fe92",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-09-15T09:00:00.000Z",
       "end": "2026-09-15T10:15:00.000Z",
@@ -657,7 +617,7 @@
       "category": "etablissement"
     },
     {
-      "id": "526fdab1bf381a38",
+      "id": "37f2dacaa83580db",
       "title": "ANGLAIS LV1",
       "start": "2026-09-15T09:00:00.000Z",
       "end": "2026-09-15T09:50:00.000Z",
@@ -667,17 +627,17 @@
       "category": "etablissement"
     },
     {
-      "id": "6ec9c37ac18ac039",
-      "title": "ANNULE - SCIENCES VIE & TERRE",
+      "id": "dbd32f2f9fb49ec9",
+      "title": "SCIENCES VIE & TERRE",
       "start": "2026-09-15T11:45:00.000Z",
       "end": "2026-09-15T12:35:00.000Z",
       "allDay": false,
       "location": "SVT",
-      "description": "FEUILLET C. - 3è Antonio GAUDI",
+      "description": "LABERTHE M. - 3è Antonio GAUDI",
       "category": "etablissement"
     },
     {
-      "id": "eb0b5b26bda3481d",
+      "id": "eceab55c66c4adc7",
       "title": "FRANCAIS",
       "start": "2026-09-15T12:35:00.000Z",
       "end": "2026-09-15T13:25:00.000Z",
@@ -687,7 +647,7 @@
       "category": "etablissement"
     },
     {
-      "id": "34aab3e9573f51da",
+      "id": "15314e6d64ab2e14",
       "title": "AP de Fr",
       "start": "2026-09-15T13:45:00.000Z",
       "end": "2026-09-15T14:35:00.000Z",
@@ -697,7 +657,7 @@
       "category": "etablissement"
     },
     {
-      "id": "815517f4806ca718",
+      "id": "400d3023ef44435d",
       "title": "BREVET INIT AERONOT",
       "start": "2026-09-15T13:45:00.000Z",
       "end": "2026-09-15T14:35:00.000Z",
@@ -707,7 +667,7 @@
       "category": "dnb"
     },
     {
-      "id": "1f52d9d274d8443f",
+      "id": "f739f5009c8bbc52",
       "title": "ETUDE",
       "start": "2026-09-15T13:45:00.000Z",
       "end": "2026-09-15T14:35:00.000Z",
@@ -717,7 +677,7 @@
       "category": "etablissement"
     },
     {
-      "id": "671b8b76edc60e2e",
+      "id": "e343ca89e1b9feb4",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-09-16T06:05:00.000Z",
       "end": "2026-09-16T07:45:00.000Z",
@@ -727,7 +687,7 @@
       "category": "sport"
     },
     {
-      "id": "a16a68f9dee44758",
+      "id": "fcf4744496629fa9",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-09-16T08:10:00.000Z",
       "end": "2026-09-16T09:00:00.000Z",
@@ -737,7 +697,7 @@
       "category": "etablissement"
     },
     {
-      "id": "93e5575790dfb1dd",
+      "id": "0a3ea54fddf34117",
       "title": "ARTS PLASTIQUES",
       "start": "2026-09-16T09:00:00.000Z",
       "end": "2026-09-16T09:50:00.000Z",
@@ -747,7 +707,7 @@
       "category": "etablissement"
     },
     {
-      "id": "efc6c42174021d4d",
+      "id": "4db09cc319b27782",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-09-17T06:05:00.000Z",
       "end": "2026-09-17T06:55:00.000Z",
@@ -757,7 +717,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3ce4c2fe9de23578",
+      "id": "dcd41e874e4a5e11",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-09-17T06:55:00.000Z",
       "end": "2026-09-17T07:45:00.000Z",
@@ -767,7 +727,7 @@
       "category": "etablissement"
     },
     {
-      "id": "20ea15413e86fa86",
+      "id": "eb08391aee689239",
       "title": "TECHNOLOGIE",
       "start": "2026-09-17T06:55:00.000Z",
       "end": "2026-09-17T07:45:00.000Z",
@@ -777,18 +737,8 @@
       "category": "etablissement"
     },
     {
-      "id": "baf5deca683fdb2a",
-      "title": "ALLEMAND LV2",
-      "start": "2026-09-17T08:10:00.000Z",
-      "end": "2026-09-17T09:00:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "023d530e6f4aed64",
-      "title": "ANNULE - Bilangue espagnol",
+      "id": "acaaac722e357e44",
+      "title": "Bilangue espagnol",
       "start": "2026-09-17T08:10:00.000Z",
       "end": "2026-09-17T09:00:00.000Z",
       "allDay": false,
@@ -797,7 +747,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8c1272e212e60d1b",
+      "id": "299726370372b032",
       "title": "ESPAGNOL LV2",
       "start": "2026-09-17T08:10:00.000Z",
       "end": "2026-09-17T09:00:00.000Z",
@@ -807,7 +757,7 @@
       "category": "etablissement"
     },
     {
-      "id": "0241c46db321a776",
+      "id": "10d7f46f7912573c",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-09-17T09:00:00.000Z",
       "end": "2026-09-17T09:50:00.000Z",
@@ -817,7 +767,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f55156b3219184df",
+      "id": "f0ddd0844a791c8a",
       "title": "ETUDE",
       "start": "2026-09-17T09:00:00.000Z",
       "end": "2026-09-17T09:50:00.000Z",
@@ -827,7 +777,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5eae6588535945ab",
+      "id": "e4a38fb34c7f80f4",
       "title": "FRANCAIS",
       "start": "2026-09-17T11:20:00.000Z",
       "end": "2026-09-17T12:35:00.000Z",
@@ -837,7 +787,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8c2c858499c8612b",
+      "id": "309d8da373dd1b94",
       "title": "VIE DE CLASSE",
       "start": "2026-09-17T12:35:00.000Z",
       "end": "2026-09-17T13:25:00.000Z",
@@ -847,7 +797,7 @@
       "category": "classe"
     },
     {
-      "id": "a71b5c903d1f786c",
+      "id": "0a0450bf723e6b61",
       "title": "AP de Maths",
       "start": "2026-09-17T13:45:00.000Z",
       "end": "2026-09-17T14:35:00.000Z",
@@ -857,7 +807,7 @@
       "category": "etablissement"
     },
     {
-      "id": "53f0ac84288262cf",
+      "id": "91471e9fc9086e0b",
       "title": "Développement durable",
       "start": "2026-09-17T13:45:00.000Z",
       "end": "2026-09-17T14:35:00.000Z",
@@ -867,7 +817,7 @@
       "category": "etablissement"
     },
     {
-      "id": "83eaf5c133a56c5a",
+      "id": "701cafb490d6e729",
       "title": "ETUDE",
       "start": "2026-09-17T13:45:00.000Z",
       "end": "2026-09-17T14:35:00.000Z",
@@ -877,7 +827,7 @@
       "category": "etablissement"
     },
     {
-      "id": "12eaad74434a7542",
+      "id": "676d21551c5c733f",
       "title": "FOOTBALL",
       "start": "2026-09-17T13:45:00.000Z",
       "end": "2026-09-17T15:00:00.000Z",
@@ -887,7 +837,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2cafc7ec42b5573c",
+      "id": "5fb46f7adf6421c4",
       "title": "MATHEMATIQUES",
       "start": "2026-09-18T06:05:00.000Z",
       "end": "2026-09-18T06:55:00.000Z",
@@ -897,7 +847,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a70ca1403b38247b",
+      "id": "12a3fa0f3242d942",
       "title": "EDUCATION MUSICALE",
       "start": "2026-09-18T06:55:00.000Z",
       "end": "2026-09-18T07:45:00.000Z",
@@ -907,7 +857,7 @@
       "category": "etablissement"
     },
     {
-      "id": "77b89f6fc39caf63",
+      "id": "c34b41e5e78171b9",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-09-18T08:10:00.000Z",
       "end": "2026-09-18T09:00:00.000Z",
@@ -917,7 +867,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ceb6c08b6c642cb9",
+      "id": "24f303a8e4e8f70f",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-09-18T09:00:00.000Z",
       "end": "2026-09-18T10:15:00.000Z",
@@ -927,7 +877,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f043fd32f59dd817",
+      "id": "178cfd35b727f6a1",
       "title": "ANGLAIS LV1",
       "start": "2026-09-18T09:00:00.000Z",
       "end": "2026-09-18T09:50:00.000Z",
@@ -937,7 +887,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1c7a7be29e086c03",
+      "id": "840103e5a608c88e",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-09-18T11:45:00.000Z",
       "end": "2026-09-18T13:25:00.000Z",
@@ -947,7 +897,7 @@
       "category": "sport"
     },
     {
-      "id": "896c76de2e552ecb",
+      "id": "d3e5df1e049ff2b6",
       "title": "BREVET INIT AERONOT",
       "start": "2026-09-18T13:45:00.000Z",
       "end": "2026-09-18T14:35:00.000Z",
@@ -957,7 +907,7 @@
       "category": "dnb"
     },
     {
-      "id": "408bde3fa915683d",
+      "id": "2277477c534b53c1",
       "title": "ETUDE",
       "start": "2026-09-18T13:45:00.000Z",
       "end": "2026-09-18T14:35:00.000Z",
@@ -967,7 +917,7 @@
       "category": "etablissement"
     },
     {
-      "id": "33d79ff50ee79d5b",
+      "id": "5c234fbcd11e3c72",
       "title": "MATHEMATIQUES",
       "start": "2026-09-21T06:05:00.000Z",
       "end": "2026-09-21T06:55:00.000Z",
@@ -977,7 +927,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ac565f1ce9425e5f",
+      "id": "750c160e94e2e0b4",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-09-21T06:55:00.000Z",
       "end": "2026-09-21T07:45:00.000Z",
@@ -987,7 +937,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7e85e6411060004b",
+      "id": "6032692849e0d270",
       "title": "ANGLAIS LV1",
       "start": "2026-09-21T06:55:00.000Z",
       "end": "2026-09-21T07:45:00.000Z",
@@ -997,7 +947,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c03234ad03bd26ad",
+      "id": "1fff9af55d0f7592",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-09-21T08:10:00.000Z",
       "end": "2026-09-21T09:00:00.000Z",
@@ -1007,7 +957,7 @@
       "category": "etablissement"
     },
     {
-      "id": "cd9590aa36374aa2",
+      "id": "77eea8feca6221c0",
       "title": "FRANCAIS",
       "start": "2026-09-21T09:00:00.000Z",
       "end": "2026-09-21T10:15:00.000Z",
@@ -1017,7 +967,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a0f57233970ef91a",
+      "id": "68973b942733bce4",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-09-21T10:15:00.000Z",
       "end": "2026-09-21T11:05:00.000Z",
@@ -1027,17 +977,7 @@
       "category": "etablissement"
     },
     {
-      "id": "57210a5134cadeff",
-      "title": "ALLEMAND LV2",
-      "start": "2026-09-21T11:45:00.000Z",
-      "end": "2026-09-21T12:35:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "d57a9605834cb881",
+      "id": "ed171dd4dc9ebfe1",
       "title": "Bilangue espagnol",
       "start": "2026-09-21T11:45:00.000Z",
       "end": "2026-09-21T12:35:00.000Z",
@@ -1047,7 +987,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d83379f2d5a05c54",
+      "id": "d51dba92eac9eaf3",
       "title": "ESPAGNOL LV2",
       "start": "2026-09-21T11:45:00.000Z",
       "end": "2026-09-21T12:35:00.000Z",
@@ -1057,7 +997,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e01395595e15455e",
+      "id": "ed7671756c173ae4",
       "title": "TECHNOLOGIE",
       "start": "2026-09-21T12:35:00.000Z",
       "end": "2026-09-21T13:25:00.000Z",
@@ -1067,7 +1007,7 @@
       "category": "etablissement"
     },
     {
-      "id": "13a8c7c4e90ab488",
+      "id": "346b723d2b301cc5",
       "title": "ETUDE",
       "start": "2026-09-21T13:45:00.000Z",
       "end": "2026-09-21T14:35:00.000Z",
@@ -1077,7 +1017,7 @@
       "category": "etablissement"
     },
     {
-      "id": "16f2a9d3452ae349",
+      "id": "014972fbfa513ccd",
       "title": "FOOTBALL",
       "start": "2026-09-21T13:45:00.000Z",
       "end": "2026-09-21T15:00:00.000Z",
@@ -1087,17 +1027,7 @@
       "category": "etablissement"
     },
     {
-      "id": "554e5ddf6437cae0",
-      "title": "ALLEMAND LV2",
-      "start": "2026-09-22T06:05:00.000Z",
-      "end": "2026-09-22T06:55:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "f72943899729cdfb",
+      "id": "cc1f1f31716fa7a4",
       "title": "Bilangue espagnol",
       "start": "2026-09-22T06:05:00.000Z",
       "end": "2026-09-22T06:55:00.000Z",
@@ -1107,7 +1037,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8693f1692d640020",
+      "id": "b0c34ba2a3eea26e",
       "title": "ESPAGNOL LV2",
       "start": "2026-09-22T06:05:00.000Z",
       "end": "2026-09-22T06:55:00.000Z",
@@ -1117,7 +1047,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3a04241bd2067f78",
+      "id": "68d46430cdf99d9c",
       "title": "MATHEMATIQUES",
       "start": "2026-09-22T06:55:00.000Z",
       "end": "2026-09-22T07:45:00.000Z",
@@ -1127,7 +1057,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b74991c34e12db82",
+      "id": "1727836dfb14824b",
       "title": "MATHEMATIQUES",
       "start": "2026-09-22T08:10:00.000Z",
       "end": "2026-09-22T09:00:00.000Z",
@@ -1137,7 +1067,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7ff163013974d57f",
+      "id": "fbaff74b4da4cd0a",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-09-22T09:00:00.000Z",
       "end": "2026-09-22T10:15:00.000Z",
@@ -1147,7 +1077,7 @@
       "category": "etablissement"
     },
     {
-      "id": "69584271bfb6bf0a",
+      "id": "6c70d83c752c5f24",
       "title": "ANGLAIS LV1",
       "start": "2026-09-22T09:00:00.000Z",
       "end": "2026-09-22T09:50:00.000Z",
@@ -1157,7 +1087,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3917dd16567f79ac",
+      "id": "f0ba441dd87e952b",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-09-22T11:45:00.000Z",
       "end": "2026-09-22T12:35:00.000Z",
@@ -1167,7 +1097,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9abbd178fc78a1e8",
+      "id": "d58522ea322dcd04",
       "title": "FRANCAIS",
       "start": "2026-09-22T12:35:00.000Z",
       "end": "2026-09-22T13:25:00.000Z",
@@ -1177,7 +1107,7 @@
       "category": "etablissement"
     },
     {
-      "id": "99fbdbbfa5e69de5",
+      "id": "87c714db79ecf416",
       "title": "BREVET INIT AERONOT",
       "start": "2026-09-22T13:45:00.000Z",
       "end": "2026-09-22T14:35:00.000Z",
@@ -1187,7 +1117,7 @@
       "category": "dnb"
     },
     {
-      "id": "d8e3ba0266ba76a2",
+      "id": "6f4992b89358cef4",
       "title": "ETUDE",
       "start": "2026-09-22T13:45:00.000Z",
       "end": "2026-09-22T14:35:00.000Z",
@@ -1197,7 +1127,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3ad1006b18a70906",
+      "id": "3610544d2f7d81fb",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-09-23T06:05:00.000Z",
       "end": "2026-09-23T07:45:00.000Z",
@@ -1207,7 +1137,7 @@
       "category": "sport"
     },
     {
-      "id": "4fe927230d24ee3f",
+      "id": "2867ad55c00776a6",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-09-23T08:10:00.000Z",
       "end": "2026-09-23T09:00:00.000Z",
@@ -1217,7 +1147,7 @@
       "category": "etablissement"
     },
     {
-      "id": "648ca34c07847f37",
+      "id": "e7e958420ac34e5d",
       "title": "ARTS PLASTIQUES",
       "start": "2026-09-23T09:00:00.000Z",
       "end": "2026-09-23T09:50:00.000Z",
@@ -1227,7 +1157,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b96f751a5cfca832",
+      "id": "9f71a66e16bf6521",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-09-24T06:05:00.000Z",
       "end": "2026-09-24T06:55:00.000Z",
@@ -1237,7 +1167,7 @@
       "category": "etablissement"
     },
     {
-      "id": "af8b61cff437c1cc",
+      "id": "e24c96815695b1e4",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-09-24T06:55:00.000Z",
       "end": "2026-09-24T07:45:00.000Z",
@@ -1247,7 +1177,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8fc6782831e118cf",
+      "id": "b97c35d5f3c20843",
       "title": "TECHNOLOGIE",
       "start": "2026-09-24T06:55:00.000Z",
       "end": "2026-09-24T07:45:00.000Z",
@@ -1257,17 +1187,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2282411712e8b270",
-      "title": "ALLEMAND LV2",
-      "start": "2026-09-24T08:10:00.000Z",
-      "end": "2026-09-24T09:00:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "8b3d4b9eb07d44d8",
+      "id": "902bce0a137b2186",
       "title": "Bilangue espagnol",
       "start": "2026-09-24T08:10:00.000Z",
       "end": "2026-09-24T09:00:00.000Z",
@@ -1277,7 +1197,7 @@
       "category": "etablissement"
     },
     {
-      "id": "65d6a62d5e0b5faa",
+      "id": "404bd4e6c6c6b5fc",
       "title": "ESPAGNOL LV2",
       "start": "2026-09-24T08:10:00.000Z",
       "end": "2026-09-24T09:00:00.000Z",
@@ -1287,7 +1207,7 @@
       "category": "etablissement"
     },
     {
-      "id": "909565203e99dd48",
+      "id": "41350db8cc7c8299",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-09-24T09:00:00.000Z",
       "end": "2026-09-24T09:50:00.000Z",
@@ -1297,7 +1217,7 @@
       "category": "etablissement"
     },
     {
-      "id": "92ea5cae5f269b41",
+      "id": "1a8db719e1ccd68a",
       "title": "ETUDE",
       "start": "2026-09-24T09:00:00.000Z",
       "end": "2026-09-24T09:50:00.000Z",
@@ -1307,7 +1227,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a53f0abf1474b040",
+      "id": "80333c934f446e4a",
       "title": "FRANCAIS",
       "start": "2026-09-24T11:20:00.000Z",
       "end": "2026-09-24T12:35:00.000Z",
@@ -1317,7 +1237,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a37b009250e56bc6",
+      "id": "07afb8651454c16b",
       "title": "VIE DE CLASSE",
       "start": "2026-09-24T12:35:00.000Z",
       "end": "2026-09-24T13:25:00.000Z",
@@ -1327,7 +1247,7 @@
       "category": "classe"
     },
     {
-      "id": "737ec19999066dee",
+      "id": "b4e224d033ba9f9f",
       "title": "AP de Maths",
       "start": "2026-09-24T13:45:00.000Z",
       "end": "2026-09-24T14:35:00.000Z",
@@ -1337,7 +1257,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d9d18a3bf8278888",
+      "id": "16028543eae53824",
       "title": "Développement durable",
       "start": "2026-09-24T13:45:00.000Z",
       "end": "2026-09-24T14:35:00.000Z",
@@ -1347,7 +1267,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b0f41f958edf0957",
+      "id": "95a70cad7a7829bc",
       "title": "ETUDE",
       "start": "2026-09-24T13:45:00.000Z",
       "end": "2026-09-24T14:35:00.000Z",
@@ -1357,7 +1277,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7726028edae7a665",
+      "id": "f426016632d6991b",
       "title": "FOOTBALL",
       "start": "2026-09-24T13:45:00.000Z",
       "end": "2026-09-24T15:00:00.000Z",
@@ -1367,7 +1287,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7701e544bdb2c3cd",
+      "id": "763edcf17ad73bb0",
       "title": "MATHEMATIQUES",
       "start": "2026-09-25T06:05:00.000Z",
       "end": "2026-09-25T06:55:00.000Z",
@@ -1377,7 +1297,7 @@
       "category": "etablissement"
     },
     {
-      "id": "614e229d3e10a1e0",
+      "id": "396aedd902a155c6",
       "title": "EDUCATION MUSICALE",
       "start": "2026-09-25T06:55:00.000Z",
       "end": "2026-09-25T07:45:00.000Z",
@@ -1387,7 +1307,7 @@
       "category": "etablissement"
     },
     {
-      "id": "52899a7189d38329",
+      "id": "9a4e342b5244d950",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-09-25T08:10:00.000Z",
       "end": "2026-09-25T09:00:00.000Z",
@@ -1397,7 +1317,7 @@
       "category": "etablissement"
     },
     {
-      "id": "229e8fe35b3e231c",
+      "id": "377f877714924bfd",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-09-25T09:00:00.000Z",
       "end": "2026-09-25T10:15:00.000Z",
@@ -1407,7 +1327,7 @@
       "category": "etablissement"
     },
     {
-      "id": "acf7e9b1cc3e0dda",
+      "id": "9d5a3187cafff9cc",
       "title": "ANGLAIS LV1",
       "start": "2026-09-25T09:00:00.000Z",
       "end": "2026-09-25T09:50:00.000Z",
@@ -1417,17 +1337,17 @@
       "category": "etablissement"
     },
     {
-      "id": "cc24b8d16e015e2b",
+      "id": "36ff0a9944c252c1",
       "title": "DEVOIR",
       "start": "2026-09-25T11:45:00.000Z",
       "end": "2026-09-25T12:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
     {
-      "id": "ac5ff532b48dd072",
+      "id": "22fa47fc5c4a21f4",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-09-25T12:35:00.000Z",
       "end": "2026-09-25T13:25:00.000Z",
@@ -1437,7 +1357,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c003a474b6a087d7",
+      "id": "c4926dee425caf46",
       "title": "BREVET INIT AERONOT",
       "start": "2026-09-25T13:45:00.000Z",
       "end": "2026-09-25T14:35:00.000Z",
@@ -1447,7 +1367,7 @@
       "category": "dnb"
     },
     {
-      "id": "28d7edec7b4ca830",
+      "id": "1e140fb4b7a39109",
       "title": "ETUDE",
       "start": "2026-09-25T13:45:00.000Z",
       "end": "2026-09-25T14:35:00.000Z",
@@ -1457,7 +1377,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f3b867d018d8ccf2",
+      "id": "215e37e22bbff9dc",
       "title": "MATHEMATIQUES",
       "start": "2026-09-28T06:05:00.000Z",
       "end": "2026-09-28T06:55:00.000Z",
@@ -1467,7 +1387,7 @@
       "category": "etablissement"
     },
     {
-      "id": "26f1926335c8c7cd",
+      "id": "006aaa49164044ad",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-09-28T06:55:00.000Z",
       "end": "2026-09-28T07:45:00.000Z",
@@ -1477,7 +1397,7 @@
       "category": "etablissement"
     },
     {
-      "id": "794b6b1218df6f22",
+      "id": "0e4d240bf962ad0c",
       "title": "ANGLAIS LV1",
       "start": "2026-09-28T06:55:00.000Z",
       "end": "2026-09-28T07:45:00.000Z",
@@ -1487,7 +1407,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d222d27920aabb00",
+      "id": "1a13d2851424a2ed",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-09-28T08:10:00.000Z",
       "end": "2026-09-28T09:00:00.000Z",
@@ -1497,7 +1417,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6f0338a64786b825",
+      "id": "ac18d0445558f2b3",
       "title": "FRANCAIS",
       "start": "2026-09-28T09:00:00.000Z",
       "end": "2026-09-28T10:15:00.000Z",
@@ -1507,7 +1427,7 @@
       "category": "etablissement"
     },
     {
-      "id": "315a53ccbe5593ff",
+      "id": "9972d14a8f23969e",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-09-28T10:15:00.000Z",
       "end": "2026-09-28T11:05:00.000Z",
@@ -1517,17 +1437,7 @@
       "category": "etablissement"
     },
     {
-      "id": "11e560559967ee66",
-      "title": "ALLEMAND LV2",
-      "start": "2026-09-28T11:45:00.000Z",
-      "end": "2026-09-28T12:35:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "c401900f809425bd",
+      "id": "3040006ad346b576",
       "title": "Bilangue espagnol",
       "start": "2026-09-28T11:45:00.000Z",
       "end": "2026-09-28T12:35:00.000Z",
@@ -1537,7 +1447,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f295553895e5e814",
+      "id": "b62586b7cdcf8d58",
       "title": "ESPAGNOL LV2",
       "start": "2026-09-28T11:45:00.000Z",
       "end": "2026-09-28T12:35:00.000Z",
@@ -1547,7 +1457,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f1d51affb195c5d1",
+      "id": "d92f0143f9a78e40",
       "title": "TECHNOLOGIE",
       "start": "2026-09-28T12:35:00.000Z",
       "end": "2026-09-28T13:25:00.000Z",
@@ -1557,7 +1467,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8595c6eaebf35fb7",
+      "id": "85d3bf4296d89da8",
       "title": "ETUDE",
       "start": "2026-09-28T13:45:00.000Z",
       "end": "2026-09-28T14:35:00.000Z",
@@ -1567,7 +1477,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1e860a821323f610",
+      "id": "81a57b917859cbdf",
       "title": "FOOTBALL",
       "start": "2026-09-28T13:45:00.000Z",
       "end": "2026-09-28T15:00:00.000Z",
@@ -1577,7 +1487,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5d3077061f933c7f",
+      "id": "0517b11f1d835c12",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-09-29T06:05:00.000Z",
       "end": "2026-09-29T06:55:00.000Z",
@@ -1587,7 +1497,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c5e156df8cce1d85",
+      "id": "fa6a070f76de0012",
       "title": "MATHEMATIQUES",
       "start": "2026-09-29T06:55:00.000Z",
       "end": "2026-09-29T07:45:00.000Z",
@@ -1597,7 +1507,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a2889452658c0a01",
+      "id": "affe7723e3a80613",
       "title": "MATHEMATIQUES",
       "start": "2026-09-29T08:10:00.000Z",
       "end": "2026-09-29T09:00:00.000Z",
@@ -1607,7 +1517,7 @@
       "category": "etablissement"
     },
     {
-      "id": "410ad5653de11874",
+      "id": "15643aea6cf00735",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-09-29T09:00:00.000Z",
       "end": "2026-09-29T10:15:00.000Z",
@@ -1617,7 +1527,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4c329eaf3e6da140",
+      "id": "54a73f3b10e4e5ef",
       "title": "ANGLAIS LV1",
       "start": "2026-09-29T09:00:00.000Z",
       "end": "2026-09-29T09:50:00.000Z",
@@ -1627,7 +1537,7 @@
       "category": "etablissement"
     },
     {
-      "id": "0d522263256666c2",
+      "id": "75f0137a90538871",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-09-29T11:45:00.000Z",
       "end": "2026-09-29T12:35:00.000Z",
@@ -1637,7 +1547,7 @@
       "category": "etablissement"
     },
     {
-      "id": "311065eda7bca9b2",
+      "id": "d2df24ff83b603d4",
       "title": "FRANCAIS",
       "start": "2026-09-29T12:35:00.000Z",
       "end": "2026-09-29T13:25:00.000Z",
@@ -1647,7 +1557,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f3d1787b86c7a928",
+      "id": "d88eadc102285139",
       "title": "AP de Fr",
       "start": "2026-09-29T13:45:00.000Z",
       "end": "2026-09-29T14:35:00.000Z",
@@ -1657,7 +1567,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3a7ca26a438e6bd4",
+      "id": "cd35b43eedaf9a3c",
       "title": "BREVET INIT AERONOT",
       "start": "2026-09-29T13:45:00.000Z",
       "end": "2026-09-29T14:35:00.000Z",
@@ -1667,7 +1577,7 @@
       "category": "dnb"
     },
     {
-      "id": "63069c0863df6bc5",
+      "id": "c961f3f6eba1e8cb",
       "title": "ETUDE",
       "start": "2026-09-29T13:45:00.000Z",
       "end": "2026-09-29T14:35:00.000Z",
@@ -1677,7 +1587,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a180dfd8595871bf",
+      "id": "db7ca9decb382ffe",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-09-30T06:05:00.000Z",
       "end": "2026-09-30T07:45:00.000Z",
@@ -1687,7 +1597,7 @@
       "category": "sport"
     },
     {
-      "id": "39ebdd576c2b6d72",
+      "id": "3dfc54c3654efe8c",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-09-30T08:10:00.000Z",
       "end": "2026-09-30T09:00:00.000Z",
@@ -1697,7 +1607,7 @@
       "category": "etablissement"
     },
     {
-      "id": "89dde56899ead153",
+      "id": "ddd1337c3eac9fad",
       "title": "ARTS PLASTIQUES",
       "start": "2026-09-30T09:00:00.000Z",
       "end": "2026-09-30T09:50:00.000Z",
@@ -1707,7 +1617,7 @@
       "category": "etablissement"
     },
     {
-      "id": "dd02df5abbd828dd",
+      "id": "21bf23beb50fcda5",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-10-01T06:05:00.000Z",
       "end": "2026-10-01T06:55:00.000Z",
@@ -1717,7 +1627,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1358211e84cc86ee",
+      "id": "579b119710bba2fc",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-10-01T06:55:00.000Z",
       "end": "2026-10-01T07:45:00.000Z",
@@ -1727,7 +1637,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ff38de7040782830",
+      "id": "b4f0c1ec0b17f849",
       "title": "TECHNOLOGIE",
       "start": "2026-10-01T06:55:00.000Z",
       "end": "2026-10-01T07:45:00.000Z",
@@ -1737,17 +1647,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8d6f068cb7d52910",
-      "title": "ALLEMAND LV2",
-      "start": "2026-10-01T08:10:00.000Z",
-      "end": "2026-10-01T09:00:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "b12ec68756305a93",
+      "id": "c9d718e727368a16",
       "title": "Bilangue espagnol",
       "start": "2026-10-01T08:10:00.000Z",
       "end": "2026-10-01T09:00:00.000Z",
@@ -1757,7 +1657,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f21de094a85267c0",
+      "id": "a5a2f8bb7085468e",
       "title": "ESPAGNOL LV2",
       "start": "2026-10-01T08:10:00.000Z",
       "end": "2026-10-01T09:00:00.000Z",
@@ -1767,7 +1667,7 @@
       "category": "etablissement"
     },
     {
-      "id": "59ad3d3abb40b758",
+      "id": "7034fac8abf96f8d",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-10-01T09:00:00.000Z",
       "end": "2026-10-01T09:50:00.000Z",
@@ -1777,7 +1677,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7dd7a03a35ea7264",
+      "id": "9c44c581bd0c71bf",
       "title": "ETUDE",
       "start": "2026-10-01T09:00:00.000Z",
       "end": "2026-10-01T09:50:00.000Z",
@@ -1787,7 +1687,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8dc8470130c63a0d",
+      "id": "428e072202da7c4d",
       "title": "FRANCAIS",
       "start": "2026-10-01T11:20:00.000Z",
       "end": "2026-10-01T12:35:00.000Z",
@@ -1797,7 +1697,7 @@
       "category": "etablissement"
     },
     {
-      "id": "dfbacd1d0d060a29",
+      "id": "0efbdf463d03767a",
       "title": "VIE DE CLASSE",
       "start": "2026-10-01T12:35:00.000Z",
       "end": "2026-10-01T13:25:00.000Z",
@@ -1807,7 +1707,7 @@
       "category": "classe"
     },
     {
-      "id": "94027d8edf99e202",
+      "id": "7329de284f3d2e8c",
       "title": "AP de Maths",
       "start": "2026-10-01T13:45:00.000Z",
       "end": "2026-10-01T14:35:00.000Z",
@@ -1817,7 +1717,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3ef3b848bde3c1d7",
+      "id": "4b9191ff67145327",
       "title": "Développement durable",
       "start": "2026-10-01T13:45:00.000Z",
       "end": "2026-10-01T14:35:00.000Z",
@@ -1827,7 +1727,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1bd61305b42226c0",
+      "id": "bb51c4082f3d5930",
       "title": "ETUDE",
       "start": "2026-10-01T13:45:00.000Z",
       "end": "2026-10-01T14:35:00.000Z",
@@ -1837,7 +1737,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2ff362d4a2498620",
+      "id": "2ec04040f362f5cc",
       "title": "FOOTBALL",
       "start": "2026-10-01T13:45:00.000Z",
       "end": "2026-10-01T15:00:00.000Z",
@@ -1847,7 +1747,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5a5cb3e3aa515859",
+      "id": "afc473305084845c",
       "title": "MATHEMATIQUES",
       "start": "2026-10-02T06:05:00.000Z",
       "end": "2026-10-02T06:55:00.000Z",
@@ -1857,7 +1757,7 @@
       "category": "etablissement"
     },
     {
-      "id": "cc2b3e4bebd67df9",
+      "id": "1ec6c0db2cc91add",
       "title": "EDUCATION MUSICALE",
       "start": "2026-10-02T06:55:00.000Z",
       "end": "2026-10-02T07:45:00.000Z",
@@ -1867,7 +1767,7 @@
       "category": "etablissement"
     },
     {
-      "id": "04ed332612d80b05",
+      "id": "daf67650d62a7359",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-10-02T08:10:00.000Z",
       "end": "2026-10-02T09:00:00.000Z",
@@ -1877,7 +1777,7 @@
       "category": "etablissement"
     },
     {
-      "id": "930d240b65b9205b",
+      "id": "fca8a05e00d3a44e",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-10-02T09:00:00.000Z",
       "end": "2026-10-02T10:15:00.000Z",
@@ -1887,7 +1787,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d913fd1f533e8828",
+      "id": "bd2c00e6e6f8bc56",
       "title": "ANGLAIS LV1",
       "start": "2026-10-02T09:00:00.000Z",
       "end": "2026-10-02T09:50:00.000Z",
@@ -1897,7 +1797,7 @@
       "category": "etablissement"
     },
     {
-      "id": "741736936844a10b",
+      "id": "cc1c9a23aa3da7f0",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-10-02T11:45:00.000Z",
       "end": "2026-10-02T13:25:00.000Z",
@@ -1907,7 +1807,7 @@
       "category": "sport"
     },
     {
-      "id": "212869fe93316fd0",
+      "id": "2d999b01e83967bf",
       "title": "BREVET INIT AERONOT",
       "start": "2026-10-02T13:45:00.000Z",
       "end": "2026-10-02T14:35:00.000Z",
@@ -1917,7 +1817,7 @@
       "category": "dnb"
     },
     {
-      "id": "1bc007ebabf9f478",
+      "id": "3ffc95a81b3af97f",
       "title": "ETUDE",
       "start": "2026-10-02T13:45:00.000Z",
       "end": "2026-10-02T14:35:00.000Z",
@@ -1927,7 +1827,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d8ede0ff360fb00b",
+      "id": "7d55977ae883350e",
       "title": "MATHEMATIQUES",
       "start": "2026-10-05T06:05:00.000Z",
       "end": "2026-10-05T06:55:00.000Z",
@@ -1937,7 +1837,7 @@
       "category": "etablissement"
     },
     {
-      "id": "08d68c19a59f252d",
+      "id": "3501bf0afc6c70d7",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-10-05T06:55:00.000Z",
       "end": "2026-10-05T07:45:00.000Z",
@@ -1947,7 +1847,7 @@
       "category": "etablissement"
     },
     {
-      "id": "cc70c0cab70df053",
+      "id": "5d070f2b435f0425",
       "title": "ANGLAIS LV1",
       "start": "2026-10-05T06:55:00.000Z",
       "end": "2026-10-05T07:45:00.000Z",
@@ -1957,7 +1857,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a59fdb5dc9033c4c",
+      "id": "57cc001dcb13ae3f",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-10-05T08:10:00.000Z",
       "end": "2026-10-05T09:00:00.000Z",
@@ -1967,7 +1867,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f082bc850693c48c",
+      "id": "620625ad75a3e702",
       "title": "FRANCAIS",
       "start": "2026-10-05T09:00:00.000Z",
       "end": "2026-10-05T10:15:00.000Z",
@@ -1977,7 +1877,7 @@
       "category": "etablissement"
     },
     {
-      "id": "70a88aba0c2c82a6",
+      "id": "5fecbcb95814eb81",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-10-05T10:15:00.000Z",
       "end": "2026-10-05T11:05:00.000Z",
@@ -1987,17 +1887,7 @@
       "category": "etablissement"
     },
     {
-      "id": "39a2e4a80682a271",
-      "title": "ALLEMAND LV2",
-      "start": "2026-10-05T11:45:00.000Z",
-      "end": "2026-10-05T12:35:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "3ff1ec0d29c8e71c",
+      "id": "ba92f975935490e4",
       "title": "Bilangue espagnol",
       "start": "2026-10-05T11:45:00.000Z",
       "end": "2026-10-05T12:35:00.000Z",
@@ -2007,7 +1897,7 @@
       "category": "etablissement"
     },
     {
-      "id": "23923ab7b1bec3d4",
+      "id": "143fa734be600a77",
       "title": "ESPAGNOL LV2",
       "start": "2026-10-05T11:45:00.000Z",
       "end": "2026-10-05T12:35:00.000Z",
@@ -2017,7 +1907,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4cbf00540255dbd5",
+      "id": "3c754ec27ef38314",
       "title": "TECHNOLOGIE",
       "start": "2026-10-05T12:35:00.000Z",
       "end": "2026-10-05T13:25:00.000Z",
@@ -2027,7 +1917,7 @@
       "category": "etablissement"
     },
     {
-      "id": "230aaba201502968",
+      "id": "cebc2c8836c40d2e",
       "title": "ETUDE",
       "start": "2026-10-05T13:45:00.000Z",
       "end": "2026-10-05T14:35:00.000Z",
@@ -2037,7 +1927,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b2c29761f7ffb36b",
+      "id": "593428d41f650275",
       "title": "FOOTBALL",
       "start": "2026-10-05T13:45:00.000Z",
       "end": "2026-10-05T15:00:00.000Z",
@@ -2047,17 +1937,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9b8144e25d627536",
-      "title": "ALLEMAND LV2",
-      "start": "2026-10-06T06:05:00.000Z",
-      "end": "2026-10-06T06:55:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "90458b71e525acb1",
+      "id": "80788902e05245d8",
       "title": "Bilangue espagnol",
       "start": "2026-10-06T06:05:00.000Z",
       "end": "2026-10-06T06:55:00.000Z",
@@ -2067,7 +1947,7 @@
       "category": "etablissement"
     },
     {
-      "id": "95b3b1199ed3cc19",
+      "id": "da7ec266bd5f42cc",
       "title": "ESPAGNOL LV2",
       "start": "2026-10-06T06:05:00.000Z",
       "end": "2026-10-06T06:55:00.000Z",
@@ -2077,7 +1957,7 @@
       "category": "etablissement"
     },
     {
-      "id": "900b3670bd437672",
+      "id": "1a3c6d06987ab7f0",
       "title": "MATHEMATIQUES",
       "start": "2026-10-06T06:55:00.000Z",
       "end": "2026-10-06T07:45:00.000Z",
@@ -2087,7 +1967,7 @@
       "category": "etablissement"
     },
     {
-      "id": "007115ba5bc672d8",
+      "id": "008eadca390dffdc",
       "title": "MATHEMATIQUES",
       "start": "2026-10-06T08:10:00.000Z",
       "end": "2026-10-06T09:00:00.000Z",
@@ -2097,7 +1977,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2d3491f02e9c11cb",
+      "id": "d090b5a1121b54f7",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-10-06T09:00:00.000Z",
       "end": "2026-10-06T10:15:00.000Z",
@@ -2107,7 +1987,7 @@
       "category": "etablissement"
     },
     {
-      "id": "79dda4cc5055e273",
+      "id": "dd0a3a42090c475d",
       "title": "ANGLAIS LV1",
       "start": "2026-10-06T09:00:00.000Z",
       "end": "2026-10-06T09:50:00.000Z",
@@ -2117,7 +1997,7 @@
       "category": "etablissement"
     },
     {
-      "id": "0893294a210f6a30",
+      "id": "121e37d501cbe1c1",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-10-06T11:45:00.000Z",
       "end": "2026-10-06T12:35:00.000Z",
@@ -2127,7 +2007,7 @@
       "category": "etablissement"
     },
     {
-      "id": "19b5355f0cbfffd3",
+      "id": "7d30f263e8af382f",
       "title": "FRANCAIS",
       "start": "2026-10-06T12:35:00.000Z",
       "end": "2026-10-06T13:25:00.000Z",
@@ -2137,7 +2017,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8351b680c26f8fc5",
+      "id": "64f9df65e69ef1d3",
       "title": "BREVET INIT AERONOT",
       "start": "2026-10-06T13:45:00.000Z",
       "end": "2026-10-06T14:35:00.000Z",
@@ -2147,7 +2027,7 @@
       "category": "dnb"
     },
     {
-      "id": "534429ed8dc0cc07",
+      "id": "a1d2f6616d9a34f8",
       "title": "ETUDE",
       "start": "2026-10-06T13:45:00.000Z",
       "end": "2026-10-06T14:35:00.000Z",
@@ -2157,7 +2037,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1698a82b9269a500",
+      "id": "ee6588a58d31d911",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-10-07T06:05:00.000Z",
       "end": "2026-10-07T07:45:00.000Z",
@@ -2167,7 +2047,7 @@
       "category": "sport"
     },
     {
-      "id": "d51032c7932d5bf3",
+      "id": "3455b7680e2f6cc2",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-10-07T08:10:00.000Z",
       "end": "2026-10-07T09:00:00.000Z",
@@ -2177,7 +2057,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c418db642d1c96b7",
+      "id": "9257a6b21d66d940",
       "title": "ARTS PLASTIQUES",
       "start": "2026-10-07T09:00:00.000Z",
       "end": "2026-10-07T09:50:00.000Z",
@@ -2187,7 +2067,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f8b81f066afbd046",
+      "id": "a6b1acf718d74512",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-10-08T06:05:00.000Z",
       "end": "2026-10-08T06:55:00.000Z",
@@ -2197,7 +2077,7 @@
       "category": "etablissement"
     },
     {
-      "id": "55c7938b4f73a160",
+      "id": "2871e6614a613b42",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-10-08T06:55:00.000Z",
       "end": "2026-10-08T07:45:00.000Z",
@@ -2207,7 +2087,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9ae7260fcb8d5c7e",
+      "id": "5591cdfab4c13419",
       "title": "TECHNOLOGIE",
       "start": "2026-10-08T06:55:00.000Z",
       "end": "2026-10-08T07:45:00.000Z",
@@ -2217,17 +2097,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6908d31fbbbd39b2",
-      "title": "ALLEMAND LV2",
-      "start": "2026-10-08T08:10:00.000Z",
-      "end": "2026-10-08T09:00:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "ca7df28a49bd226b",
+      "id": "d26b81620303e202",
       "title": "Bilangue espagnol",
       "start": "2026-10-08T08:10:00.000Z",
       "end": "2026-10-08T09:00:00.000Z",
@@ -2237,7 +2107,7 @@
       "category": "etablissement"
     },
     {
-      "id": "0ee93c27c67db26d",
+      "id": "a2330ac7a58ff9e7",
       "title": "ESPAGNOL LV2",
       "start": "2026-10-08T08:10:00.000Z",
       "end": "2026-10-08T09:00:00.000Z",
@@ -2247,7 +2117,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a1b1db629ce62352",
+      "id": "97243e1a3ae71d0c",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-10-08T09:00:00.000Z",
       "end": "2026-10-08T09:50:00.000Z",
@@ -2257,7 +2127,7 @@
       "category": "etablissement"
     },
     {
-      "id": "36b6c5100327b0b6",
+      "id": "da364ff6f35e8bde",
       "title": "ETUDE",
       "start": "2026-10-08T09:00:00.000Z",
       "end": "2026-10-08T09:50:00.000Z",
@@ -2267,7 +2137,7 @@
       "category": "etablissement"
     },
     {
-      "id": "bb678fbc5f2b7c60",
+      "id": "f25ba6cd8a5326f0",
       "title": "FRANCAIS",
       "start": "2026-10-08T11:20:00.000Z",
       "end": "2026-10-08T12:35:00.000Z",
@@ -2277,7 +2147,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f440696435e71f54",
+      "id": "1f614b2a50cc15ad",
       "title": "VIE DE CLASSE",
       "start": "2026-10-08T12:35:00.000Z",
       "end": "2026-10-08T13:25:00.000Z",
@@ -2287,7 +2157,7 @@
       "category": "classe"
     },
     {
-      "id": "5901d0fd12580be7",
+      "id": "737e3e945cde8f61",
       "title": "AP de Maths",
       "start": "2026-10-08T13:45:00.000Z",
       "end": "2026-10-08T14:35:00.000Z",
@@ -2297,7 +2167,7 @@
       "category": "etablissement"
     },
     {
-      "id": "17fd4b9061305fca",
+      "id": "21a93b07b6aee4cc",
       "title": "Développement durable",
       "start": "2026-10-08T13:45:00.000Z",
       "end": "2026-10-08T14:35:00.000Z",
@@ -2307,7 +2177,7 @@
       "category": "etablissement"
     },
     {
-      "id": "61c8c7cfba997372",
+      "id": "782cf3c63d733bff",
       "title": "ETUDE",
       "start": "2026-10-08T13:45:00.000Z",
       "end": "2026-10-08T14:35:00.000Z",
@@ -2317,7 +2187,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a29862b670767a0a",
+      "id": "486416235ffce061",
       "title": "FOOTBALL",
       "start": "2026-10-08T13:45:00.000Z",
       "end": "2026-10-08T15:00:00.000Z",
@@ -2327,7 +2197,7 @@
       "category": "etablissement"
     },
     {
-      "id": "11925a1d2074c77e",
+      "id": "3f92800ff9c65d57",
       "title": "MATHEMATIQUES",
       "start": "2026-10-09T06:05:00.000Z",
       "end": "2026-10-09T06:55:00.000Z",
@@ -2337,7 +2207,7 @@
       "category": "etablissement"
     },
     {
-      "id": "899decb3a2ead8f8",
+      "id": "635b6ab5c4c0bd5d",
       "title": "EDUCATION MUSICALE",
       "start": "2026-10-09T06:55:00.000Z",
       "end": "2026-10-09T07:45:00.000Z",
@@ -2347,7 +2217,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b7722703e91ecefe",
+      "id": "89a411810e666c8b",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-10-09T08:10:00.000Z",
       "end": "2026-10-09T09:00:00.000Z",
@@ -2357,7 +2227,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d0dcc5496ecd8ab1",
+      "id": "81d627b6d8f3a769",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-10-09T09:00:00.000Z",
       "end": "2026-10-09T10:15:00.000Z",
@@ -2367,7 +2237,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a9e194faa34818c3",
+      "id": "bfaf79292faec965",
       "title": "ANGLAIS LV1",
       "start": "2026-10-09T09:00:00.000Z",
       "end": "2026-10-09T09:50:00.000Z",
@@ -2377,17 +2247,17 @@
       "category": "etablissement"
     },
     {
-      "id": "605e98bbc113a38b",
+      "id": "ed2b09d168fde265",
       "title": "DEVOIR",
       "start": "2026-10-09T11:45:00.000Z",
       "end": "2026-10-09T12:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
     {
-      "id": "f02a28aedbc7adb4",
+      "id": "276f1ebbf741f21f",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-10-09T12:35:00.000Z",
       "end": "2026-10-09T13:25:00.000Z",
@@ -2397,7 +2267,7 @@
       "category": "etablissement"
     },
     {
-      "id": "66d117509c743686",
+      "id": "e8c9ff5571c8ef9b",
       "title": "BREVET INIT AERONOT",
       "start": "2026-10-09T13:45:00.000Z",
       "end": "2026-10-09T14:35:00.000Z",
@@ -2407,7 +2277,7 @@
       "category": "dnb"
     },
     {
-      "id": "2f84426d841cfa3d",
+      "id": "12c6a1383e2563f8",
       "title": "ETUDE",
       "start": "2026-10-09T13:45:00.000Z",
       "end": "2026-10-09T14:35:00.000Z",
@@ -2417,7 +2287,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ac37de4c21584c8e",
+      "id": "85509693ab51fb95",
       "title": "MATHEMATIQUES",
       "start": "2026-10-12T06:05:00.000Z",
       "end": "2026-10-12T06:55:00.000Z",
@@ -2427,7 +2297,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2a9d6bea5ba6efb9",
+      "id": "6172bdd9a3454356",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-10-12T06:55:00.000Z",
       "end": "2026-10-12T07:45:00.000Z",
@@ -2437,7 +2307,7 @@
       "category": "etablissement"
     },
     {
-      "id": "525e16261769029c",
+      "id": "128e794f6f67fe27",
       "title": "ANGLAIS LV1",
       "start": "2026-10-12T06:55:00.000Z",
       "end": "2026-10-12T07:45:00.000Z",
@@ -2447,7 +2317,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8578700b44f47dcd",
+      "id": "7b38b7680a3d0b7f",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-10-12T08:10:00.000Z",
       "end": "2026-10-12T09:00:00.000Z",
@@ -2457,7 +2327,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b998fee54551aaf4",
+      "id": "15b3dd21a782c7e5",
       "title": "FRANCAIS",
       "start": "2026-10-12T09:00:00.000Z",
       "end": "2026-10-12T10:15:00.000Z",
@@ -2467,7 +2337,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f1c4247680ae8d87",
+      "id": "5d086a4d9626c373",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-10-12T10:15:00.000Z",
       "end": "2026-10-12T11:05:00.000Z",
@@ -2477,17 +2347,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4d8a8b1de95f51bb",
-      "title": "ALLEMAND LV2",
-      "start": "2026-10-12T11:45:00.000Z",
-      "end": "2026-10-12T12:35:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "d7f41366b9d3cbc6",
+      "id": "7c8b0580d19d347d",
       "title": "Bilangue espagnol",
       "start": "2026-10-12T11:45:00.000Z",
       "end": "2026-10-12T12:35:00.000Z",
@@ -2497,7 +2357,7 @@
       "category": "etablissement"
     },
     {
-      "id": "07546314a42c43c8",
+      "id": "ff7216b61c44513e",
       "title": "ESPAGNOL LV2",
       "start": "2026-10-12T11:45:00.000Z",
       "end": "2026-10-12T12:35:00.000Z",
@@ -2507,7 +2367,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5ab842eececd2700",
+      "id": "3eaeabfe16a75e43",
       "title": "TECHNOLOGIE",
       "start": "2026-10-12T12:35:00.000Z",
       "end": "2026-10-12T13:25:00.000Z",
@@ -2517,7 +2377,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9b0f73f51eda523f",
+      "id": "67d2f7917b585b0b",
       "title": "ETUDE",
       "start": "2026-10-12T13:45:00.000Z",
       "end": "2026-10-12T14:35:00.000Z",
@@ -2527,7 +2387,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8fcbb72c3addc38d",
+      "id": "ed1f1ec97c2e07bc",
       "title": "FOOTBALL",
       "start": "2026-10-12T13:45:00.000Z",
       "end": "2026-10-12T15:00:00.000Z",
@@ -2537,7 +2397,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1464fb60670c8a28",
+      "id": "9a85073c4b43aeb4",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-10-13T06:05:00.000Z",
       "end": "2026-10-13T06:55:00.000Z",
@@ -2547,7 +2407,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e319062fda839631",
+      "id": "9edebb5a96748529",
       "title": "MATHEMATIQUES",
       "start": "2026-10-13T06:55:00.000Z",
       "end": "2026-10-13T07:45:00.000Z",
@@ -2557,7 +2417,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d0c30c2ed5e4cec7",
+      "id": "d419c0ea2970fe57",
       "title": "MATHEMATIQUES",
       "start": "2026-10-13T08:10:00.000Z",
       "end": "2026-10-13T09:00:00.000Z",
@@ -2567,7 +2427,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7273c38e9166e9ce",
+      "id": "77f9ca71d5d4498b",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-10-13T09:00:00.000Z",
       "end": "2026-10-13T10:15:00.000Z",
@@ -2577,7 +2437,7 @@
       "category": "etablissement"
     },
     {
-      "id": "61cf48bba982c8c9",
+      "id": "eb8c9f48ad485b18",
       "title": "ANGLAIS LV1",
       "start": "2026-10-13T09:00:00.000Z",
       "end": "2026-10-13T09:50:00.000Z",
@@ -2587,7 +2447,7 @@
       "category": "etablissement"
     },
     {
-      "id": "704bf46c212b74c3",
+      "id": "1710b7c9cb9805cd",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-10-13T11:45:00.000Z",
       "end": "2026-10-13T12:35:00.000Z",
@@ -2597,7 +2457,7 @@
       "category": "etablissement"
     },
     {
-      "id": "44b498c26bae901f",
+      "id": "9e7c1a2a7c20675a",
       "title": "FRANCAIS",
       "start": "2026-10-13T12:35:00.000Z",
       "end": "2026-10-13T13:25:00.000Z",
@@ -2607,7 +2467,7 @@
       "category": "etablissement"
     },
     {
-      "id": "902b21982cee0a39",
+      "id": "ebe23de4e19eb777",
       "title": "AP de Fr",
       "start": "2026-10-13T13:45:00.000Z",
       "end": "2026-10-13T14:35:00.000Z",
@@ -2617,7 +2477,7 @@
       "category": "etablissement"
     },
     {
-      "id": "926f2191b4740aa0",
+      "id": "52be57fbefbef609",
       "title": "BREVET INIT AERONOT",
       "start": "2026-10-13T13:45:00.000Z",
       "end": "2026-10-13T14:35:00.000Z",
@@ -2627,7 +2487,7 @@
       "category": "dnb"
     },
     {
-      "id": "0ef69cb07330e254",
+      "id": "88846e71a9a5ca07",
       "title": "ETUDE",
       "start": "2026-10-13T13:45:00.000Z",
       "end": "2026-10-13T14:35:00.000Z",
@@ -2637,7 +2497,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a3e635b6494ed1e0",
+      "id": "047ac0b9d3053f02",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-10-14T06:05:00.000Z",
       "end": "2026-10-14T07:45:00.000Z",
@@ -2647,7 +2507,7 @@
       "category": "sport"
     },
     {
-      "id": "ad4b25fbaf05fcde",
+      "id": "13a172aaf3c08ecb",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-10-14T08:10:00.000Z",
       "end": "2026-10-14T09:00:00.000Z",
@@ -2657,7 +2517,7 @@
       "category": "etablissement"
     },
     {
-      "id": "fbe2f2d8f178e4ea",
+      "id": "fb6b355b74fe81ba",
       "title": "ARTS PLASTIQUES",
       "start": "2026-10-14T09:00:00.000Z",
       "end": "2026-10-14T09:50:00.000Z",
@@ -2667,7 +2527,7 @@
       "category": "etablissement"
     },
     {
-      "id": "fe14df9ab09e0fc3",
+      "id": "a5f7421f684500cf",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-10-15T06:05:00.000Z",
       "end": "2026-10-15T06:55:00.000Z",
@@ -2677,7 +2537,7 @@
       "category": "etablissement"
     },
     {
-      "id": "84fcbd0bffe93455",
+      "id": "2508a98017e7a815",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-10-15T06:55:00.000Z",
       "end": "2026-10-15T07:45:00.000Z",
@@ -2687,7 +2547,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b11204cd2ecfd73b",
+      "id": "44aaede25f2e8d78",
       "title": "TECHNOLOGIE",
       "start": "2026-10-15T06:55:00.000Z",
       "end": "2026-10-15T07:45:00.000Z",
@@ -2697,17 +2557,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7f340692023d17b0",
-      "title": "ALLEMAND LV2",
-      "start": "2026-10-15T08:10:00.000Z",
-      "end": "2026-10-15T09:00:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "cd2505557fcd32bd",
+      "id": "fcfbbc3f141686b6",
       "title": "Bilangue espagnol",
       "start": "2026-10-15T08:10:00.000Z",
       "end": "2026-10-15T09:00:00.000Z",
@@ -2717,7 +2567,7 @@
       "category": "etablissement"
     },
     {
-      "id": "019e0936fb68140b",
+      "id": "e4fefb1d5a72ab28",
       "title": "ESPAGNOL LV2",
       "start": "2026-10-15T08:10:00.000Z",
       "end": "2026-10-15T09:00:00.000Z",
@@ -2727,7 +2577,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e52cb55b25522846",
+      "id": "4653d206703c1a60",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-10-15T09:00:00.000Z",
       "end": "2026-10-15T09:50:00.000Z",
@@ -2737,7 +2587,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2d450ea73edb2897",
+      "id": "75ced575cb46223c",
       "title": "ETUDE",
       "start": "2026-10-15T09:00:00.000Z",
       "end": "2026-10-15T09:50:00.000Z",
@@ -2747,7 +2597,7 @@
       "category": "etablissement"
     },
     {
-      "id": "05610f52e5442e64",
+      "id": "1b1725c98da1080e",
       "title": "FRANCAIS",
       "start": "2026-10-15T11:20:00.000Z",
       "end": "2026-10-15T12:35:00.000Z",
@@ -2757,7 +2607,7 @@
       "category": "etablissement"
     },
     {
-      "id": "bbfa24532e08424f",
+      "id": "6ca7d1def3984ac9",
       "title": "VIE DE CLASSE",
       "start": "2026-10-15T12:35:00.000Z",
       "end": "2026-10-15T13:25:00.000Z",
@@ -2767,7 +2617,7 @@
       "category": "classe"
     },
     {
-      "id": "ebd22cc64ede5789",
+      "id": "5983873808557221",
       "title": "AP de Maths",
       "start": "2026-10-15T13:45:00.000Z",
       "end": "2026-10-15T14:35:00.000Z",
@@ -2777,17 +2627,17 @@
       "category": "etablissement"
     },
     {
-      "id": "fc5244abd40e065f",
+      "id": "01cb3f7b15388e89",
       "title": "Développement durable",
       "start": "2026-10-15T13:45:00.000Z",
       "end": "2026-10-15T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
-      "id": "8b0e665b96775cbe",
+      "id": "d2e226ac7e05575d",
       "title": "ETUDE",
       "start": "2026-10-15T13:45:00.000Z",
       "end": "2026-10-15T14:35:00.000Z",
@@ -2797,7 +2647,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f58e9b06eb704fc3",
+      "id": "d7c8da362a6cfcb7",
       "title": "FOOTBALL",
       "start": "2026-10-15T13:45:00.000Z",
       "end": "2026-10-15T15:00:00.000Z",
@@ -2807,7 +2657,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a0508b974cbfff48",
+      "id": "7f62d628aa1b51c7",
       "title": "MATHEMATIQUES",
       "start": "2026-10-16T06:05:00.000Z",
       "end": "2026-10-16T06:55:00.000Z",
@@ -2817,7 +2667,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8cc600ed97d67e94",
+      "id": "44e68db23769a376",
       "title": "EDUCATION MUSICALE",
       "start": "2026-10-16T06:55:00.000Z",
       "end": "2026-10-16T07:45:00.000Z",
@@ -2827,7 +2677,7 @@
       "category": "etablissement"
     },
     {
-      "id": "108636ad564de766",
+      "id": "df5be271e991a7b0",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-10-16T08:10:00.000Z",
       "end": "2026-10-16T09:00:00.000Z",
@@ -2837,7 +2687,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5d3c8aed34459314",
+      "id": "22a7cc58e01fc2e5",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-10-16T09:00:00.000Z",
       "end": "2026-10-16T10:15:00.000Z",
@@ -2847,7 +2697,7 @@
       "category": "etablissement"
     },
     {
-      "id": "34f099e325abcf74",
+      "id": "543611d21331850d",
       "title": "ANGLAIS LV1",
       "start": "2026-10-16T09:00:00.000Z",
       "end": "2026-10-16T09:50:00.000Z",
@@ -2857,7 +2707,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5d5795db962f197d",
+      "id": "dac46e997a1bf5c6",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-10-16T11:45:00.000Z",
       "end": "2026-10-16T13:25:00.000Z",
@@ -2867,7 +2717,7 @@
       "category": "sport"
     },
     {
-      "id": "19eb9ddcce08cef1",
+      "id": "98a02082f16cf059",
       "title": "BREVET INIT AERONOT",
       "start": "2026-10-16T13:45:00.000Z",
       "end": "2026-10-16T14:35:00.000Z",
@@ -2877,7 +2727,7 @@
       "category": "dnb"
     },
     {
-      "id": "a58dfbb8d6ab3f77",
+      "id": "462afcf05d66999a",
       "title": "ETUDE",
       "start": "2026-10-16T13:45:00.000Z",
       "end": "2026-10-16T14:35:00.000Z",
@@ -3047,7 +2897,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d124d8168ebc2ca5",
+      "id": "1b99265a2a6ce6f7",
       "title": "MATHEMATIQUES",
       "start": "2026-11-02T07:05:00.000Z",
       "end": "2026-11-02T07:55:00.000Z",
@@ -3057,7 +2907,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c3410928b921ca8b",
+      "id": "30338d5121ec82a3",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-02T07:55:00.000Z",
       "end": "2026-11-02T08:45:00.000Z",
@@ -3067,7 +2917,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b6ae7fef8e162d5e",
+      "id": "7adabe0985fa803d",
       "title": "ANGLAIS LV1",
       "start": "2026-11-02T07:55:00.000Z",
       "end": "2026-11-02T08:45:00.000Z",
@@ -3077,7 +2927,7 @@
       "category": "etablissement"
     },
     {
-      "id": "fe8c4cc1ede80589",
+      "id": "38a13dc77a19b8f8",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-11-02T09:10:00.000Z",
       "end": "2026-11-02T10:00:00.000Z",
@@ -3087,7 +2937,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4a7632a44dafe25a",
+      "id": "139205bbf615ad85",
       "title": "FRANCAIS",
       "start": "2026-11-02T10:00:00.000Z",
       "end": "2026-11-02T11:15:00.000Z",
@@ -3097,7 +2947,7 @@
       "category": "etablissement"
     },
     {
-      "id": "fa8db90a692be8fb",
+      "id": "05afab267fb7dad1",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-02T11:15:00.000Z",
       "end": "2026-11-02T12:05:00.000Z",
@@ -3107,17 +2957,7 @@
       "category": "etablissement"
     },
     {
-      "id": "13336f9b57ef8b0f",
-      "title": "ALLEMAND LV2",
-      "start": "2026-11-02T12:45:00.000Z",
-      "end": "2026-11-02T13:35:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "ea15e861df3420a0",
+      "id": "d1e47eb972ec605c",
       "title": "Bilangue espagnol",
       "start": "2026-11-02T12:45:00.000Z",
       "end": "2026-11-02T13:35:00.000Z",
@@ -3127,7 +2967,7 @@
       "category": "etablissement"
     },
     {
-      "id": "bb5ee791b450f544",
+      "id": "fe53ac0c4739c6bf",
       "title": "ESPAGNOL LV2",
       "start": "2026-11-02T12:45:00.000Z",
       "end": "2026-11-02T13:35:00.000Z",
@@ -3137,7 +2977,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3d68a106fb555dad",
+      "id": "11a1a639fcd01270",
       "title": "TECHNOLOGIE",
       "start": "2026-11-02T13:35:00.000Z",
       "end": "2026-11-02T14:25:00.000Z",
@@ -3147,7 +2987,7 @@
       "category": "etablissement"
     },
     {
-      "id": "03296845d50e07ee",
+      "id": "e0fa6719ba3e36e7",
       "title": "ETUDE",
       "start": "2026-11-02T14:45:00.000Z",
       "end": "2026-11-02T15:35:00.000Z",
@@ -3157,7 +2997,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d5e18ab05c03e6a0",
+      "id": "4593927508523d69",
       "title": "FOOTBALL",
       "start": "2026-11-02T14:45:00.000Z",
       "end": "2026-11-02T16:00:00.000Z",
@@ -3167,17 +3007,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2a1fd1f4ad894693",
-      "title": "ALLEMAND LV2",
-      "start": "2026-11-03T07:05:00.000Z",
-      "end": "2026-11-03T07:55:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "8340db2d914fe6bf",
+      "id": "c8d8515860e52902",
       "title": "Bilangue espagnol",
       "start": "2026-11-03T07:05:00.000Z",
       "end": "2026-11-03T07:55:00.000Z",
@@ -3187,7 +3017,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9334c893a617452d",
+      "id": "798ea25e29b37453",
       "title": "ESPAGNOL LV2",
       "start": "2026-11-03T07:05:00.000Z",
       "end": "2026-11-03T07:55:00.000Z",
@@ -3197,7 +3027,7 @@
       "category": "etablissement"
     },
     {
-      "id": "66b0504634f370fe",
+      "id": "b6f46a011479d136",
       "title": "MATHEMATIQUES",
       "start": "2026-11-03T07:55:00.000Z",
       "end": "2026-11-03T08:45:00.000Z",
@@ -3207,7 +3037,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b8e1b7ad4c99bbae",
+      "id": "19f2bb5644f2cf47",
       "title": "MATHEMATIQUES",
       "start": "2026-11-03T09:10:00.000Z",
       "end": "2026-11-03T10:00:00.000Z",
@@ -3217,7 +3047,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8a1b26dfb954202d",
+      "id": "612d7b8831686cf2",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-03T10:00:00.000Z",
       "end": "2026-11-03T11:15:00.000Z",
@@ -3227,7 +3057,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b97cb27709b568d0",
+      "id": "a83be608ebf22fc3",
       "title": "ANGLAIS LV1",
       "start": "2026-11-03T10:00:00.000Z",
       "end": "2026-11-03T10:50:00.000Z",
@@ -3237,7 +3067,7 @@
       "category": "etablissement"
     },
     {
-      "id": "66b62f4e66cd23a7",
+      "id": "f31fd38474fe103e",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-11-03T12:45:00.000Z",
       "end": "2026-11-03T13:35:00.000Z",
@@ -3247,7 +3077,7 @@
       "category": "etablissement"
     },
     {
-      "id": "250ec6649897f840",
+      "id": "f936c576b1f07fa8",
       "title": "FRANCAIS",
       "start": "2026-11-03T13:35:00.000Z",
       "end": "2026-11-03T14:25:00.000Z",
@@ -3257,7 +3087,7 @@
       "category": "etablissement"
     },
     {
-      "id": "018ca03cebcb919a",
+      "id": "24279bdb0c23b54a",
       "title": "BREVET INIT AERONOT",
       "start": "2026-11-03T14:45:00.000Z",
       "end": "2026-11-03T15:35:00.000Z",
@@ -3267,7 +3097,7 @@
       "category": "dnb"
     },
     {
-      "id": "f3cd0cd49f1bc1f0",
+      "id": "707c0dd1c559f3e1",
       "title": "ETUDE",
       "start": "2026-11-03T14:45:00.000Z",
       "end": "2026-11-03T15:35:00.000Z",
@@ -3277,7 +3107,7 @@
       "category": "etablissement"
     },
     {
-      "id": "dacd15b2eb1811c0",
+      "id": "b9399c4fc3c557bc",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-11-04T07:05:00.000Z",
       "end": "2026-11-04T08:45:00.000Z",
@@ -3287,7 +3117,7 @@
       "category": "sport"
     },
     {
-      "id": "5e0a9fcf22ff1af6",
+      "id": "fcf450ff3e349cc0",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-11-04T09:10:00.000Z",
       "end": "2026-11-04T10:00:00.000Z",
@@ -3297,7 +3127,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8568676759d2e28a",
+      "id": "bc8c243c93e3e219",
       "title": "ARTS PLASTIQUES",
       "start": "2026-11-04T10:00:00.000Z",
       "end": "2026-11-04T10:50:00.000Z",
@@ -3307,7 +3137,7 @@
       "category": "etablissement"
     },
     {
-      "id": "274dd513a488dea4",
+      "id": "71910327521a6508",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-11-05T07:05:00.000Z",
       "end": "2026-11-05T07:55:00.000Z",
@@ -3317,7 +3147,7 @@
       "category": "etablissement"
     },
     {
-      "id": "0b9f6242769172c6",
+      "id": "1224eebf384c05b8",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-11-05T07:55:00.000Z",
       "end": "2026-11-05T08:45:00.000Z",
@@ -3327,7 +3157,7 @@
       "category": "etablissement"
     },
     {
-      "id": "15bb0840c3456987",
+      "id": "e14b2ae77b8cc8c4",
       "title": "TECHNOLOGIE",
       "start": "2026-11-05T07:55:00.000Z",
       "end": "2026-11-05T08:45:00.000Z",
@@ -3337,17 +3167,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b99eee3eb841a308",
-      "title": "ALLEMAND LV2",
-      "start": "2026-11-05T09:10:00.000Z",
-      "end": "2026-11-05T10:00:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "5c73532fb2066732",
+      "id": "1171545b2a59f2c2",
       "title": "Bilangue espagnol",
       "start": "2026-11-05T09:10:00.000Z",
       "end": "2026-11-05T10:00:00.000Z",
@@ -3357,7 +3177,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3f4b2907628a48c3",
+      "id": "0fe1ae0f464522a6",
       "title": "ESPAGNOL LV2",
       "start": "2026-11-05T09:10:00.000Z",
       "end": "2026-11-05T10:00:00.000Z",
@@ -3367,7 +3187,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d5201d1392ab6536",
+      "id": "72f568d8565abc31",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-05T10:00:00.000Z",
       "end": "2026-11-05T10:50:00.000Z",
@@ -3377,7 +3197,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d3d95126826fca14",
+      "id": "883d20379d3a8d37",
       "title": "ETUDE",
       "start": "2026-11-05T10:00:00.000Z",
       "end": "2026-11-05T10:50:00.000Z",
@@ -3387,7 +3207,7 @@
       "category": "etablissement"
     },
     {
-      "id": "480cce0d59fcfff8",
+      "id": "a508d0aec0b3f962",
       "title": "FRANCAIS",
       "start": "2026-11-05T12:20:00.000Z",
       "end": "2026-11-05T13:35:00.000Z",
@@ -3397,7 +3217,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8776b385f6eec233",
+      "id": "b703024e5f665d13",
       "title": "VIE DE CLASSE",
       "start": "2026-11-05T13:35:00.000Z",
       "end": "2026-11-05T14:25:00.000Z",
@@ -3407,7 +3227,7 @@
       "category": "classe"
     },
     {
-      "id": "9958816f2d15b1b9",
+      "id": "e4cd2728f1533376",
       "title": "AP de Maths",
       "start": "2026-11-05T14:45:00.000Z",
       "end": "2026-11-05T15:35:00.000Z",
@@ -3417,7 +3237,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b4978a5f4c4e27bc",
+      "id": "6ea3f039dd6f91c4",
       "title": "Développement durable",
       "start": "2026-11-05T14:45:00.000Z",
       "end": "2026-11-05T15:35:00.000Z",
@@ -3427,7 +3247,7 @@
       "category": "etablissement"
     },
     {
-      "id": "866a2f8d64bf0f07",
+      "id": "6847e6e547a5ca93",
       "title": "ETUDE",
       "start": "2026-11-05T14:45:00.000Z",
       "end": "2026-11-05T15:35:00.000Z",
@@ -3437,7 +3257,7 @@
       "category": "etablissement"
     },
     {
-      "id": "0f2402b04bb023cb",
+      "id": "5c2033d6f42e4e2f",
       "title": "FOOTBALL",
       "start": "2026-11-05T14:45:00.000Z",
       "end": "2026-11-05T16:00:00.000Z",
@@ -3447,7 +3267,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5954150ad2a24ebe",
+      "id": "4cf44981d2c88c24",
       "title": "MATHEMATIQUES",
       "start": "2026-11-06T07:05:00.000Z",
       "end": "2026-11-06T07:55:00.000Z",
@@ -3457,7 +3277,7 @@
       "category": "etablissement"
     },
     {
-      "id": "25989d7751c46b1c",
+      "id": "5df15bfa854f1ace",
       "title": "EDUCATION MUSICALE",
       "start": "2026-11-06T07:55:00.000Z",
       "end": "2026-11-06T08:45:00.000Z",
@@ -3467,7 +3287,7 @@
       "category": "etablissement"
     },
     {
-      "id": "fbcb5a64e21a2692",
+      "id": "098b45146e4253c4",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-11-06T09:10:00.000Z",
       "end": "2026-11-06T10:00:00.000Z",
@@ -3477,7 +3297,7 @@
       "category": "etablissement"
     },
     {
-      "id": "778a5d51653d06e9",
+      "id": "657b7600f2bf0704",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-06T10:00:00.000Z",
       "end": "2026-11-06T11:15:00.000Z",
@@ -3487,7 +3307,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a7c7f2b34829a686",
+      "id": "4aa85611cda417de",
       "title": "ANGLAIS LV1",
       "start": "2026-11-06T10:00:00.000Z",
       "end": "2026-11-06T10:50:00.000Z",
@@ -3497,7 +3317,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b90da6691ceb19aa",
+      "id": "0c5da4a90dd4ffd2",
       "title": "DEVOIR",
       "start": "2026-11-06T12:45:00.000Z",
       "end": "2026-11-06T13:35:00.000Z",
@@ -3507,7 +3327,7 @@
       "category": "etablissement"
     },
     {
-      "id": "79e8d716607018e8",
+      "id": "f0e0fb138732de9e",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-11-06T13:35:00.000Z",
       "end": "2026-11-06T14:25:00.000Z",
@@ -3517,7 +3337,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4f558278db6fb0f6",
+      "id": "a60ce7d13e544b4d",
       "title": "BREVET INIT AERONOT",
       "start": "2026-11-06T14:45:00.000Z",
       "end": "2026-11-06T15:35:00.000Z",
@@ -3527,7 +3347,7 @@
       "category": "dnb"
     },
     {
-      "id": "7363210163009ac1",
+      "id": "ca9a1bdb984729e1",
       "title": "ETUDE",
       "start": "2026-11-06T14:45:00.000Z",
       "end": "2026-11-06T15:35:00.000Z",
@@ -3537,7 +3357,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2a88c2a96d17ff20",
+      "id": "cebc57e86db27d2f",
       "title": "MATHEMATIQUES",
       "start": "2026-11-09T07:05:00.000Z",
       "end": "2026-11-09T07:55:00.000Z",
@@ -3547,7 +3367,7 @@
       "category": "etablissement"
     },
     {
-      "id": "27221b1dbb1e4b8d",
+      "id": "fb1faabde08d7c8b",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-09T07:55:00.000Z",
       "end": "2026-11-09T08:45:00.000Z",
@@ -3557,7 +3377,7 @@
       "category": "etablissement"
     },
     {
-      "id": "370bbf29d38673f9",
+      "id": "588dd484cc7a0f03",
       "title": "ANGLAIS LV1",
       "start": "2026-11-09T07:55:00.000Z",
       "end": "2026-11-09T08:45:00.000Z",
@@ -3567,7 +3387,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b7a1f2e83f327cc8",
+      "id": "0aa9a6daf801a1e0",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-11-09T09:10:00.000Z",
       "end": "2026-11-09T10:00:00.000Z",
@@ -3577,7 +3397,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f42c65e656a32530",
+      "id": "d2a4225de2387073",
       "title": "FRANCAIS",
       "start": "2026-11-09T10:00:00.000Z",
       "end": "2026-11-09T11:15:00.000Z",
@@ -3587,7 +3407,7 @@
       "category": "etablissement"
     },
     {
-      "id": "37b78711484688a1",
+      "id": "c362780038354e00",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-09T11:15:00.000Z",
       "end": "2026-11-09T12:05:00.000Z",
@@ -3597,17 +3417,7 @@
       "category": "etablissement"
     },
     {
-      "id": "da6f5ac3beaa23a3",
-      "title": "ALLEMAND LV2",
-      "start": "2026-11-09T12:45:00.000Z",
-      "end": "2026-11-09T13:35:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "8eeb545834cc38fd",
+      "id": "c0df648a7648ed59",
       "title": "Bilangue espagnol",
       "start": "2026-11-09T12:45:00.000Z",
       "end": "2026-11-09T13:35:00.000Z",
@@ -3617,7 +3427,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c82aec4bd50ca7e6",
+      "id": "571098be235e9f43",
       "title": "ESPAGNOL LV2",
       "start": "2026-11-09T12:45:00.000Z",
       "end": "2026-11-09T13:35:00.000Z",
@@ -3627,7 +3437,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ee0faedef74f4acf",
+      "id": "6922bdbb4c4f7403",
       "title": "TECHNOLOGIE",
       "start": "2026-11-09T13:35:00.000Z",
       "end": "2026-11-09T14:25:00.000Z",
@@ -3637,7 +3447,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6c794bf00ea35548",
+      "id": "c61ab6b2dca1765e",
       "title": "ETUDE",
       "start": "2026-11-09T14:45:00.000Z",
       "end": "2026-11-09T15:35:00.000Z",
@@ -3647,7 +3457,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8973bf8a3b2535c5",
+      "id": "2b78bab44da4039a",
       "title": "FOOTBALL",
       "start": "2026-11-09T14:45:00.000Z",
       "end": "2026-11-09T16:00:00.000Z",
@@ -3657,7 +3467,7 @@
       "category": "etablissement"
     },
     {
-      "id": "306c5e0ac5b3426b",
+      "id": "b0341da2b82c2a16",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-11-10T07:05:00.000Z",
       "end": "2026-11-10T07:55:00.000Z",
@@ -3667,7 +3477,7 @@
       "category": "etablissement"
     },
     {
-      "id": "970dc0ace53d085a",
+      "id": "0acd0576826eae08",
       "title": "MATHEMATIQUES",
       "start": "2026-11-10T07:55:00.000Z",
       "end": "2026-11-10T08:45:00.000Z",
@@ -3677,7 +3487,7 @@
       "category": "etablissement"
     },
     {
-      "id": "29af9dcdf75c1ade",
+      "id": "df19888800fc4e76",
       "title": "MATHEMATIQUES",
       "start": "2026-11-10T09:10:00.000Z",
       "end": "2026-11-10T10:00:00.000Z",
@@ -3687,7 +3497,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d2f80354687c3167",
+      "id": "fd36e76bc9d55eca",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-10T10:00:00.000Z",
       "end": "2026-11-10T11:15:00.000Z",
@@ -3697,7 +3507,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a06c7ccbe141c58c",
+      "id": "31c0caa9329e740f",
       "title": "ANGLAIS LV1",
       "start": "2026-11-10T10:00:00.000Z",
       "end": "2026-11-10T10:50:00.000Z",
@@ -3707,7 +3517,7 @@
       "category": "etablissement"
     },
     {
-      "id": "59563ef6ea89e2b4",
+      "id": "f83563125a36d772",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-11-10T12:45:00.000Z",
       "end": "2026-11-10T13:35:00.000Z",
@@ -3717,7 +3527,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9ad10f06e78de2d0",
+      "id": "bce4ea8f3d1c1a59",
       "title": "FRANCAIS",
       "start": "2026-11-10T13:35:00.000Z",
       "end": "2026-11-10T14:25:00.000Z",
@@ -3727,7 +3537,7 @@
       "category": "etablissement"
     },
     {
-      "id": "845c1765ceb4c7ba",
+      "id": "e47bd81c27aa1b76",
       "title": "AP de Fr",
       "start": "2026-11-10T14:45:00.000Z",
       "end": "2026-11-10T15:35:00.000Z",
@@ -3737,7 +3547,7 @@
       "category": "etablissement"
     },
     {
-      "id": "87e8d602fe9692bf",
+      "id": "80b1b2f2efbc2eba",
       "title": "BREVET INIT AERONOT",
       "start": "2026-11-10T14:45:00.000Z",
       "end": "2026-11-10T15:35:00.000Z",
@@ -3747,7 +3557,7 @@
       "category": "dnb"
     },
     {
-      "id": "6bfe5ea8f4b4291d",
+      "id": "3daa66bf18429bed",
       "title": "ETUDE",
       "start": "2026-11-10T14:45:00.000Z",
       "end": "2026-11-10T15:35:00.000Z",
@@ -3767,7 +3577,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9df7b621ffe00116",
+      "id": "a80ff2277c89405e",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-11-12T07:05:00.000Z",
       "end": "2026-11-12T07:55:00.000Z",
@@ -3777,7 +3587,7 @@
       "category": "etablissement"
     },
     {
-      "id": "70d6c20e1431f4b6",
+      "id": "fb28bef0731cc1ae",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-11-12T07:55:00.000Z",
       "end": "2026-11-12T08:45:00.000Z",
@@ -3787,7 +3597,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5f119e981eb9d702",
+      "id": "7840d90e35c1f2ba",
       "title": "TECHNOLOGIE",
       "start": "2026-11-12T07:55:00.000Z",
       "end": "2026-11-12T08:45:00.000Z",
@@ -3797,17 +3607,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b2225ff400086d83",
-      "title": "ALLEMAND LV2",
-      "start": "2026-11-12T09:10:00.000Z",
-      "end": "2026-11-12T10:00:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "2f9f0c28b4973900",
+      "id": "b3fae8cdf6bd5a99",
       "title": "Bilangue espagnol",
       "start": "2026-11-12T09:10:00.000Z",
       "end": "2026-11-12T10:00:00.000Z",
@@ -3817,7 +3617,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b32b7b8dafd383de",
+      "id": "1ab8533736807220",
       "title": "ESPAGNOL LV2",
       "start": "2026-11-12T09:10:00.000Z",
       "end": "2026-11-12T10:00:00.000Z",
@@ -3827,7 +3627,7 @@
       "category": "etablissement"
     },
     {
-      "id": "950a181a8ecc9b0d",
+      "id": "00dfc32b7568a4ec",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-12T10:00:00.000Z",
       "end": "2026-11-12T10:50:00.000Z",
@@ -3837,7 +3637,7 @@
       "category": "etablissement"
     },
     {
-      "id": "761ba55cf90afb1f",
+      "id": "f8b116a582177d84",
       "title": "ETUDE",
       "start": "2026-11-12T10:00:00.000Z",
       "end": "2026-11-12T10:50:00.000Z",
@@ -3847,7 +3647,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1da53631eec4be6a",
+      "id": "11789ec7a34bb6eb",
       "title": "FRANCAIS",
       "start": "2026-11-12T12:20:00.000Z",
       "end": "2026-11-12T13:35:00.000Z",
@@ -3857,7 +3657,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9822860bc3a9efd1",
+      "id": "d97b30fa9edc0bca",
       "title": "VIE DE CLASSE",
       "start": "2026-11-12T13:35:00.000Z",
       "end": "2026-11-12T14:25:00.000Z",
@@ -3867,7 +3667,7 @@
       "category": "classe"
     },
     {
-      "id": "207f8d5d96024224",
+      "id": "92d5b180502baaae",
       "title": "AP de Maths",
       "start": "2026-11-12T14:45:00.000Z",
       "end": "2026-11-12T15:35:00.000Z",
@@ -3877,7 +3677,7 @@
       "category": "etablissement"
     },
     {
-      "id": "53688404162d323c",
+      "id": "55f94c92ff33f6fd",
       "title": "Développement durable",
       "start": "2026-11-12T14:45:00.000Z",
       "end": "2026-11-12T15:35:00.000Z",
@@ -3887,7 +3687,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2ebf19423add63d3",
+      "id": "36a502839540df6b",
       "title": "ETUDE",
       "start": "2026-11-12T14:45:00.000Z",
       "end": "2026-11-12T15:35:00.000Z",
@@ -3897,7 +3697,7 @@
       "category": "etablissement"
     },
     {
-      "id": "896c363b3ba1e5ee",
+      "id": "ee6b90af8dcf1f5f",
       "title": "FOOTBALL",
       "start": "2026-11-12T14:45:00.000Z",
       "end": "2026-11-12T16:00:00.000Z",
@@ -3907,7 +3707,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b493a00a558b04ce",
+      "id": "4f7e772e44e4e2cb",
       "title": "MATHEMATIQUES",
       "start": "2026-11-13T07:05:00.000Z",
       "end": "2026-11-13T07:55:00.000Z",
@@ -3917,7 +3717,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a9f6ec30719d6412",
+      "id": "1b985c118c04823e",
       "title": "EDUCATION MUSICALE",
       "start": "2026-11-13T07:55:00.000Z",
       "end": "2026-11-13T08:45:00.000Z",
@@ -3927,7 +3727,7 @@
       "category": "etablissement"
     },
     {
-      "id": "11818b40f61fbd85",
+      "id": "34107b8e3c3a4445",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-11-13T09:10:00.000Z",
       "end": "2026-11-13T10:00:00.000Z",
@@ -3937,7 +3737,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b52c682823b3b587",
+      "id": "3f8975652340e2fd",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-13T10:00:00.000Z",
       "end": "2026-11-13T11:15:00.000Z",
@@ -3947,7 +3747,7 @@
       "category": "etablissement"
     },
     {
-      "id": "adbd51201da01b26",
+      "id": "535a69555dbdff90",
       "title": "ANGLAIS LV1",
       "start": "2026-11-13T10:00:00.000Z",
       "end": "2026-11-13T10:50:00.000Z",
@@ -3957,7 +3757,7 @@
       "category": "etablissement"
     },
     {
-      "id": "77e3ee1443aa77ae",
+      "id": "31be6c62f4ba5d02",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-11-13T12:45:00.000Z",
       "end": "2026-11-13T14:25:00.000Z",
@@ -3967,7 +3767,7 @@
       "category": "sport"
     },
     {
-      "id": "791ca173a3eec0d6",
+      "id": "8363e732cda42a31",
       "title": "BREVET INIT AERONOT",
       "start": "2026-11-13T14:45:00.000Z",
       "end": "2026-11-13T15:35:00.000Z",
@@ -3977,7 +3777,7 @@
       "category": "dnb"
     },
     {
-      "id": "2e35689dc9e8372a",
+      "id": "47f2c29163036c6e",
       "title": "ETUDE",
       "start": "2026-11-13T14:45:00.000Z",
       "end": "2026-11-13T15:35:00.000Z",
@@ -3987,7 +3787,7 @@
       "category": "etablissement"
     },
     {
-      "id": "583d745860993151",
+      "id": "436d0750081dad77",
       "title": "MATHEMATIQUES",
       "start": "2026-11-16T07:05:00.000Z",
       "end": "2026-11-16T07:55:00.000Z",
@@ -3997,7 +3797,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1e06b591b2852258",
+      "id": "c201bb27576e64a3",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-16T07:55:00.000Z",
       "end": "2026-11-16T08:45:00.000Z",
@@ -4007,7 +3807,7 @@
       "category": "etablissement"
     },
     {
-      "id": "90556efff343c413",
+      "id": "accd59d917019884",
       "title": "ANGLAIS LV1",
       "start": "2026-11-16T07:55:00.000Z",
       "end": "2026-11-16T08:45:00.000Z",
@@ -4017,7 +3817,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1ddf2e0f20d1d577",
+      "id": "a7168e5406b6b0ad",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-11-16T09:10:00.000Z",
       "end": "2026-11-16T10:00:00.000Z",
@@ -4027,7 +3827,7 @@
       "category": "etablissement"
     },
     {
-      "id": "001c4ab32699ccf3",
+      "id": "57c4cb6fa32f1db7",
       "title": "FRANCAIS",
       "start": "2026-11-16T10:00:00.000Z",
       "end": "2026-11-16T11:15:00.000Z",
@@ -4037,7 +3837,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e09ac683980d60fc",
+      "id": "cd975a59f8003bd4",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-16T11:15:00.000Z",
       "end": "2026-11-16T12:05:00.000Z",
@@ -4047,17 +3847,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7b221d978ac700e5",
-      "title": "ALLEMAND LV2",
-      "start": "2026-11-16T12:45:00.000Z",
-      "end": "2026-11-16T13:35:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "4c623baeef86c9d6",
+      "id": "2ce69b4a4fac46c2",
       "title": "Bilangue espagnol",
       "start": "2026-11-16T12:45:00.000Z",
       "end": "2026-11-16T13:35:00.000Z",
@@ -4067,7 +3857,7 @@
       "category": "etablissement"
     },
     {
-      "id": "94471abb285fd96a",
+      "id": "230d8b448e280ab0",
       "title": "ESPAGNOL LV2",
       "start": "2026-11-16T12:45:00.000Z",
       "end": "2026-11-16T13:35:00.000Z",
@@ -4077,7 +3867,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6878f50be408e989",
+      "id": "8691e16fb7c26147",
       "title": "TECHNOLOGIE",
       "start": "2026-11-16T13:35:00.000Z",
       "end": "2026-11-16T14:25:00.000Z",
@@ -4087,7 +3877,7 @@
       "category": "etablissement"
     },
     {
-      "id": "916acca50860084f",
+      "id": "fda110432bb9c8ab",
       "title": "ETUDE",
       "start": "2026-11-16T14:45:00.000Z",
       "end": "2026-11-16T15:35:00.000Z",
@@ -4097,7 +3887,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f61e9e669c3a2de3",
+      "id": "7e95d09e16ae3382",
       "title": "FOOTBALL",
       "start": "2026-11-16T14:45:00.000Z",
       "end": "2026-11-16T16:00:00.000Z",
@@ -4107,17 +3897,7 @@
       "category": "etablissement"
     },
     {
-      "id": "721d5fd2485f0468",
-      "title": "ALLEMAND LV2",
-      "start": "2026-11-17T07:05:00.000Z",
-      "end": "2026-11-17T07:55:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "b47428f1fc651934",
+      "id": "3a3407a4fd562729",
       "title": "Bilangue espagnol",
       "start": "2026-11-17T07:05:00.000Z",
       "end": "2026-11-17T07:55:00.000Z",
@@ -4127,7 +3907,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b037c4f96230defc",
+      "id": "3e6e81c1f3d58230",
       "title": "ESPAGNOL LV2",
       "start": "2026-11-17T07:05:00.000Z",
       "end": "2026-11-17T07:55:00.000Z",
@@ -4137,7 +3917,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f46ed6eec822ad98",
+      "id": "ede7e7ab5c47e30c",
       "title": "MATHEMATIQUES",
       "start": "2026-11-17T07:55:00.000Z",
       "end": "2026-11-17T08:45:00.000Z",
@@ -4147,7 +3927,7 @@
       "category": "etablissement"
     },
     {
-      "id": "273919e0d31f34ef",
+      "id": "cb2dc2ea3828331a",
       "title": "MATHEMATIQUES",
       "start": "2026-11-17T09:10:00.000Z",
       "end": "2026-11-17T10:00:00.000Z",
@@ -4157,7 +3937,7 @@
       "category": "etablissement"
     },
     {
-      "id": "cfaabaa94297060f",
+      "id": "3a6a272b61a6295c",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-17T10:00:00.000Z",
       "end": "2026-11-17T11:15:00.000Z",
@@ -4167,7 +3947,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e4b16720082ac691",
+      "id": "67b5c343d50f8548",
       "title": "ANGLAIS LV1",
       "start": "2026-11-17T10:00:00.000Z",
       "end": "2026-11-17T10:50:00.000Z",
@@ -4177,7 +3957,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7a5c1d6f55f7c674",
+      "id": "eafb97450276fe7c",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-11-17T12:45:00.000Z",
       "end": "2026-11-17T13:35:00.000Z",
@@ -4187,7 +3967,7 @@
       "category": "etablissement"
     },
     {
-      "id": "70e1142c87a23179",
+      "id": "7e13a6c17843b2a9",
       "title": "FRANCAIS",
       "start": "2026-11-17T13:35:00.000Z",
       "end": "2026-11-17T14:25:00.000Z",
@@ -4197,7 +3977,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9985ce826879fb0d",
+      "id": "dbedd49c72818b9a",
       "title": "BREVET INIT AERONOT",
       "start": "2026-11-17T14:45:00.000Z",
       "end": "2026-11-17T15:35:00.000Z",
@@ -4207,7 +3987,7 @@
       "category": "dnb"
     },
     {
-      "id": "9f76c6223c6a85a6",
+      "id": "448321f9aa164b38",
       "title": "ETUDE",
       "start": "2026-11-17T14:45:00.000Z",
       "end": "2026-11-17T15:35:00.000Z",
@@ -4217,7 +3997,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7dcb9974c8d51b50",
+      "id": "79ac4cff803c7ec2",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-11-18T07:05:00.000Z",
       "end": "2026-11-18T08:45:00.000Z",
@@ -4227,7 +4007,7 @@
       "category": "sport"
     },
     {
-      "id": "d242a119baca9a19",
+      "id": "f49dd0ca0365017d",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-11-18T09:10:00.000Z",
       "end": "2026-11-18T10:00:00.000Z",
@@ -4237,7 +4017,7 @@
       "category": "etablissement"
     },
     {
-      "id": "024e020ecf7cb2c5",
+      "id": "faab30bda9a234b0",
       "title": "ARTS PLASTIQUES",
       "start": "2026-11-18T10:00:00.000Z",
       "end": "2026-11-18T10:50:00.000Z",
@@ -4247,7 +4027,7 @@
       "category": "etablissement"
     },
     {
-      "id": "92481f0b8322cdbf",
+      "id": "c419c764af177910",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-11-19T07:05:00.000Z",
       "end": "2026-11-19T07:55:00.000Z",
@@ -4257,7 +4037,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d15c41250ca87881",
+      "id": "1f1cbc79dca15634",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-11-19T07:55:00.000Z",
       "end": "2026-11-19T08:45:00.000Z",
@@ -4267,7 +4047,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1ba9f67a9a90afcc",
+      "id": "ab9a59c2a7031438",
       "title": "TECHNOLOGIE",
       "start": "2026-11-19T07:55:00.000Z",
       "end": "2026-11-19T08:45:00.000Z",
@@ -4277,17 +4057,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a7953e49f1fb28f9",
-      "title": "ALLEMAND LV2",
-      "start": "2026-11-19T09:10:00.000Z",
-      "end": "2026-11-19T10:00:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "d1d495cd8b8a9a03",
+      "id": "205f7f7809e24566",
       "title": "Bilangue espagnol",
       "start": "2026-11-19T09:10:00.000Z",
       "end": "2026-11-19T10:00:00.000Z",
@@ -4297,7 +4067,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6e6bf5561af0dc73",
+      "id": "6fa556e718308663",
       "title": "ESPAGNOL LV2",
       "start": "2026-11-19T09:10:00.000Z",
       "end": "2026-11-19T10:00:00.000Z",
@@ -4307,7 +4077,7 @@
       "category": "etablissement"
     },
     {
-      "id": "243c7a637390d342",
+      "id": "9265bd58a0d132f7",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-19T10:00:00.000Z",
       "end": "2026-11-19T10:50:00.000Z",
@@ -4317,7 +4087,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3a37e0ef4e539618",
+      "id": "c4381331cfc5646b",
       "title": "ETUDE",
       "start": "2026-11-19T10:00:00.000Z",
       "end": "2026-11-19T10:50:00.000Z",
@@ -4327,7 +4097,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f870eda9549e7302",
+      "id": "9fb7c117ffdf5f83",
       "title": "FRANCAIS",
       "start": "2026-11-19T12:20:00.000Z",
       "end": "2026-11-19T13:35:00.000Z",
@@ -4337,7 +4107,7 @@
       "category": "etablissement"
     },
     {
-      "id": "35ef760f09e76212",
+      "id": "d40a4033d59b2a07",
       "title": "VIE DE CLASSE",
       "start": "2026-11-19T13:35:00.000Z",
       "end": "2026-11-19T14:25:00.000Z",
@@ -4347,7 +4117,7 @@
       "category": "classe"
     },
     {
-      "id": "f0be7e4f27c9c092",
+      "id": "42cf5ef60ef7a68b",
       "title": "AP de Maths",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T15:35:00.000Z",
@@ -4357,7 +4127,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f3b36b55adbcd33f",
+      "id": "6d6d0c34e29a6ffb",
       "title": "Développement durable",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T15:35:00.000Z",
@@ -4367,7 +4137,7 @@
       "category": "etablissement"
     },
     {
-      "id": "28010da8fa18344a",
+      "id": "8ec7e38306d1b007",
       "title": "ETUDE",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T15:35:00.000Z",
@@ -4377,7 +4147,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1ceacb603752dd9c",
+      "id": "4c9497f0f993edcf",
       "title": "FOOTBALL",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T16:00:00.000Z",
@@ -4387,7 +4157,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5aedd6864e2ec0d9",
+      "id": "5842aed3b97f69e7",
       "title": "MATHEMATIQUES",
       "start": "2026-11-20T07:05:00.000Z",
       "end": "2026-11-20T07:55:00.000Z",
@@ -4397,7 +4167,7 @@
       "category": "etablissement"
     },
     {
-      "id": "29e4f33f2cd647e4",
+      "id": "d4d61e59ad91cb55",
       "title": "EDUCATION MUSICALE",
       "start": "2026-11-20T07:55:00.000Z",
       "end": "2026-11-20T08:45:00.000Z",
@@ -4407,7 +4177,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7d56a9ddb06fe9e2",
+      "id": "140d5e9da2fac9e4",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-11-20T09:10:00.000Z",
       "end": "2026-11-20T10:00:00.000Z",
@@ -4417,7 +4187,7 @@
       "category": "etablissement"
     },
     {
-      "id": "607dcfa93718ab93",
+      "id": "0d196697a59a54c2",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-20T10:00:00.000Z",
       "end": "2026-11-20T11:15:00.000Z",
@@ -4427,7 +4197,7 @@
       "category": "etablissement"
     },
     {
-      "id": "000170097d9c4fc3",
+      "id": "2f5ff96f4d60dd27",
       "title": "ANGLAIS LV1",
       "start": "2026-11-20T10:00:00.000Z",
       "end": "2026-11-20T10:50:00.000Z",
@@ -4437,17 +4207,17 @@
       "category": "etablissement"
     },
     {
-      "id": "f360ba198d694535",
+      "id": "9a9f7c5706f94bb9",
       "title": "DEVOIR",
       "start": "2026-11-20T12:45:00.000Z",
       "end": "2026-11-20T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
     {
-      "id": "645b222d432f8bd6",
+      "id": "429d34e2b3c0600a",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-11-20T13:35:00.000Z",
       "end": "2026-11-20T14:25:00.000Z",
@@ -4457,7 +4227,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d97dca0ea1aacc94",
+      "id": "5370af4e703f7ca2",
       "title": "BREVET INIT AERONOT",
       "start": "2026-11-20T14:45:00.000Z",
       "end": "2026-11-20T15:35:00.000Z",
@@ -4467,7 +4237,7 @@
       "category": "dnb"
     },
     {
-      "id": "bba014e109761f7a",
+      "id": "6f02ec756b640310",
       "title": "ETUDE",
       "start": "2026-11-20T14:45:00.000Z",
       "end": "2026-11-20T15:35:00.000Z",
@@ -4477,7 +4247,7 @@
       "category": "etablissement"
     },
     {
-      "id": "94e1100238879036",
+      "id": "ba295b007825f57a",
       "title": "MATHEMATIQUES",
       "start": "2026-11-23T07:05:00.000Z",
       "end": "2026-11-23T07:55:00.000Z",
@@ -4487,7 +4257,7 @@
       "category": "etablissement"
     },
     {
-      "id": "24b6b472f0a73ed7",
+      "id": "3787ebdc537163dd",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-23T07:55:00.000Z",
       "end": "2026-11-23T08:45:00.000Z",
@@ -4497,7 +4267,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5304ea86eb721a62",
+      "id": "5d0a52a71eb2a071",
       "title": "ANGLAIS LV1",
       "start": "2026-11-23T07:55:00.000Z",
       "end": "2026-11-23T08:45:00.000Z",
@@ -4507,7 +4277,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4ebf9dfa92aaa80d",
+      "id": "f451ce2b9dcf1c32",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-11-23T09:10:00.000Z",
       "end": "2026-11-23T10:00:00.000Z",
@@ -4517,7 +4287,7 @@
       "category": "etablissement"
     },
     {
-      "id": "31e61053ac59dd57",
+      "id": "6351764122cb6a03",
       "title": "FRANCAIS",
       "start": "2026-11-23T10:00:00.000Z",
       "end": "2026-11-23T11:15:00.000Z",
@@ -4527,7 +4297,7 @@
       "category": "etablissement"
     },
     {
-      "id": "faead497e956af13",
+      "id": "c4e1acf061bb1a0f",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-23T11:15:00.000Z",
       "end": "2026-11-23T12:05:00.000Z",
@@ -4537,17 +4307,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3c363afbb36751bd",
-      "title": "ALLEMAND LV2",
-      "start": "2026-11-23T12:45:00.000Z",
-      "end": "2026-11-23T13:35:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "ba56e4fd8e3e4449",
+      "id": "c9effa6747f6df35",
       "title": "Bilangue espagnol",
       "start": "2026-11-23T12:45:00.000Z",
       "end": "2026-11-23T13:35:00.000Z",
@@ -4557,7 +4317,7 @@
       "category": "etablissement"
     },
     {
-      "id": "51a471f1a8afb6ee",
+      "id": "a4f70893e2216354",
       "title": "ESPAGNOL LV2",
       "start": "2026-11-23T12:45:00.000Z",
       "end": "2026-11-23T13:35:00.000Z",
@@ -4567,7 +4327,7 @@
       "category": "etablissement"
     },
     {
-      "id": "edf023d8620ef953",
+      "id": "c86040457b507b88",
       "title": "TECHNOLOGIE",
       "start": "2026-11-23T13:35:00.000Z",
       "end": "2026-11-23T14:25:00.000Z",
@@ -4577,7 +4337,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6d7819681f0402a8",
+      "id": "025e668aa50dd1e1",
       "title": "ETUDE",
       "start": "2026-11-23T14:45:00.000Z",
       "end": "2026-11-23T15:35:00.000Z",
@@ -4587,7 +4347,7 @@
       "category": "etablissement"
     },
     {
-      "id": "16fd0ee663ff552f",
+      "id": "bf0b09af458d8899",
       "title": "FOOTBALL",
       "start": "2026-11-23T14:45:00.000Z",
       "end": "2026-11-23T16:00:00.000Z",
@@ -4597,7 +4357,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f72a30ba01b2daa5",
+      "id": "d3dc24fc75583b95",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-11-24T07:05:00.000Z",
       "end": "2026-11-24T07:55:00.000Z",
@@ -4607,7 +4367,7 @@
       "category": "etablissement"
     },
     {
-      "id": "baf7c8b8a11658d6",
+      "id": "a2a5096c8bed8c93",
       "title": "MATHEMATIQUES",
       "start": "2026-11-24T07:55:00.000Z",
       "end": "2026-11-24T08:45:00.000Z",
@@ -4617,7 +4377,7 @@
       "category": "etablissement"
     },
     {
-      "id": "dbd4d3f496af3e41",
+      "id": "6afe2141f8b1f6e5",
       "title": "MATHEMATIQUES",
       "start": "2026-11-24T09:10:00.000Z",
       "end": "2026-11-24T10:00:00.000Z",
@@ -4627,7 +4387,7 @@
       "category": "etablissement"
     },
     {
-      "id": "39cebc1923a267a3",
+      "id": "f14bc28dc77cb8db",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-24T10:00:00.000Z",
       "end": "2026-11-24T11:15:00.000Z",
@@ -4637,7 +4397,7 @@
       "category": "etablissement"
     },
     {
-      "id": "681f64d0cb45e49e",
+      "id": "15d2dd6ddf104e25",
       "title": "ANGLAIS LV1",
       "start": "2026-11-24T10:00:00.000Z",
       "end": "2026-11-24T10:50:00.000Z",
@@ -4647,7 +4407,7 @@
       "category": "etablissement"
     },
     {
-      "id": "00d6540ff4de72b0",
+      "id": "34adf6b6dfc51137",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-11-24T12:45:00.000Z",
       "end": "2026-11-24T13:35:00.000Z",
@@ -4657,7 +4417,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5f14aa283824b9da",
+      "id": "6208810bcf708eb0",
       "title": "FRANCAIS",
       "start": "2026-11-24T13:35:00.000Z",
       "end": "2026-11-24T14:25:00.000Z",
@@ -4667,7 +4427,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e956b99e3190a2cd",
+      "id": "cd15b1f4c155ac81",
       "title": "AP de Fr",
       "start": "2026-11-24T14:45:00.000Z",
       "end": "2026-11-24T15:35:00.000Z",
@@ -4677,7 +4437,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1523cdb03d1c0416",
+      "id": "e5c5565c869da4e1",
       "title": "BREVET INIT AERONOT",
       "start": "2026-11-24T14:45:00.000Z",
       "end": "2026-11-24T15:35:00.000Z",
@@ -4687,7 +4447,7 @@
       "category": "dnb"
     },
     {
-      "id": "5b36b8df8c2263b9",
+      "id": "bcf8825bdb3ce670",
       "title": "ETUDE",
       "start": "2026-11-24T14:45:00.000Z",
       "end": "2026-11-24T15:35:00.000Z",
@@ -4697,7 +4457,7 @@
       "category": "etablissement"
     },
     {
-      "id": "cc0c8b377e409632",
+      "id": "cd4cc4d3b7ed00d1",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-11-25T07:05:00.000Z",
       "end": "2026-11-25T08:45:00.000Z",
@@ -4707,7 +4467,7 @@
       "category": "sport"
     },
     {
-      "id": "1d985699f3c30c9e",
+      "id": "408d4e9d743dce82",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-11-25T09:10:00.000Z",
       "end": "2026-11-25T10:00:00.000Z",
@@ -4717,7 +4477,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6f665d1291ca8719",
+      "id": "be271ef08ec100dc",
       "title": "ARTS PLASTIQUES",
       "start": "2026-11-25T10:00:00.000Z",
       "end": "2026-11-25T10:50:00.000Z",
@@ -4727,7 +4487,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ac0d535fb3586620",
+      "id": "5934789483b9899a",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-11-26T07:05:00.000Z",
       "end": "2026-11-26T07:55:00.000Z",
@@ -4737,7 +4497,7 @@
       "category": "etablissement"
     },
     {
-      "id": "606a406de1d54961",
+      "id": "f15be545c095a9d4",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-11-26T07:55:00.000Z",
       "end": "2026-11-26T08:45:00.000Z",
@@ -4747,7 +4507,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5029aeaba620561f",
+      "id": "5b17167a7f4af2b3",
       "title": "TECHNOLOGIE",
       "start": "2026-11-26T07:55:00.000Z",
       "end": "2026-11-26T08:45:00.000Z",
@@ -4757,17 +4517,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ebcf4a28828dcf65",
-      "title": "ALLEMAND LV2",
-      "start": "2026-11-26T09:10:00.000Z",
-      "end": "2026-11-26T10:00:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "948f756f15b652e7",
+      "id": "4704ff95c6ee80a7",
       "title": "Bilangue espagnol",
       "start": "2026-11-26T09:10:00.000Z",
       "end": "2026-11-26T10:00:00.000Z",
@@ -4777,7 +4527,7 @@
       "category": "etablissement"
     },
     {
-      "id": "df550f807c171e8b",
+      "id": "05772e28394a0db0",
       "title": "ESPAGNOL LV2",
       "start": "2026-11-26T09:10:00.000Z",
       "end": "2026-11-26T10:00:00.000Z",
@@ -4787,7 +4537,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d4d19e97e536e020",
+      "id": "dfb4ae999b13e839",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-26T10:00:00.000Z",
       "end": "2026-11-26T10:50:00.000Z",
@@ -4797,7 +4547,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8fc03dd6251dd8ee",
+      "id": "3654241d77ae8c41",
       "title": "ETUDE",
       "start": "2026-11-26T10:00:00.000Z",
       "end": "2026-11-26T10:50:00.000Z",
@@ -4807,7 +4557,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6fc0af68ba07541e",
+      "id": "87deae234afc3ae1",
       "title": "FRANCAIS",
       "start": "2026-11-26T12:20:00.000Z",
       "end": "2026-11-26T13:35:00.000Z",
@@ -4817,7 +4567,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d907a77780edd1e2",
+      "id": "f62301e043046ce5",
       "title": "VIE DE CLASSE",
       "start": "2026-11-26T13:35:00.000Z",
       "end": "2026-11-26T14:25:00.000Z",
@@ -4827,7 +4577,7 @@
       "category": "classe"
     },
     {
-      "id": "108c653efcbd3f64",
+      "id": "dafba69200884f95",
       "title": "AP de Maths",
       "start": "2026-11-26T14:45:00.000Z",
       "end": "2026-11-26T15:35:00.000Z",
@@ -4837,17 +4587,17 @@
       "category": "etablissement"
     },
     {
-      "id": "32c2222f700781c0",
+      "id": "d0c10dc848d10d4f",
       "title": "Développement durable",
       "start": "2026-11-26T14:45:00.000Z",
       "end": "2026-11-26T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
-      "id": "548dcc23c616b6f5",
+      "id": "247ae1d367e94b52",
       "title": "ETUDE",
       "start": "2026-11-26T14:45:00.000Z",
       "end": "2026-11-26T15:35:00.000Z",
@@ -4857,7 +4607,7 @@
       "category": "etablissement"
     },
     {
-      "id": "68518540570d5916",
+      "id": "44be23a50d244f1c",
       "title": "FOOTBALL",
       "start": "2026-11-26T14:45:00.000Z",
       "end": "2026-11-26T16:00:00.000Z",
@@ -4867,7 +4617,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e323a07369531a27",
+      "id": "f553e8eacc932ef0",
       "title": "MATHEMATIQUES",
       "start": "2026-11-27T07:05:00.000Z",
       "end": "2026-11-27T07:55:00.000Z",
@@ -4877,7 +4627,7 @@
       "category": "etablissement"
     },
     {
-      "id": "431d928572ec401d",
+      "id": "b63039aa3f3a8e32",
       "title": "EDUCATION MUSICALE",
       "start": "2026-11-27T07:55:00.000Z",
       "end": "2026-11-27T08:45:00.000Z",
@@ -4887,7 +4637,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c9b8012cdf5c9ebb",
+      "id": "17dfbb88ec7b55ba",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-11-27T09:10:00.000Z",
       "end": "2026-11-27T10:00:00.000Z",
@@ -4897,7 +4647,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f08b323825f0e6b9",
+      "id": "1b4ebe6358a4631d",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-27T10:00:00.000Z",
       "end": "2026-11-27T11:15:00.000Z",
@@ -4907,7 +4657,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f63f3f31cf6f80cd",
+      "id": "1d424fc45d2500bf",
       "title": "ANGLAIS LV1",
       "start": "2026-11-27T10:00:00.000Z",
       "end": "2026-11-27T10:50:00.000Z",
@@ -4917,7 +4667,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e26c1f441434b5bb",
+      "id": "97c6e0b45a54f2d8",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-11-27T12:45:00.000Z",
       "end": "2026-11-27T14:25:00.000Z",
@@ -4927,7 +4677,7 @@
       "category": "sport"
     },
     {
-      "id": "a2aa212c28cab285",
+      "id": "541a03a7e5ff62bf",
       "title": "BREVET INIT AERONOT",
       "start": "2026-11-27T14:45:00.000Z",
       "end": "2026-11-27T15:35:00.000Z",
@@ -4937,7 +4687,7 @@
       "category": "dnb"
     },
     {
-      "id": "411017bc30273cab",
+      "id": "0fe219f8183cf133",
       "title": "ETUDE",
       "start": "2026-11-27T14:45:00.000Z",
       "end": "2026-11-27T15:35:00.000Z",
@@ -4947,7 +4697,7 @@
       "category": "etablissement"
     },
     {
-      "id": "657cfef655e735a9",
+      "id": "e9c958563f0db85e",
       "title": "MATHEMATIQUES",
       "start": "2026-11-30T07:05:00.000Z",
       "end": "2026-11-30T07:55:00.000Z",
@@ -4957,7 +4707,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d348051c5e9d8a14",
+      "id": "09bdf8daed26a1ff",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-11-30T07:55:00.000Z",
       "end": "2026-11-30T08:45:00.000Z",
@@ -4967,7 +4717,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2cc1914963a42437",
+      "id": "131c2e2477b04202",
       "title": "ANGLAIS LV1",
       "start": "2026-11-30T07:55:00.000Z",
       "end": "2026-11-30T08:45:00.000Z",
@@ -4977,7 +4727,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2aea7f16b434909c",
+      "id": "c9bdcb4cf1d86afb",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-11-30T09:10:00.000Z",
       "end": "2026-11-30T10:00:00.000Z",
@@ -4987,7 +4737,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c3becaa54be464ed",
+      "id": "23b643927756972f",
       "title": "FRANCAIS",
       "start": "2026-11-30T10:00:00.000Z",
       "end": "2026-11-30T11:15:00.000Z",
@@ -4997,7 +4747,7 @@
       "category": "etablissement"
     },
     {
-      "id": "898a5cfe46eb6d6e",
+      "id": "c397bb04e3527982",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-30T11:15:00.000Z",
       "end": "2026-11-30T12:05:00.000Z",
@@ -5007,17 +4757,7 @@
       "category": "etablissement"
     },
     {
-      "id": "89962d63e59a0b87",
-      "title": "ALLEMAND LV2",
-      "start": "2026-11-30T12:45:00.000Z",
-      "end": "2026-11-30T13:35:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "30e4e95e10a36d5c",
+      "id": "22de318f2e66797d",
       "title": "Bilangue espagnol",
       "start": "2026-11-30T12:45:00.000Z",
       "end": "2026-11-30T13:35:00.000Z",
@@ -5027,7 +4767,7 @@
       "category": "etablissement"
     },
     {
-      "id": "143bc579983ada0b",
+      "id": "3034501d4fb6cf39",
       "title": "ESPAGNOL LV2",
       "start": "2026-11-30T12:45:00.000Z",
       "end": "2026-11-30T13:35:00.000Z",
@@ -5037,7 +4777,7 @@
       "category": "etablissement"
     },
     {
-      "id": "cc7ecd5120793797",
+      "id": "a6f78fc5095d6230",
       "title": "TECHNOLOGIE",
       "start": "2026-11-30T13:35:00.000Z",
       "end": "2026-11-30T14:25:00.000Z",
@@ -5047,7 +4787,7 @@
       "category": "etablissement"
     },
     {
-      "id": "dd1d5f853e0cbf44",
+      "id": "8ef6cb8c5017cc70",
       "title": "ETUDE",
       "start": "2026-11-30T14:45:00.000Z",
       "end": "2026-11-30T15:35:00.000Z",
@@ -5057,7 +4797,7 @@
       "category": "etablissement"
     },
     {
-      "id": "06af301206e28315",
+      "id": "2123a6b63630310e",
       "title": "FOOTBALL",
       "start": "2026-11-30T14:45:00.000Z",
       "end": "2026-11-30T16:00:00.000Z",
@@ -5067,17 +4807,7 @@
       "category": "etablissement"
     },
     {
-      "id": "de5e41be9997ffcc",
-      "title": "ALLEMAND LV2",
-      "start": "2026-12-01T07:05:00.000Z",
-      "end": "2026-12-01T07:55:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "ce1d2c10e78cbca0",
+      "id": "e30340f061c4c722",
       "title": "Bilangue espagnol",
       "start": "2026-12-01T07:05:00.000Z",
       "end": "2026-12-01T07:55:00.000Z",
@@ -5087,7 +4817,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a69f1f0744dadb11",
+      "id": "5970009fcd794f75",
       "title": "ESPAGNOL LV2",
       "start": "2026-12-01T07:05:00.000Z",
       "end": "2026-12-01T07:55:00.000Z",
@@ -5097,7 +4827,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3ceec3673675743f",
+      "id": "68e9e0b9b6e3bb41",
       "title": "MATHEMATIQUES",
       "start": "2026-12-01T07:55:00.000Z",
       "end": "2026-12-01T08:45:00.000Z",
@@ -5107,7 +4837,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5924aea6dd268f15",
+      "id": "4f0261ba3fc84a0e",
       "title": "MATHEMATIQUES",
       "start": "2026-12-01T09:10:00.000Z",
       "end": "2026-12-01T10:00:00.000Z",
@@ -5117,7 +4847,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d371a950d5974262",
+      "id": "0a0f596a7e24e123",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-12-01T10:00:00.000Z",
       "end": "2026-12-01T11:15:00.000Z",
@@ -5127,7 +4857,7 @@
       "category": "etablissement"
     },
     {
-      "id": "44bdc9e82125f34d",
+      "id": "ade50951f7270d7c",
       "title": "ANGLAIS LV1",
       "start": "2026-12-01T10:00:00.000Z",
       "end": "2026-12-01T10:50:00.000Z",
@@ -5137,7 +4867,7 @@
       "category": "etablissement"
     },
     {
-      "id": "28b0d2e44a3bfc28",
+      "id": "739d3be0d73a648d",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-12-01T12:45:00.000Z",
       "end": "2026-12-01T13:35:00.000Z",
@@ -5147,7 +4877,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3fbfe792a0adce26",
+      "id": "f2df2ba9bc861db8",
       "title": "FRANCAIS",
       "start": "2026-12-01T13:35:00.000Z",
       "end": "2026-12-01T14:25:00.000Z",
@@ -5157,7 +4887,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8d30cfdbeb748430",
+      "id": "4374013a482b88c8",
       "title": "BREVET INIT AERONOT",
       "start": "2026-12-01T14:45:00.000Z",
       "end": "2026-12-01T15:35:00.000Z",
@@ -5167,7 +4897,7 @@
       "category": "dnb"
     },
     {
-      "id": "82c18830346b30b4",
+      "id": "f09b6b1ee9e99635",
       "title": "ETUDE",
       "start": "2026-12-01T14:45:00.000Z",
       "end": "2026-12-01T15:35:00.000Z",
@@ -5177,7 +4907,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e6a9cbf021558af4",
+      "id": "e1ca77732ab4b648",
       "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-12-02T07:05:00.000Z",
       "end": "2026-12-02T08:45:00.000Z",
@@ -5187,7 +4917,7 @@
       "category": "sport"
     },
     {
-      "id": "3e7a32b866d6903a",
+      "id": "89591ff31bdac871",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-12-02T09:10:00.000Z",
       "end": "2026-12-02T10:00:00.000Z",
@@ -5197,7 +4927,7 @@
       "category": "etablissement"
     },
     {
-      "id": "55ed12301dfa10f9",
+      "id": "bf49989c086da7ee",
       "title": "ARTS PLASTIQUES",
       "start": "2026-12-02T10:00:00.000Z",
       "end": "2026-12-02T10:50:00.000Z",
@@ -5207,7 +4937,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1449e1011a060b7f",
+      "id": "3e737ae5f46bf75e",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-12-03T07:05:00.000Z",
       "end": "2026-12-03T07:55:00.000Z",
@@ -5217,7 +4947,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2f5bfde89151b524",
+      "id": "cc5a4fca3bc7230a",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-12-03T07:55:00.000Z",
       "end": "2026-12-03T08:45:00.000Z",
@@ -5227,7 +4957,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8647fb32ea215591",
+      "id": "4c761b364d8d012d",
       "title": "TECHNOLOGIE",
       "start": "2026-12-03T07:55:00.000Z",
       "end": "2026-12-03T08:45:00.000Z",
@@ -5237,17 +4967,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5f25c7890c484128",
-      "title": "ALLEMAND LV2",
-      "start": "2026-12-03T09:10:00.000Z",
-      "end": "2026-12-03T10:00:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "676a0428600a101e",
+      "id": "b96e4026d67aca0c",
       "title": "Bilangue espagnol",
       "start": "2026-12-03T09:10:00.000Z",
       "end": "2026-12-03T10:00:00.000Z",
@@ -5257,7 +4977,7 @@
       "category": "etablissement"
     },
     {
-      "id": "30f37f967b9fe157",
+      "id": "f54c29bb9a60dba9",
       "title": "ESPAGNOL LV2",
       "start": "2026-12-03T09:10:00.000Z",
       "end": "2026-12-03T10:00:00.000Z",
@@ -5267,7 +4987,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b5102f13f515cb2a",
+      "id": "e3f4a751ba9db9a5",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-12-03T10:00:00.000Z",
       "end": "2026-12-03T10:50:00.000Z",
@@ -5277,7 +4997,7 @@
       "category": "etablissement"
     },
     {
-      "id": "0214f3afb5f7a172",
+      "id": "9feecdbec1ff29c0",
       "title": "ETUDE",
       "start": "2026-12-03T10:00:00.000Z",
       "end": "2026-12-03T10:50:00.000Z",
@@ -5287,7 +5007,7 @@
       "category": "etablissement"
     },
     {
-      "id": "0b2ce3d15da3252b",
+      "id": "fd56dd499acc119f",
       "title": "FRANCAIS",
       "start": "2026-12-03T12:20:00.000Z",
       "end": "2026-12-03T13:35:00.000Z",
@@ -5297,7 +5017,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9f427029a99c6d43",
+      "id": "384d7d602746f4f5",
       "title": "VIE DE CLASSE",
       "start": "2026-12-03T13:35:00.000Z",
       "end": "2026-12-03T14:25:00.000Z",
@@ -5307,7 +5027,7 @@
       "category": "classe"
     },
     {
-      "id": "fb9491f9c21d4b48",
+      "id": "05449083c8689a3d",
       "title": "AP de Maths",
       "start": "2026-12-03T14:45:00.000Z",
       "end": "2026-12-03T15:35:00.000Z",
@@ -5317,17 +5037,17 @@
       "category": "etablissement"
     },
     {
-      "id": "ce14e4e333d6146e",
+      "id": "f14679f4d57dda4e",
       "title": "Développement durable",
       "start": "2026-12-03T14:45:00.000Z",
       "end": "2026-12-03T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
-      "id": "3eabff9ffdaef983",
+      "id": "63529fc97cd0915e",
       "title": "ETUDE",
       "start": "2026-12-03T14:45:00.000Z",
       "end": "2026-12-03T15:35:00.000Z",
@@ -5337,7 +5057,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8407320b1304c5c4",
+      "id": "e4617931cd7774ef",
       "title": "FOOTBALL",
       "start": "2026-12-03T14:45:00.000Z",
       "end": "2026-12-03T16:00:00.000Z",
@@ -5347,7 +5067,7 @@
       "category": "etablissement"
     },
     {
-      "id": "682c3ef620db4974",
+      "id": "feaa2028e5479123",
       "title": "MATHEMATIQUES",
       "start": "2026-12-04T07:05:00.000Z",
       "end": "2026-12-04T07:55:00.000Z",
@@ -5357,7 +5077,7 @@
       "category": "etablissement"
     },
     {
-      "id": "565e5d74cd031aff",
+      "id": "9eb7f9bd21165f41",
       "title": "EDUCATION MUSICALE",
       "start": "2026-12-04T07:55:00.000Z",
       "end": "2026-12-04T08:45:00.000Z",
@@ -5367,7 +5087,7 @@
       "category": "etablissement"
     },
     {
-      "id": "247ab0ad63314385",
+      "id": "ccaa1d7465b3aa29",
       "title": "HISTOIRE-GEOGRAPHIE",
       "start": "2026-12-04T09:10:00.000Z",
       "end": "2026-12-04T10:00:00.000Z",
@@ -5377,7 +5097,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6e41f3c4e9de2202",
+      "id": "3b92277ffb8768d5",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-12-04T10:00:00.000Z",
       "end": "2026-12-04T11:15:00.000Z",
@@ -5387,7 +5107,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8b5e706e19157eb6",
+      "id": "e481cedb9b5a1b40",
       "title": "ANGLAIS LV1",
       "start": "2026-12-04T10:00:00.000Z",
       "end": "2026-12-04T10:50:00.000Z",
@@ -5397,17 +5117,17 @@
       "category": "etablissement"
     },
     {
-      "id": "d9077c07f7c9d716",
+      "id": "7251290b8aac7ba6",
       "title": "DEVOIR",
       "start": "2026-12-04T12:45:00.000Z",
       "end": "2026-12-04T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
     {
-      "id": "3b6cabd8950f7730",
+      "id": "07452130852197bb",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-12-04T13:35:00.000Z",
       "end": "2026-12-04T14:25:00.000Z",
@@ -5417,7 +5137,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4e0d84b7a9790661",
+      "id": "ec035ce159d5cc04",
       "title": "BREVET INIT AERONOT",
       "start": "2026-12-04T14:45:00.000Z",
       "end": "2026-12-04T15:35:00.000Z",
@@ -5427,7 +5147,7 @@
       "category": "dnb"
     },
     {
-      "id": "606d5e26e8406c29",
+      "id": "55033783106bceef",
       "title": "ETUDE",
       "start": "2026-12-04T14:45:00.000Z",
       "end": "2026-12-04T15:35:00.000Z",
@@ -5437,7 +5157,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ae0dabc20872eb26",
+      "id": "8494edab80385bb5",
       "title": "MATHEMATIQUES",
       "start": "2026-12-07T07:05:00.000Z",
       "end": "2026-12-07T07:55:00.000Z",
@@ -5447,7 +5167,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b78a0497a592404c",
+      "id": "dfb85c751be061a4",
       "title": "ANGLAIS LANGUE DE SECTION",
       "start": "2026-12-07T07:55:00.000Z",
       "end": "2026-12-07T08:45:00.000Z",
@@ -5457,7 +5177,7 @@
       "category": "etablissement"
     },
     {
-      "id": "168eb60be16c5ab9",
+      "id": "2d4e1df601d1e295",
       "title": "ANGLAIS LV1",
       "start": "2026-12-07T07:55:00.000Z",
       "end": "2026-12-07T08:45:00.000Z",
@@ -5467,7 +5187,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2fc354b725db9864",
+      "id": "945a426a95dad445",
       "title": "PHYSIQUE-CHIMIE",
       "start": "2026-12-07T09:10:00.000Z",
       "end": "2026-12-07T10:00:00.000Z",
@@ -5477,7 +5197,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e9d1515ee502d0e1",
+      "id": "d9e6d70f772fb83b",
       "title": "FRANCAIS",
       "start": "2026-12-07T10:00:00.000Z",
       "end": "2026-12-07T11:15:00.000Z",
@@ -5487,7 +5207,7 @@
       "category": "etablissement"
     },
     {
-      "id": "92c049d0f68b831b",
+      "id": "ec2331f70f5d6949",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-12-07T11:15:00.000Z",
       "end": "2026-12-07T12:05:00.000Z",
@@ -5497,17 +5217,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9130b909825c3608",
-      "title": "ALLEMAND LV2",
-      "start": "2026-12-07T12:45:00.000Z",
-      "end": "2026-12-07T13:35:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "d640e262c0f69375",
+      "id": "016eb8d23e6c45dd",
       "title": "Bilangue espagnol",
       "start": "2026-12-07T12:45:00.000Z",
       "end": "2026-12-07T13:35:00.000Z",
@@ -5517,7 +5227,7 @@
       "category": "etablissement"
     },
     {
-      "id": "47d235e3fc810cdd",
+      "id": "208850fcb5dea4db",
       "title": "ESPAGNOL LV2",
       "start": "2026-12-07T12:45:00.000Z",
       "end": "2026-12-07T13:35:00.000Z",
@@ -5527,7 +5237,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7d7490557b9d56e3",
+      "id": "7a41176001816c2d",
       "title": "TECHNOLOGIE",
       "start": "2026-12-07T13:35:00.000Z",
       "end": "2026-12-07T14:25:00.000Z",
@@ -5537,7 +5247,7 @@
       "category": "etablissement"
     },
     {
-      "id": "edc94bbbc8dbdf50",
+      "id": "ed15a9753f0bcc0b",
       "title": "ETUDE",
       "start": "2026-12-07T14:45:00.000Z",
       "end": "2026-12-07T15:35:00.000Z",
@@ -5547,7 +5257,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4937a2ea98ea6c0a",
+      "id": "a4acc081631a2a6f",
       "title": "FOOTBALL",
       "start": "2026-12-07T14:45:00.000Z",
       "end": "2026-12-07T16:00:00.000Z",
