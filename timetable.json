@@ -3,7 +3,7 @@
   "source": "ÉcoleDirecte",
   "status": "ready",
   "eventCount": 555,
-  "updatedAt": "2026-09-07T05:17:32.389Z",
+  "updatedAt": "2026-09-07T10:28:44.655Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -673,7 +673,7 @@
       "end": "2026-09-15T12:35:00.000Z",
       "allDay": false,
       "location": "SVT",
-      "description": "LABERTHE M. - 3è Antonio GAUDI",
+      "description": "FEUILLET C. - 3è Antonio GAUDI",
       "category": "etablissement"
     },
     {
