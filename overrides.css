@@ -1,18 +1,202 @@
-:root{--green:#96c22b;--green-dark:#638a08;--green-soft:#e0ecc4;--green-pale:#f3f8e8;--blue:#0076ac;--ink:#102126;--muted:#64747a;--text:16px;--label:11px;--card-title:24px}
-body{font-size:var(--text);line-height:1.5;color:var(--ink)}
-.topbar h1{font-size:clamp(48px,5vw,66px);line-height:.95;letter-spacing:-2px}.topbar p,.page-title p{font-size:18px;line-height:1.5;max-width:1000px}
-.eyebrow,.page-title>span,.section-head span,.focus-kicker,.card-num{font-size:var(--label);letter-spacing:1.7px;color:var(--green-dark)}
-.section-head h2,.page-title h2{font-size:clamp(34px,3vw,44px);line-height:1.08;letter-spacing:-1px}.hero-event h2{font-size:clamp(34px,3.6vw,50px);letter-spacing:-1.2px;line-height:1.02}.hero-event p{font-size:16px}.hero-event>span,.hero-content>p{font-size:var(--label)}
-.side-nav{gap:8px}.nav-item,.nav-link{font-size:14px!important;font-weight:750!important;line-height:1.2!important;letter-spacing:0!important}.nav-icon{font-size:18px!important;width:22px;text-align:center}.nav-item.active{background:var(--green-pale)!important;color:var(--green-dark)!important}.nav-item:hover{background:#f6f9ef}.sidebar-footer strong{font-size:12px}.sidebar-footer small{font-size:10px}
-.journey-card h3{font-size:var(--card-title);line-height:1.05;letter-spacing:-.4px}.journey-card p{font-size:14px;line-height:1.5}.journey-card>b{font-size:13px;color:var(--green-dark)!important}
-.event-copy span,.agenda-list small{font-size:var(--label)}.event-copy strong{font-size:17px}.event-copy small{font-size:14px}.timeline-strip time b,.agenda-list time b{color:var(--green-dark)}.timeline-strip time span,.agenda-list time span{font-size:var(--label)}
-.agenda-list strong{font-size:18px}.agenda-list p{font-size:14px;line-height:1.45}.month-banner{background:var(--green)!important;color:#193000!important}.month-banner span{font-size:34px}
-.icon-button,.resource-publish-actions a{color:var(--blue)}.section-head button{color:var(--green-dark)}
-.pathway-board,.resource-library{font-size:var(--text)}.pathway-board p,.pathway-board li,.pathway-board small{font-size:15px!important;line-height:1.55!important}.pathway-board h2,.pathway-board h3{letter-spacing:-.5px!important;word-spacing:normal!important}.pathway-board h3{font-size:30px!important;line-height:1.14!important;max-width:900px}.pathway-board h4{font-size:20px!important;letter-spacing:-.2px!important}.pathway-board [class*="meta"],.pathway-board [class*="eyebrow"],.pathway-board [class*="label"]{font-size:var(--label)!important;color:var(--green-dark)!important}.resource-library strong{font-size:17px}.resource-library small,.resource-library p{font-size:14px!important;line-height:1.5!important}
-.pathway-board .dark,.pathway-board [class*="dark"],.journey-card.dnb{background:linear-gradient(155deg,var(--green-soft),#f6faee)!important;color:var(--ink)!important}.journey-card.dnb p{color:var(--muted)!important}.journey-card.dnb>b{color:var(--green-dark)!important}.score-ring{display:none!important}
+:root{
+  --green:#96c22b;
+  --green-dark:#196396;
+  --green-soft:#e0ecc4;
+  --green-pale:#f3f8e8;
+  --blue:#1375a8;
+  --blue-dark:#196396;
+  --blue-deep:#0d4f7f;
+  --blue-soft:#e9f4f9;
+  --ink:#102126;
+  --muted:#5f7078;
+  --text:17px;
+  --label:12px;
+  --card-title:26px;
+}
+
+body{font-size:var(--text);line-height:1.55;color:var(--ink)}
+button,input{font:inherit}
+
+/* Titres et textes courants : lisibles sur ordinateur comme sur téléphone. */
+.topbar h1{font-size:clamp(48px,5vw,66px);line-height:.95;letter-spacing:-2px}
+.topbar p,.page-title p{font-size:18px;line-height:1.55;max-width:1000px}
+.topbar .eyebrow{font-size:var(--label)}
+.eyebrow,.page-title>span,.section-head span,.focus-kicker,.card-num{font-size:var(--label);letter-spacing:1.7px;color:var(--blue-dark)}
+.section-head h2,.page-title h2{font-size:clamp(34px,3vw,44px);line-height:1.08;letter-spacing:-1px}
+.section-head button{font-size:14px;color:var(--blue-dark)}
+
+.hero-topline{font-size:13px}
+.status{font-size:11px}
+.hero-content>p,.hero-event>span{font-size:var(--label)}
+.hero-event h2{font-size:clamp(34px,3.6vw,50px);letter-spacing:-1.2px;line-height:1.02}
+.hero-event p{font-size:17px;line-height:1.5}
+.hero-event button{font-size:14px}
+.mega-date small{font-size:20px}
+.countdown small{font-size:11px}
+.countdown span{font-size:12px}
+.focus-badge{font-size:11px}
+.focus-card>p{font-size:17px;line-height:1.55}
+.focus-card>button{font-size:14px}
+
+/* Navigation et signature. */
+.side-nav{gap:8px}
+.nav-item,.nav-link{font-size:16px!important;font-weight:750!important;line-height:1.25!important;letter-spacing:0!important}
+.nav-icon{font-size:20px!important;width:24px;text-align:center}
+.nav-item.active{background:var(--green-pale)!important;color:var(--blue-dark)!important}
+.nav-item:hover{background:#f3f7fa}
+.sidebar-footer{align-items:flex-start}
+.brand-copy strong{font-size:26px}
+.brand-copy span{font-size:11px}
+.sidebar-footer strong{font-size:14px}
+.sidebar-footer small{font-size:12px;line-height:1.35}
+.author-credit{display:block;margin-top:7px;padding-top:7px;border-top:1px solid #dfe7e3;color:var(--blue-dark)!important;font-size:12px!important;font-weight:900;letter-spacing:1.1px}
+.mobile-credit{display:none}
+
+/* Accueil, rendez-vous et parcours. */
+.journey-card h3{font-size:var(--card-title);line-height:1.05;letter-spacing:-.4px}
+.journey-card p{font-size:15px;line-height:1.55}
+.journey-card>b{font-size:14px;color:var(--blue-dark)!important}
+.event-copy span,.agenda-list small{font-size:var(--label)}
+.event-copy strong{font-size:19px}
+.event-copy small{font-size:15px}
+.timeline-strip time b,.agenda-list time b{color:var(--blue-dark)}
+.timeline-strip time span,.agenda-list time span{font-size:var(--label)}
+.timeline-strip em{font-size:11px}
+
+/* Les aplats foncés utilisent désormais le bleu du logo. */
+.journey-card.dnb{background:linear-gradient(145deg,var(--blue-deep),var(--blue-dark))!important;color:#fff!important}
+.journey-card.dnb p{color:#d7e9f2!important}
+.journey-card.dnb>b{color:#fff!important}
+.journey-card.dnb .card-num{color:#b9ddec!important}
+.score-ring{display:none!important}
+.dark-feature{background:linear-gradient(145deg,var(--blue-deep),var(--blue-dark))!important}
+.timetable-toolbar{background:linear-gradient(135deg,var(--blue-deep),var(--blue-dark))!important}
+.pathway-overview-head{background:linear-gradient(135deg,var(--blue-deep),var(--blue-dark))!important}
+.pathway-overview-card.tone-dark{background:linear-gradient(155deg,var(--blue-deep),var(--blue-dark))!important;color:#fff!important;border-color:var(--blue-deep)!important}
+.pathway-overview-card.tone-dark p{color:#d7e9f2!important}
+.pathway-overview-card.tone-dark>small,.pathway-overview-card.tone-dark>strong,.pathway-overview-card.tone-dark .pathway-overview-top>b{color:#fff!important}
+.pathway-detail.tone-dark .pathway-detail-hero{background:linear-gradient(135deg,var(--blue-deep),var(--blue-dark))!important}
+.pathway-detail.tone-dark .pathway-detail-heading>span,.pathway-detail.tone-dark .pathway-back{color:#fff!important}
+.resource-publish-actions a{background:var(--blue-dark)!important;color:#fff!important}
+.resource-publish-actions a:hover{background:var(--blue-deep)!important}
+
+/* Agenda : mois bleu foncé et informations plus grandes. */
+.agenda-sync-bar strong,.resource-publish-bar strong{font-size:15px}
+.agenda-sync-bar small,.resource-publish-bar small{font-size:13px;line-height:1.4}
+#agenda-refresh,#timetable-refresh,.resource-publish-actions button,.resource-publish-actions a{font-size:13px;padding:11px 15px}
+.sync-explanation{margin:-7px 3px 18px;color:var(--muted);font-size:14px;line-height:1.5}
+.month-banner{background:linear-gradient(135deg,var(--blue-deep),var(--blue-dark))!important;color:#fff!important}
+.month-banner span{font-size:36px}
+.month-banner b{font-size:15px}
+.agenda-list strong{font-size:20px}
+.agenda-list p{font-size:15px;line-height:1.5}
+.tag{font-size:11px}
+.calendar-empty strong{font-size:21px}
+.calendar-empty p{font-size:15px;line-height:1.5}
+
+/* Emploi du temps. */
+.timetable-toolbar small{font-size:11px;color:#d4e6ef}
+.timetable-toolbar strong{font-size:17px}
+.timetable-toolbar button{font-size:14px}
+.timetable-corner{font-size:10px}
+.timetable-day-head small{font-size:11px}
+.timetable-day-head strong{font-size:18px}
+.timetable-all-day{font-size:10px}
+.timetable-time-rail span{font-size:11px}
+.timetable-course span{font-size:10px}
+.timetable-course strong{font-size:13px;line-height:1.2}
+.timetable-course small{font-size:10px}
+.timetable-day-card header span{font-size:12px!important}
+.timetable-day-card header strong{font-size:16px!important}
+.timetable-day-card time{font-size:12px!important}
+.timetable-day-card article strong{font-size:15px!important}
+.timetable-day-card article small{font-size:12px!important}
+.timetable-day-empty{font-size:12px!important}
+
+/* Rubriques DNB, orientation, stage et certifications. */
+.pathway-board,.resource-library{font-size:var(--text)}
+.pathway-board p,.pathway-board li,.pathway-board small{font-size:16px!important;line-height:1.6!important}
+.pathway-board h2,.pathway-board h3{letter-spacing:-.5px!important;word-spacing:normal!important}
+.pathway-board h3{font-size:31px!important;line-height:1.14!important;max-width:900px}
+.pathway-board h4{font-size:23px!important;letter-spacing:-.2px!important}
+.pathway-board h5{font-size:17px!important;line-height:1.3!important}
+.pathway-board [class*="meta"],.pathway-board [class*="eyebrow"],.pathway-board [class*="label"]{font-size:var(--label)!important;color:var(--blue-dark)!important}
+.pathway-overview-head>div>span{font-size:12px!important;color:#d7eef8!important}
+.pathway-section-kicker{font-size:12px!important;color:var(--blue-dark)!important}
+.pathway-overview-head p{color:#e3f0f6!important}
+.pathway-overview-card>small,.pathway-overview-card>strong{font-size:12px!important}
+.pathway-overview-top>span{font-size:12px}
+.pathway-overview-card p{font-size:15px!important}
+.pathway-detail-heading>span{font-size:12px!important}
+.pathway-detail-heading p{font-size:16px!important}
+.pathway-stats strong{font-size:21px}
+.pathway-stats span{font-size:11px}
+.pathway-notice b{font-size:11px}
+.pathway-notice p{font-size:15px!important}
+.pathway-step>span{font-size:11px}
+.pathway-step p,.pathway-highlights p{font-size:15px!important}
+.pathway-highlights strong{font-size:15px;color:var(--blue-dark)}
+.pathway-link strong{font-size:14px}
+.pathway-link small{font-size:12px!important}
+.pathway-link>b{color:var(--blue-dark)}
+
+/* Documents communs. */
+.resource-privacy-note{font-size:14px;line-height:1.5}
+.resource-search input{font-size:16px}
+.resource-filters button{font-size:13px}
+.resource-mark{font-size:14px}
+.resource-card-copy>small{font-size:11px}
+.resource-card h3{font-size:21px}
+.resource-card p{font-size:15px;line-height:1.55}
+.resource-card-footer>span{font-size:12px}
+.resource-open{font-size:14px;color:var(--blue-dark)}
+.teacher-security-note strong{font-size:14px}
+.teacher-security-note p{font-size:13px;line-height:1.5}
+
 /* Carte orange : échéance + liste complète issue du panneau enseignant. */
-#reminder-card{min-height:470px;height:auto!important;padding-bottom:28px}#reminder-title{font-size:clamp(34px,2.8vw,44px);line-height:1.02;letter-spacing:-1px;margin-bottom:14px}#reminder-detail{white-space:pre-line;font-size:16px!important;line-height:1.55!important;color:#7d4c21;margin-bottom:12px;max-width:95%}.focus-reminder-list{list-style:none;margin:0 0 22px;padding:0;display:grid;gap:8px;max-width:95%}.focus-reminder-list li{position:relative;padding-left:18px;font-size:14px;font-weight:750;line-height:1.35;color:#7d4c21}.focus-reminder-list li::before{content:'✓';position:absolute;left:0;top:0;color:#ed7d0a;font-weight:900}#reminder-action{margin-top:auto}.focus-card .target-ring{opacity:.28}
-.official-dnb-dates{margin:20px 0 28px;padding:22px;border-radius:22px;background:var(--green-pale);border:1px solid #dce9c4}.official-dnb-dates .official-title{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:14px}.official-dnb-dates h3{margin:0!important;font-size:28px!important;letter-spacing:-.3px!important}.official-dnb-dates button{border:0;background:var(--green);color:#203400;border-radius:999px;padding:11px 16px;font-weight:800;cursor:pointer}.official-dnb-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.official-dnb-day{background:#fff;border-radius:16px;padding:16px;border:1px solid #e3ead9}.official-dnb-day b{display:block;font-size:18px;color:var(--green-dark)}.official-dnb-day span{display:block;margin-top:5px;font-size:14px}
-.view:not(.active-view){content-visibility:hidden}.pathway-board,.resource-library,.agenda-month-section{contain:layout style paint}
-@media(max-width:760px){body{font-size:16px}.content{padding-left:18px;padding-right:18px}.topbar h1{font-size:48px;letter-spacing:-1.3px}.topbar p,.page-title p{font-size:16px}.page-title h2,.section-head h2{font-size:34px;letter-spacing:-.7px}.hero-event h2{font-size:34px;letter-spacing:-.8px}.journey-card h3{font-size:23px}.journey-card p{font-size:14px}.pathway-board p,.pathway-board li,.pathway-board small{font-size:15px!important}.pathway-board h3{font-size:27px!important;line-height:1.16!important}.official-dnb-grid{grid-template-columns:1fr 1fr}.nav-item,.nav-link{font-size:14px!important}#reminder-card{min-height:0}#reminder-detail{font-size:15px!important}.focus-reminder-list li{font-size:14px}}
-@media(max-width:480px){.official-dnb-grid{grid-template-columns:1fr}}
+#reminder-card{min-height:470px;height:auto!important;padding-bottom:28px}
+#reminder-title{font-size:clamp(34px,2.8vw,44px);line-height:1.02;letter-spacing:-1px;margin-bottom:14px}
+#reminder-detail{white-space:pre-line;font-size:17px!important;line-height:1.55!important;color:#7d4c21;margin-bottom:12px;max-width:95%}
+.focus-reminder-list{list-style:none;margin:0 0 22px;padding:0;display:grid;gap:8px;max-width:95%}
+.focus-reminder-list li{position:relative;padding-left:20px;font-size:16px;font-weight:750;line-height:1.4;color:#7d4c21}
+.focus-reminder-list li::before{content:'✓';position:absolute;left:0;top:0;color:#ed7d0a;font-weight:900}
+#reminder-action{margin-top:auto}
+.focus-card .target-ring{opacity:.28}
+
+/* Bloc des dates DNB confirmées. */
+.official-dnb-dates{margin:20px 0 28px;padding:22px;border-radius:22px;background:var(--blue-soft);border:1px solid #cfe3ed}
+.official-dnb-dates .official-title{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:14px}
+.official-dnb-dates h3{margin:0!important;font-size:30px!important;letter-spacing:-.3px!important}
+.official-dnb-dates button{border:0;background:var(--blue-dark);color:#fff;border-radius:999px;padding:12px 17px;font-size:14px;font-weight:850;cursor:pointer}
+.official-dnb-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.official-dnb-day{background:#fff;border-radius:16px;padding:17px;border:1px solid #d9e7ee}
+.official-dnb-day b{display:block;font-size:19px;color:var(--blue-dark)}
+.official-dnb-day span{display:block;margin-top:6px;font-size:15px;line-height:1.45}
+
+.view:not(.active-view){content-visibility:hidden}
+.pathway-board,.resource-library,.agenda-month-section{contain:layout style paint}
+
+@media(max-width:760px){
+  body{font-size:17px}
+  .content{padding-left:18px;padding-right:18px}
+  .topbar h1{font-size:48px;letter-spacing:-1.3px}
+  .topbar p,.page-title p{font-size:17px}
+  .page-title h2,.section-head h2{font-size:34px;letter-spacing:-.7px}
+  .hero-event h2{font-size:34px;letter-spacing:-.8px}
+  .journey-card h3{font-size:25px}
+  .journey-card p{font-size:15px}
+  .pathway-board p,.pathway-board li,.pathway-board small{font-size:16px!important}
+  .pathway-board h3{font-size:28px!important;line-height:1.16!important}
+  .official-dnb-grid{grid-template-columns:1fr}
+  .nav-item,.nav-link{font-size:15px!important}
+  #reminder-card{min-height:0}
+  #reminder-detail{font-size:16px!important}
+  .focus-reminder-list li{font-size:15px}
+  .bottom-nav button small,.bottom-nav a small{font-size:10px!important}
+  .mobile-credit{display:block;margin:28px 18px 86px;color:var(--blue-dark);font-size:12px;font-weight:900;letter-spacing:1.1px}
+}
+
+@media(max-width:480px){
+  .official-dnb-dates .official-title{align-items:flex-start;flex-direction:column}
+  .official-dnb-dates button{width:100%}
+}

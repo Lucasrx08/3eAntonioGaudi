@@ -1,10 +1,10 @@
 // Ajustements éditoriaux et démarrage rapide sans modifier le moteur principal.
 (function(){
   const OFFICIAL_DNB=[
-    {date:'10 juin 2027',label:'Épreuve orale du DNB'},
-    {date:'26 juin 2027',label:'Épreuves écrites du DNB'},
-    {date:'29 juin 2027',label:'Épreuves écrites du DNB'},
-    {date:'30 juin 2027',label:'Épreuves écrites du DNB'}
+    {date:'Mercredi 9 juin',label:'Oral de la 3e Gaudí · 8 h 05 – 11 h 50'},
+    {date:'Jeudi 24 juin',label:'Français · 8 h – 9 h 30 puis 9 h 45 – 11 h 15'},
+    {date:'Vendredi 25 juin',label:'Histoire-géographie et EMC · 8 h – 10 h'},
+    {date:'Lundi 28 juin',label:'Sciences · 8 h – 9 h · Mathématiques · 10 h – 12 h'}
   ];
 
   // Le formulaire de rappel peut contenir plusieurs lignes à afficher sur la carte orange.
@@ -33,10 +33,6 @@
     const resources=typeof readCachedResources==='function'?readCachedResources():null;if(resources&&typeof renderResources==='function')renderResources(resources);
   }catch(error){console.debug('Cache local indisponible',error);}
 
-  function cleanOldInfographicReferences(){
-    document.querySelectorAll('a').forEach(a=>{const text=(a.textContent||'').toLowerCase();const href=(a.getAttribute('href')||'').toLowerCase();if(text.includes('infographie')||text.includes('m. rigaux')||href.includes('lucasrigaux.my.canva.site'))a.remove();});
-    document.querySelectorAll('.pathway-board *').forEach(el=>{if(el.children.length===0&&/infographie de la classe|support complet de m\. rigaux/i.test(el.textContent||'')){el.textContent=(el.textContent||'').replace(/Le calendrier ci-dessous reprend l’infographie de la classe\.?/i,'Retrouvez ci-dessous les étapes importantes à connaître.').replace(/Support complet de M\. Rigaux/i,'');}});
-  }
   function removeDecorativeDnb60(){
     const board=document.querySelector('#pathway-guide-root');if(!board||!board.textContent.includes('Objectif DNB 2027'))return;
     [...board.querySelectorAll('*')].forEach(el=>{
@@ -48,9 +44,9 @@
   }
   function addDnbDates(){
     const board=document.querySelector('#pathway-guide-root');if(!board||!board.textContent.includes('DNB 2027')||board.querySelector('.official-dnb-dates'))return;
-    const section=document.createElement('section');section.className='official-dnb-dates';section.innerHTML=`<div class="official-title"><div><span class="eyebrow">DATES À RETENIR</span><h3>DNB 2027</h3></div><button type="button" data-go="agenda">Voir dans l’agenda →</button></div><div class="official-dnb-grid">${OFFICIAL_DNB.map(d=>`<div class="official-dnb-day"><b>${d.date}</b><span>${d.label}</span></div>`).join('')}</div>`;board.prepend(section);section.querySelector('[data-go]')?.addEventListener('click',()=>document.querySelector('[data-view="agenda"]')?.click());
+    const section=document.createElement('section');section.className='official-dnb-dates';section.innerHTML=`<div class="official-title"><div><span class="eyebrow">DATES CONFIRMÉES</span><h3>DNB 2027</h3></div><button type="button" data-go="agenda">Voir dans l’agenda →</button></div><div class="official-dnb-grid">${OFFICIAL_DNB.map(d=>`<div class="official-dnb-day"><b>${d.date}</b><span>${d.label}</span></div>`).join('')}</div>`;board.prepend(section);section.querySelector('[data-go]')?.addEventListener('click',()=>document.querySelector('[data-view="agenda"]')?.click());
   }
-  function refreshEnhancements(){cleanOldInfographicReferences();removeDecorativeDnb60();addDnbDates();}
+  function refreshEnhancements(){removeDecorativeDnb60();addDnbDates();}
   const board=document.querySelector('#pathway-guide-root');if(board){let pending=false;const observer=new MutationObserver(()=>{if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;refreshEnhancements();});});observer.observe(board,{childList:true,subtree:true});}
   refreshEnhancements();
 })();

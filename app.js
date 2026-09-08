@@ -161,7 +161,6 @@ const resourceTypeDetails={
   Formulaire:{mark:'✓',action:'Ouvrir le formulaire'},
   Vidéo:{mark:'▶',action:'Voir la vidéo'}
 };
-const INFOGRAPHIC_URL='https://lucasrigaux.my.canva.site/monanneeen3emegaudi';
 const pathwayGuides={
   Orientation:{
     order:'02',mark:'↗',tone:'blue',eyebrow:'MON ORIENTATION',title:'Construire mon projet après la 3e',
@@ -171,7 +170,7 @@ const pathwayGuides={
       {value:'4',label:'demi-journées dédiées'},
       {value:'1',label:'dialogue continu'}
     ],
-    notice:'Le calendrier ci-dessous reprend l’infographie de la classe. Les dates exactes de saisie des intentions, des vœux et de l’affectation 2027 seront communiquées par l’établissement et l’académie.',
+    notice:'Retrouvez ci-dessous les grandes étapes de l’orientation. Les dates exactes de saisie des intentions, des vœux et de l’affectation 2027 seront communiquées par l’établissement et l’académie.',
     sectionTitle:'Le calendrier de mon orientation',
     items:[
       {meta:'OCT. — NOV.',title:'Je m’informe et je réfléchis',text:'Je découvre les métiers et les formations, j’identifie mes goûts et mes points forts, puis j’en parle en vie de classe et à la maison.'},
@@ -188,8 +187,7 @@ const pathwayGuides={
     ],
     links:[
       {label:'Comprendre l’orientation en 3e',detail:'Ministère de l’Éducation nationale',url:'https://www.education.gouv.fr/reussir-au-lycee/l-orientation-en-3e-et-l-affectation-en-lycee-9257'},
-      {label:'Explorer Avenir(s)',detail:'Onisep · élèves et parents',url:'https://www.onisep.fr/avenir-s'},
-      {label:'Voir l’infographie de la classe',detail:'Support complet de M. Rigaux',url:INFOGRAPHIC_URL}
+      {label:'Explorer Avenir(s)',detail:'Onisep · élèves et parents',url:'https://www.onisep.fr/avenir-s'}
     ]
   },
   DNB:{
@@ -200,7 +198,7 @@ const pathwayGuides={
       {value:'60%',label:'épreuves finales'},
       {value:'10/20',label:'pour être admis'}
     ],
-    notice:'Nouveauté session 2027 : les sujets des épreuves écrites portent sur les programmes de la classe de 3e. Les dates nationales seront ajoutées lorsqu’elles seront publiées.',
+    notice:'Les écrits du DNB 2027 auront lieu les 24, 25 et 28 juin. L’oral de la 3e Gaudí est inscrit au mercredi 9 juin dans l’agenda de la classe.',
     sectionTitle:'Les cinq épreuves terminales',
     items:[
       {meta:'3 H · COEF. 2',title:'Français',text:'Compréhension et interprétation, grammaire, dictée et rédaction.'},
@@ -216,9 +214,9 @@ const pathwayGuides={
       {title:'Félicitations du jury',text:'À partir de 18/20'}
     ],
     links:[
+      {label:'Calendrier officiel du DNB 2027',detail:'Ministère · dates et horaires',url:'https://www.education.gouv.fr/reussir-au-lycee/baccalaureat-brevet-cap-le-calendrier-2027-341384'},
       {label:'Tout savoir sur le DNB',detail:'Ministère de l’Éducation nationale',url:'https://www.education.gouv.fr/le-diplome-national-du-brevet-10613'},
-      {label:'Détail officiel des épreuves',detail:'Éduscol · durées et coefficients',url:'https://eduscol.education.gouv.fr/5607/les-epreuves-du-dnb'},
-      {label:'Voir l’infographie de la classe',detail:'Support complet de M. Rigaux',url:INFOGRAPHIC_URL}
+      {label:'Détail officiel des épreuves',detail:'Éduscol · durées et coefficients',url:'https://eduscol.education.gouv.fr/5607/les-epreuves-du-dnb'}
     ]
   },
   Stage:{
@@ -243,10 +241,9 @@ const pathwayGuides={
       {title:'À conserver',text:'Convention, notes quotidiennes et coordonnées utiles.'}
     ],
     links:[
-      {label:'Télécharger la convention',detail:'Exemplaire fourni dans l’infographie',url:'https://drive.google.com/file/d/1YxK5yJz-CRDWgvJDtSp2kNBqBs7SqeVv/view?usp=sharing'},
+      {label:'Télécharger la convention',detail:'Document de stage à compléter',url:'https://drive.google.com/file/d/1YxK5yJz-CRDWgvJDtSp2kNBqBs7SqeVv/view?usp=sharing'},
       {label:'Trouver une offre de stage',detail:'1élève1stage · service du ministère',url:'https://1eleve1stage.education.gouv.fr/offres-de-stage'},
-      {label:'Connaître les règles du stage',detail:'Service-Public.fr',url:'https://www.service-public.gouv.fr/particuliers/vosdroits/F1882'},
-      {label:'Voir l’infographie de la classe',detail:'Support complet de M. Rigaux',url:INFOGRAPHIC_URL}
+      {label:'Connaître les règles du stage',detail:'Service-Public.fr',url:'https://www.service-public.gouv.fr/particuliers/vosdroits/F1882'}
     ]
   },
   Certifications:{
@@ -277,8 +274,7 @@ const pathwayGuides={
       {label:'Calendrier et certification Pix',detail:'Éduscol · année 2026-2027',url:'https://eduscol.education.gouv.fr/5520/evaluer-developper-et-certifier-les-competences-numeriques'},
       {label:'Tout savoir sur l’ASSR2',detail:'Éduscol · sécurité routière',url:'https://eduscol.education.gouv.fr/4728/l-education-la-securite-routiere-au-college'},
       {label:'M’entraîner à l’ASSR2',detail:'Plateforme nationale',url:'https://e-assr.education-securite-routiere.fr/preparer/assr/2/ASSR2'},
-      {label:'Comprendre le PSC',detail:'Éduscol · premiers secours',url:'https://eduscol.education.gouv.fr/4716/sensibilisation-aux-premiers-secours-dans-le-second-degre-au-college-et-au-lycee'},
-      {label:'Voir l’infographie de la classe',detail:'Support complet de M. Rigaux',url:INFOGRAPHIC_URL}
+      {label:'Comprendre le PSC',detail:'Éduscol · premiers secours',url:'https://eduscol.education.gouv.fr/4716/sensibilisation-aux-premiers-secours-dans-le-second-degre-au-college-et-au-lycee'}
     ]
   }
 };
@@ -328,10 +324,9 @@ function renderPathwayGuide(category='Tous'){
     introCopy.append(
       createElement('span','', 'LES QUATRE GRANDS REPÈRES'),
       createElement('h3','', 'Comprendre mon année, étape par étape'),
-      createElement('p','', 'Contenu adapté de l’infographie de la classe et vérifié à partir des ressources officielles pour l’année 2026-2027.')
+      createElement('p','', 'Des repères clairs pour préparer l’orientation, le DNB, le stage et les certifications de l’année 2026-2027.')
     );
-    const source=pathwayLink({label:'Infographie complète',detail:'Ouvrir le support Canva',url:INFOGRAPHIC_URL});
-    intro.append(introCopy,source);
+    intro.append(introCopy);
     const grid=createElement('div','pathway-overview-grid');
     Object.entries(pathwayGuides).forEach(([key,item])=>{
       const button=createElement('button',`pathway-overview-card tone-${item.tone}`);

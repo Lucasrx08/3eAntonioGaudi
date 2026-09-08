@@ -4,20 +4,20 @@ Application PWA responsive publiée sur GitHub Pages pour la 3e Antonio Gaudí. 
 
 ## Repères DNB, orientation, stage et certifications
 
-La page **Ressources** contient quatre guides intégrés, adaptés de l’infographie Canva de la classe et complétés par des liens officiels :
+La page **Ressources** contient quatre guides intégrés et complétés par des liens officiels :
 
-- **DNB 2027** : nouveau calcul 40 % contrôle continu / 60 % épreuves terminales, épreuves, coefficients et mentions ;
+- **DNB 2027** : dates des 24, 25 et 28 juin, nouveau calcul 40 % contrôle continu / 60 % épreuves terminales, épreuves, coefficients et mentions ;
 - **Orientation** : calendrier indicatif, voies possibles et accès à Avenir(s) ;
 - **Stage** : préparation, convention, règles et recherche d’offres sur 1élève1stage ;
 - **Certifications** : Ev@lang, Pix, ASSR2 et PSC avec les liens d’information et d’entraînement.
 
-Les dates nationales ou académiques non encore publiées ne sont pas inventées. Les échéances propres au collège restent à confirmer par l’établissement.
+Les échéances propres au collège restent à confirmer par l’établissement. L’oral du 9 juin correspond à la date inscrite dans l’agenda de la classe.
 
 ## Synchronisation des calendriers
 
 - Apple Calendar et ÉcoleDirecte sont vérifiés automatiquement toutes les 5 minutes ;
 - les adresses privées restent dans les secrets GitHub `APPLE_CALENDAR_URL` et `ECOLEDIRECTE_ICAL_URL` ;
-- le bouton « Vérifier les nouveautés » recharge la dernière version publiée et indique clairement s’il n’y a aucun changement ;
+- le bouton « Actualiser » recharge immédiatement la dernière version publiée et indique clairement s’il n’y a aucun changement ;
 - si le lien iCal ÉcoleDirecte est valide mais vide, le site l’indique au lieu de laisser croire que la synchronisation est en attente ;
 - les dernières données reçues restent disponibles hors connexion après une première visite.
 

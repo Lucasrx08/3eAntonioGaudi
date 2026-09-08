@@ -55,7 +55,6 @@ jobs:
         run: |
           set -e
           mkdir -p /tmp/ma3e-live
-          cp calendar.json timetable.json resources.json /tmp/ma3e-live/
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if git ls-remote --exit-code --heads origin live-data >/dev/null 2>&1; then
@@ -68,8 +67,11 @@ jobs:
             git rm -rf . || true
             cd - >/dev/null
           fi
-          rm -rf /tmp/ma3e-live-branch/*
-          cp /tmp/ma3e-live/*.json /tmp/ma3e-live-branch/
+          if [ "${{ github.event_name }}" = "issues" ]; then
+            cp resources.json /tmp/ma3e-live-branch/resources.json
+          else
+            cp calendar.json timetable.json resources.json /tmp/ma3e-live-branch/
+          fi
           cd /tmp/ma3e-live-branch
           git add calendar.json timetable.json resources.json
           if ! git diff --cached --quiet; then
