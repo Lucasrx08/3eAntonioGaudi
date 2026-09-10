@@ -3,7 +3,7 @@
   "source": "ÉcoleDirecte",
   "status": "ready",
   "eventCount": 556,
-  "updatedAt": "2026-09-10T13:49:42.391Z",
+  "updatedAt": "2026-09-10T17:19:16.430Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -117,7 +117,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1b85342d7f863dc5",
+      "id": "bb8f2517edb8f698",
       "title": "Développement durable",
       "start": "2026-09-10T13:45:00.000Z",
       "end": "2026-09-10T14:35:00.000Z",
@@ -287,7 +287,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8682d51a6de5f5b4",
+      "id": "4fe0f674b1b33e58",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-09-14T10:15:00.000Z",
       "end": "2026-09-14T11:05:00.000Z",
@@ -597,13 +597,13 @@
       "category": "etablissement"
     },
     {
-      "id": "338f7e06877cf4bb",
+      "id": "c82f12358655c96a",
       "title": "Développement durable",
       "start": "2026-09-17T13:45:00.000Z",
       "end": "2026-09-17T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -757,7 +757,7 @@
       "category": "etablissement"
     },
     {
-      "id": "007cfd089eec00a8",
+      "id": "cc55e9ade2a11fd5",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-09-21T10:15:00.000Z",
       "end": "2026-09-21T11:05:00.000Z",
@@ -1077,13 +1077,13 @@
       "category": "etablissement"
     },
     {
-      "id": "b843347db424273d",
+      "id": "6355644b25173828",
       "title": "Développement durable",
       "start": "2026-09-24T13:45:00.000Z",
       "end": "2026-09-24T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -1247,7 +1247,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f3e27e6f5a9da713",
+      "id": "d4fb0c2d18a26ba2",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-09-28T10:15:00.000Z",
       "end": "2026-09-28T11:05:00.000Z",
@@ -1557,13 +1557,13 @@
       "category": "etablissement"
     },
     {
-      "id": "0415c697032a70e1",
+      "id": "84ccbae7f907e2f9",
       "title": "Développement durable",
       "start": "2026-10-01T13:45:00.000Z",
       "end": "2026-10-01T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -1717,7 +1717,7 @@
       "category": "etablissement"
     },
     {
-      "id": "bff08b314c3eb303",
+      "id": "3b329ad66e41a5be",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-10-05T10:15:00.000Z",
       "end": "2026-10-05T11:05:00.000Z",
@@ -2037,13 +2037,13 @@
       "category": "etablissement"
     },
     {
-      "id": "dc4fb2ac96078877",
+      "id": "d0f05bdf08b19a3a",
       "title": "Développement durable",
       "start": "2026-10-08T13:45:00.000Z",
       "end": "2026-10-08T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2207,7 +2207,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7562b17c45497a2a",
+      "id": "2cafa6f066d24e64",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-10-12T10:15:00.000Z",
       "end": "2026-10-12T11:05:00.000Z",
@@ -2517,13 +2517,13 @@
       "category": "etablissement"
     },
     {
-      "id": "75cf3122f94585d1",
+      "id": "71044f941229031a",
       "title": "Développement durable",
       "start": "2026-10-15T13:45:00.000Z",
       "end": "2026-10-15T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2837,7 +2837,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2affe34e3f9695b0",
+      "id": "7fbb09824a5c4791",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-02T11:15:00.000Z",
       "end": "2026-11-02T12:05:00.000Z",
@@ -3157,13 +3157,13 @@
       "category": "etablissement"
     },
     {
-      "id": "12255027de16b644",
+      "id": "22b273b1f0ee8159",
       "title": "Développement durable",
       "start": "2026-11-05T14:45:00.000Z",
       "end": "2026-11-05T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -3327,7 +3327,7 @@
       "category": "etablissement"
     },
     {
-      "id": "760e908bbaee48d3",
+      "id": "8d454cdde81a68f5",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-09T11:15:00.000Z",
       "end": "2026-11-09T12:05:00.000Z",
@@ -3617,7 +3617,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8010965bd144721f",
+      "id": "22519f5b8a74c816",
       "title": "Développement durable",
       "start": "2026-11-12T14:45:00.000Z",
       "end": "2026-11-12T15:35:00.000Z",
@@ -3777,7 +3777,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9bdaa1adbe207268",
+      "id": "fe0ce45f6f5ead25",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-16T11:15:00.000Z",
       "end": "2026-11-16T12:05:00.000Z",
@@ -4097,13 +4097,13 @@
       "category": "etablissement"
     },
     {
-      "id": "058ec82935606d7d",
+      "id": "c52d80f72467f4b7",
       "title": "Développement durable",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4267,7 +4267,7 @@
       "category": "etablissement"
     },
     {
-      "id": "bc4cfea8b6993284",
+      "id": "6f48579af4596105",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-23T11:15:00.000Z",
       "end": "2026-11-23T12:05:00.000Z",
@@ -4577,13 +4577,13 @@
       "category": "etablissement"
     },
     {
-      "id": "aed273a52d041254",
+      "id": "e3dccf33b2d27a97",
       "title": "Développement durable",
       "start": "2026-11-26T14:45:00.000Z",
       "end": "2026-11-26T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4737,7 +4737,7 @@
       "category": "etablissement"
     },
     {
-      "id": "0f0f13e78ebca957",
+      "id": "25c3b7514be3dd95",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-30T11:15:00.000Z",
       "end": "2026-11-30T12:05:00.000Z",
@@ -5057,7 +5057,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7acbc2137c6c05ad",
+      "id": "3ec0fad84cfc374f",
       "title": "Développement durable",
       "start": "2026-12-03T14:45:00.000Z",
       "end": "2026-12-03T15:35:00.000Z",
@@ -5227,7 +5227,7 @@
       "category": "etablissement"
     },
     {
-      "id": "109b84331d16f535",
+      "id": "7cd232e660de1bef",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-12-07T11:15:00.000Z",
       "end": "2026-12-07T12:05:00.000Z",
@@ -5537,13 +5537,13 @@
       "category": "etablissement"
     },
     {
-      "id": "3d885dc31ca56342",
+      "id": "42fd39aee17dd604",
       "title": "Développement durable",
       "start": "2026-12-10T14:45:00.000Z",
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
