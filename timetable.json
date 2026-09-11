@@ -2,8 +2,8 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 550,
-  "updatedAt": "2026-09-11T08:58:06.252Z",
+  "eventCount": 549,
+  "updatedAt": "2026-09-11T13:26:26.978Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -264,16 +264,6 @@
       "allDay": false,
       "location": "10",
       "description": "TASSE E. - 3AB_NPLA",
-      "category": "etablissement"
-    },
-    {
-      "id": "dbd32f2f9fb49ec9",
-      "title": "ARTS PLASTIQUES",
-      "start": "2026-09-15T11:45:00.000Z",
-      "end": "2026-09-15T12:35:00.000Z",
-      "allDay": false,
-      "location": "ARTS",
-      "description": "FEUILLET C. - 3è Antonio GAUDI",
       "category": "etablissement"
     },
     {
@@ -1903,7 +1893,7 @@
       "end": "2026-10-08T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -1982,7 +1972,7 @@
       "start": "2026-10-09T11:45:00.000Z",
       "end": "2026-10-09T12:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -3023,7 +3013,7 @@
       "end": "2026-11-05T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5403,7 +5393,7 @@
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
