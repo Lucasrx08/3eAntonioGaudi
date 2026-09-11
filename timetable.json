@@ -3,7 +3,7 @@
   "source": "ÉcoleDirecte",
   "status": "ready",
   "eventCount": 549,
-  "updatedAt": "2026-09-11T19:38:01.507Z",
+  "updatedAt": "2026-09-11T21:54:51.745Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -147,7 +147,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4fe0f674b1b33e58",
+      "id": "e85c0acc8c791738",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-09-14T10:15:00.000Z",
       "end": "2026-09-14T11:05:00.000Z",
@@ -207,7 +207,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3df62fcfa7078e9f",
+      "id": "5b3f092e5eb5c40c",
       "title": "FOOTBALL",
       "start": "2026-09-14T13:45:00.000Z",
       "end": "2026-09-14T15:00:00.000Z",
@@ -447,13 +447,13 @@
       "category": "etablissement"
     },
     {
-      "id": "c82f12358655c96a",
+      "id": "456f70b6150652ad",
       "title": "Développement durable",
       "start": "2026-09-17T13:45:00.000Z",
       "end": "2026-09-17T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -467,7 +467,7 @@
       "category": "etablissement"
     },
     {
-      "id": "cdecee51f59c73e1",
+      "id": "9b6990f48982d6be",
       "title": "FOOTBALL",
       "start": "2026-09-17T13:45:00.000Z",
       "end": "2026-09-17T15:00:00.000Z",
@@ -607,7 +607,7 @@
       "category": "etablissement"
     },
     {
-      "id": "cc55e9ade2a11fd5",
+      "id": "d33a88a94a75b38b",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-09-21T10:15:00.000Z",
       "end": "2026-09-21T11:05:00.000Z",
@@ -667,7 +667,7 @@
       "category": "etablissement"
     },
     {
-      "id": "03eba8d43622759e",
+      "id": "3d5c20b98cedca36",
       "title": "FOOTBALL",
       "start": "2026-09-21T13:45:00.000Z",
       "end": "2026-09-21T15:00:00.000Z",
@@ -927,13 +927,13 @@
       "category": "etablissement"
     },
     {
-      "id": "6355644b25173828",
+      "id": "711027d8a8c5a281",
       "title": "Développement durable",
       "start": "2026-09-24T13:45:00.000Z",
       "end": "2026-09-24T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -947,7 +947,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9bddc8e0884ec01a",
+      "id": "9fddb5fccefc7887",
       "title": "FOOTBALL",
       "start": "2026-09-24T13:45:00.000Z",
       "end": "2026-09-24T15:00:00.000Z",
@@ -1097,7 +1097,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d4fb0c2d18a26ba2",
+      "id": "399f11a6a193b7de",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-09-28T10:15:00.000Z",
       "end": "2026-09-28T11:05:00.000Z",
@@ -1157,7 +1157,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3cbf3c6c63c4cbc7",
+      "id": "df8d0e9884c19b52",
       "title": "FOOTBALL",
       "start": "2026-09-28T13:45:00.000Z",
       "end": "2026-09-28T15:00:00.000Z",
@@ -1407,7 +1407,7 @@
       "category": "etablissement"
     },
     {
-      "id": "84ccbae7f907e2f9",
+      "id": "92ec7615d50a8828",
       "title": "Développement durable",
       "start": "2026-10-01T13:45:00.000Z",
       "end": "2026-10-01T14:35:00.000Z",
@@ -1427,7 +1427,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ba0261a3ccc9a69c",
+      "id": "35eba5ce9a331f1d",
       "title": "FOOTBALL",
       "start": "2026-10-01T13:45:00.000Z",
       "end": "2026-10-01T15:00:00.000Z",
@@ -1567,7 +1567,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3b329ad66e41a5be",
+      "id": "d861e3276c354041",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-10-05T10:15:00.000Z",
       "end": "2026-10-05T11:05:00.000Z",
@@ -1627,7 +1627,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a0eb37db59798e9b",
+      "id": "e0144364ee1e0599",
       "title": "FOOTBALL",
       "start": "2026-10-05T13:45:00.000Z",
       "end": "2026-10-05T15:00:00.000Z",
@@ -1887,7 +1887,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d0f05bdf08b19a3a",
+      "id": "4a6d1852fe74e943",
       "title": "Développement durable",
       "start": "2026-10-08T13:45:00.000Z",
       "end": "2026-10-08T14:35:00.000Z",
@@ -1907,7 +1907,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1e09b3d3a781fb7a",
+      "id": "10b492195e63b192",
       "title": "FOOTBALL",
       "start": "2026-10-08T13:45:00.000Z",
       "end": "2026-10-08T15:00:00.000Z",
@@ -2057,7 +2057,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2cafa6f066d24e64",
+      "id": "532acbd59319d081",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-10-12T10:15:00.000Z",
       "end": "2026-10-12T11:05:00.000Z",
@@ -2117,7 +2117,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b84961e710a89362",
+      "id": "d81a9cf971921238",
       "title": "FOOTBALL",
       "start": "2026-10-12T13:45:00.000Z",
       "end": "2026-10-12T15:00:00.000Z",
@@ -2367,13 +2367,13 @@
       "category": "etablissement"
     },
     {
-      "id": "71044f941229031a",
+      "id": "f285d47d8c632826",
       "title": "Développement durable",
       "start": "2026-10-15T13:45:00.000Z",
       "end": "2026-10-15T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2387,7 +2387,7 @@
       "category": "etablissement"
     },
     {
-      "id": "eb1b2a356d5b33f0",
+      "id": "04b0f98c3588d34f",
       "title": "FOOTBALL",
       "start": "2026-10-15T13:45:00.000Z",
       "end": "2026-10-15T15:00:00.000Z",
@@ -2687,7 +2687,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7fbb09824a5c4791",
+      "id": "e447bd16b8df28f1",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-02T11:15:00.000Z",
       "end": "2026-11-02T12:05:00.000Z",
@@ -2747,7 +2747,7 @@
       "category": "etablissement"
     },
     {
-      "id": "efe2c22ee6b2cbb5",
+      "id": "13c2a3092b29d71a",
       "title": "FOOTBALL",
       "start": "2026-11-02T14:45:00.000Z",
       "end": "2026-11-02T16:00:00.000Z",
@@ -3007,7 +3007,7 @@
       "category": "etablissement"
     },
     {
-      "id": "22b273b1f0ee8159",
+      "id": "1f21dba79be898b6",
       "title": "Développement durable",
       "start": "2026-11-05T14:45:00.000Z",
       "end": "2026-11-05T15:35:00.000Z",
@@ -3027,7 +3027,7 @@
       "category": "etablissement"
     },
     {
-      "id": "bf171af63b816fce",
+      "id": "5ba45e5a3ff393b4",
       "title": "FOOTBALL",
       "start": "2026-11-05T14:45:00.000Z",
       "end": "2026-11-05T16:00:00.000Z",
@@ -3177,7 +3177,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8d454cdde81a68f5",
+      "id": "8f76f8834b0abcaa",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-09T11:15:00.000Z",
       "end": "2026-11-09T12:05:00.000Z",
@@ -3237,7 +3237,7 @@
       "category": "etablissement"
     },
     {
-      "id": "65b22b3bd2f88585",
+      "id": "2b2fe856eb9177a0",
       "title": "FOOTBALL",
       "start": "2026-11-09T14:45:00.000Z",
       "end": "2026-11-09T16:00:00.000Z",
@@ -3467,13 +3467,13 @@
       "category": "etablissement"
     },
     {
-      "id": "22519f5b8a74c816",
+      "id": "d78c81772cd7287f",
       "title": "Développement durable",
       "start": "2026-11-12T14:45:00.000Z",
       "end": "2026-11-12T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -3487,7 +3487,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4e46ff0dd39e13e2",
+      "id": "a5210e13c44a7095",
       "title": "FOOTBALL",
       "start": "2026-11-12T14:45:00.000Z",
       "end": "2026-11-12T16:00:00.000Z",
@@ -3627,7 +3627,7 @@
       "category": "etablissement"
     },
     {
-      "id": "fe0ce45f6f5ead25",
+      "id": "9d161f12deda6d49",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-16T11:15:00.000Z",
       "end": "2026-11-16T12:05:00.000Z",
@@ -3687,7 +3687,7 @@
       "category": "etablissement"
     },
     {
-      "id": "fdccbc008d3c262e",
+      "id": "c908fe6aa0562d3c",
       "title": "FOOTBALL",
       "start": "2026-11-16T14:45:00.000Z",
       "end": "2026-11-16T16:00:00.000Z",
@@ -3947,7 +3947,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c52d80f72467f4b7",
+      "id": "35e0d93effc9225b",
       "title": "Développement durable",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T15:35:00.000Z",
@@ -3967,7 +3967,7 @@
       "category": "etablissement"
     },
     {
-      "id": "aaec4b88e7bbfddc",
+      "id": "70f757e842d1b37d",
       "title": "FOOTBALL",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T16:00:00.000Z",
@@ -4117,7 +4117,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6f48579af4596105",
+      "id": "9d712c2c797b6722",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-23T11:15:00.000Z",
       "end": "2026-11-23T12:05:00.000Z",
@@ -4177,7 +4177,7 @@
       "category": "etablissement"
     },
     {
-      "id": "40acb80b2c9cb8d7",
+      "id": "752f9ae9a9eaf71a",
       "title": "FOOTBALL",
       "start": "2026-11-23T14:45:00.000Z",
       "end": "2026-11-23T16:00:00.000Z",
@@ -4427,13 +4427,13 @@
       "category": "etablissement"
     },
     {
-      "id": "e3dccf33b2d27a97",
+      "id": "761a9e317fa5ec2d",
       "title": "Développement durable",
       "start": "2026-11-26T14:45:00.000Z",
       "end": "2026-11-26T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4447,7 +4447,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b117d13312ee21db",
+      "id": "fbf0f713f6c2116f",
       "title": "FOOTBALL",
       "start": "2026-11-26T14:45:00.000Z",
       "end": "2026-11-26T16:00:00.000Z",
@@ -4587,7 +4587,7 @@
       "category": "etablissement"
     },
     {
-      "id": "25c3b7514be3dd95",
+      "id": "8af64d62f446de96",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-30T11:15:00.000Z",
       "end": "2026-11-30T12:05:00.000Z",
@@ -4647,7 +4647,7 @@
       "category": "etablissement"
     },
     {
-      "id": "93303b8674ec3613",
+      "id": "ee976952e732e55d",
       "title": "FOOTBALL",
       "start": "2026-11-30T14:45:00.000Z",
       "end": "2026-11-30T16:00:00.000Z",
@@ -4907,13 +4907,13 @@
       "category": "etablissement"
     },
     {
-      "id": "3ec0fad84cfc374f",
+      "id": "8c57a65a714461a8",
       "title": "Développement durable",
       "start": "2026-12-03T14:45:00.000Z",
       "end": "2026-12-03T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4927,7 +4927,7 @@
       "category": "etablissement"
     },
     {
-      "id": "29364a3bc9c35a6f",
+      "id": "74b3967f36847994",
       "title": "FOOTBALL",
       "start": "2026-12-03T14:45:00.000Z",
       "end": "2026-12-03T16:00:00.000Z",
@@ -5077,7 +5077,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7cd232e660de1bef",
+      "id": "88b75ad4fa57cdb3",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-12-07T11:15:00.000Z",
       "end": "2026-12-07T12:05:00.000Z",
@@ -5137,7 +5137,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9c2ea5c23143c743",
+      "id": "d2e0cdc559b2e4a2",
       "title": "FOOTBALL",
       "start": "2026-12-07T14:45:00.000Z",
       "end": "2026-12-07T16:00:00.000Z",
@@ -5387,13 +5387,13 @@
       "category": "etablissement"
     },
     {
-      "id": "42fd39aee17dd604",
+      "id": "35bef0d5c3fd69a2",
       "title": "Développement durable",
       "start": "2026-12-10T14:45:00.000Z",
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5407,7 +5407,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ae0fbe59856595db",
+      "id": "e3cc013bfd31d2c7",
       "title": "FOOTBALL",
       "start": "2026-12-10T14:45:00.000Z",
       "end": "2026-12-10T16:00:00.000Z",
