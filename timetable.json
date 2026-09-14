@@ -2,8 +2,8 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 555,
-  "updatedAt": "2026-09-14T10:47:46.301Z",
+  "eventCount": 556,
+  "updatedAt": "2026-09-14T16:39:03.649Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -87,16 +87,6 @@
       "category": "etablissement"
     },
     {
-      "id": "0c6221779feeae97",
-      "title": "ANNULE - ETUDE",
-      "start": "2026-09-14T11:45:00.000Z",
-      "end": "2026-09-14T12:35:00.000Z",
-      "allDay": false,
-      "location": "A",
-      "description": "- 3AB_ESP_E",
-      "category": "etablissement"
-    },
-    {
       "id": "a889cabf0bcc59ae",
       "title": "ESPAGNOL LV2",
       "start": "2026-09-14T11:45:00.000Z",
@@ -104,6 +94,16 @@
       "allDay": false,
       "location": "10",
       "description": "DAROT M. - 3AB_ESP2",
+      "category": "etablissement"
+    },
+    {
+      "id": "0c6221779feeae97",
+      "title": "ETUDE",
+      "start": "2026-09-14T11:45:00.000Z",
+      "end": "2026-09-14T12:35:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3AB_ESP_E",
       "category": "etablissement"
     },
     {
@@ -334,6 +334,16 @@
       "allDay": false,
       "location": "20",
       "description": "DAROT M. - 3AB_ESP2",
+      "category": "etablissement"
+    },
+    {
+      "id": "d94b10f000b91d15",
+      "title": "ETUDE",
+      "start": "2026-09-17T08:10:00.000Z",
+      "end": "2026-09-17T09:00:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3AB_ESP_E",
       "category": "etablissement"
     },
     {
@@ -952,7 +962,7 @@
       "start": "2026-09-25T11:45:00.000Z",
       "end": "2026-09-25T12:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
