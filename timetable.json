@@ -3,7 +3,7 @@
   "source": "ÉcoleDirecte",
   "status": "ready",
   "eventCount": 554,
-  "updatedAt": "2026-09-15T06:45:41.509Z",
+  "updatedAt": "2026-09-15T12:13:07.165Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -267,7 +267,7 @@
       "category": "etablissement"
     },
     {
-      "id": "456f70b6150652ad",
+      "id": "65985916de061aa9",
       "title": "Développement durable",
       "start": "2026-09-17T13:45:00.000Z",
       "end": "2026-09-17T14:35:00.000Z",
@@ -427,7 +427,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d33a88a94a75b38b",
+      "id": "989c7e528a9dfaeb",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-09-21T10:15:00.000Z",
       "end": "2026-09-21T11:05:00.000Z",
@@ -747,7 +747,7 @@
       "category": "etablissement"
     },
     {
-      "id": "711027d8a8c5a281",
+      "id": "806a71da8827d07f",
       "title": "Développement durable",
       "start": "2026-09-24T13:45:00.000Z",
       "end": "2026-09-24T14:35:00.000Z",
@@ -917,7 +917,7 @@
       "category": "etablissement"
     },
     {
-      "id": "399f11a6a193b7de",
+      "id": "86b138d7c6c7ca53",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-09-28T10:15:00.000Z",
       "end": "2026-09-28T11:05:00.000Z",
@@ -1227,7 +1227,7 @@
       "category": "etablissement"
     },
     {
-      "id": "92ec7615d50a8828",
+      "id": "9a627dad039cd6d4",
       "title": "Développement durable",
       "start": "2026-10-01T13:45:00.000Z",
       "end": "2026-10-01T14:35:00.000Z",
@@ -1387,7 +1387,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d861e3276c354041",
+      "id": "5cea4f9c8219bcd6",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-10-05T10:15:00.000Z",
       "end": "2026-10-05T11:05:00.000Z",
@@ -1707,7 +1707,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4a6d1852fe74e943",
+      "id": "832d2c5b0e28760c",
       "title": "Développement durable",
       "start": "2026-10-08T13:45:00.000Z",
       "end": "2026-10-08T14:35:00.000Z",
@@ -1877,7 +1877,7 @@
       "category": "etablissement"
     },
     {
-      "id": "532acbd59319d081",
+      "id": "70049b20d455eb8a",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-10-12T10:15:00.000Z",
       "end": "2026-10-12T11:05:00.000Z",
@@ -2187,7 +2187,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f285d47d8c632826",
+      "id": "3f16ae6dc0788087",
       "title": "Développement durable",
       "start": "2026-10-15T13:45:00.000Z",
       "end": "2026-10-15T14:35:00.000Z",
@@ -2507,7 +2507,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e447bd16b8df28f1",
+      "id": "7c6a48a18aefdbe6",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-02T11:15:00.000Z",
       "end": "2026-11-02T12:05:00.000Z",
@@ -2827,7 +2827,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1f21dba79be898b6",
+      "id": "45e5220a63a07911",
       "title": "Développement durable",
       "start": "2026-11-05T14:45:00.000Z",
       "end": "2026-11-05T15:35:00.000Z",
@@ -2997,7 +2997,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8f76f8834b0abcaa",
+      "id": "09d9595bfc94ebc6",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-09T11:15:00.000Z",
       "end": "2026-11-09T12:05:00.000Z",
@@ -3287,13 +3287,13 @@
       "category": "etablissement"
     },
     {
-      "id": "d78c81772cd7287f",
+      "id": "e37926cd6cb1a245",
       "title": "Développement durable",
       "start": "2026-11-12T14:45:00.000Z",
       "end": "2026-11-12T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -3447,7 +3447,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9d161f12deda6d49",
+      "id": "f098e5f7de93bf27",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-16T11:15:00.000Z",
       "end": "2026-11-16T12:05:00.000Z",
@@ -3767,7 +3767,7 @@
       "category": "etablissement"
     },
     {
-      "id": "35e0d93effc9225b",
+      "id": "45892e22fa614bf6",
       "title": "Développement durable",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T15:35:00.000Z",
@@ -3937,7 +3937,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9d712c2c797b6722",
+      "id": "ab914dcec25b35f3",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-23T11:15:00.000Z",
       "end": "2026-11-23T12:05:00.000Z",
@@ -4247,7 +4247,7 @@
       "category": "etablissement"
     },
     {
-      "id": "761a9e317fa5ec2d",
+      "id": "3e7304b41af52687",
       "title": "Développement durable",
       "start": "2026-11-26T14:45:00.000Z",
       "end": "2026-11-26T15:35:00.000Z",
@@ -4407,7 +4407,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8af64d62f446de96",
+      "id": "fbf703c4fd623d17",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-30T11:15:00.000Z",
       "end": "2026-11-30T12:05:00.000Z",
@@ -4727,7 +4727,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8c57a65a714461a8",
+      "id": "5a2a280676255f86",
       "title": "Développement durable",
       "start": "2026-12-03T14:45:00.000Z",
       "end": "2026-12-03T15:35:00.000Z",
@@ -4897,7 +4897,7 @@
       "category": "etablissement"
     },
     {
-      "id": "88b75ad4fa57cdb3",
+      "id": "fbbcc9cf9372e343",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-12-07T11:15:00.000Z",
       "end": "2026-12-07T12:05:00.000Z",
@@ -5207,7 +5207,7 @@
       "category": "etablissement"
     },
     {
-      "id": "35bef0d5c3fd69a2",
+      "id": "86e636de7bb5ca4a",
       "title": "Développement durable",
       "start": "2026-12-10T14:45:00.000Z",
       "end": "2026-12-10T15:35:00.000Z",
@@ -5367,7 +5367,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a5cb8f2a7b92c3f1",
+      "id": "9258c894e9aab33c",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-12-14T11:15:00.000Z",
       "end": "2026-12-14T12:05:00.000Z",
