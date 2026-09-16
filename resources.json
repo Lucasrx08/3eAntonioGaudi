@@ -1,20 +1,8 @@
 {
   "version": 3,
   "source": "GitHub Issues",
-  "updatedAt": "2026-09-16T05:52:33.035Z",
-  "reminder": {
-    "id": "issue-1",
-    "title": "Documents de rentrée",
-    "detail": "À rendre pour le",
-    "deadline": "15 septembre au plus tard",
-    "items": [
-      "Assurance"
-    ],
-    "category": "Autre",
-    "url": "",
-    "manageUrl": "https://github.com/Lucasrx08/3eAntonioGaudi/issues/1",
-    "updatedAt": "2026-09-08T18:32:11Z"
-  },
+  "updatedAt": "2026-09-16T10:03:13.334Z",
+  "reminder": null,
   "resources": [
     {
       "id": "issue-4",
