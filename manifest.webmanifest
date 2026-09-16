@@ -7,8 +7,24 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "orientation": "any",
+  "categories": ["education", "productivity"],
   "background_color": "#ffffff",
   "theme_color": "#196396",
+  "shortcuts": [
+    {
+      "name": "Agenda",
+      "short_name": "Agenda",
+      "url": "./#agenda",
+      "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}]
+    },
+    {
+      "name": "Emploi du temps",
+      "short_name": "Emploi du temps",
+      "url": "./#emploi-du-temps",
+      "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}]
+    }
+  ],
   "icons": [
     {
       "src": "icon-192.png",

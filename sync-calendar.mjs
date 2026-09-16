@@ -26,6 +26,18 @@ function decodeText(value=''){
     .trim();
 }
 
+function normalizeEditorialText(value=''){
+  return String(value)
+    .replace(/\bExcercie\s+Incendie\b/gi,'Exercice incendie')
+    .replace(/\bfraterie\b/gi,'fratrie')
+    .replace(/\bOdysée\b/gi,'Odyssée')
+    .replace(/\bParents-Profs\b/gi,'parents-professeurs')
+    .replace(/\b3(?:ème|eme)\b/gi,'3e')
+    .replace(/\s+-\s+3e\b/g,' – 3e')
+    .replace(/\bDNB Blanc N°\s*(\d+)\b/gi,'DNB blanc n° $1')
+    .replace(/\bDNB Histoire et EMC\b/gi,'DNB Histoire-géographie et EMC');
+}
+
 function parseProperties(block){
   const properties={};
   unfoldIcs(block).split('\n').forEach(line=>{
@@ -117,8 +129,8 @@ function parseEvent(block){
   const exdates=(properties.EXDATE||[]).flatMap(property=>property.value.split(',').map(value=>parseDateValue({...property,value},start.timeZone))).filter(Boolean);
   return {
     uid:propertyValue(properties,'UID')||createHash('sha1').update(block).digest('hex'),
-    title:decodeText(propertyValue(properties,'SUMMARY'))||'Événement de la classe',
-    description:decodeText(propertyValue(properties,'DESCRIPTION')),
+    title:normalizeEditorialText(decodeText(propertyValue(properties,'SUMMARY')))||'Événement de la classe',
+    description:normalizeEditorialText(decodeText(propertyValue(properties,'DESCRIPTION'))),
     location:decodeText(propertyValue(properties,'LOCATION')),
     status:propertyValue(properties,'STATUS').toUpperCase(),
     start,end,

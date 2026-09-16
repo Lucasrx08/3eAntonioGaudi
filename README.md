@@ -1,4 +1,4 @@
-# Ma 3e — V6 · Calendriers et ressources communes
+# Ma 3e — V7 · Version de diffusion
 
 Application PWA responsive publiée sur GitHub Pages pour la 3e Antonio Gaudí. Apple Calendar alimente l’agenda général, ÉcoleDirecte alimente l’emploi du temps et les ressources communes sont publiées au moyen d’un formulaire enseignant.
 
@@ -11,11 +11,11 @@ La page **Ressources** contient quatre guides intégrés et complétés par des 
 - **Stage** : préparation, convention, règles et recherche d’offres sur 1élève1stage ;
 - **Certifications** : Ev@lang, Pix, ASSR2 et PSC avec les liens d’information et d’entraînement.
 
-Les échéances propres au collège restent à confirmer par l’établissement. L’oral du 9 juin correspond à la date inscrite dans l’agenda de la classe.
+Le stage est prévu du 15 au 19 février 2027. L’oral du 9 juin correspond à la date inscrite dans l’agenda de la classe.
 
 ## Synchronisation des calendriers
 
-- Apple Calendar et ÉcoleDirecte sont vérifiés automatiquement toutes les 5 minutes ;
+- Apple Calendar et ÉcoleDirecte sont vérifiés côté serveur toutes les 5 minutes ;
 - les adresses privées restent dans les secrets GitHub `APPLE_CALENDAR_URL` et `ECOLEDIRECTE_ICAL_URL` ;
 - le bouton « Actualiser » recharge immédiatement la dernière version publiée et indique clairement s’il n’y a aucun changement ;
 - si le lien iCal ÉcoleDirecte est valide mais vide, le site l’indique au lieu de laisser croire que la synchronisation est en attente ;
@@ -25,13 +25,13 @@ Le bouton du site ne peut pas lancer directement une GitHub Action sans exposer 
 
 ## Publier un PDF, un Canva, un formulaire, une vidéo ou un lien
 
-1. Sur le site, ouvrir **Ressources**, puis cliquer sur **Déposer un document**.
+1. Sur le site, ouvrir **Ressources**, puis cliquer sur **Espace enseignant**.
 2. Donner un titre à la publication.
 3. Choisir sa rubrique et son type.
 4. Coller un lien public HTTPS. Pour un PDF commun, glisser le fichier dans la zone « Lien ou fichier » et attendre la fin du téléversement.
 5. Vérifier que la ressource ne contient aucune donnée personnelle, puis envoyer le formulaire.
 
-La publication apparaît automatiquement après le prochain déploiement. Pour la modifier, éditer la demande correspondante dans l’onglet **Issues**. Pour la retirer du site, fermer cette demande. Seules les publications créées par le propriétaire du dépôt sont affichées.
+La publication apparaît automatiquement après la synchronisation des ressources. Pour la modifier, éditer la demande correspondante dans l’onglet **Issues**. Pour la retirer du site, fermer cette demande. Seules les publications créées par le propriétaire du dépôt sont affichées.
 
 L’espace enseignant est protégé par le compte GitHub du propriétaire. Un simple code ajouté dans GitHub Pages ne constituerait pas une authentification : il serait consultable dans le site public.
 
@@ -59,8 +59,10 @@ Les fichiers générés `calendar.json`, `timetable.json` et `resources.json` so
 Le workflow `.github/workflows/deploy-pages.yml` se déclenche :
 
 - après une modification de la branche `main` ;
-- après l’ouverture, la modification, la fermeture ou la réouverture d’une publication ;
-- automatiquement toutes les 5 minutes ;
+- après l’ouverture, la modification, la fermeture ou la réouverture d’une publication, pour actualiser uniquement les ressources ;
+- automatiquement toutes les 5 minutes, pour actualiser uniquement les calendriers lorsque leur contenu change ;
 - manuellement depuis l’onglet **Actions**.
+
+Le site complet n’est redéployé qu’après une modification de `main` ou un déclenchement manuel. Les vérifications planifiées n’ajoutent plus de commit lorsque les données sont identiques.
 
 La source GitHub Pages doit rester réglée sur **GitHub Actions**.

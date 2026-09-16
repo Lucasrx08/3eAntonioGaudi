@@ -16,11 +16,12 @@ permissions:
   id-token: write
 
 concurrency:
-  group: ma3e-${{ github.event_name }}
+  group: ma3e-publication
   cancel-in-progress: true
 
 jobs:
   deploy:
+    if: ${{ github.event_name != 'issues' || github.actor == github.repository_owner }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -46,6 +47,7 @@ jobs:
         run: node sync-calendar.mjs
 
       - name: Publier les ressources communes
+        if: github.event_name != 'schedule'
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: node sync-resources.mjs
@@ -54,7 +56,6 @@ jobs:
         shell: bash
         run: |
           set -e
-          mkdir -p /tmp/ma3e-live
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if git ls-remote --exit-code --heads origin live-data >/dev/null 2>&1; then
@@ -67,29 +68,41 @@ jobs:
             git rm -rf . || true
             cd - >/dev/null
           fi
+          copy_if_changed() {
+            source_file="$1"
+            target_file="/tmp/ma3e-live-branch/$1"
+            if [ ! -f "$target_file" ] || ! diff -q <(jq -S 'del(.updatedAt)' "$source_file") <(jq -S 'del(.updatedAt)' "$target_file") >/dev/null; then
+              cp "$source_file" "$target_file"
+            fi
+          }
           if [ "${{ github.event_name }}" = "issues" ]; then
-            cp resources.json /tmp/ma3e-live-branch/resources.json
+            copy_if_changed resources.json
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
+            copy_if_changed calendar.json
+            copy_if_changed timetable.json
           else
-            cp calendar.json timetable.json resources.json /tmp/ma3e-live-branch/
+            copy_if_changed calendar.json
+            copy_if_changed timetable.json
+            copy_if_changed resources.json
           fi
           cd /tmp/ma3e-live-branch
-          git add calendar.json timetable.json resources.json
+          git add -A
           if ! git diff --cached --quiet; then
             git commit -m "Mise à jour des données de la classe"
             git push origin HEAD:live-data
           fi
 
       - name: Préparer GitHub Pages
-        if: github.event_name != 'issues'
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         uses: actions/configure-pages@v5
 
       - name: Préparer les fichiers du site
-        if: github.event_name != 'issues'
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
 
       - name: Publier le site
-        if: github.event_name != 'issues'
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         id: deployment
         uses: actions/deploy-pages@v4

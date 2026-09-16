@@ -7,6 +7,7 @@ const OUTPUT=join(ROOT,'resources.json');
 const REPOSITORY=process.env.GITHUB_REPOSITORY||'Lucasrx08/3eAntonioGaudi';
 const PUBLICATION_AUTHOR=(process.env.PUBLICATION_AUTHOR||process.env.GITHUB_REPOSITORY_OWNER||REPOSITORY.split('/')[0]).toLocaleLowerCase('fr');
 const ALLOWED_CATEGORIES=new Set(['Vie de classe','Orientation','DNB','Stage','Certifications','Autre']);
+const ALLOWED_REMINDER_CATEGORIES=new Set([...ALLOWED_CATEGORIES,'Tous']);
 const ALLOWED_TYPES=new Set(['PDF','Présentation Canva','Lien','Formulaire','Vidéo']);
 
 function escapeRegExp(value){
@@ -82,7 +83,7 @@ function reminderFromIssue(issue){
     detail:plainText(issueSection(issue.body,'Texte du rappel')),
     deadline:plainText(issueSection(issue.body,'Échéance')).slice(0,80),
     items,
-    category:ALLOWED_CATEGORIES.has(categoryText)?categoryText:'Autre',
+    category:ALLOWED_REMINDER_CATEGORIES.has(categoryText)?categoryText:'Tous',
     url:publicUrl(issueSection(issue.body,'Lien associé')),
     manageUrl:String(issue.html_url||''),
     updatedAt:issue.updated_at

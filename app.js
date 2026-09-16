@@ -5,24 +5,56 @@ const TIMETABLE_CACHE_KEY='ma3e_timetable_cache_v1';
 const RESOURCES_FILE='./resources.json';
 const RESOURCES_CACHE_KEY='ma3e_resources_cache_v2';
 const DISPLAY_TIME_ZONE='Europe/Paris';
-const CALENDAR_REFRESH_MS=5*60*1000;
+const VIEW_HASHES={home:'#accueil',agenda:'#agenda',timetable:'#emploi-du-temps',resources:'#ressources'};
+const VIEW_TITLES={home:'Accueil',agenda:'Agenda',timetable:'Emploi du temps',resources:'Ressources'};
+const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
 
 const views=[...document.querySelectorAll('.view')];
-function showView(id){
-  views.forEach(view=>view.classList.toggle('active-view',view.id===id));
-  document.querySelectorAll('[data-view]').forEach(button=>button.classList.toggle('active',button.dataset.view===id));
-  window.scrollTo({top:0,behavior:'smooth'});
+function viewFromLocation(){
+  const match=Object.entries(VIEW_HASHES).find(([,hash])=>hash===window.location.hash);
+  return match?.[0]||'home';
+}
+
+function showView(requestedId,{updateHistory=true,moveFocus=true}={}){
+  const id=views.some(view=>view.id===requestedId)?requestedId:'home';
+  let activeView=null;
+  views.forEach(view=>{
+    const active=view.id===id;
+    view.classList.toggle('active-view',active);
+    view.setAttribute('aria-hidden',String(!active));
+    view.inert=!active;
+    if(active)activeView=view;
+  });
+  document.querySelectorAll('[data-view]').forEach(button=>{
+    const active=button.dataset.view===id;
+    button.classList.toggle('active',active);
+    if(active)button.setAttribute('aria-current','page');
+    else button.removeAttribute('aria-current');
+  });
+  if(updateHistory&&window.location.hash!==VIEW_HASHES[id]){
+    window.history.pushState({view:id},'',VIEW_HASHES[id]);
+  }
+  document.title=`${VIEW_TITLES[id]} · Ma 3e · Bon Sauveur`;
+  window.scrollTo({top:0,behavior:reduceMotion.matches?'auto':'smooth'});
+  if(moveFocus&&activeView){
+    window.requestAnimationFrame(()=>activeView.focus({preventScroll:true}));
+  }
 }
 
 document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>showView(button.dataset.view)));
 document.querySelectorAll('[data-go]').forEach(button=>button.addEventListener('click',()=>showView(button.dataset.go)));
+window.addEventListener('popstate',()=>showView(viewFromLocation(),{updateHistory:false}));
 
 document.querySelectorAll('[data-resource]').forEach(button=>button.addEventListener('click',()=>{
   setResourceFilter(button.dataset.resource);
   showView('resources');
 }));
 document.querySelectorAll('[data-resource-filter]').forEach(button=>button.addEventListener('click',()=>setResourceFilter(button.dataset.resourceFilter)));
-document.querySelector('#resource-search')?.addEventListener('input',()=>renderResources());
+let resourceSearchFrame=0;
+document.querySelector('#resource-search')?.addEventListener('input',()=>{
+  window.cancelAnimationFrame(resourceSearchFrame);
+  resourceSearchFrame=window.requestAnimationFrame(()=>renderResources());
+});
 
 const categoryStyles={
   classe:{label:'VIE DE CLASSE',color:'green',tag:'green-tag'},
@@ -223,15 +255,15 @@ const pathwayGuides={
     order:'04',mark:'▰',tone:'orange',eyebrow:'MON PREMIER STAGE',title:'Préparer mon stage de 3e',
     intro:'Cette séquence d’observation obligatoire permet de découvrir le quotidien de professionnels, de gagner en autonomie et de préciser un projet d’orientation.',
     stats:[
-      {value:'30 h',label:'de découverte'},
-      {value:'1 sem.',label:'au maximum'},
-      {value:'4',label:'signatures requises'}
+      {value:'15–19 fév.',label:'période prévue'},
+      {value:'30 à 35 h',label:'selon l’âge'},
+      {value:'1 sem.',label:'d’observation'}
     ],
-    notice:'La période du stage 2026-2027 doit être confirmée par l’établissement. La convention doit être complétée et signée par l’élève, ses responsables, la structure d’accueil et le collège avant le début du stage.',
+    notice:'Le stage est prévu du 15 au 19 février 2027. La convention doit être entièrement complétée et signée par toutes les parties avant le début du stage.',
     sectionTitle:'Avant, pendant et après le stage',
     items:[
       {meta:'1 · AVANT',title:'Je cherche et je prépare',text:'Je cible des secteurs qui m’intéressent, je contacte des structures et je prépare une courte présentation de ma demande.'},
-      {meta:'2 · CONVENTION',title:'Je sécurise mon accueil',text:'Je vérifie les horaires, les missions, le tuteur et les quatre signatures. Sans convention finalisée, le stage ne peut pas commencer.'},
+      {meta:'2 · CONVENTION',title:'Je sécurise mon accueil',text:'Je vérifie les horaires, les missions, le tuteur et toutes les signatures demandées. Sans convention finalisée, le stage ne peut pas commencer.'},
       {meta:'3 · PENDANT',title:'J’observe comme un professionnel',text:'Je suis ponctuel, curieux et respectueux. Je prends des notes, je pose des questions et je respecte la confidentialité.'},
       {meta:'4 · APRÈS',title:'Je fais le bilan',text:'Je remercie la structure, je trie mes observations et je prépare le compte rendu ou l’oral demandé par le collège.'}
     ],
@@ -394,10 +426,19 @@ function renderPathwayGuide(category='Tous'){
 }
 
 function setResourceFilter(category='Tous'){
+  const resourcesView=document.querySelector('#resources');
+  const reposition=resourcesView?.classList.contains('active-view')&&category!==selectedResourceCategory;
   selectedResourceCategory=category;
-  document.querySelectorAll('[data-resource-filter]').forEach(button=>button.classList.toggle('active',button.dataset.resourceFilter===category));
+  document.querySelectorAll('[data-resource-filter]').forEach(button=>{
+    const active=button.dataset.resourceFilter===category;
+    button.classList.toggle('active',active);
+    button.setAttribute('aria-pressed',String(active));
+  });
   renderPathwayGuide(category);
   renderResources();
+  if(reposition){
+    window.requestAnimationFrame(()=>document.querySelector('#pathway-guide-root')?.scrollIntoView({block:'start',behavior:reduceMotion.matches?'auto':'smooth'}));
+  }
 }
 
 function resourceStatus(data,{offline=false}={}){
@@ -425,11 +466,14 @@ function renderReminder(reminder){
   const badge=card?.querySelector('.focus-badge');
   if(!card||!title||!detail||!action)return;
   const newReminderUrl='https://github.com/Lucasrx08/3eAntonioGaudi/issues/new?template=reminder.yml';
+  card.classList.toggle('is-clear',!reminder);
+  card.classList.toggle('is-actionable',Boolean(reminder));
   if(!reminder){
     badge.textContent='À JOUR';
     title.textContent='Aucun rappel important';
     detail.textContent='Tout est à jour pour le moment.';
     action.hidden=true;
+    action.onclick=null;
     if(editLink){editLink.href=newReminderUrl;editLink.textContent='Créer un rappel ↗';}
     return;
   }
@@ -446,7 +490,12 @@ function renderReminder(reminder){
     action.onclick=()=>window.open(linkedUrl,'_blank','noopener,noreferrer');
   }else{
     action.textContent='Voir les ressources →';
-    action.onclick=()=>{setResourceFilter(reminder.category||'Tous');showView('resources');};
+    action.onclick=()=>{
+      const requested=reminder.category||'Tous';
+      const hasTarget=requested==='Tous'||Boolean(pathwayGuides[requested])||currentResourcesData.resources.some(resource=>resource.category===requested);
+      setResourceFilter(hasTarget?requested:'Tous');
+      showView('resources');
+    };
   }
   if(editLink){
     const manageUrl=safeResourceUrl(reminder.manageUrl);
@@ -809,7 +858,10 @@ function renderTimetableWeek(){
   const days=timetableDays(events);
   const label=document.querySelector('#timetable-week-label');
   if(label)label.textContent=timetableWeekLabel();
-  document.querySelector('#timetable-today')?.classList.toggle('is-current',selectedTimetableWeek===mondayFromKey(dateKey(new Date())));
+  const todayButton=document.querySelector('#timetable-today');
+  const currentWeek=selectedTimetableWeek===mondayFromKey(dateKey(new Date()));
+  todayButton?.classList.toggle('is-current',currentWeek);
+  todayButton?.setAttribute('aria-pressed',String(currentWeek));
   renderTimetableDesktop(events,days);
   renderTimetableMobile(events,days);
 }
@@ -886,6 +938,22 @@ function readCachedResources(){
   }
 }
 
+function writeCache(key,data){
+  try{
+    localStorage.setItem(key,JSON.stringify(data));
+    return true;
+  }catch(_error){
+    return false;
+  }
+}
+
+function newestData(cached,incoming){
+  if(!cached)return incoming;
+  const cachedTime=Date.parse(cached.updatedAt||'')||0;
+  const incomingTime=Date.parse(incoming.updatedAt||'')||0;
+  return cachedTime>incomingTime?cached:incoming;
+}
+
 function sameItems(previous,next,key){
   return JSON.stringify(previous?.[key]||[])===JSON.stringify(next?.[key]||[]);
 }
@@ -905,12 +973,13 @@ async function loadCalendar({manual=false}={}){
     if(!response.ok)throw new Error(`Calendrier indisponible (${response.status})`);
     const data=await response.json();
     if(!validCalendar(data))throw new Error('Format de calendrier incorrect');
-    localStorage.setItem(CALENDAR_CACHE_KEY,JSON.stringify(data));
-    renderCalendar(data);
-    if(manual&&status&&data.updatedAt){
-      status.textContent=sameItems(previous,data,'events')
-        ?`Aucun changement · calendrier vérifié le ${statusFormatter.format(new Date(data.updatedAt))}`
-        :`Nouveautés chargées · synchronisation du ${statusFormatter.format(new Date(data.updatedAt))}`;
+    const latest=newestData(previous,data);
+    writeCache(CALENDAR_CACHE_KEY,latest);
+    renderCalendar(latest);
+    if(manual&&status&&latest.updatedAt){
+      status.textContent=sameItems(previous,latest,'events')
+        ?`Aucun changement · calendrier vérifié le ${statusFormatter.format(new Date(latest.updatedAt))}`
+        :`Nouveautés chargées · synchronisation du ${statusFormatter.format(new Date(latest.updatedAt))}`;
     }
   }catch(error){
     const cached=readCachedCalendar();
@@ -939,13 +1008,14 @@ async function loadTimetable({manual=false}={}){
     if(!response.ok)throw new Error(`Emploi du temps indisponible (${response.status})`);
     const data=await response.json();
     if(!validCalendar(data))throw new Error('Format de l’emploi du temps incorrect');
-    localStorage.setItem(TIMETABLE_CACHE_KEY,JSON.stringify(data));
-    renderTimetable(data);
-    if(manual&&status&&data.updatedAt){
-      if(data.status==='empty-feed')status.textContent=`Aucun cours transmis · flux vérifié le ${statusFormatter.format(new Date(data.updatedAt))}`;
-      else status.textContent=sameItems(previous,data,'events')
-        ?`Aucun changement · emploi du temps vérifié le ${statusFormatter.format(new Date(data.updatedAt))}`
-        :`Nouveaux cours chargés · synchronisation du ${statusFormatter.format(new Date(data.updatedAt))}`;
+    const latest=newestData(previous,data);
+    writeCache(TIMETABLE_CACHE_KEY,latest);
+    renderTimetable(latest);
+    if(manual&&status&&latest.updatedAt){
+      if(latest.status==='empty-feed')status.textContent=`Aucun cours transmis · flux vérifié le ${statusFormatter.format(new Date(latest.updatedAt))}`;
+      else status.textContent=sameItems(previous,latest,'events')
+        ?`Aucun changement · emploi du temps vérifié le ${statusFormatter.format(new Date(latest.updatedAt))}`
+        :`Nouveaux cours chargés · synchronisation du ${statusFormatter.format(new Date(latest.updatedAt))}`;
     }
   }catch(error){
     const cached=readCachedTimetable();
@@ -974,13 +1044,14 @@ async function loadResources({manual=false}={}){
     if(!response.ok)throw new Error(`Ressources indisponibles (${response.status})`);
     const data=await response.json();
     if(!validResources(data))throw new Error('Format des ressources incorrect');
-    localStorage.setItem(RESOURCES_CACHE_KEY,JSON.stringify(data));
-    renderResources(data);
-    if(manual&&status&&data.updatedAt){
-      const unchanged=sameItems(previous,data,'resources')&&JSON.stringify(previous?.reminder||null)===JSON.stringify(data.reminder||null);
+    const latest=newestData(previous,data);
+    writeCache(RESOURCES_CACHE_KEY,latest);
+    renderResources(latest);
+    if(manual&&status&&latest.updatedAt){
+      const unchanged=sameItems(previous,latest,'resources')&&JSON.stringify(previous?.reminder||null)===JSON.stringify(latest.reminder||null);
       status.textContent=unchanged
-        ?`Aucune nouvelle publication · vérifié le ${statusFormatter.format(new Date(data.updatedAt))}`
-        :`Nouvelles ressources chargées · ${statusFormatter.format(new Date(data.updatedAt))}`;
+        ?`Aucune nouvelle publication · vérifié le ${statusFormatter.format(new Date(latest.updatedAt))}`
+        :`Nouvelles ressources chargées · ${statusFormatter.format(new Date(latest.updatedAt))}`;
     }
   }catch(error){
     const cached=readCachedResources();
@@ -1009,25 +1080,40 @@ document.querySelector('#timetable-today')?.addEventListener('click',()=>{
   selectedTimetableWeek=mondayFromKey(dateKey(new Date()));
   renderTimetableWeek();
 });
-document.addEventListener('visibilitychange',()=>{
-  if(document.visibilityState==='visible'){
-    loadCalendar();
-    loadTimetable();
-    loadResources();
-  }
+
+const privacyDialog=document.querySelector('#privacy-dialog');
+function openPrivacyDialog(){
+  if(!privacyDialog)return;
+  if(typeof privacyDialog.showModal==='function')privacyDialog.showModal();
+  else privacyDialog.setAttribute('open','');
+}
+function closePrivacyDialog(){
+  if(!privacyDialog)return;
+  if(typeof privacyDialog.close==='function'&&privacyDialog.open)privacyDialog.close();
+  else privacyDialog.removeAttribute('open');
+}
+document.querySelector('#privacy-open')?.addEventListener('click',openPrivacyDialog);
+document.querySelector('#privacy-close')?.addEventListener('click',closePrivacyDialog);
+document.querySelector('#privacy-confirm')?.addEventListener('click',closePrivacyDialog);
+privacyDialog?.addEventListener('click',event=>{
+  if(event.target===privacyDialog)closePrivacyDialog();
 });
-window.setInterval(()=>{
-  loadCalendar();
-  loadTimetable();
-  loadResources();
-},CALENDAR_REFRESH_MS);
 
 renderToday();
 renderPathwayGuide();
+showView(viewFromLocation(),{updateHistory:false,moveFocus:false});
 loadCalendar();
 loadTimetable();
 loadResources();
+window.addEventListener('pageshow',renderToday);
 
 if('serviceWorker' in navigator){
-  window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+  window.addEventListener('load',async()=>{
+    try{
+      const registration=await navigator.serviceWorker.register('./sw.js');
+      registration.update().catch(()=>{});
+    }catch(error){
+      console.debug('Installation hors connexion indisponible',error);
+    }
+  });
 }
