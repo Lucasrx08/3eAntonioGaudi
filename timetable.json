@@ -3,7 +3,7 @@
   "source": "ÉcoleDirecte",
   "status": "ready",
   "eventCount": 546,
-  "updatedAt": "2026-09-16T10:30:34.898Z",
+  "updatedAt": "2026-09-16T14:38:42.087Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -157,16 +157,6 @@
       "category": "etablissement"
     },
     {
-      "id": "65985916de061aa9",
-      "title": "Développement durable",
-      "start": "2026-09-17T13:45:00.000Z",
-      "end": "2026-09-17T14:35:00.000Z",
-      "allDay": false,
-      "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
-      "category": "etablissement"
-    },
-    {
       "id": "701cafb490d6e729",
       "title": "ETUDE",
       "start": "2026-09-17T13:45:00.000Z",
@@ -237,13 +227,23 @@
       "category": "etablissement"
     },
     {
+      "id": "9f1060cb25c9cfb7",
+      "title": "ETUDE",
+      "start": "2026-09-18T09:00:00.000Z",
+      "end": "2026-09-18T10:15:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3AB_PLA",
+      "category": "etablissement"
+    },
+    {
       "id": "840103e5a608c88e",
-      "title": "ANNULE - ED.PHYSIQUE & SPORT.",
+      "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-09-18T11:45:00.000Z",
       "end": "2026-09-18T13:25:00.000Z",
       "allDay": false,
       "location": "GYM",
-      "description": "RIGAUX L. - 3è Antonio GAUDI",
+      "description": "DHERVILLY G. - 3è Antonio GAUDI",
       "category": "sport"
     },
     {
@@ -1603,7 +1603,7 @@
       "end": "2026-10-08T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -3663,7 +3663,7 @@
       "end": "2026-11-19T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -3742,7 +3742,7 @@
       "start": "2026-11-20T12:45:00.000Z",
       "end": "2026-11-20T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -4143,7 +4143,7 @@
       "end": "2026-11-26T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4623,7 +4623,7 @@
       "end": "2026-12-03T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5103,7 +5103,7 @@
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {

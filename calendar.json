@@ -3,7 +3,7 @@
   "source": "Apple Calendar",
   "status": "ready",
   "eventCount": 22,
-  "updatedAt": "2026-09-16T10:30:32.183Z",
+  "updatedAt": "2026-09-16T14:38:39.884Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -13,12 +13,12 @@
       "end": "2026-09-08T09:50:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "Photos de fraterie à 9h50",
+      "description": "Photos de fratrie à 9h50",
       "category": "classe"
     },
     {
       "id": "bacea215ff12c5b5",
-      "title": "Excercie Incendie",
+      "title": "Exercice incendie",
       "start": "2026-09-17T08:15:00.000Z",
       "end": "2026-09-17T09:15:00.000Z",
       "allDay": false,
@@ -48,7 +48,7 @@
     },
     {
       "id": "56d4226d9a551e6e",
-      "title": "Odysée des métiers - 3ème",
+      "title": "Odyssée des métiers – 3e",
       "start": "2026-11-19T08:00:00.000Z",
       "end": "2026-11-19T11:00:00.000Z",
       "allDay": false,
@@ -58,7 +58,7 @@
     },
     {
       "id": "7894ae1fdbe6b756",
-      "title": "Réunion Parents-Profs 3ème",
+      "title": "Réunion parents-professeurs 3e",
       "start": "2026-11-27T14:00:00.000Z",
       "end": "2026-11-27T20:00:00.000Z",
       "allDay": false,
@@ -68,7 +68,7 @@
     },
     {
       "id": "da43643eb2667f8e",
-      "title": "DNB Blanc N°1",
+      "title": "DNB blanc n° 1",
       "start": "2026-12-03",
       "end": "2026-12-05",
       "allDay": true,
@@ -108,7 +108,7 @@
     },
     {
       "id": "00cd7eb4c8d1994f",
-      "title": "Stage 3ème",
+      "title": "Stage 3e",
       "start": "2027-02-15",
       "end": "2027-02-20",
       "allDay": true,
@@ -148,7 +148,7 @@
     },
     {
       "id": "6f2efacc94d76100",
-      "title": "DNB Blanc N°2",
+      "title": "DNB blanc n° 2",
       "start": "2027-05-03",
       "end": "2027-05-05",
       "allDay": true,
@@ -198,7 +198,7 @@
     },
     {
       "id": "6a6f57e24bfee42c",
-      "title": "DNB Histoire et EMC",
+      "title": "DNB Histoire-géographie et EMC",
       "start": "2027-06-25T06:00:00.000Z",
       "end": "2027-06-25T08:00:00.000Z",
       "allDay": false,
