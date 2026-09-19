@@ -2,8 +2,8 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 544,
-  "updatedAt": "2026-09-18T22:52:57.924Z",
+  "eventCount": 545,
+  "updatedAt": "2026-09-19T23:05:28.055Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -5441,6 +5441,16 @@
       "title": "Événement de la classe",
       "start": "2026-12-18T23:01:00.000Z",
       "end": "2026-12-19T22:59:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "-",
+      "category": "etablissement"
+    },
+    {
+      "id": "adabea5610b9f538",
+      "title": "Événement de la classe",
+      "start": "2026-12-19T23:01:00.000Z",
+      "end": "2026-12-20T22:59:00.000Z",
       "allDay": false,
       "location": "",
       "description": "-",
