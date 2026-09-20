@@ -2,8 +2,8 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 545,
-  "updatedAt": "2026-09-19T23:05:28.055Z",
+  "eventCount": 546,
+  "updatedAt": "2026-09-20T23:47:37.612Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -383,7 +383,7 @@
       "end": "2026-09-24T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -863,7 +863,7 @@
       "end": "2026-10-01T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2542,7 +2542,7 @@
       "start": "2026-11-06T12:45:00.000Z",
       "end": "2026-11-06T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -3883,7 +3883,7 @@
       "end": "2026-11-26T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4363,7 +4363,7 @@
       "end": "2026-12-03T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4843,7 +4843,7 @@
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5451,6 +5451,16 @@
       "title": "Événement de la classe",
       "start": "2026-12-19T23:01:00.000Z",
       "end": "2026-12-20T22:59:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "-",
+      "category": "etablissement"
+    },
+    {
+      "id": "4f99a3fd9f540b9a",
+      "title": "Événement de la classe",
+      "start": "2026-12-20T23:01:00.000Z",
+      "end": "2026-12-21T22:59:00.000Z",
       "allDay": false,
       "location": "",
       "description": "-",
