@@ -2,130 +2,10 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 546,
-  "updatedAt": "2026-09-20T23:47:37.612Z",
+  "eventCount": 535,
+  "updatedAt": "2026-09-21T22:47:48.867Z",
   "timeZone": "Europe/Paris",
   "events": [
-    {
-      "id": "5c234fbcd11e3c72",
-      "title": "MATHEMATIQUES",
-      "start": "2026-09-21T06:05:00.000Z",
-      "end": "2026-09-21T06:55:00.000Z",
-      "allDay": false,
-      "location": "12",
-      "description": "BESNIER A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "750c160e94e2e0b4",
-      "title": "ANGLAIS LANGUE DE SECTION",
-      "start": "2026-09-21T06:55:00.000Z",
-      "end": "2026-09-21T07:45:00.000Z",
-      "allDay": false,
-      "location": "32",
-      "description": "CARRERE I. - 3AB_PLA",
-      "category": "etablissement"
-    },
-    {
-      "id": "6032692849e0d270",
-      "title": "ANGLAIS LV1",
-      "start": "2026-09-21T06:55:00.000Z",
-      "end": "2026-09-21T07:45:00.000Z",
-      "allDay": false,
-      "location": "10",
-      "description": "TASSE E. - 3AB_NPLA",
-      "category": "etablissement"
-    },
-    {
-      "id": "1fff9af55d0f7592",
-      "title": "PHYSIQUE-CHIMIE",
-      "start": "2026-09-21T08:10:00.000Z",
-      "end": "2026-09-21T09:00:00.000Z",
-      "allDay": false,
-      "location": "SC.PH",
-      "description": "BRETEAU P. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "77eea8feca6221c0",
-      "title": "FRANCAIS",
-      "start": "2026-09-21T09:00:00.000Z",
-      "end": "2026-09-21T10:15:00.000Z",
-      "allDay": false,
-      "location": "21",
-      "description": "CHAMPEL C. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "989c7e528a9dfaeb",
-      "title": "CHANT CHORAL COLLECT",
-      "start": "2026-09-21T10:15:00.000Z",
-      "end": "2026-09-21T11:05:00.000Z",
-      "allDay": false,
-      "location": "MUS",
-      "description": "CYPRIEN F. - CHORALE_ORCHESTRE",
-      "category": "etablissement"
-    },
-    {
-      "id": "2510f597aad812d5",
-      "title": "ALLEMAND LV2",
-      "start": "2026-09-21T11:45:00.000Z",
-      "end": "2026-09-21T12:35:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3_ALL",
-      "category": "etablissement"
-    },
-    {
-      "id": "ed171dd4dc9ebfe1",
-      "title": "Bilangue espagnol",
-      "start": "2026-09-21T11:45:00.000Z",
-      "end": "2026-09-21T12:35:00.000Z",
-      "allDay": false,
-      "location": "27",
-      "description": "MARTIN N. - 3AB_ESP_E",
-      "category": "etablissement"
-    },
-    {
-      "id": "d51dba92eac9eaf3",
-      "title": "ESPAGNOL LV2",
-      "start": "2026-09-21T11:45:00.000Z",
-      "end": "2026-09-21T12:35:00.000Z",
-      "allDay": false,
-      "location": "10",
-      "description": "DAROT M. - 3AB_ESP2",
-      "category": "etablissement"
-    },
-    {
-      "id": "ed7671756c173ae4",
-      "title": "TECHNOLOGIE",
-      "start": "2026-09-21T12:35:00.000Z",
-      "end": "2026-09-21T13:25:00.000Z",
-      "allDay": false,
-      "location": "TECH1",
-      "description": "AUVRAY F. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "346b723d2b301cc5",
-      "title": "ETUDE",
-      "start": "2026-09-21T13:45:00.000Z",
-      "end": "2026-09-21T14:35:00.000Z",
-      "allDay": false,
-      "location": "A",
-      "description": "- 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "3d5c20b98cedca36",
-      "title": "FOOTBALL",
-      "start": "2026-09-21T13:45:00.000Z",
-      "end": "2026-09-21T15:00:00.000Z",
-      "allDay": false,
-      "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
-      "category": "etablissement"
-    },
     {
       "id": "8ea79becefde7162",
       "title": "ALLEMAND LV2",
@@ -462,7 +342,7 @@
       "start": "2026-09-25T11:45:00.000Z",
       "end": "2026-09-25T12:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -1343,7 +1223,7 @@
       "end": "2026-10-08T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2542,7 +2422,7 @@
       "start": "2026-11-06T12:45:00.000Z",
       "end": "2026-11-06T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -3403,7 +3283,7 @@
       "end": "2026-11-19T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4363,7 +4243,7 @@
       "end": "2026-12-03T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5323,7 +5203,7 @@
       "end": "2026-12-17T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5402,7 +5282,7 @@
       "start": "2026-12-18T12:45:00.000Z",
       "end": "2026-12-18T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -5461,6 +5341,16 @@
       "title": "Événement de la classe",
       "start": "2026-12-20T23:01:00.000Z",
       "end": "2026-12-21T22:59:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "-",
+      "category": "etablissement"
+    },
+    {
+      "id": "9ed7833086b99f42",
+      "title": "Événement de la classe",
+      "start": "2026-12-21T23:01:00.000Z",
+      "end": "2026-12-22T22:59:00.000Z",
       "allDay": false,
       "location": "",
       "description": "-",
