@@ -3,7 +3,7 @@
   "source": "ÉcoleDirecte",
   "status": "ready",
   "eventCount": 568,
-  "updatedAt": "2026-09-22T15:53:46.350Z",
+  "updatedAt": "2026-09-22T19:28:14.280Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -4803,7 +4803,7 @@
       "end": "2026-12-08T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
