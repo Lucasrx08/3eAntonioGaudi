@@ -3,7 +3,7 @@
   "source": "ÉcoleDirecte",
   "status": "ready",
   "eventCount": 568,
-  "updatedAt": "2026-09-22T11:52:00.836Z",
+  "updatedAt": "2026-09-22T15:53:46.350Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -133,7 +133,7 @@
       "end": "2026-09-22T14:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -307,13 +307,13 @@
       "category": "etablissement"
     },
     {
-      "id": "1f2f27d8f9008c07",
+      "id": "6349f1f765fb62f1",
       "title": "Modern Jazz",
       "start": "2026-09-24T13:45:00.000Z",
       "end": "2026-09-24T14:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -643,7 +643,7 @@
       "end": "2026-09-29T14:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -817,13 +817,13 @@
       "category": "etablissement"
     },
     {
-      "id": "9dcecd9844f4fbeb",
+      "id": "546962b38c056c40",
       "title": "Modern Jazz",
       "start": "2026-10-01T13:45:00.000Z",
       "end": "2026-10-01T14:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -1153,7 +1153,7 @@
       "end": "2026-10-06T14:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -1327,13 +1327,13 @@
       "category": "etablissement"
     },
     {
-      "id": "3d7f13b4e46e57cd",
+      "id": "36ae5ec17db731d6",
       "title": "Modern Jazz",
       "start": "2026-10-08T13:45:00.000Z",
       "end": "2026-10-08T14:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -1663,7 +1663,7 @@
       "end": "2026-10-13T14:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -1813,7 +1813,7 @@
       "end": "2026-10-15T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -1837,13 +1837,13 @@
       "category": "etablissement"
     },
     {
-      "id": "5dbfe86fd37b9fe6",
+      "id": "f29da9b7119545ab",
       "title": "Modern Jazz",
       "start": "2026-10-15T13:45:00.000Z",
       "end": "2026-10-15T14:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -2333,7 +2333,7 @@
       "end": "2026-11-03T15:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -2483,7 +2483,7 @@
       "end": "2026-11-05T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2507,13 +2507,13 @@
       "category": "etablissement"
     },
     {
-      "id": "a52637547f131398",
+      "id": "0a6db49658b63273",
       "title": "Modern Jazz",
       "start": "2026-11-05T14:45:00.000Z",
       "end": "2026-11-05T15:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -2843,7 +2843,7 @@
       "end": "2026-11-10T15:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -2973,7 +2973,7 @@
       "end": "2026-11-12T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2997,13 +2997,13 @@
       "category": "etablissement"
     },
     {
-      "id": "e39a981ce9129882",
+      "id": "0d16bc3b65e2272d",
       "title": "Modern Jazz",
       "start": "2026-11-12T14:45:00.000Z",
       "end": "2026-11-12T15:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -3283,7 +3283,7 @@
       "end": "2026-11-17T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -3333,7 +3333,7 @@
       "end": "2026-11-17T15:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -3507,13 +3507,13 @@
       "category": "etablissement"
     },
     {
-      "id": "0dbb955ae0423bd2",
+      "id": "caeb8a7442d2cce1",
       "title": "Modern Jazz",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T15:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -3783,7 +3783,7 @@
       "end": "2026-11-24T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -3843,7 +3843,7 @@
       "end": "2026-11-24T15:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -4017,13 +4017,13 @@
       "category": "etablissement"
     },
     {
-      "id": "dfcff8648026af5c",
+      "id": "badcd1c91610cce6",
       "title": "Modern Jazz",
       "start": "2026-11-26T14:45:00.000Z",
       "end": "2026-11-26T15:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -4303,7 +4303,7 @@
       "end": "2026-12-01T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -4353,7 +4353,7 @@
       "end": "2026-12-01T15:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -4503,7 +4503,7 @@
       "end": "2026-12-03T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4527,13 +4527,13 @@
       "category": "etablissement"
     },
     {
-      "id": "8655d425c3ac64dd",
+      "id": "7095370c782d341a",
       "title": "Modern Jazz",
       "start": "2026-12-03T14:45:00.000Z",
       "end": "2026-12-03T15:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -4863,7 +4863,7 @@
       "end": "2026-12-08T15:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -5037,13 +5037,13 @@
       "category": "etablissement"
     },
     {
-      "id": "3e2edc1b6eb0379d",
+      "id": "fc72a8aa830fe3e9",
       "title": "Modern Jazz",
       "start": "2026-12-10T14:45:00.000Z",
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -5323,7 +5323,7 @@
       "end": "2026-12-15T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -5373,7 +5373,7 @@
       "end": "2026-12-15T15:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -5547,13 +5547,13 @@
       "category": "etablissement"
     },
     {
-      "id": "da37208c8ab8c388",
+      "id": "08dd4fffb883b969",
       "title": "Modern Jazz",
       "start": "2026-12-17T14:45:00.000Z",
       "end": "2026-12-17T15:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "- DANSE_JAZZ",
+      "description": "PRUNIER C. - DANSE_JAZZ",
       "category": "etablissement"
     },
     {
