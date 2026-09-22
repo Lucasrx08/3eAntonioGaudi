@@ -2,8 +2,8 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 535,
-  "updatedAt": "2026-09-21T22:47:48.867Z",
+  "eventCount": 568,
+  "updatedAt": "2026-09-22T11:52:00.836Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -77,6 +77,16 @@
       "category": "etablissement"
     },
     {
+      "id": "2e13ecf67b5f0cb2",
+      "title": "LA FAB",
+      "start": "2026-09-22T10:35:00.000Z",
+      "end": "2026-09-22T11:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "RIGAUX L., TASSE E. - FAB",
+      "category": "etablissement"
+    },
+    {
       "id": "f0ba441dd87e952b",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-09-22T11:45:00.000Z",
@@ -114,6 +124,16 @@
       "allDay": false,
       "location": "A",
       "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "fab82e45e5cb56c8",
+      "title": "Modern Jazz",
+      "start": "2026-09-22T13:45:00.000Z",
+      "end": "2026-09-22T14:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -284,6 +304,16 @@
       "allDay": false,
       "location": "FOOT",
       "description": "GONTIER T. - FOOTBALL",
+      "category": "etablissement"
+    },
+    {
+      "id": "1f2f27d8f9008c07",
+      "title": "Modern Jazz",
+      "start": "2026-09-24T13:45:00.000Z",
+      "end": "2026-09-24T14:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -547,6 +577,16 @@
       "category": "etablissement"
     },
     {
+      "id": "417ed9c650c710cd",
+      "title": "LA FAB",
+      "start": "2026-09-29T10:35:00.000Z",
+      "end": "2026-09-29T11:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "RIGAUX L., TASSE E. - FAB",
+      "category": "etablissement"
+    },
+    {
       "id": "75f0137a90538871",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-09-29T11:45:00.000Z",
@@ -594,6 +634,16 @@
       "allDay": false,
       "location": "A",
       "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "1880a294efdd1045",
+      "title": "Modern Jazz",
+      "start": "2026-09-29T13:45:00.000Z",
+      "end": "2026-09-29T14:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -764,6 +814,16 @@
       "allDay": false,
       "location": "FOOT",
       "description": "GONTIER T. - FOOTBALL",
+      "category": "etablissement"
+    },
+    {
+      "id": "9dcecd9844f4fbeb",
+      "title": "Modern Jazz",
+      "start": "2026-10-01T13:45:00.000Z",
+      "end": "2026-10-01T14:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -1037,6 +1097,16 @@
       "category": "etablissement"
     },
     {
+      "id": "2cfba84e6ca24068",
+      "title": "LA FAB",
+      "start": "2026-10-06T10:35:00.000Z",
+      "end": "2026-10-06T11:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "RIGAUX L., TASSE E. - FAB",
+      "category": "etablissement"
+    },
+    {
       "id": "121e37d501cbe1c1",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-10-06T11:45:00.000Z",
@@ -1074,6 +1144,16 @@
       "allDay": false,
       "location": "A",
       "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "7353a5a97cd8b5e1",
+      "title": "Modern Jazz",
+      "start": "2026-10-06T13:45:00.000Z",
+      "end": "2026-10-06T14:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -1244,6 +1324,16 @@
       "allDay": false,
       "location": "FOOT",
       "description": "GONTIER T. - FOOTBALL",
+      "category": "etablissement"
+    },
+    {
+      "id": "3d7f13b4e46e57cd",
+      "title": "Modern Jazz",
+      "start": "2026-10-08T13:45:00.000Z",
+      "end": "2026-10-08T14:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -1507,6 +1597,16 @@
       "category": "etablissement"
     },
     {
+      "id": "986c7304c4f38af3",
+      "title": "LA FAB",
+      "start": "2026-10-13T10:35:00.000Z",
+      "end": "2026-10-13T11:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "RIGAUX L., TASSE E. - FAB",
+      "category": "etablissement"
+    },
+    {
       "id": "1710b7c9cb9805cd",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-10-13T11:45:00.000Z",
@@ -1554,6 +1654,16 @@
       "allDay": false,
       "location": "A",
       "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "f4f7864ab6f36f26",
+      "title": "Modern Jazz",
+      "start": "2026-10-13T13:45:00.000Z",
+      "end": "2026-10-13T14:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -1724,6 +1834,16 @@
       "allDay": false,
       "location": "FOOT",
       "description": "GONTIER T. - FOOTBALL",
+      "category": "etablissement"
+    },
+    {
+      "id": "5dbfe86fd37b9fe6",
+      "title": "Modern Jazz",
+      "start": "2026-10-15T13:45:00.000Z",
+      "end": "2026-10-15T14:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -2157,6 +2277,16 @@
       "category": "etablissement"
     },
     {
+      "id": "f7d60b448bbca870",
+      "title": "LA FAB",
+      "start": "2026-11-03T11:35:00.000Z",
+      "end": "2026-11-03T12:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "RIGAUX L., TASSE E. - FAB",
+      "category": "etablissement"
+    },
+    {
       "id": "f31fd38474fe103e",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-11-03T12:45:00.000Z",
@@ -2194,6 +2324,16 @@
       "allDay": false,
       "location": "A",
       "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "c75a9234dc99938b",
+      "title": "Modern Jazz",
+      "start": "2026-11-03T14:45:00.000Z",
+      "end": "2026-11-03T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -2343,7 +2483,7 @@
       "end": "2026-11-05T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2364,6 +2504,16 @@
       "allDay": false,
       "location": "FOOT",
       "description": "GONTIER T. - FOOTBALL",
+      "category": "etablissement"
+    },
+    {
+      "id": "a52637547f131398",
+      "title": "Modern Jazz",
+      "start": "2026-11-05T14:45:00.000Z",
+      "end": "2026-11-05T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -2627,6 +2777,16 @@
       "category": "etablissement"
     },
     {
+      "id": "387a95c99a9faac6",
+      "title": "LA FAB",
+      "start": "2026-11-10T11:35:00.000Z",
+      "end": "2026-11-10T12:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "RIGAUX L., TASSE E. - FAB",
+      "category": "etablissement"
+    },
+    {
       "id": "f83563125a36d772",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-11-10T12:45:00.000Z",
@@ -2674,6 +2834,16 @@
       "allDay": false,
       "location": "A",
       "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "cb806f4b0dbdff3c",
+      "title": "Modern Jazz",
+      "start": "2026-11-10T14:45:00.000Z",
+      "end": "2026-11-10T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -2824,6 +2994,16 @@
       "allDay": false,
       "location": "FOOT",
       "description": "GONTIER T. - FOOTBALL",
+      "category": "etablissement"
+    },
+    {
+      "id": "e39a981ce9129882",
+      "title": "Modern Jazz",
+      "start": "2026-11-12T14:45:00.000Z",
+      "end": "2026-11-12T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -3097,6 +3277,16 @@
       "category": "etablissement"
     },
     {
+      "id": "316237ad3d0df465",
+      "title": "LA FAB",
+      "start": "2026-11-17T11:35:00.000Z",
+      "end": "2026-11-17T12:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "RIGAUX L., TASSE E. - FAB",
+      "category": "etablissement"
+    },
+    {
       "id": "eafb97450276fe7c",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-11-17T12:45:00.000Z",
@@ -3134,6 +3324,16 @@
       "allDay": false,
       "location": "A",
       "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "df4cbc4898ac7fa8",
+      "title": "Modern Jazz",
+      "start": "2026-11-17T14:45:00.000Z",
+      "end": "2026-11-17T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -3304,6 +3504,16 @@
       "allDay": false,
       "location": "FOOT",
       "description": "GONTIER T. - FOOTBALL",
+      "category": "etablissement"
+    },
+    {
+      "id": "0dbb955ae0423bd2",
+      "title": "Modern Jazz",
+      "start": "2026-11-19T14:45:00.000Z",
+      "end": "2026-11-19T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -3567,6 +3777,16 @@
       "category": "etablissement"
     },
     {
+      "id": "58fb68cb673fa451",
+      "title": "LA FAB",
+      "start": "2026-11-24T11:35:00.000Z",
+      "end": "2026-11-24T12:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "RIGAUX L., TASSE E. - FAB",
+      "category": "etablissement"
+    },
+    {
       "id": "34adf6b6dfc51137",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-11-24T12:45:00.000Z",
@@ -3614,6 +3834,16 @@
       "allDay": false,
       "location": "A",
       "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "8c04fa8ac0682aa4",
+      "title": "Modern Jazz",
+      "start": "2026-11-24T14:45:00.000Z",
+      "end": "2026-11-24T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -3763,7 +3993,7 @@
       "end": "2026-11-26T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -3784,6 +4014,16 @@
       "allDay": false,
       "location": "FOOT",
       "description": "GONTIER T. - FOOTBALL",
+      "category": "etablissement"
+    },
+    {
+      "id": "dfcff8648026af5c",
+      "title": "Modern Jazz",
+      "start": "2026-11-26T14:45:00.000Z",
+      "end": "2026-11-26T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -4057,6 +4297,16 @@
       "category": "etablissement"
     },
     {
+      "id": "5d27c91fb215de0e",
+      "title": "LA FAB",
+      "start": "2026-12-01T11:35:00.000Z",
+      "end": "2026-12-01T12:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "RIGAUX L., TASSE E. - FAB",
+      "category": "etablissement"
+    },
+    {
       "id": "739d3be0d73a648d",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-12-01T12:45:00.000Z",
@@ -4094,6 +4344,16 @@
       "allDay": false,
       "location": "A",
       "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "142f1aae93eab364",
+      "title": "Modern Jazz",
+      "start": "2026-12-01T14:45:00.000Z",
+      "end": "2026-12-01T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -4264,6 +4524,16 @@
       "allDay": false,
       "location": "FOOT",
       "description": "GONTIER T. - FOOTBALL",
+      "category": "etablissement"
+    },
+    {
+      "id": "8655d425c3ac64dd",
+      "title": "Modern Jazz",
+      "start": "2026-12-03T14:45:00.000Z",
+      "end": "2026-12-03T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -4527,6 +4797,16 @@
       "category": "etablissement"
     },
     {
+      "id": "d15c55e8131afa1d",
+      "title": "LA FAB",
+      "start": "2026-12-08T11:35:00.000Z",
+      "end": "2026-12-08T12:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "RIGAUX L., TASSE E. - FAB",
+      "category": "etablissement"
+    },
+    {
       "id": "186ad3f43651857c",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-12-08T12:45:00.000Z",
@@ -4574,6 +4854,16 @@
       "allDay": false,
       "location": "A",
       "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "f290e1007be567d3",
+      "title": "Modern Jazz",
+      "start": "2026-12-08T14:45:00.000Z",
+      "end": "2026-12-08T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -4723,7 +5013,7 @@
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4744,6 +5034,16 @@
       "allDay": false,
       "location": "FOOT",
       "description": "GONTIER T. - FOOTBALL",
+      "category": "etablissement"
+    },
+    {
+      "id": "3e2edc1b6eb0379d",
+      "title": "Modern Jazz",
+      "start": "2026-12-10T14:45:00.000Z",
+      "end": "2026-12-10T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -5017,6 +5317,16 @@
       "category": "etablissement"
     },
     {
+      "id": "c3c2a4376dacedbd",
+      "title": "LA FAB",
+      "start": "2026-12-15T11:35:00.000Z",
+      "end": "2026-12-15T12:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "RIGAUX L., TASSE E. - FAB",
+      "category": "etablissement"
+    },
+    {
       "id": "d726e3ffaf95f9ad",
       "title": "SCIENCES VIE & TERRE",
       "start": "2026-12-15T12:45:00.000Z",
@@ -5054,6 +5364,16 @@
       "allDay": false,
       "location": "A",
       "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "0d1264047e7f994e",
+      "title": "Modern Jazz",
+      "start": "2026-12-15T14:45:00.000Z",
+      "end": "2026-12-15T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
@@ -5203,7 +5523,7 @@
       "end": "2026-12-17T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5224,6 +5544,16 @@
       "allDay": false,
       "location": "FOOT",
       "description": "GONTIER T. - FOOTBALL",
+      "category": "etablissement"
+    },
+    {
+      "id": "da37208c8ab8c388",
+      "title": "Modern Jazz",
+      "start": "2026-12-17T14:45:00.000Z",
+      "end": "2026-12-17T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "- DANSE_JAZZ",
       "category": "etablissement"
     },
     {
