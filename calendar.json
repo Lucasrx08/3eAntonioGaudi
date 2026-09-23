@@ -2,8 +2,8 @@
   "version": 2,
   "source": "Apple Calendar",
   "status": "ready",
-  "eventCount": 22,
-  "updatedAt": "2026-09-16T14:38:39.884Z",
+  "eventCount": 25,
+  "updatedAt": "2026-09-23T14:57:21.390Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -27,6 +27,26 @@
       "category": "etablissement"
     },
     {
+      "id": "4862a830610fd231",
+      "title": "Élections des délégués",
+      "start": "2026-09-24T12:35:00.000Z",
+      "end": "2026-09-24T13:25:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "",
+      "category": "classe"
+    },
+    {
+      "id": "938bb1870ca3fdb5",
+      "title": "Temps de Fraternité",
+      "start": "2026-10-08T08:10:00.000Z",
+      "end": "2026-10-08T09:00:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "",
+      "category": "etablissement"
+    },
+    {
       "id": "35d1b4ce22691026",
       "title": "Cross de l'établissement",
       "start": "2026-10-14T06:00:00.000Z",
@@ -35,6 +55,16 @@
       "location": "",
       "description": "",
       "category": "sport"
+    },
+    {
+      "id": "0667b3d0db338a38",
+      "title": "Réunion d’orientation pour les parents d’élèves de 3e",
+      "start": "2026-11-10T17:30:00.000Z",
+      "end": "2026-11-10T19:00:00.000Z",
+      "allDay": false,
+      "location": "Salle A",
+      "description": "",
+      "category": "orientation"
     },
     {
       "id": "7510e5e2f3d5f274",
