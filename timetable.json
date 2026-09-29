@@ -2,8 +2,8 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 523,
-  "updatedAt": "2026-09-29T01:14:46.675Z",
+  "eventCount": 533,
+  "updatedAt": "2026-09-29T13:57:43.217Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -57,13 +57,13 @@
       "category": "etablissement"
     },
     {
-      "id": "417ed9c650c710cd",
+      "id": "bb29bdf494469aae",
       "title": "LA FAB",
       "start": "2026-09-29T10:35:00.000Z",
       "end": "2026-09-29T11:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -117,13 +117,23 @@
       "category": "etablissement"
     },
     {
-      "id": "22c71c69171f6d4c",
+      "id": "f32a6e70137d2b67",
       "title": "Modern Jazz",
       "start": "2026-09-29T13:45:00.000Z",
       "end": "2026-09-29T14:35:00.000Z",
       "allDay": false,
       "location": "",
       "description": "PRUNIER C. - DANSE_JAZZ_MARDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "bdfa6ee2699cc36c",
+      "title": "Théâtre",
+      "start": "2026-09-29T13:45:00.000Z",
+      "end": "2026-09-29T14:35:00.000Z",
+      "allDay": false,
+      "location": "MUS",
+      "description": "- THEATRE",
       "category": "etablissement"
     },
     {
@@ -267,7 +277,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9a627dad039cd6d4",
+      "id": "26cd163892866dba",
       "title": "Développement durable",
       "start": "2026-10-01T13:45:00.000Z",
       "end": "2026-10-01T14:35:00.000Z",
@@ -287,7 +297,7 @@
       "category": "etablissement"
     },
     {
-      "id": "35eba5ce9a331f1d",
+      "id": "5d094815a2473335",
       "title": "FOOTBALL",
       "start": "2026-10-01T13:45:00.000Z",
       "end": "2026-10-01T15:00:00.000Z",
@@ -297,7 +307,7 @@
       "category": "etablissement"
     },
     {
-      "id": "546962b38c056c40",
+      "id": "6077b4ef9fb0dd79",
       "title": "Modern Jazz",
       "start": "2026-10-01T13:45:00.000Z",
       "end": "2026-10-01T14:35:00.000Z",
@@ -437,7 +447,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5cea4f9c8219bcd6",
+      "id": "815a9e5d28fec641",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-10-05T10:15:00.000Z",
       "end": "2026-10-05T11:05:00.000Z",
@@ -497,7 +507,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e0144364ee1e0599",
+      "id": "3b7b4a12199dbbe1",
       "title": "FOOTBALL",
       "start": "2026-10-05T13:45:00.000Z",
       "end": "2026-10-05T15:00:00.000Z",
@@ -577,13 +587,13 @@
       "category": "etablissement"
     },
     {
-      "id": "2cfba84e6ca24068",
+      "id": "45b17c6f55913dbd",
       "title": "LA FAB",
       "start": "2026-10-06T10:35:00.000Z",
       "end": "2026-10-06T11:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -627,13 +637,23 @@
       "category": "etablissement"
     },
     {
-      "id": "01acec8ebe28d48b",
+      "id": "2565be9b727fa3e2",
       "title": "Modern Jazz",
       "start": "2026-10-06T13:45:00.000Z",
       "end": "2026-10-06T14:35:00.000Z",
       "allDay": false,
       "location": "",
       "description": "PRUNIER C. - DANSE_JAZZ_MARDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "c48e7d1003b6a251",
+      "title": "Théâtre",
+      "start": "2026-10-06T13:45:00.000Z",
+      "end": "2026-10-06T14:35:00.000Z",
+      "allDay": false,
+      "location": "MUS",
+      "description": "- THEATRE",
       "category": "etablissement"
     },
     {
@@ -777,7 +797,7 @@
       "category": "etablissement"
     },
     {
-      "id": "832d2c5b0e28760c",
+      "id": "e95b07b8568ceff6",
       "title": "Développement durable",
       "start": "2026-10-08T13:45:00.000Z",
       "end": "2026-10-08T14:35:00.000Z",
@@ -797,7 +817,7 @@
       "category": "etablissement"
     },
     {
-      "id": "10b492195e63b192",
+      "id": "29d7466a6b9a86c5",
       "title": "FOOTBALL",
       "start": "2026-10-08T13:45:00.000Z",
       "end": "2026-10-08T15:00:00.000Z",
@@ -807,7 +827,7 @@
       "category": "etablissement"
     },
     {
-      "id": "36ae5ec17db731d6",
+      "id": "75d1307721eaae60",
       "title": "Modern Jazz",
       "start": "2026-10-08T13:45:00.000Z",
       "end": "2026-10-08T14:35:00.000Z",
@@ -872,7 +892,7 @@
       "start": "2026-10-09T11:45:00.000Z",
       "end": "2026-10-09T12:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -957,7 +977,7 @@
       "category": "etablissement"
     },
     {
-      "id": "70049b20d455eb8a",
+      "id": "cce372c71e0b60b0",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-10-12T10:15:00.000Z",
       "end": "2026-10-12T11:05:00.000Z",
@@ -1017,7 +1037,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d81a9cf971921238",
+      "id": "b4f110a75b5fef67",
       "title": "FOOTBALL",
       "start": "2026-10-12T13:45:00.000Z",
       "end": "2026-10-12T15:00:00.000Z",
@@ -1077,13 +1097,13 @@
       "category": "etablissement"
     },
     {
-      "id": "986c7304c4f38af3",
+      "id": "637077147c3f6693",
       "title": "LA FAB",
       "start": "2026-10-13T10:35:00.000Z",
       "end": "2026-10-13T11:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -1137,13 +1157,23 @@
       "category": "etablissement"
     },
     {
-      "id": "785ab3de996171ce",
+      "id": "06467763acdf29e0",
       "title": "Modern Jazz",
       "start": "2026-10-13T13:45:00.000Z",
       "end": "2026-10-13T14:35:00.000Z",
       "allDay": false,
       "location": "",
       "description": "PRUNIER C. - DANSE_JAZZ_MARDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "d31da5370e7075ad",
+      "title": "Théâtre",
+      "start": "2026-10-13T13:45:00.000Z",
+      "end": "2026-10-13T14:35:00.000Z",
+      "allDay": false,
+      "location": "MUS",
+      "description": "- THEATRE",
       "category": "etablissement"
     },
     {
@@ -1287,7 +1317,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3f16ae6dc0788087",
+      "id": "706cf1c58c06629b",
       "title": "Développement durable",
       "start": "2026-10-15T13:45:00.000Z",
       "end": "2026-10-15T14:35:00.000Z",
@@ -1307,7 +1337,7 @@
       "category": "etablissement"
     },
     {
-      "id": "04b0f98c3588d34f",
+      "id": "9828b9cd8f488e14",
       "title": "FOOTBALL",
       "start": "2026-10-15T13:45:00.000Z",
       "end": "2026-10-15T15:00:00.000Z",
@@ -1317,7 +1347,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f29da9b7119545ab",
+      "id": "5ce8de5e1d57448e",
       "title": "Modern Jazz",
       "start": "2026-10-15T13:45:00.000Z",
       "end": "2026-10-15T14:35:00.000Z",
@@ -1617,7 +1647,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7c6a48a18aefdbe6",
+      "id": "e38bc3215e3626fe",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-02T11:15:00.000Z",
       "end": "2026-11-02T12:05:00.000Z",
@@ -1677,7 +1707,7 @@
       "category": "etablissement"
     },
     {
-      "id": "13c2a3092b29d71a",
+      "id": "ce1ddd9c9c897398",
       "title": "FOOTBALL",
       "start": "2026-11-02T14:45:00.000Z",
       "end": "2026-11-02T16:00:00.000Z",
@@ -1757,13 +1787,13 @@
       "category": "etablissement"
     },
     {
-      "id": "f7d60b448bbca870",
+      "id": "f57cb0576534d3b7",
       "title": "LA FAB",
       "start": "2026-11-03T11:35:00.000Z",
       "end": "2026-11-03T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -1807,13 +1837,23 @@
       "category": "etablissement"
     },
     {
-      "id": "4814ab60486bdf65",
+      "id": "121b3dee65a5a55b",
       "title": "Modern Jazz",
       "start": "2026-11-03T14:45:00.000Z",
       "end": "2026-11-03T15:35:00.000Z",
       "allDay": false,
       "location": "",
       "description": "PRUNIER C. - DANSE_JAZZ_MARDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "45c0ee5b3538e38b",
+      "title": "Théâtre",
+      "start": "2026-11-03T14:45:00.000Z",
+      "end": "2026-11-03T15:35:00.000Z",
+      "allDay": false,
+      "location": "MUS",
+      "description": "- THEATRE",
       "category": "etablissement"
     },
     {
@@ -1957,7 +1997,7 @@
       "category": "etablissement"
     },
     {
-      "id": "45e5220a63a07911",
+      "id": "9d59b2166a01b77e",
       "title": "Développement durable",
       "start": "2026-11-05T14:45:00.000Z",
       "end": "2026-11-05T15:35:00.000Z",
@@ -1977,7 +2017,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5ba45e5a3ff393b4",
+      "id": "25ef069297785cf6",
       "title": "FOOTBALL",
       "start": "2026-11-05T14:45:00.000Z",
       "end": "2026-11-05T16:00:00.000Z",
@@ -1987,7 +2027,7 @@
       "category": "etablissement"
     },
     {
-      "id": "0a6db49658b63273",
+      "id": "9bd116cf49e5cd65",
       "title": "Modern Jazz",
       "start": "2026-11-05T14:45:00.000Z",
       "end": "2026-11-05T15:35:00.000Z",
@@ -2052,7 +2092,7 @@
       "start": "2026-11-06T12:45:00.000Z",
       "end": "2026-11-06T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -2137,7 +2177,7 @@
       "category": "etablissement"
     },
     {
-      "id": "09d9595bfc94ebc6",
+      "id": "40a025ab2bf781d0",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-09T11:15:00.000Z",
       "end": "2026-11-09T12:05:00.000Z",
@@ -2197,7 +2237,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2b2fe856eb9177a0",
+      "id": "943c2a665d89a090",
       "title": "FOOTBALL",
       "start": "2026-11-09T14:45:00.000Z",
       "end": "2026-11-09T16:00:00.000Z",
@@ -2257,7 +2297,7 @@
       "category": "etablissement"
     },
     {
-      "id": "387a95c99a9faac6",
+      "id": "88e2907acc4a935c",
       "title": "LA FAB",
       "start": "2026-11-10T11:35:00.000Z",
       "end": "2026-11-10T12:35:00.000Z",
@@ -2317,13 +2357,23 @@
       "category": "etablissement"
     },
     {
-      "id": "222479de051c0b73",
+      "id": "e8ff4c6ddc8d656a",
       "title": "Modern Jazz",
       "start": "2026-11-10T14:45:00.000Z",
       "end": "2026-11-10T15:35:00.000Z",
       "allDay": false,
       "location": "",
       "description": "PRUNIER C. - DANSE_JAZZ_MARDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "dc9895f00720533e",
+      "title": "Théâtre",
+      "start": "2026-11-10T14:45:00.000Z",
+      "end": "2026-11-10T15:35:00.000Z",
+      "allDay": false,
+      "location": "MUS",
+      "description": "- THEATRE",
       "category": "etablissement"
     },
     {
@@ -2447,7 +2497,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e37926cd6cb1a245",
+      "id": "37f65f3c0b45d0af",
       "title": "Développement durable",
       "start": "2026-11-12T14:45:00.000Z",
       "end": "2026-11-12T15:35:00.000Z",
@@ -2467,7 +2517,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a5210e13c44a7095",
+      "id": "b266c0ae1cfb1414",
       "title": "FOOTBALL",
       "start": "2026-11-12T14:45:00.000Z",
       "end": "2026-11-12T16:00:00.000Z",
@@ -2477,7 +2527,7 @@
       "category": "etablissement"
     },
     {
-      "id": "0d16bc3b65e2272d",
+      "id": "701cd780ccbe0e47",
       "title": "Modern Jazz",
       "start": "2026-11-12T14:45:00.000Z",
       "end": "2026-11-12T15:35:00.000Z",
@@ -2617,7 +2667,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f098e5f7de93bf27",
+      "id": "0533645d530dd163",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-16T11:15:00.000Z",
       "end": "2026-11-16T12:05:00.000Z",
@@ -2677,7 +2727,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c908fe6aa0562d3c",
+      "id": "765e768ec024389c",
       "title": "FOOTBALL",
       "start": "2026-11-16T14:45:00.000Z",
       "end": "2026-11-16T16:00:00.000Z",
@@ -2757,7 +2807,7 @@
       "category": "etablissement"
     },
     {
-      "id": "316237ad3d0df465",
+      "id": "d3ff3285ad95f95f",
       "title": "LA FAB",
       "start": "2026-11-17T11:35:00.000Z",
       "end": "2026-11-17T12:35:00.000Z",
@@ -2807,13 +2857,23 @@
       "category": "etablissement"
     },
     {
-      "id": "88ba65e786a1528d",
+      "id": "d5bcb71c17c3f5de",
       "title": "Modern Jazz",
       "start": "2026-11-17T14:45:00.000Z",
       "end": "2026-11-17T15:35:00.000Z",
       "allDay": false,
       "location": "",
       "description": "PRUNIER C. - DANSE_JAZZ_MARDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "9afe5fe3fb223b94",
+      "title": "Théâtre",
+      "start": "2026-11-17T14:45:00.000Z",
+      "end": "2026-11-17T15:35:00.000Z",
+      "allDay": false,
+      "location": "MUS",
+      "description": "- THEATRE",
       "category": "etablissement"
     },
     {
@@ -2957,13 +3017,13 @@
       "category": "etablissement"
     },
     {
-      "id": "45892e22fa614bf6",
+      "id": "20366743ea31ff0a",
       "title": "Développement durable",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2977,7 +3037,7 @@
       "category": "etablissement"
     },
     {
-      "id": "70f757e842d1b37d",
+      "id": "65d3aa8a74726c1d",
       "title": "FOOTBALL",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T16:00:00.000Z",
@@ -2987,7 +3047,7 @@
       "category": "etablissement"
     },
     {
-      "id": "caeb8a7442d2cce1",
+      "id": "6c428b144bec04fa",
       "title": "Modern Jazz",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T15:35:00.000Z",
@@ -3137,7 +3197,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ab914dcec25b35f3",
+      "id": "cbfeb732724913d5",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-23T11:15:00.000Z",
       "end": "2026-11-23T12:05:00.000Z",
@@ -3197,7 +3257,7 @@
       "category": "etablissement"
     },
     {
-      "id": "752f9ae9a9eaf71a",
+      "id": "ef6aac1928d54843",
       "title": "FOOTBALL",
       "start": "2026-11-23T14:45:00.000Z",
       "end": "2026-11-23T16:00:00.000Z",
@@ -3257,7 +3317,7 @@
       "category": "etablissement"
     },
     {
-      "id": "58fb68cb673fa451",
+      "id": "1d3e05cb43615339",
       "title": "LA FAB",
       "start": "2026-11-24T11:35:00.000Z",
       "end": "2026-11-24T12:35:00.000Z",
@@ -3317,13 +3377,23 @@
       "category": "etablissement"
     },
     {
-      "id": "f2cd1cb449f0c0ca",
+      "id": "239f2541cd5145a2",
       "title": "Modern Jazz",
       "start": "2026-11-24T14:45:00.000Z",
       "end": "2026-11-24T15:35:00.000Z",
       "allDay": false,
       "location": "",
       "description": "PRUNIER C. - DANSE_JAZZ_MARDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "73f61ef96f6ef6ec",
+      "title": "Théâtre",
+      "start": "2026-11-24T14:45:00.000Z",
+      "end": "2026-11-24T15:35:00.000Z",
+      "allDay": false,
+      "location": "MUS",
+      "description": "- THEATRE",
       "category": "etablissement"
     },
     {
@@ -3467,13 +3537,13 @@
       "category": "etablissement"
     },
     {
-      "id": "3e7304b41af52687",
+      "id": "e64d8d2101931f80",
       "title": "Développement durable",
       "start": "2026-11-26T14:45:00.000Z",
       "end": "2026-11-26T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -3487,7 +3557,7 @@
       "category": "etablissement"
     },
     {
-      "id": "fbf0f713f6c2116f",
+      "id": "82c03b5c7f1e2e12",
       "title": "FOOTBALL",
       "start": "2026-11-26T14:45:00.000Z",
       "end": "2026-11-26T16:00:00.000Z",
@@ -3497,7 +3567,7 @@
       "category": "etablissement"
     },
     {
-      "id": "badcd1c91610cce6",
+      "id": "cd459e23a12e7279",
       "title": "Modern Jazz",
       "start": "2026-11-26T14:45:00.000Z",
       "end": "2026-11-26T15:35:00.000Z",
@@ -3637,7 +3707,7 @@
       "category": "etablissement"
     },
     {
-      "id": "fbf703c4fd623d17",
+      "id": "d94ea3723752c876",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-30T11:15:00.000Z",
       "end": "2026-11-30T12:05:00.000Z",
@@ -3697,7 +3767,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ee976952e732e55d",
+      "id": "fc9105715c560de6",
       "title": "FOOTBALL",
       "start": "2026-11-30T14:45:00.000Z",
       "end": "2026-11-30T16:00:00.000Z",
@@ -3777,13 +3847,13 @@
       "category": "etablissement"
     },
     {
-      "id": "5d27c91fb215de0e",
+      "id": "49bdb67aa340ec9a",
       "title": "LA FAB",
       "start": "2026-12-01T11:35:00.000Z",
       "end": "2026-12-01T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -3827,13 +3897,23 @@
       "category": "etablissement"
     },
     {
-      "id": "82495fc6cdbbe065",
+      "id": "84083f6156cc0ca1",
       "title": "Modern Jazz",
       "start": "2026-12-01T14:45:00.000Z",
       "end": "2026-12-01T15:35:00.000Z",
       "allDay": false,
       "location": "",
       "description": "PRUNIER C. - DANSE_JAZZ_MARDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "7bc7dc768f829667",
+      "title": "Théâtre",
+      "start": "2026-12-01T14:45:00.000Z",
+      "end": "2026-12-01T15:35:00.000Z",
+      "allDay": false,
+      "location": "MUS",
+      "description": "- THEATRE",
       "category": "etablissement"
     },
     {
@@ -3977,7 +4057,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5a2a280676255f86",
+      "id": "b5d25148ef667685",
       "title": "Développement durable",
       "start": "2026-12-03T14:45:00.000Z",
       "end": "2026-12-03T15:35:00.000Z",
@@ -3997,7 +4077,7 @@
       "category": "etablissement"
     },
     {
-      "id": "74b3967f36847994",
+      "id": "c88fbba1861332a4",
       "title": "FOOTBALL",
       "start": "2026-12-03T14:45:00.000Z",
       "end": "2026-12-03T16:00:00.000Z",
@@ -4007,7 +4087,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7095370c782d341a",
+      "id": "def12b4e0e42de15",
       "title": "Modern Jazz",
       "start": "2026-12-03T14:45:00.000Z",
       "end": "2026-12-03T15:35:00.000Z",
@@ -4157,7 +4237,7 @@
       "category": "etablissement"
     },
     {
-      "id": "fbbcc9cf9372e343",
+      "id": "b091ae1d7cbc4dc6",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-12-07T11:15:00.000Z",
       "end": "2026-12-07T12:05:00.000Z",
@@ -4217,7 +4297,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d2e0cdc559b2e4a2",
+      "id": "1095cc7c43eab907",
       "title": "FOOTBALL",
       "start": "2026-12-07T14:45:00.000Z",
       "end": "2026-12-07T16:00:00.000Z",
@@ -4277,7 +4357,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d15c55e8131afa1d",
+      "id": "5339a92c05ce6591",
       "title": "LA FAB",
       "start": "2026-12-08T11:35:00.000Z",
       "end": "2026-12-08T12:35:00.000Z",
@@ -4337,13 +4417,23 @@
       "category": "etablissement"
     },
     {
-      "id": "7e92cfee463cf880",
+      "id": "dae99eec8dc6f79a",
       "title": "Modern Jazz",
       "start": "2026-12-08T14:45:00.000Z",
       "end": "2026-12-08T15:35:00.000Z",
       "allDay": false,
       "location": "",
       "description": "PRUNIER C. - DANSE_JAZZ_MARDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "717875eb8e6748f7",
+      "title": "Théâtre",
+      "start": "2026-12-08T14:45:00.000Z",
+      "end": "2026-12-08T15:35:00.000Z",
+      "allDay": false,
+      "location": "MUS",
+      "description": "- THEATRE",
       "category": "etablissement"
     },
     {
@@ -4487,13 +4577,13 @@
       "category": "etablissement"
     },
     {
-      "id": "86e636de7bb5ca4a",
+      "id": "55f3a5fe6e9d781a",
       "title": "Développement durable",
       "start": "2026-12-10T14:45:00.000Z",
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4507,7 +4597,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e3cc013bfd31d2c7",
+      "id": "2aa7465b905c1047",
       "title": "FOOTBALL",
       "start": "2026-12-10T14:45:00.000Z",
       "end": "2026-12-10T16:00:00.000Z",
@@ -4517,7 +4607,7 @@
       "category": "etablissement"
     },
     {
-      "id": "fc72a8aa830fe3e9",
+      "id": "8217647e6356c3ed",
       "title": "Modern Jazz",
       "start": "2026-12-10T14:45:00.000Z",
       "end": "2026-12-10T15:35:00.000Z",
@@ -4657,7 +4747,7 @@
       "category": "etablissement"
     },
     {
-      "id": "9258c894e9aab33c",
+      "id": "83059c74549ded76",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-12-14T11:15:00.000Z",
       "end": "2026-12-14T12:05:00.000Z",
@@ -4717,7 +4807,7 @@
       "category": "etablissement"
     },
     {
-      "id": "585c636886f0febb",
+      "id": "319cb4c73fce98a0",
       "title": "FOOTBALL",
       "start": "2026-12-14T14:45:00.000Z",
       "end": "2026-12-14T16:00:00.000Z",
@@ -4797,7 +4887,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c3c2a4376dacedbd",
+      "id": "509ea5c819d4a731",
       "title": "LA FAB",
       "start": "2026-12-15T11:35:00.000Z",
       "end": "2026-12-15T12:35:00.000Z",
@@ -4847,13 +4937,23 @@
       "category": "etablissement"
     },
     {
-      "id": "76a0389c04291adb",
+      "id": "50948869c1e4efd5",
       "title": "Modern Jazz",
       "start": "2026-12-15T14:45:00.000Z",
       "end": "2026-12-15T15:35:00.000Z",
       "allDay": false,
       "location": "",
       "description": "PRUNIER C. - DANSE_JAZZ_MARDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "ec56bcc51798d738",
+      "title": "Théâtre",
+      "start": "2026-12-15T14:45:00.000Z",
+      "end": "2026-12-15T15:35:00.000Z",
+      "allDay": false,
+      "location": "MUS",
+      "description": "- THEATRE",
       "category": "etablissement"
     },
     {
@@ -4997,13 +5097,13 @@
       "category": "etablissement"
     },
     {
-      "id": "69cb7590c907f1fc",
+      "id": "505c07e332b7c015",
       "title": "Développement durable",
       "start": "2026-12-17T14:45:00.000Z",
       "end": "2026-12-17T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5017,7 +5117,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a819e8b7dea8686c",
+      "id": "f17e3ff160063a78",
       "title": "FOOTBALL",
       "start": "2026-12-17T14:45:00.000Z",
       "end": "2026-12-17T16:00:00.000Z",
@@ -5027,7 +5127,7 @@
       "category": "etablissement"
     },
     {
-      "id": "08dd4fffb883b969",
+      "id": "03c670bf9170d12a",
       "title": "Modern Jazz",
       "start": "2026-12-17T14:45:00.000Z",
       "end": "2026-12-17T15:35:00.000Z",
