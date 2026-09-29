@@ -3,7 +3,7 @@
   "source": "ÉcoleDirecte",
   "status": "ready",
   "eventCount": 533,
-  "updatedAt": "2026-09-29T13:57:43.217Z",
+  "updatedAt": "2026-09-29T19:13:02.901Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -63,7 +63,7 @@
       "end": "2026-09-29T11:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -127,13 +127,13 @@
       "category": "etablissement"
     },
     {
-      "id": "bdfa6ee2699cc36c",
+      "id": "320cddf8c4f0abbd",
       "title": "Théâtre",
       "start": "2026-09-29T13:45:00.000Z",
       "end": "2026-09-29T14:35:00.000Z",
       "allDay": false,
       "location": "MUS",
-      "description": "- THEATRE",
+      "description": "POSE V. - THEATRE",
       "category": "etablissement"
     },
     {
@@ -283,7 +283,7 @@
       "end": "2026-10-01T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -593,7 +593,7 @@
       "end": "2026-10-06T11:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -647,13 +647,13 @@
       "category": "etablissement"
     },
     {
-      "id": "c48e7d1003b6a251",
+      "id": "b04bede357397b60",
       "title": "Théâtre",
       "start": "2026-10-06T13:45:00.000Z",
       "end": "2026-10-06T14:35:00.000Z",
       "allDay": false,
       "location": "MUS",
-      "description": "- THEATRE",
+      "description": "POSE V. - THEATRE",
       "category": "etablissement"
     },
     {
@@ -803,7 +803,7 @@
       "end": "2026-10-08T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -1103,7 +1103,7 @@
       "end": "2026-10-13T11:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -1167,13 +1167,13 @@
       "category": "etablissement"
     },
     {
-      "id": "d31da5370e7075ad",
+      "id": "fea09ed09c9b1696",
       "title": "Théâtre",
       "start": "2026-10-13T13:45:00.000Z",
       "end": "2026-10-13T14:35:00.000Z",
       "allDay": false,
       "location": "MUS",
-      "description": "- THEATRE",
+      "description": "POSE V. - THEATRE",
       "category": "etablissement"
     },
     {
@@ -1323,7 +1323,7 @@
       "end": "2026-10-15T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -1847,13 +1847,13 @@
       "category": "etablissement"
     },
     {
-      "id": "45c0ee5b3538e38b",
+      "id": "c167c5b6507ece00",
       "title": "Théâtre",
       "start": "2026-11-03T14:45:00.000Z",
       "end": "2026-11-03T15:35:00.000Z",
       "allDay": false,
       "location": "MUS",
-      "description": "- THEATRE",
+      "description": "POSE V. - THEATRE",
       "category": "etablissement"
     },
     {
@@ -2303,7 +2303,7 @@
       "end": "2026-11-10T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -2367,13 +2367,13 @@
       "category": "etablissement"
     },
     {
-      "id": "dc9895f00720533e",
+      "id": "ca689ac8f81c66c4",
       "title": "Théâtre",
       "start": "2026-11-10T14:45:00.000Z",
       "end": "2026-11-10T15:35:00.000Z",
       "allDay": false,
       "location": "MUS",
-      "description": "- THEATRE",
+      "description": "POSE V. - THEATRE",
       "category": "etablissement"
     },
     {
@@ -2813,7 +2813,7 @@
       "end": "2026-11-17T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -2867,13 +2867,13 @@
       "category": "etablissement"
     },
     {
-      "id": "9afe5fe3fb223b94",
+      "id": "00c10972066a2d92",
       "title": "Théâtre",
       "start": "2026-11-17T14:45:00.000Z",
       "end": "2026-11-17T15:35:00.000Z",
       "allDay": false,
       "location": "MUS",
-      "description": "- THEATRE",
+      "description": "POSE V. - THEATRE",
       "category": "etablissement"
     },
     {
@@ -3323,7 +3323,7 @@
       "end": "2026-11-24T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -3387,13 +3387,13 @@
       "category": "etablissement"
     },
     {
-      "id": "73f61ef96f6ef6ec",
+      "id": "d08ba194ae455f27",
       "title": "Théâtre",
       "start": "2026-11-24T14:45:00.000Z",
       "end": "2026-11-24T15:35:00.000Z",
       "allDay": false,
       "location": "MUS",
-      "description": "- THEATRE",
+      "description": "POSE V. - THEATRE",
       "category": "etablissement"
     },
     {
@@ -3907,13 +3907,13 @@
       "category": "etablissement"
     },
     {
-      "id": "7bc7dc768f829667",
+      "id": "116ad92ced482bdf",
       "title": "Théâtre",
       "start": "2026-12-01T14:45:00.000Z",
       "end": "2026-12-01T15:35:00.000Z",
       "allDay": false,
       "location": "MUS",
-      "description": "- THEATRE",
+      "description": "POSE V. - THEATRE",
       "category": "etablissement"
     },
     {
@@ -4063,7 +4063,7 @@
       "end": "2026-12-03T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4363,7 +4363,7 @@
       "end": "2026-12-08T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -4427,13 +4427,13 @@
       "category": "etablissement"
     },
     {
-      "id": "717875eb8e6748f7",
+      "id": "ed83204c0304fc09",
       "title": "Théâtre",
       "start": "2026-12-08T14:45:00.000Z",
       "end": "2026-12-08T15:35:00.000Z",
       "allDay": false,
       "location": "MUS",
-      "description": "- THEATRE",
+      "description": "POSE V. - THEATRE",
       "category": "etablissement"
     },
     {
@@ -4583,7 +4583,7 @@
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4947,13 +4947,13 @@
       "category": "etablissement"
     },
     {
-      "id": "ec56bcc51798d738",
+      "id": "4b42cb3a8efc4a21",
       "title": "Théâtre",
       "start": "2026-12-15T14:45:00.000Z",
       "end": "2026-12-15T15:35:00.000Z",
       "allDay": false,
       "location": "MUS",
-      "description": "- THEATRE",
+      "description": "POSE V. - THEATRE",
       "category": "etablissement"
     },
     {
@@ -5103,7 +5103,7 @@
       "end": "2026-12-17T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
