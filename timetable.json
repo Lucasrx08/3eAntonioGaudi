@@ -2,8 +2,8 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 516,
-  "updatedAt": "2026-10-07T00:22:28.662Z",
+  "eventCount": 519,
+  "updatedAt": "2026-10-07T13:31:06.977Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -242,7 +242,7 @@
       "start": "2026-10-09T11:45:00.000Z",
       "end": "2026-10-09T12:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -568,12 +568,22 @@
     },
     {
       "id": "2508a98017e7a815",
-      "title": "SCIENCES VIE & TERRE",
+      "title": "ANNULE - SCIENCES VIE & TERRE",
       "start": "2026-10-15T06:55:00.000Z",
       "end": "2026-10-15T07:45:00.000Z",
       "allDay": false,
       "location": "SVT",
       "description": "LABERTHE M. - 3A_P2",
+      "category": "etablissement"
+    },
+    {
+      "id": "98271c51d209d850",
+      "title": "ETUDE",
+      "start": "2026-10-15T06:55:00.000Z",
+      "end": "2026-10-15T07:45:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
     {
@@ -618,7 +628,7 @@
     },
     {
       "id": "4653d206703c1a60",
-      "title": "ANGLAIS LANGUE DE SECTION",
+      "title": "ANNULE - ANGLAIS LANGUE DE SECTION",
       "start": "2026-10-15T09:00:00.000Z",
       "end": "2026-10-15T09:50:00.000Z",
       "allDay": false,
@@ -627,13 +637,23 @@
       "category": "etablissement"
     },
     {
-      "id": "75ced575cb46223c",
+      "id": "4fc600b0773434b8",
       "title": "ETUDE",
       "start": "2026-10-15T09:00:00.000Z",
       "end": "2026-10-15T09:50:00.000Z",
       "allDay": false,
       "location": "A",
       "description": "- 3A_NPLA",
+      "category": "etablissement"
+    },
+    {
+      "id": "353a0c34d786418e",
+      "title": "ETUDE",
+      "start": "2026-10-15T09:00:00.000Z",
+      "end": "2026-10-15T09:50:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3A_PLA",
       "category": "etablissement"
     },
     {
@@ -737,8 +757,18 @@
       "category": "etablissement"
     },
     {
+      "id": "543611d21331850d",
+      "title": "ANGLAIS LV1",
+      "start": "2026-10-16T09:00:00.000Z",
+      "end": "2026-10-16T09:50:00.000Z",
+      "allDay": false,
+      "location": "10",
+      "description": "TASSE E. - 3AB_NPLA",
+      "category": "etablissement"
+    },
+    {
       "id": "22a7cc58e01fc2e5",
-      "title": "ANGLAIS LANGUE DE SECTION",
+      "title": "ANNULE - ANGLAIS LANGUE DE SECTION",
       "start": "2026-10-16T09:00:00.000Z",
       "end": "2026-10-16T10:15:00.000Z",
       "allDay": false,
@@ -747,13 +777,13 @@
       "category": "etablissement"
     },
     {
-      "id": "543611d21331850d",
-      "title": "ANGLAIS LV1",
+      "id": "c323f08cf2ab77dc",
+      "title": "ETUDE",
       "start": "2026-10-16T09:00:00.000Z",
       "end": "2026-10-16T09:50:00.000Z",
       "allDay": false,
-      "location": "10",
-      "description": "TASSE E. - 3AB_NPLA",
+      "location": "A",
+      "description": "- 3A_NPLA",
       "category": "etablissement"
     },
     {
@@ -1442,7 +1472,7 @@
       "start": "2026-11-06T12:45:00.000Z",
       "end": "2026-11-06T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -3502,7 +3532,7 @@
       "start": "2026-12-04T12:45:00.000Z",
       "end": "2026-12-04T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
