@@ -3,7 +3,7 @@
   "source": "ÉcoleDirecte",
   "status": "ready",
   "eventCount": 528,
-  "updatedAt": "2026-10-13T01:25:23.291Z",
+  "updatedAt": "2026-10-13T15:54:32.682Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -4262,7 +4262,7 @@
       "start": "2026-12-18T12:45:00.000Z",
       "end": "2026-12-18T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
