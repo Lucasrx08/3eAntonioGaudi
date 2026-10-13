@@ -2,150 +2,10 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 538,
-  "updatedAt": "2026-10-12T19:16:48.967Z",
+  "eventCount": 528,
+  "updatedAt": "2026-10-13T01:25:23.291Z",
   "timeZone": "Europe/Paris",
   "events": [
-    {
-      "id": "85509693ab51fb95",
-      "title": "MATHEMATIQUES",
-      "start": "2026-10-12T06:05:00.000Z",
-      "end": "2026-10-12T06:55:00.000Z",
-      "allDay": false,
-      "location": "12",
-      "description": "BESNIER A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "6172bdd9a3454356",
-      "title": "ANGLAIS LANGUE DE SECTION",
-      "start": "2026-10-12T06:55:00.000Z",
-      "end": "2026-10-12T07:45:00.000Z",
-      "allDay": false,
-      "location": "32",
-      "description": "CARRERE I. - 3AB_PLA",
-      "category": "etablissement"
-    },
-    {
-      "id": "128e794f6f67fe27",
-      "title": "ANGLAIS LV1",
-      "start": "2026-10-12T06:55:00.000Z",
-      "end": "2026-10-12T07:45:00.000Z",
-      "allDay": false,
-      "location": "10",
-      "description": "TASSE E. - 3AB_NPLA",
-      "category": "etablissement"
-    },
-    {
-      "id": "7b38b7680a3d0b7f",
-      "title": "PHYSIQUE-CHIMIE",
-      "start": "2026-10-12T08:10:00.000Z",
-      "end": "2026-10-12T09:00:00.000Z",
-      "allDay": false,
-      "location": "SC.PH",
-      "description": "BRETEAU P. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "15b3dd21a782c7e5",
-      "title": "FRANCAIS",
-      "start": "2026-10-12T09:00:00.000Z",
-      "end": "2026-10-12T10:15:00.000Z",
-      "allDay": false,
-      "location": "21",
-      "description": "CHAMPEL C. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "48efa44109163a48",
-      "title": "CHANT CHORAL COLLECT",
-      "start": "2026-10-12T10:15:00.000Z",
-      "end": "2026-10-12T11:05:00.000Z",
-      "allDay": false,
-      "location": "MUS",
-      "description": "CYPRIEN F. - CHORALE",
-      "category": "etablissement"
-    },
-    {
-      "id": "9d8fed916c068e52",
-      "title": "CHANT CHORAL COLLECT",
-      "start": "2026-10-12T10:15:00.000Z",
-      "end": "2026-10-12T11:05:00.000Z",
-      "allDay": false,
-      "location": "MUS",
-      "description": "CYPRIEN F. - CHORALE",
-      "category": "etablissement"
-    },
-    {
-      "id": "ed208414fecabd43",
-      "title": "CHANT CHORAL COLLECT",
-      "start": "2026-10-12T10:15:00.000Z",
-      "end": "2026-10-12T11:05:00.000Z",
-      "allDay": false,
-      "location": "MUS",
-      "description": "CYPRIEN F. - CHORALE_ORCHESTRE",
-      "category": "etablissement"
-    },
-    {
-      "id": "dde770ef5fefd8f5",
-      "title": "ALLEMAND LV2",
-      "start": "2026-10-12T11:45:00.000Z",
-      "end": "2026-10-12T12:35:00.000Z",
-      "allDay": false,
-      "location": "MULTI",
-      "description": "RAPHAELE A. - 3_ALL",
-      "category": "etablissement"
-    },
-    {
-      "id": "7c8b0580d19d347d",
-      "title": "Bilangue espagnol",
-      "start": "2026-10-12T11:45:00.000Z",
-      "end": "2026-10-12T12:35:00.000Z",
-      "allDay": false,
-      "location": "27",
-      "description": "MARTIN N. - 3AB_ESP_E",
-      "category": "etablissement"
-    },
-    {
-      "id": "ff7216b61c44513e",
-      "title": "ESPAGNOL LV2",
-      "start": "2026-10-12T11:45:00.000Z",
-      "end": "2026-10-12T12:35:00.000Z",
-      "allDay": false,
-      "location": "10",
-      "description": "DAROT M. - 3AB_ESP2",
-      "category": "etablissement"
-    },
-    {
-      "id": "3eaeabfe16a75e43",
-      "title": "TECHNOLOGIE",
-      "start": "2026-10-12T12:35:00.000Z",
-      "end": "2026-10-12T13:25:00.000Z",
-      "allDay": false,
-      "location": "TECH1",
-      "description": "AUVRAY F. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "67d2f7917b585b0b",
-      "title": "ETUDE",
-      "start": "2026-10-12T13:45:00.000Z",
-      "end": "2026-10-12T14:35:00.000Z",
-      "allDay": false,
-      "location": "A",
-      "description": "- 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "9c9aa57d6c223c25",
-      "title": "FOOTBALL",
-      "start": "2026-10-12T13:45:00.000Z",
-      "end": "2026-10-12T15:00:00.000Z",
-      "allDay": false,
-      "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
-      "category": "etablissement"
-    },
     {
       "id": "9a85073c4b43aeb4",
       "title": "HISTOIRE-GEOGRAPHIE",
@@ -443,7 +303,7 @@
       "end": "2026-10-15T14:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2183,7 +2043,7 @@
       "end": "2026-11-19T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2493,7 +2353,7 @@
       "end": "2026-11-24T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -3043,7 +2903,7 @@
       "end": "2026-12-01T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -3783,7 +3643,7 @@
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4402,7 +4262,7 @@
       "start": "2026-12-18T12:45:00.000Z",
       "end": "2026-12-18T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -5003,7 +4863,7 @@
       "end": "2027-01-07T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5323,7 +5183,7 @@
       "end": "2027-01-12T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -5384,6 +5244,46 @@
       "allDay": false,
       "location": "MUS",
       "description": "POSE V. - THEATRE",
+      "category": "etablissement"
+    },
+    {
+      "id": "4081cdd8c8e996ea",
+      "title": "ANNULE - ED.PHYSIQUE & SPORT.",
+      "start": "2027-01-13T07:05:00.000Z",
+      "end": "2027-01-13T08:45:00.000Z",
+      "allDay": false,
+      "location": "GYM",
+      "description": "RIGAUX L. - 3è Antonio GAUDI",
+      "category": "sport"
+    },
+    {
+      "id": "c03d1758e7217d92",
+      "title": "ETUDE",
+      "start": "2027-01-13T07:05:00.000Z",
+      "end": "2027-01-13T08:45:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "94e2dbccccacba82",
+      "title": "HISTOIRE-GEOGRAPHIE",
+      "start": "2027-01-13T09:10:00.000Z",
+      "end": "2027-01-13T10:00:00.000Z",
+      "allDay": false,
+      "location": "22",
+      "description": "LEBREUILLY J. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "6acdff6bb808d664",
+      "title": "ARTS PLASTIQUES",
+      "start": "2027-01-13T10:00:00.000Z",
+      "end": "2027-01-13T10:50:00.000Z",
+      "allDay": false,
+      "location": "ARTS",
+      "description": "FEUILLET C. - 3è Antonio GAUDI",
       "category": "etablissement"
     }
   ]
