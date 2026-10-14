@@ -2,40 +2,10 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 530,
-  "updatedAt": "2026-10-14T00:12:14.533Z",
+  "eventCount": 536,
+  "updatedAt": "2026-10-14T22:17:53.941Z",
   "timeZone": "Europe/Paris",
   "events": [
-    {
-      "id": "047ac0b9d3053f02",
-      "title": "ED.PHYSIQUE & SPORT.",
-      "start": "2026-10-14T06:05:00.000Z",
-      "end": "2026-10-14T07:45:00.000Z",
-      "allDay": false,
-      "location": "GYM",
-      "description": "RIGAUX L. - 3è Antonio GAUDI",
-      "category": "sport"
-    },
-    {
-      "id": "13a172aaf3c08ecb",
-      "title": "HISTOIRE-GEOGRAPHIE",
-      "start": "2026-10-14T08:10:00.000Z",
-      "end": "2026-10-14T09:00:00.000Z",
-      "allDay": false,
-      "location": "22",
-      "description": "LEBREUILLY J. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "fb6b355b74fe81ba",
-      "title": "ARTS PLASTIQUES",
-      "start": "2026-10-14T09:00:00.000Z",
-      "end": "2026-10-14T09:50:00.000Z",
-      "allDay": false,
-      "location": "ARTS",
-      "description": "FEUILLET C. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
     {
       "id": "a5f7421f684500cf",
       "title": "HISTOIRE-GEOGRAPHIE",
@@ -962,7 +932,7 @@
       "start": "2026-11-06T12:45:00.000Z",
       "end": "2026-11-06T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -1383,7 +1353,7 @@
       "end": "2026-11-12T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2453,7 +2423,7 @@
       "end": "2026-11-26T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2983,7 +2953,7 @@
       "end": "2026-12-03T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -3072,7 +3042,7 @@
       "start": "2026-12-04T12:45:00.000Z",
       "end": "2026-12-04T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -3293,7 +3263,7 @@
       "end": "2026-12-08T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -3833,7 +3803,7 @@
       "end": "2026-12-15T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -4132,7 +4102,7 @@
       "start": "2026-12-18T12:45:00.000Z",
       "end": "2026-12-18T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -5053,7 +5023,7 @@
       "end": "2027-01-12T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -5304,6 +5274,96 @@
       "allDay": false,
       "location": "",
       "description": "PRUNIER C. - DANSE_JAZZ_JEUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "e2590a456f27b4aa",
+      "title": "MATHEMATIQUES",
+      "start": "2027-01-15T07:05:00.000Z",
+      "end": "2027-01-15T07:55:00.000Z",
+      "allDay": false,
+      "location": "13",
+      "description": "BESNIER A. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "3a33c7401e4b0f4c",
+      "title": "EDUCATION MUSICALE",
+      "start": "2027-01-15T07:55:00.000Z",
+      "end": "2027-01-15T08:45:00.000Z",
+      "allDay": false,
+      "location": "MUS",
+      "description": "CYPRIEN F. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "c41972c1d05ea1fc",
+      "title": "HISTOIRE-GEOGRAPHIE",
+      "start": "2027-01-15T09:10:00.000Z",
+      "end": "2027-01-15T10:00:00.000Z",
+      "allDay": false,
+      "location": "22",
+      "description": "LEBREUILLY J. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "057966e394e234b1",
+      "title": "ANGLAIS LANGUE DE SECTION",
+      "start": "2027-01-15T10:00:00.000Z",
+      "end": "2027-01-15T11:15:00.000Z",
+      "allDay": false,
+      "location": "32",
+      "description": "CARRERE I. - 3AB_PLA",
+      "category": "etablissement"
+    },
+    {
+      "id": "9e173a9be7878830",
+      "title": "ANGLAIS LV1",
+      "start": "2027-01-15T10:00:00.000Z",
+      "end": "2027-01-15T10:50:00.000Z",
+      "allDay": false,
+      "location": "10",
+      "description": "TASSE E. - 3AB_NPLA",
+      "category": "etablissement"
+    },
+    {
+      "id": "5afb71c74b52fee6",
+      "title": "DEVOIR",
+      "start": "2027-01-15T12:45:00.000Z",
+      "end": "2027-01-15T13:35:00.000Z",
+      "allDay": false,
+      "location": "C, A",
+      "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "ae710481d242cc7b",
+      "title": "PHYSIQUE-CHIMIE",
+      "start": "2027-01-15T13:35:00.000Z",
+      "end": "2027-01-15T14:25:00.000Z",
+      "allDay": false,
+      "location": "SC.PH",
+      "description": "BRETEAU P. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "7f2d6381f5bf802a",
+      "title": "BREVET INIT AERONOT",
+      "start": "2027-01-15T14:45:00.000Z",
+      "end": "2027-01-15T15:35:00.000Z",
+      "allDay": false,
+      "location": "SC.PH",
+      "description": "BRETEAU P. - 3AB_AERON",
+      "category": "dnb"
+    },
+    {
+      "id": "1fbe6727ce3aecef",
+      "title": "ETUDE",
+      "start": "2027-01-15T14:45:00.000Z",
+      "end": "2027-01-15T15:35:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     }
   ]
