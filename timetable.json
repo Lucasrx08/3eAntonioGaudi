@@ -2,20 +2,10 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 522,
-  "updatedAt": "2026-10-17T22:44:15.641Z",
+  "eventCount": 534,
+  "updatedAt": "2026-10-18T23:22:43.627Z",
   "timeZone": "Europe/Paris",
   "events": [
-    {
-      "id": "daa42725d5e2e0bb",
-      "title": "Événement de la classe",
-      "start": "2026-10-17T22:01:00.000Z",
-      "end": "2026-10-18T21:59:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "-",
-      "category": "etablissement"
-    },
     {
       "id": "538414c80a558ef4",
       "title": "Événement de la classe",
@@ -363,7 +353,7 @@
       "end": "2026-11-03T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -573,7 +563,7 @@
       "end": "2026-11-05T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -883,7 +873,7 @@
       "end": "2026-11-10T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -1403,7 +1393,7 @@
       "end": "2026-11-17T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -2473,7 +2463,7 @@
       "end": "2026-12-01T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -2683,7 +2673,7 @@
       "end": "2026-12-03T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2772,7 +2762,7 @@
       "start": "2026-12-04T12:45:00.000Z",
       "end": "2026-12-04T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -3213,7 +3203,7 @@
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -3533,7 +3523,7 @@
       "end": "2026-12-15T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -3832,7 +3822,7 @@
       "start": "2026-12-18T12:45:00.000Z",
       "end": "2026-12-18T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -4433,7 +4423,7 @@
       "end": "2027-01-07T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4973,7 +4963,7 @@
       "end": "2027-01-14T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5062,7 +5052,7 @@
       "start": "2027-01-15T12:45:00.000Z",
       "end": "2027-01-15T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -5224,6 +5214,136 @@
       "allDay": false,
       "location": "FOOT",
       "description": "GONTIER T. - FOOTBALL",
+      "category": "etablissement"
+    },
+    {
+      "id": "78bdfd46d2652194",
+      "title": "HISTOIRE-GEOGRAPHIE",
+      "start": "2027-01-19T07:05:00.000Z",
+      "end": "2027-01-19T07:55:00.000Z",
+      "allDay": false,
+      "location": "22",
+      "description": "LEBREUILLY J. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "df1b396b82ccf3f2",
+      "title": "MATHEMATIQUES",
+      "start": "2027-01-19T07:55:00.000Z",
+      "end": "2027-01-19T08:45:00.000Z",
+      "allDay": false,
+      "location": "34",
+      "description": "BESNIER A. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "4a254cae8173249e",
+      "title": "MATHEMATIQUES",
+      "start": "2027-01-19T09:10:00.000Z",
+      "end": "2027-01-19T10:00:00.000Z",
+      "allDay": false,
+      "location": "34",
+      "description": "BESNIER A. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "f9ca68136b4a2146",
+      "title": "ANGLAIS LANGUE DE SECTION",
+      "start": "2027-01-19T10:00:00.000Z",
+      "end": "2027-01-19T11:15:00.000Z",
+      "allDay": false,
+      "location": "32",
+      "description": "CARRERE I. - 3AB_PLA",
+      "category": "etablissement"
+    },
+    {
+      "id": "e328b213aa7562fc",
+      "title": "ANGLAIS LV1",
+      "start": "2027-01-19T10:00:00.000Z",
+      "end": "2027-01-19T10:50:00.000Z",
+      "allDay": false,
+      "location": "10",
+      "description": "TASSE E. - 3AB_NPLA",
+      "category": "etablissement"
+    },
+    {
+      "id": "09dc36e708e5b519",
+      "title": "LA FAB",
+      "start": "2027-01-19T11:35:00.000Z",
+      "end": "2027-01-19T12:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "RIGAUX L., TASSE E. - FAB",
+      "category": "etablissement"
+    },
+    {
+      "id": "7b6e5ce7510d4250",
+      "title": "SCIENCES VIE & TERRE",
+      "start": "2027-01-19T12:45:00.000Z",
+      "end": "2027-01-19T13:35:00.000Z",
+      "allDay": false,
+      "location": "SVT",
+      "description": "LABERTHE M. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "a8380b4feb2914ff",
+      "title": "FRANCAIS",
+      "start": "2027-01-19T13:35:00.000Z",
+      "end": "2027-01-19T14:25:00.000Z",
+      "allDay": false,
+      "location": "21",
+      "description": "CHAMPEL C. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "00e0e0bbcb6812c1",
+      "title": "AP de Fr",
+      "start": "2027-01-19T14:45:00.000Z",
+      "end": "2027-01-19T15:35:00.000Z",
+      "allDay": false,
+      "location": "21",
+      "description": "CHAMPEL C. - 3AB_APFR",
+      "category": "etablissement"
+    },
+    {
+      "id": "011ad2ae9e5b415f",
+      "title": "BREVET INIT AERONOT",
+      "start": "2027-01-19T14:45:00.000Z",
+      "end": "2027-01-19T15:35:00.000Z",
+      "allDay": false,
+      "location": "SC.PH",
+      "description": "BRETEAU P. - 3AB_AERON",
+      "category": "dnb"
+    },
+    {
+      "id": "640911e5931b1378",
+      "title": "ETUDE",
+      "start": "2027-01-19T14:45:00.000Z",
+      "end": "2027-01-19T15:35:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "ecca5c44b4131104",
+      "title": "Modern Jazz",
+      "start": "2027-01-19T14:45:00.000Z",
+      "end": "2027-01-19T15:35:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "PRUNIER C. - DANSE_JAZZ_MARDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "1a4aa0625c1b9674",
+      "title": "Théâtre",
+      "start": "2027-01-19T14:45:00.000Z",
+      "end": "2027-01-19T15:35:00.000Z",
+      "allDay": false,
+      "location": "MUS",
+      "description": "POSE V. - THEATRE",
       "category": "etablissement"
     }
   ]
