@@ -2,20 +2,10 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 534,
-  "updatedAt": "2026-10-18T23:22:43.627Z",
+  "eventCount": 536,
+  "updatedAt": "2026-10-19T23:05:44.561Z",
   "timeZone": "Europe/Paris",
   "events": [
-    {
-      "id": "538414c80a558ef4",
-      "title": "Événement de la classe",
-      "start": "2026-10-18T22:01:00.000Z",
-      "end": "2026-10-19T21:59:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "-",
-      "category": "etablissement"
-    },
     {
       "id": "6af5abc3d12c123e",
       "title": "Événement de la classe",
@@ -1393,7 +1383,7 @@
       "end": "2026-11-17T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -1692,7 +1682,7 @@
       "start": "2026-11-20T12:45:00.000Z",
       "end": "2026-11-20T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -2143,7 +2133,7 @@
       "end": "2026-11-26T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2673,7 +2663,7 @@
       "end": "2026-12-03T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2983,7 +2973,7 @@
       "end": "2026-12-08T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -3203,7 +3193,7 @@
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4203,7 +4193,7 @@
       "end": "2027-01-05T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -4423,7 +4413,7 @@
       "end": "2027-01-07T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5052,7 +5042,7 @@
       "start": "2027-01-15T12:45:00.000Z",
       "end": "2027-01-15T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -5273,7 +5263,7 @@
       "end": "2027-01-19T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -5344,6 +5334,36 @@
       "allDay": false,
       "location": "MUS",
       "description": "POSE V. - THEATRE",
+      "category": "etablissement"
+    },
+    {
+      "id": "6d66e8d73ab070f8",
+      "title": "ED.PHYSIQUE & SPORT.",
+      "start": "2027-01-20T07:05:00.000Z",
+      "end": "2027-01-20T08:45:00.000Z",
+      "allDay": false,
+      "location": "GYM",
+      "description": "RIGAUX L. - 3è Antonio GAUDI",
+      "category": "sport"
+    },
+    {
+      "id": "9a2114191a72e7eb",
+      "title": "HISTOIRE-GEOGRAPHIE",
+      "start": "2027-01-20T09:10:00.000Z",
+      "end": "2027-01-20T10:00:00.000Z",
+      "allDay": false,
+      "location": "22",
+      "description": "LEBREUILLY J. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "19083aa9ba2d0ece",
+      "title": "ARTS PLASTIQUES",
+      "start": "2027-01-20T10:00:00.000Z",
+      "end": "2027-01-20T10:50:00.000Z",
+      "allDay": false,
+      "location": "ARTS",
+      "description": "FEUILLET C. - 3è Antonio GAUDI",
       "category": "etablissement"
     }
   ]
