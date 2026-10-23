@@ -2,20 +2,10 @@
   "version": 2,
   "source": "Apple Calendar",
   "status": "ready",
-  "eventCount": 25,
-  "updatedAt": "2026-10-23T09:31:38.278Z",
+  "eventCount": 24,
+  "updatedAt": "2026-10-23T14:22:16.307Z",
   "timeZone": "Europe/Paris",
   "events": [
-    {
-      "id": "c3ced67c4aabd8ac",
-      "title": "Photos de classe",
-      "start": "2026-09-08T09:05:00.000Z",
-      "end": "2026-09-08T09:50:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "Photos de fratrie à 9h50",
-      "category": "classe"
-    },
     {
       "id": "bacea215ff12c5b5",
       "title": "Exercice incendie",
