@@ -2,20 +2,10 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 556,
-  "updatedAt": "2026-10-23T00:00:26.266Z",
+  "eventCount": 555,
+  "updatedAt": "2026-10-23T23:58:58.734Z",
   "timeZone": "Europe/Paris",
   "events": [
-    {
-      "id": "9e50aa3fafac08f4",
-      "title": "Événement de la classe",
-      "start": "2026-10-22T22:01:00.000Z",
-      "end": "2026-10-23T21:59:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "-",
-      "category": "etablissement"
-    },
     {
       "id": "6c17486386d1d514",
       "title": "Événement de la classe",
@@ -523,7 +513,7 @@
       "end": "2026-11-05T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -612,7 +602,7 @@
       "start": "2026-11-06T12:45:00.000Z",
       "end": "2026-11-06T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -2103,7 +2093,7 @@
       "end": "2026-11-26T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2722,7 +2712,7 @@
       "start": "2026-12-04T12:45:00.000Z",
       "end": "2026-12-04T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -4923,7 +4913,7 @@
       "end": "2027-01-14T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5453,7 +5443,7 @@
       "end": "2027-01-21T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
