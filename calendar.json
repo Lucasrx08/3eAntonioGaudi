@@ -2,20 +2,10 @@
   "version": 2,
   "source": "Apple Calendar",
   "status": "ready",
-  "eventCount": 24,
-  "updatedAt": "2026-10-23T14:22:16.307Z",
+  "eventCount": 23,
+  "updatedAt": "2026-11-01T14:13:23.182Z",
   "timeZone": "Europe/Paris",
   "events": [
-    {
-      "id": "bacea215ff12c5b5",
-      "title": "Exercice incendie",
-      "start": "2026-09-17T08:15:00.000Z",
-      "end": "2026-09-17T09:15:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "",
-      "category": "etablissement"
-    },
     {
       "id": "4862a830610fd231",
       "title": "Élections des délégués",
