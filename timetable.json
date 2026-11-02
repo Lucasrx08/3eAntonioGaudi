@@ -3,7 +3,7 @@
   "source": "ÉcoleDirecte",
   "status": "ready",
   "eventCount": 626,
-  "updatedAt": "2026-11-02T01:48:52.361Z",
+  "updatedAt": "2026-11-02T18:40:03.510Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -133,7 +133,7 @@
       "end": "2026-11-02T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -207,7 +207,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7133e758cbdd6a90",
+      "id": "78f3f9a1cdc0f883",
       "title": "LA FAB",
       "start": "2026-11-03T11:35:00.000Z",
       "end": "2026-11-03T12:35:00.000Z",
@@ -257,7 +257,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c56d9828ded5bde2",
+      "id": "409315cd93a129fa",
       "title": "Modern Jazz",
       "start": "2026-11-03T14:45:00.000Z",
       "end": "2026-11-03T15:35:00.000Z",
@@ -267,7 +267,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4ef87b541a51057b",
+      "id": "44c7ac23af243798",
       "title": "Théâtre",
       "start": "2026-11-03T14:45:00.000Z",
       "end": "2026-11-03T15:35:00.000Z",
@@ -417,13 +417,13 @@
       "category": "etablissement"
     },
     {
-      "id": "e2041e659e04ec1a",
+      "id": "392cff9aefb78eb8",
       "title": "Développement durable",
       "start": "2026-11-05T14:45:00.000Z",
       "end": "2026-11-05T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -443,11 +443,11 @@
       "end": "2026-11-05T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
-      "id": "fde6c86ef828575e",
+      "id": "4236ef060f8efae9",
       "title": "Modern Jazz",
       "start": "2026-11-05T14:45:00.000Z",
       "end": "2026-11-05T15:35:00.000Z",
@@ -597,7 +597,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2a91b8137d997b2d",
+      "id": "6afe093dba14ccaf",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-09T11:15:00.000Z",
       "end": "2026-11-09T12:05:00.000Z",
@@ -607,7 +607,7 @@
       "category": "etablissement"
     },
     {
-      "id": "0ab850e0f7c884b0",
+      "id": "38261fd96fbca4ba",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-09T11:15:00.000Z",
       "end": "2026-11-09T12:05:00.000Z",
@@ -673,7 +673,7 @@
       "end": "2026-11-09T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -727,13 +727,13 @@
       "category": "etablissement"
     },
     {
-      "id": "8d22e92e4d084e62",
+      "id": "bb09c45daf3e8ea7",
       "title": "LA FAB",
       "start": "2026-11-10T11:35:00.000Z",
       "end": "2026-11-10T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -787,7 +787,7 @@
       "category": "etablissement"
     },
     {
-      "id": "cb34379ad3cafa54",
+      "id": "e1753a6bdead47c9",
       "title": "Modern Jazz",
       "start": "2026-11-10T14:45:00.000Z",
       "end": "2026-11-10T15:35:00.000Z",
@@ -797,7 +797,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c751d785768d2838",
+      "id": "490cac1a22aea86e",
       "title": "Théâtre",
       "start": "2026-11-10T14:45:00.000Z",
       "end": "2026-11-10T15:35:00.000Z",
@@ -927,7 +927,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3e679b0fb1e711e3",
+      "id": "362337fc4ca2fde0",
       "title": "Développement durable",
       "start": "2026-11-12T14:45:00.000Z",
       "end": "2026-11-12T15:35:00.000Z",
@@ -953,11 +953,11 @@
       "end": "2026-11-12T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
-      "id": "56464310ca5030cb",
+      "id": "01521a673797932c",
       "title": "Modern Jazz",
       "start": "2026-11-12T14:45:00.000Z",
       "end": "2026-11-12T15:35:00.000Z",
@@ -1097,7 +1097,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c182effc71ef1136",
+      "id": "dd8ee9886951c90f",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-16T11:15:00.000Z",
       "end": "2026-11-16T12:05:00.000Z",
@@ -1107,7 +1107,7 @@
       "category": "etablissement"
     },
     {
-      "id": "34ececb0669fe1f0",
+      "id": "3ab22ef729dd6581",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-16T11:15:00.000Z",
       "end": "2026-11-16T12:05:00.000Z",
@@ -1173,7 +1173,7 @@
       "end": "2026-11-16T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -1247,7 +1247,7 @@
       "category": "etablissement"
     },
     {
-      "id": "55420bfa541abf5f",
+      "id": "46980b13669ffe8e",
       "title": "LA FAB",
       "start": "2026-11-17T11:35:00.000Z",
       "end": "2026-11-17T12:35:00.000Z",
@@ -1297,7 +1297,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b2ac2b679ee893ee",
+      "id": "e6f0338515d2c49e",
       "title": "Modern Jazz",
       "start": "2026-11-17T14:45:00.000Z",
       "end": "2026-11-17T15:35:00.000Z",
@@ -1307,7 +1307,7 @@
       "category": "etablissement"
     },
     {
-      "id": "7b7d5f7bed505a1b",
+      "id": "ff4ebd39e7196284",
       "title": "Théâtre",
       "start": "2026-11-17T14:45:00.000Z",
       "end": "2026-11-17T15:35:00.000Z",
@@ -1457,7 +1457,7 @@
       "category": "etablissement"
     },
     {
-      "id": "74e021164aa27f66",
+      "id": "2908a75fa917b198",
       "title": "Développement durable",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T15:35:00.000Z",
@@ -1483,11 +1483,11 @@
       "end": "2026-11-19T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
-      "id": "f56497b0e13caa3b",
+      "id": "4bdef2ff2e0c1284",
       "title": "Modern Jazz",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T15:35:00.000Z",
@@ -1637,7 +1637,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3f18be690d4b64a4",
+      "id": "cdfbc5ad6786ac5e",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-23T11:15:00.000Z",
       "end": "2026-11-23T12:05:00.000Z",
@@ -1647,7 +1647,7 @@
       "category": "etablissement"
     },
     {
-      "id": "06781518318115d7",
+      "id": "ab5e50aee2d9a806",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-23T11:15:00.000Z",
       "end": "2026-11-23T12:05:00.000Z",
@@ -1713,7 +1713,7 @@
       "end": "2026-11-23T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -1767,7 +1767,7 @@
       "category": "etablissement"
     },
     {
-      "id": "63f93aa775226362",
+      "id": "d58ac0b2a7a6373e",
       "title": "LA FAB",
       "start": "2026-11-24T11:35:00.000Z",
       "end": "2026-11-24T12:35:00.000Z",
@@ -1827,7 +1827,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2ca1e8d32732f5db",
+      "id": "07e33eae89b79be9",
       "title": "Modern Jazz",
       "start": "2026-11-24T14:45:00.000Z",
       "end": "2026-11-24T15:35:00.000Z",
@@ -1837,7 +1837,7 @@
       "category": "etablissement"
     },
     {
-      "id": "f9e95b035173e9d5",
+      "id": "496aa36e072c0b27",
       "title": "Théâtre",
       "start": "2026-11-24T14:45:00.000Z",
       "end": "2026-11-24T15:35:00.000Z",
@@ -1997,7 +1997,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5314aee65d55767f",
+      "id": "2d4e50f8ab5da44c",
       "title": "Développement durable",
       "start": "2026-11-26T14:45:00.000Z",
       "end": "2026-11-26T15:35:00.000Z",
@@ -2023,11 +2023,11 @@
       "end": "2026-11-26T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
-      "id": "b93be2df35c881ef",
+      "id": "61d2e22130cd3a2e",
       "title": "Modern Jazz",
       "start": "2026-11-26T14:45:00.000Z",
       "end": "2026-11-26T15:35:00.000Z",
@@ -2167,7 +2167,7 @@
       "category": "etablissement"
     },
     {
-      "id": "020365e422c670d1",
+      "id": "3235fbd565ff6dee",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-30T11:15:00.000Z",
       "end": "2026-11-30T12:05:00.000Z",
@@ -2177,7 +2177,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8a3cd96b488173cf",
+      "id": "5fcc346fe3001996",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-11-30T11:15:00.000Z",
       "end": "2026-11-30T12:05:00.000Z",
@@ -2243,7 +2243,7 @@
       "end": "2026-11-30T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -2317,13 +2317,13 @@
       "category": "etablissement"
     },
     {
-      "id": "ca98a74424548c77",
+      "id": "a0dffecad45047bb",
       "title": "LA FAB",
       "start": "2026-12-01T11:35:00.000Z",
       "end": "2026-12-01T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -2367,7 +2367,7 @@
       "category": "etablissement"
     },
     {
-      "id": "086f33fae2200575",
+      "id": "789fda7657f552d3",
       "title": "Modern Jazz",
       "start": "2026-12-01T14:45:00.000Z",
       "end": "2026-12-01T15:35:00.000Z",
@@ -2377,7 +2377,7 @@
       "category": "etablissement"
     },
     {
-      "id": "fb72870eee8871d3",
+      "id": "59e56b792d7533d3",
       "title": "Théâtre",
       "start": "2026-12-01T14:45:00.000Z",
       "end": "2026-12-01T15:35:00.000Z",
@@ -2527,7 +2527,7 @@
       "category": "etablissement"
     },
     {
-      "id": "8c4c7f44e6815b73",
+      "id": "9defa5e632104443",
       "title": "Développement durable",
       "start": "2026-12-03T14:45:00.000Z",
       "end": "2026-12-03T15:35:00.000Z",
@@ -2553,11 +2553,11 @@
       "end": "2026-12-03T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
-      "id": "7aa9b19157731290",
+      "id": "5d1f99b4e03fcad1",
       "title": "Modern Jazz",
       "start": "2026-12-03T14:45:00.000Z",
       "end": "2026-12-03T15:35:00.000Z",
@@ -2707,7 +2707,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c780689370625983",
+      "id": "859baf4c9805befc",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-12-07T11:15:00.000Z",
       "end": "2026-12-07T12:05:00.000Z",
@@ -2717,7 +2717,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ed6fb0d4943b9dff",
+      "id": "262f85535cc6243d",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-12-07T11:15:00.000Z",
       "end": "2026-12-07T12:05:00.000Z",
@@ -2783,7 +2783,7 @@
       "end": "2026-12-07T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -2837,7 +2837,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e2e3f4d2b022ed29",
+      "id": "7e692719ee1088ef",
       "title": "LA FAB",
       "start": "2026-12-08T11:35:00.000Z",
       "end": "2026-12-08T12:35:00.000Z",
@@ -2897,7 +2897,7 @@
       "category": "etablissement"
     },
     {
-      "id": "439f8a837dbcd2af",
+      "id": "bf4e1880b82a1eba",
       "title": "Modern Jazz",
       "start": "2026-12-08T14:45:00.000Z",
       "end": "2026-12-08T15:35:00.000Z",
@@ -2907,7 +2907,7 @@
       "category": "etablissement"
     },
     {
-      "id": "74bacd3487b422da",
+      "id": "055b9b167b610d57",
       "title": "Théâtre",
       "start": "2026-12-08T14:45:00.000Z",
       "end": "2026-12-08T15:35:00.000Z",
@@ -3057,13 +3057,13 @@
       "category": "etablissement"
     },
     {
-      "id": "c55cf0461e430340",
+      "id": "e3f13831681ec9f7",
       "title": "Développement durable",
       "start": "2026-12-10T14:45:00.000Z",
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -3083,11 +3083,11 @@
       "end": "2026-12-10T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
-      "id": "9a8631111e9c6d6a",
+      "id": "783a429dcc3b40f8",
       "title": "Modern Jazz",
       "start": "2026-12-10T14:45:00.000Z",
       "end": "2026-12-10T15:35:00.000Z",
@@ -3227,7 +3227,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1c0ce8567891eaf7",
+      "id": "aeda5af4d4481faa",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-12-14T11:15:00.000Z",
       "end": "2026-12-14T12:05:00.000Z",
@@ -3237,7 +3237,7 @@
       "category": "etablissement"
     },
     {
-      "id": "223fb3154fb6f3e1",
+      "id": "d4842baddbfd64c9",
       "title": "CHANT CHORAL COLLECT",
       "start": "2026-12-14T11:15:00.000Z",
       "end": "2026-12-14T12:05:00.000Z",
@@ -3303,7 +3303,7 @@
       "end": "2026-12-14T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -3377,13 +3377,13 @@
       "category": "etablissement"
     },
     {
-      "id": "cb0a4415f7a0776f",
+      "id": "2f09b25bbf19070c",
       "title": "LA FAB",
       "start": "2026-12-15T11:35:00.000Z",
       "end": "2026-12-15T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -3427,7 +3427,7 @@
       "category": "etablissement"
     },
     {
-      "id": "3fca459dade05dca",
+      "id": "11e94c301c08ee7b",
       "title": "Modern Jazz",
       "start": "2026-12-15T14:45:00.000Z",
       "end": "2026-12-15T15:35:00.000Z",
@@ -3437,7 +3437,7 @@
       "category": "etablissement"
     },
     {
-      "id": "99647daf0678ad10",
+      "id": "eb6ecbbfd6da8d09",
       "title": "Théâtre",
       "start": "2026-12-15T14:45:00.000Z",
       "end": "2026-12-15T15:35:00.000Z",
@@ -3587,7 +3587,7 @@
       "category": "etablissement"
     },
     {
-      "id": "5488feccdb25a07f",
+      "id": "01cb3db93012d15c",
       "title": "Développement durable",
       "start": "2026-12-17T14:45:00.000Z",
       "end": "2026-12-17T15:35:00.000Z",
@@ -3613,11 +3613,11 @@
       "end": "2026-12-17T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
-      "id": "f0aef650573d242d",
+      "id": "c3ef9a27b7ae94fc",
       "title": "Modern Jazz",
       "start": "2026-12-17T14:45:00.000Z",
       "end": "2026-12-17T15:35:00.000Z",
@@ -3927,7 +3927,7 @@
       "category": "etablissement"
     },
     {
-      "id": "509e0383aaabe758",
+      "id": "aef773a9fa8a6855",
       "title": "CHANT CHORAL COLLECT",
       "start": "2027-01-04T11:15:00.000Z",
       "end": "2027-01-04T12:05:00.000Z",
@@ -3937,7 +3937,7 @@
       "category": "etablissement"
     },
     {
-      "id": "c30347657820b17c",
+      "id": "33bf84ff9acecbac",
       "title": "CHANT CHORAL COLLECT",
       "start": "2027-01-04T11:15:00.000Z",
       "end": "2027-01-04T12:05:00.000Z",
@@ -4003,7 +4003,7 @@
       "end": "2027-01-04T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -4057,13 +4057,13 @@
       "category": "etablissement"
     },
     {
-      "id": "e06a810a0e598efc",
+      "id": "4f621cb1f1033a54",
       "title": "LA FAB",
       "start": "2027-01-05T11:35:00.000Z",
       "end": "2027-01-05T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -4117,7 +4117,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a6abb11adf259059",
+      "id": "c5960f49bf6cdb9a",
       "title": "Modern Jazz",
       "start": "2027-01-05T14:45:00.000Z",
       "end": "2027-01-05T15:35:00.000Z",
@@ -4127,7 +4127,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6bf0f3fe6dfc452a",
+      "id": "0378f7744a0f6abc",
       "title": "Théâtre",
       "start": "2027-01-05T14:45:00.000Z",
       "end": "2027-01-05T15:35:00.000Z",
@@ -4277,13 +4277,13 @@
       "category": "etablissement"
     },
     {
-      "id": "00f9f3d0c01ca054",
+      "id": "80193e020a9e17d5",
       "title": "Développement durable",
       "start": "2027-01-07T14:45:00.000Z",
       "end": "2027-01-07T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4303,11 +4303,11 @@
       "end": "2027-01-07T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
-      "id": "de377a01087d4bda",
+      "id": "176fb0277c1ce12d",
       "title": "Modern Jazz",
       "start": "2027-01-07T14:45:00.000Z",
       "end": "2027-01-07T15:35:00.000Z",
@@ -4447,7 +4447,7 @@
       "category": "etablissement"
     },
     {
-      "id": "266afb41e44ef687",
+      "id": "1e0b2e2c7ad65e17",
       "title": "CHANT CHORAL COLLECT",
       "start": "2027-01-11T11:15:00.000Z",
       "end": "2027-01-11T12:05:00.000Z",
@@ -4457,7 +4457,7 @@
       "category": "etablissement"
     },
     {
-      "id": "bba709bf0eb2a957",
+      "id": "d843145839afe1f4",
       "title": "CHANT CHORAL COLLECT",
       "start": "2027-01-11T11:15:00.000Z",
       "end": "2027-01-11T12:05:00.000Z",
@@ -4523,7 +4523,7 @@
       "end": "2027-01-11T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -4597,13 +4597,13 @@
       "category": "etablissement"
     },
     {
-      "id": "e4c4817546ee129e",
+      "id": "92eb1feeacc02657",
       "title": "LA FAB",
       "start": "2027-01-12T11:35:00.000Z",
       "end": "2027-01-12T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -4647,7 +4647,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e2355ab7669846d3",
+      "id": "5c80c97748fbc4f0",
       "title": "Modern Jazz",
       "start": "2027-01-12T14:45:00.000Z",
       "end": "2027-01-12T15:35:00.000Z",
@@ -4657,7 +4657,7 @@
       "category": "etablissement"
     },
     {
-      "id": "bbc09b6fa04facae",
+      "id": "caca74d1667aed83",
       "title": "Théâtre",
       "start": "2027-01-12T14:45:00.000Z",
       "end": "2027-01-12T15:35:00.000Z",
@@ -4817,13 +4817,13 @@
       "category": "etablissement"
     },
     {
-      "id": "e39712ef303af4e0",
+      "id": "31817ad46ba5ec5c",
       "title": "Développement durable",
       "start": "2027-01-14T14:45:00.000Z",
       "end": "2027-01-14T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4843,11 +4843,11 @@
       "end": "2027-01-14T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
-      "id": "bfd2f8aa9369a118",
+      "id": "6b9a84228bd6e7e1",
       "title": "Modern Jazz",
       "start": "2027-01-14T14:45:00.000Z",
       "end": "2027-01-14T15:35:00.000Z",
@@ -4997,7 +4997,7 @@
       "category": "etablissement"
     },
     {
-      "id": "d3afd23f6f04d347",
+      "id": "c4123dbf27d09022",
       "title": "CHANT CHORAL COLLECT",
       "start": "2027-01-18T11:15:00.000Z",
       "end": "2027-01-18T12:05:00.000Z",
@@ -5007,7 +5007,7 @@
       "category": "etablissement"
     },
     {
-      "id": "4c3a85ff9f56c658",
+      "id": "57280eecc1a73ef9",
       "title": "CHANT CHORAL COLLECT",
       "start": "2027-01-18T11:15:00.000Z",
       "end": "2027-01-18T12:05:00.000Z",
@@ -5073,7 +5073,7 @@
       "end": "2027-01-18T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -5127,13 +5127,13 @@
       "category": "etablissement"
     },
     {
-      "id": "09dc36e708e5b519",
+      "id": "ec5abdd991134101",
       "title": "LA FAB",
       "start": "2027-01-19T11:35:00.000Z",
       "end": "2027-01-19T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -5187,7 +5187,7 @@
       "category": "etablissement"
     },
     {
-      "id": "ecca5c44b4131104",
+      "id": "0b44edd86699aafc",
       "title": "Modern Jazz",
       "start": "2027-01-19T14:45:00.000Z",
       "end": "2027-01-19T15:35:00.000Z",
@@ -5197,7 +5197,7 @@
       "category": "etablissement"
     },
     {
-      "id": "1a4aa0625c1b9674",
+      "id": "e1e1a07f0ad39d3e",
       "title": "Théâtre",
       "start": "2027-01-19T14:45:00.000Z",
       "end": "2027-01-19T15:35:00.000Z",
@@ -5347,7 +5347,7 @@
       "category": "etablissement"
     },
     {
-      "id": "54751adfc8d490f3",
+      "id": "147a248d0098ff7e",
       "title": "Développement durable",
       "start": "2027-01-21T14:45:00.000Z",
       "end": "2027-01-21T15:35:00.000Z",
@@ -5373,11 +5373,11 @@
       "end": "2027-01-21T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
-      "id": "75cbbc13b59cd693",
+      "id": "ddc74e0f7ea99c5e",
       "title": "Modern Jazz",
       "start": "2027-01-21T14:45:00.000Z",
       "end": "2027-01-21T15:35:00.000Z",
@@ -5517,7 +5517,7 @@
       "category": "etablissement"
     },
     {
-      "id": "b996ff2baef4a7f3",
+      "id": "fc5aaa13de1dbc63",
       "title": "CHANT CHORAL COLLECT",
       "start": "2027-01-25T11:15:00.000Z",
       "end": "2027-01-25T12:05:00.000Z",
@@ -5527,7 +5527,7 @@
       "category": "etablissement"
     },
     {
-      "id": "a8028918da0f5af9",
+      "id": "6458ae69bdb6e796",
       "title": "CHANT CHORAL COLLECT",
       "start": "2027-01-25T11:15:00.000Z",
       "end": "2027-01-25T12:05:00.000Z",
@@ -5593,7 +5593,7 @@
       "end": "2027-01-25T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -5667,13 +5667,13 @@
       "category": "etablissement"
     },
     {
-      "id": "2776c575cd615fd7",
+      "id": "6fae9b40916f0d8a",
       "title": "LA FAB",
       "start": "2027-01-26T11:35:00.000Z",
       "end": "2027-01-26T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -5717,7 +5717,7 @@
       "category": "etablissement"
     },
     {
-      "id": "14c0776ccac8760c",
+      "id": "480e016500559ad7",
       "title": "Modern Jazz",
       "start": "2027-01-26T14:45:00.000Z",
       "end": "2027-01-26T15:35:00.000Z",
@@ -5727,7 +5727,7 @@
       "category": "etablissement"
     },
     {
-      "id": "85004eb8c8122836",
+      "id": "81377a0ae5da8499",
       "title": "Théâtre",
       "start": "2027-01-26T14:45:00.000Z",
       "end": "2027-01-26T15:35:00.000Z",
@@ -5877,7 +5877,7 @@
       "category": "etablissement"
     },
     {
-      "id": "909dd3c128f504f3",
+      "id": "dd3de5cbbb8480e8",
       "title": "Développement durable",
       "start": "2027-01-28T14:45:00.000Z",
       "end": "2027-01-28T15:35:00.000Z",
@@ -5903,11 +5903,11 @@
       "end": "2027-01-28T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
-      "id": "c4b9ec69c465b494",
+      "id": "d037c83be46f88f3",
       "title": "Modern Jazz",
       "start": "2027-01-28T14:45:00.000Z",
       "end": "2027-01-28T15:35:00.000Z",
@@ -6057,7 +6057,7 @@
       "category": "etablissement"
     },
     {
-      "id": "6b740274b32dcbe3",
+      "id": "cee8a38a164ea905",
       "title": "CHANT CHORAL COLLECT",
       "start": "2027-02-01T11:15:00.000Z",
       "end": "2027-02-01T12:05:00.000Z",
@@ -6067,7 +6067,7 @@
       "category": "etablissement"
     },
     {
-      "id": "0d99d990563074b7",
+      "id": "df0db1a8ed6a3246",
       "title": "CHANT CHORAL COLLECT",
       "start": "2027-02-01T11:15:00.000Z",
       "end": "2027-02-01T12:05:00.000Z",
@@ -6133,7 +6133,7 @@
       "end": "2027-02-01T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -6187,13 +6187,13 @@
       "category": "etablissement"
     },
     {
-      "id": "47b551716bd25850",
+      "id": "ff73b14849191bbc",
       "title": "LA FAB",
       "start": "2027-02-02T11:35:00.000Z",
       "end": "2027-02-02T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "RIGAUX L., TASSE E. - FAB",
+      "description": "TASSE E., RIGAUX L. - FAB",
       "category": "etablissement"
     },
     {
@@ -6247,7 +6247,7 @@
       "category": "etablissement"
     },
     {
-      "id": "e0dbe629f138c02f",
+      "id": "1379f7a46fe5b9de",
       "title": "Modern Jazz",
       "start": "2027-02-02T14:45:00.000Z",
       "end": "2027-02-02T15:35:00.000Z",
@@ -6257,7 +6257,7 @@
       "category": "etablissement"
     },
     {
-      "id": "2dd6bf4455da5b7a",
+      "id": "a167c8b4a8df1c8c",
       "title": "Théâtre",
       "start": "2027-02-02T14:45:00.000Z",
       "end": "2027-02-02T15:35:00.000Z",
