@@ -2,20 +2,10 @@
   "version": 2,
   "source": "Apple Calendar",
   "status": "ready",
-  "eventCount": 23,
-  "updatedAt": "2026-11-01T14:13:23.182Z",
+  "eventCount": 22,
+  "updatedAt": "2026-11-08T15:31:45.989Z",
   "timeZone": "Europe/Paris",
   "events": [
-    {
-      "id": "4862a830610fd231",
-      "title": "Élections des délégués",
-      "start": "2026-09-24T12:35:00.000Z",
-      "end": "2026-09-24T13:25:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "",
-      "category": "classe"
-    },
     {
       "id": "938bb1870ca3fdb5",
       "title": "Temps de Fraternité",
