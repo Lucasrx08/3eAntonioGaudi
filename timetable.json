@@ -2,8 +2,8 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 615,
-  "updatedAt": "2026-11-10T03:29:37.320Z",
+  "eventCount": 616,
+  "updatedAt": "2026-11-10T11:39:00.510Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -882,7 +882,7 @@
       "start": "2026-11-20T12:45:00.000Z",
       "end": "2026-11-20T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -1952,7 +1952,7 @@
       "start": "2026-12-04T12:45:00.000Z",
       "end": "2026-12-04T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -3798,7 +3798,7 @@
     },
     {
       "id": "f09a3d6b9e2d6326",
-      "title": "ALLEMAND LV2",
+      "title": "ANNULE - ALLEMAND LV2",
       "start": "2027-01-11T12:45:00.000Z",
       "end": "2027-01-11T13:35:00.000Z",
       "allDay": false,
@@ -3824,6 +3824,16 @@
       "allDay": false,
       "location": "10",
       "description": "DAROT M. - 3AB_ESP2",
+      "category": "etablissement"
+    },
+    {
+      "id": "353b015ea19b110d",
+      "title": "ETUDE",
+      "start": "2027-01-11T12:45:00.000Z",
+      "end": "2027-01-11T13:35:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3_ALL",
       "category": "etablissement"
     },
     {
@@ -5302,7 +5312,7 @@
       "start": "2027-01-29T12:45:00.000Z",
       "end": "2027-01-29T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
