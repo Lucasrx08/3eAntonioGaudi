@@ -2,8 +2,8 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 611,
-  "updatedAt": "2026-11-13T02:42:06.316Z",
+  "eventCount": 612,
+  "updatedAt": "2026-11-13T10:01:33.746Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -592,7 +592,7 @@
       "start": "2026-11-20T12:45:00.000Z",
       "end": "2026-11-20T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -1448,12 +1448,22 @@
     },
     {
       "id": "bf49989c086da7ee",
-      "title": "ARTS PLASTIQUES",
+      "title": "ANNULE - ARTS PLASTIQUES",
       "start": "2026-12-02T10:00:00.000Z",
       "end": "2026-12-02T10:50:00.000Z",
       "allDay": false,
       "location": "ARTS",
       "description": "FEUILLET C. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "8f39c7f33e3c0394",
+      "title": "ETUDE",
+      "start": "2026-12-02T10:00:00.000Z",
+      "end": "2026-12-02T10:50:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
     {
@@ -2722,7 +2732,7 @@
       "start": "2026-12-18T12:45:00.000Z",
       "end": "2026-12-18T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -3962,7 +3972,7 @@
       "start": "2027-01-15T12:45:00.000Z",
       "end": "2027-01-15T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -6082,7 +6092,7 @@
       "start": "2027-02-12T12:45:00.000Z",
       "end": "2027-02-12T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
