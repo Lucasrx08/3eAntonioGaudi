@@ -2,8 +2,8 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 617,
-  "updatedAt": "2026-11-15T00:16:40.661Z",
+  "eventCount": 618,
+  "updatedAt": "2026-11-15T14:21:25.197Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -348,7 +348,7 @@
     },
     {
       "id": "205f7f7809e24566",
-      "title": "Bilangue espagnol",
+      "title": "ANNULE - Bilangue espagnol",
       "start": "2026-11-19T09:10:00.000Z",
       "end": "2026-11-19T10:00:00.000Z",
       "allDay": false,
@@ -364,6 +364,16 @@
       "allDay": false,
       "location": "20",
       "description": "DAROT M. - 3AB_ESP2",
+      "category": "etablissement"
+    },
+    {
+      "id": "2b01b34e6969b121",
+      "title": "ETUDE",
+      "start": "2026-11-19T09:10:00.000Z",
+      "end": "2026-11-19T10:00:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3AB_ESP_E",
       "category": "etablissement"
     },
     {
