@@ -3,7 +3,7 @@
   "source": "ÉcoleDirecte",
   "status": "ready",
   "eventCount": 622,
-  "updatedAt": "2026-11-18T02:51:21.775Z",
+  "updatedAt": "2026-11-18T19:08:59.298Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -148,7 +148,7 @@
     },
     {
       "id": "42cf5ef60ef7a68b",
-      "title": "AP de Maths",
+      "title": "ANNULE - AP de Maths",
       "start": "2026-11-19T14:45:00.000Z",
       "end": "2026-11-19T15:35:00.000Z",
       "allDay": false,
