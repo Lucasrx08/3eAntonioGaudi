@@ -2,8 +2,8 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 623,
-  "updatedAt": "2026-11-19T23:53:51.576Z",
+  "eventCount": 622,
+  "updatedAt": "2026-11-20T14:09:58.199Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -358,23 +358,13 @@
     },
     {
       "id": "cd4cc4d3b7ed00d1",
-      "title": "ANNULE - ED.PHYSIQUE & SPORT.",
+      "title": "ED.PHYSIQUE & SPORT.",
       "start": "2026-11-25T07:05:00.000Z",
       "end": "2026-11-25T08:45:00.000Z",
       "allDay": false,
       "location": "GYM",
       "description": "RIGAUX L. - 3è Antonio GAUDI",
       "category": "sport"
-    },
-    {
-      "id": "165da263516b58a5",
-      "title": "ETUDE",
-      "start": "2026-11-25T07:05:00.000Z",
-      "end": "2026-11-25T08:45:00.000Z",
-      "allDay": false,
-      "location": "A",
-      "description": "- 3è Antonio GAUDI",
-      "category": "etablissement"
     },
     {
       "id": "408d4e9d743dce82",
@@ -1162,7 +1152,7 @@
       "start": "2026-12-04T12:45:00.000Z",
       "end": "2026-12-04T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -2242,7 +2232,7 @@
       "start": "2026-12-18T12:45:00.000Z",
       "end": "2026-12-18T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -5662,7 +5652,7 @@
       "start": "2027-02-12T12:45:00.000Z",
       "end": "2027-02-12T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
