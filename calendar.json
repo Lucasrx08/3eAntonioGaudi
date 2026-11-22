@@ -2,20 +2,10 @@
   "version": 2,
   "source": "Apple Calendar",
   "status": "ready",
-  "eventCount": 22,
-  "updatedAt": "2026-11-08T15:31:45.989Z",
+  "eventCount": 21,
+  "updatedAt": "2026-11-22T10:11:55.196Z",
   "timeZone": "Europe/Paris",
   "events": [
-    {
-      "id": "938bb1870ca3fdb5",
-      "title": "Temps de Fraternité",
-      "start": "2026-10-08T08:10:00.000Z",
-      "end": "2026-10-08T09:00:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "",
-      "category": "etablissement"
-    },
     {
       "id": "35d1b4ce22691026",
       "title": "Cross de l'établissement",
