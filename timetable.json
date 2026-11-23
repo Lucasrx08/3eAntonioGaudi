@@ -2,8 +2,8 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 616,
-  "updatedAt": "2026-11-23T03:17:47.905Z",
+  "eventCount": 617,
+  "updatedAt": "2026-11-23T13:13:40.295Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -198,12 +198,22 @@
     },
     {
       "id": "34adf6b6dfc51137",
-      "title": "SCIENCES VIE & TERRE",
+      "title": "ANNULE - SCIENCES VIE & TERRE",
       "start": "2026-11-24T12:45:00.000Z",
       "end": "2026-11-24T13:35:00.000Z",
       "allDay": false,
       "location": "SVT",
       "description": "LABERTHE M. - 3è Antonio GAUDI",
+      "category": "etablissement"
+    },
+    {
+      "id": "594e5e53462a069f",
+      "title": "ETUDE",
+      "start": "2026-11-24T12:45:00.000Z",
+      "end": "2026-11-24T13:35:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
     {
@@ -2142,7 +2152,7 @@
       "start": "2026-12-18T12:45:00.000Z",
       "end": "2026-12-18T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -5562,7 +5572,7 @@
       "start": "2027-02-12T12:45:00.000Z",
       "end": "2027-02-12T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
