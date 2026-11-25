@@ -2,150 +2,10 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 605,
-  "updatedAt": "2026-11-24T00:56:39.055Z",
+  "eventCount": 592,
+  "updatedAt": "2026-11-25T03:53:35.591Z",
   "timeZone": "Europe/Paris",
   "events": [
-    {
-      "id": "d3dc24fc75583b95",
-      "title": "HISTOIRE-GEOGRAPHIE",
-      "start": "2026-11-24T07:05:00.000Z",
-      "end": "2026-11-24T07:55:00.000Z",
-      "allDay": false,
-      "location": "22",
-      "description": "LEBREUILLY J. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "a2a5096c8bed8c93",
-      "title": "MATHEMATIQUES",
-      "start": "2026-11-24T07:55:00.000Z",
-      "end": "2026-11-24T08:45:00.000Z",
-      "allDay": false,
-      "location": "34",
-      "description": "BESNIER A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "6afe2141f8b1f6e5",
-      "title": "MATHEMATIQUES",
-      "start": "2026-11-24T09:10:00.000Z",
-      "end": "2026-11-24T10:00:00.000Z",
-      "allDay": false,
-      "location": "34",
-      "description": "BESNIER A. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "f14bc28dc77cb8db",
-      "title": "ANGLAIS LANGUE DE SECTION",
-      "start": "2026-11-24T10:00:00.000Z",
-      "end": "2026-11-24T11:15:00.000Z",
-      "allDay": false,
-      "location": "32",
-      "description": "CARRERE I. - 3AB_PLA",
-      "category": "etablissement"
-    },
-    {
-      "id": "15d2dd6ddf104e25",
-      "title": "ANGLAIS LV1",
-      "start": "2026-11-24T10:00:00.000Z",
-      "end": "2026-11-24T10:50:00.000Z",
-      "allDay": false,
-      "location": "10",
-      "description": "TASSE E. - 3AB_NPLA",
-      "category": "etablissement"
-    },
-    {
-      "id": "d58ac0b2a7a6373e",
-      "title": "LA FAB",
-      "start": "2026-11-24T11:35:00.000Z",
-      "end": "2026-11-24T12:35:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
-      "category": "etablissement"
-    },
-    {
-      "id": "34adf6b6dfc51137",
-      "title": "ANNULE - SCIENCES VIE & TERRE",
-      "start": "2026-11-24T12:45:00.000Z",
-      "end": "2026-11-24T13:35:00.000Z",
-      "allDay": false,
-      "location": "SVT",
-      "description": "LABERTHE M. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "594e5e53462a069f",
-      "title": "ETUDE",
-      "start": "2026-11-24T12:45:00.000Z",
-      "end": "2026-11-24T13:35:00.000Z",
-      "allDay": false,
-      "location": "A",
-      "description": "- 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "6208810bcf708eb0",
-      "title": "FRANCAIS",
-      "start": "2026-11-24T13:35:00.000Z",
-      "end": "2026-11-24T14:25:00.000Z",
-      "allDay": false,
-      "location": "21",
-      "description": "CHAMPEL C. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "cd15b1f4c155ac81",
-      "title": "AP de Fr",
-      "start": "2026-11-24T14:45:00.000Z",
-      "end": "2026-11-24T15:35:00.000Z",
-      "allDay": false,
-      "location": "21",
-      "description": "CHAMPEL C. - 3AB_APFR",
-      "category": "etablissement"
-    },
-    {
-      "id": "e5c5565c869da4e1",
-      "title": "BREVET INIT AERONOT",
-      "start": "2026-11-24T14:45:00.000Z",
-      "end": "2026-11-24T15:35:00.000Z",
-      "allDay": false,
-      "location": "SC.PH",
-      "description": "BRETEAU P. - 3AB_AERON",
-      "category": "dnb"
-    },
-    {
-      "id": "bcf8825bdb3ce670",
-      "title": "ETUDE",
-      "start": "2026-11-24T14:45:00.000Z",
-      "end": "2026-11-24T15:35:00.000Z",
-      "allDay": false,
-      "location": "A",
-      "description": "- 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "07e33eae89b79be9",
-      "title": "Modern Jazz",
-      "start": "2026-11-24T14:45:00.000Z",
-      "end": "2026-11-24T15:35:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "PRUNIER C. - DANSE_JAZZ_MARDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "496aa36e072c0b27",
-      "title": "Théâtre",
-      "start": "2026-11-24T14:45:00.000Z",
-      "end": "2026-11-24T15:35:00.000Z",
-      "allDay": false,
-      "location": "MUS",
-      "description": "POSE V. - THEATRE",
-      "category": "etablissement"
-    },
     {
       "id": "cd4cc4d3b7ed00d1",
       "title": "ED.PHYSIQUE & SPORT.",
@@ -543,7 +403,7 @@
       "end": "2026-11-30T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T., COYAC T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -623,7 +483,7 @@
       "end": "2026-12-01T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -853,7 +713,7 @@
       "end": "2026-12-03T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -873,7 +733,7 @@
       "end": "2026-12-03T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T., COYAC T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -942,7 +802,7 @@
       "start": "2026-12-04T12:45:00.000Z",
       "end": "2026-12-04T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -1103,7 +963,7 @@
       "end": "2026-12-07T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T., COYAC T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -1163,7 +1023,7 @@
       "end": "2026-12-08T12:35:00.000Z",
       "allDay": false,
       "location": "",
-      "description": "TASSE E., RIGAUX L. - FAB",
+      "description": "RIGAUX L., TASSE E. - FAB",
       "category": "etablissement"
     },
     {
@@ -1393,7 +1253,7 @@
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -1413,7 +1273,7 @@
       "end": "2026-12-10T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "COYAC T., GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -1933,7 +1793,7 @@
       "end": "2026-12-17T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -1953,7 +1813,7 @@
       "end": "2026-12-17T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T., COYAC T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -2022,7 +1882,7 @@
       "start": "2026-12-18T12:45:00.000Z",
       "end": "2026-12-18T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -2343,7 +2203,7 @@
       "end": "2027-01-04T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "COYAC T., GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -2653,7 +2513,7 @@
       "end": "2027-01-07T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T., COYAC T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -3193,7 +3053,7 @@
       "end": "2027-01-14T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -3282,7 +3142,7 @@
       "start": "2027-01-15T12:45:00.000Z",
       "end": "2027-01-15T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -3443,7 +3303,7 @@
       "end": "2027-01-18T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "COYAC T., GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -3753,7 +3613,7 @@
       "end": "2027-01-21T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T., COYAC T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -3973,7 +3833,7 @@
       "end": "2027-01-25T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T., COYAC T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -4293,7 +4153,7 @@
       "end": "2027-01-28T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T., COYAC T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -4523,7 +4383,7 @@
       "end": "2027-02-01T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T., COYAC T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -4813,7 +4673,7 @@
       "end": "2027-02-04T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
+      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -4833,7 +4693,7 @@
       "end": "2027-02-04T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T., COYAC T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -5373,7 +5233,7 @@
       "end": "2027-02-11T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "COYAC T., GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -6051,6 +5911,16 @@
       "title": "Événement de la classe",
       "start": "2027-02-23T23:01:00.000Z",
       "end": "2027-02-24T22:59:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "-",
+      "category": "etablissement"
+    },
+    {
+      "id": "0a930e0b623e2e97",
+      "title": "Événement de la classe",
+      "start": "2027-02-24T23:01:00.000Z",
+      "end": "2027-02-25T22:59:00.000Z",
       "allDay": false,
       "location": "",
       "description": "-",
