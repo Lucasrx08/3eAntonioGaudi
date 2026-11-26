@@ -2,50 +2,10 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 592,
-  "updatedAt": "2026-11-25T03:53:35.591Z",
+  "eventCount": 589,
+  "updatedAt": "2026-11-26T04:32:23.810Z",
   "timeZone": "Europe/Paris",
   "events": [
-    {
-      "id": "cd4cc4d3b7ed00d1",
-      "title": "ED.PHYSIQUE & SPORT.",
-      "start": "2026-11-25T07:05:00.000Z",
-      "end": "2026-11-25T08:45:00.000Z",
-      "allDay": false,
-      "location": "GYM",
-      "description": "RIGAUX L. - 3è Antonio GAUDI",
-      "category": "sport"
-    },
-    {
-      "id": "408d4e9d743dce82",
-      "title": "HISTOIRE-GEOGRAPHIE",
-      "start": "2026-11-25T09:10:00.000Z",
-      "end": "2026-11-25T10:00:00.000Z",
-      "allDay": false,
-      "location": "22",
-      "description": "LEBREUILLY J. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "be271ef08ec100dc",
-      "title": "ARTS PLASTIQUES",
-      "start": "2026-11-25T10:00:00.000Z",
-      "end": "2026-11-25T10:50:00.000Z",
-      "allDay": false,
-      "location": "ARTS",
-      "description": "FEUILLET C. - 3è Antonio GAUDI",
-      "category": "etablissement"
-    },
-    {
-      "id": "f954230f1341c15b",
-      "title": "ETUDE",
-      "start": "2026-11-25T10:00:00.000Z",
-      "end": "2026-11-25T10:50:00.000Z",
-      "allDay": false,
-      "location": "A",
-      "description": "- 3B_NPLA",
-      "category": "etablissement"
-    },
     {
       "id": "5934789483b9899a",
       "title": "HISTOIRE-GEOGRAPHIE",
@@ -713,7 +673,7 @@
       "end": "2026-12-03T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -733,7 +693,7 @@
       "end": "2026-12-03T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "COYAC T., GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -802,7 +762,7 @@
       "start": "2026-12-04T12:45:00.000Z",
       "end": "2026-12-04T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -1253,7 +1213,7 @@
       "end": "2026-12-10T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -2203,7 +2163,7 @@
       "end": "2027-01-04T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T., COYAC T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -2513,7 +2473,7 @@
       "end": "2027-01-07T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "COYAC T., GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -3053,7 +3013,7 @@
       "end": "2027-01-14T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -3142,7 +3102,7 @@
       "start": "2027-01-15T12:45:00.000Z",
       "end": "2027-01-15T13:35:00.000Z",
       "allDay": false,
-      "location": "A, C",
+      "location": "C, A",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -3303,7 +3263,7 @@
       "end": "2027-01-18T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T., COYAC T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -3613,7 +3573,7 @@
       "end": "2027-01-21T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "COYAC T., GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -3833,7 +3793,7 @@
       "end": "2027-01-25T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "COYAC T., GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -4153,7 +4113,7 @@
       "end": "2027-01-28T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "COYAC T., GONTIER T. - FOOTBALL",
+      "description": "GONTIER T., COYAC T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -5213,7 +5173,7 @@
       "end": "2027-02-11T15:35:00.000Z",
       "allDay": false,
       "location": "ARTS",
-      "description": "FEUILLET C., LABERTHE M. - Dév Durable",
+      "description": "LABERTHE M., FEUILLET C. - Dév Durable",
       "category": "etablissement"
     },
     {
@@ -5233,7 +5193,7 @@
       "end": "2027-02-11T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T., COYAC T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -5302,7 +5262,7 @@
       "start": "2027-02-12T12:45:00.000Z",
       "end": "2027-02-12T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
@@ -5463,7 +5423,7 @@
       "end": "2027-02-15T16:00:00.000Z",
       "allDay": false,
       "location": "FOOT",
-      "description": "GONTIER T., COYAC T. - FOOTBALL",
+      "description": "COYAC T., GONTIER T. - FOOTBALL",
       "category": "etablissement"
     },
     {
@@ -5921,6 +5881,16 @@
       "title": "Événement de la classe",
       "start": "2027-02-24T23:01:00.000Z",
       "end": "2027-02-25T22:59:00.000Z",
+      "allDay": false,
+      "location": "",
+      "description": "-",
+      "category": "etablissement"
+    },
+    {
+      "id": "851d601a7387ddc3",
+      "title": "Événement de la classe",
+      "start": "2027-02-25T23:01:00.000Z",
+      "end": "2027-02-26T22:59:00.000Z",
       "allDay": false,
       "location": "",
       "description": "-",
