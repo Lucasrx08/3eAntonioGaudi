@@ -1,5 +1,5 @@
 const CACHE_PREFIX='ma3e-';
-const CACHE_NAME='ma3e-shell-20261127';
+const CACHE_NAME='ma3e-shell-20261127b';
 const APP_SHELL=[
   './',
   './index.html',

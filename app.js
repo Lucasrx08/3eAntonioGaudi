@@ -503,6 +503,19 @@ function renderReminder(reminder){
 function renderResources(data=currentResourcesData,{offline=false}={}){
   currentResourcesData={...data,resources:[...(data.resources||[])]};
   renderReminder(currentResourcesData.reminder||null);
+  const recent=document.querySelector('#home-docs');
+  recent.replaceChildren();
+  const latest=currentResourcesData.resources.filter(item=>safeResourceUrl(item.url))
+    .sort((a,b)=>String(b.publishedAt||'').localeCompare(String(a.publishedAt||''))).slice(0,3);
+  for(const item of latest){
+    const link=createElement('a','home-doc-link');
+    link.href=safeResourceUrl(item.url);
+    link.target='_blank';
+    link.rel='noopener noreferrer';
+    link.append(createElement('small','',item.category),createElement('strong','',item.title));
+    recent.append(link);
+  }
+  if(!latest.length)recent.textContent='Aucun document publié.';
   resourceStatus(currentResourcesData,{offline});
   const root=document.querySelector('#resources-root');
   if(!root)return;
@@ -548,6 +561,7 @@ function renderToday(){
 }
 
 function renderHero(event){
+  if(!document.querySelector("#hero-date"))return;
   const heroDate=document.querySelector('#hero-date');
   const title=document.querySelector('#hero-title');
   const category=document.querySelector('#hero-category');
@@ -578,6 +592,7 @@ function renderHero(event){
 
 function renderTimeline(events){
   const container=document.querySelector('#timeline-strip');
+  if(!container)return;
   container.replaceChildren();
   const upcoming=events.filter(event=>eventIsUpcoming(event)).slice(0,3);
   if(!upcoming.length){
