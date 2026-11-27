@@ -426,8 +426,6 @@ function renderPathwayGuide(category='Tous'){
 }
 
 function setResourceFilter(category='Tous'){
-  const resourcesView=document.querySelector('#resources');
-  const reposition=resourcesView?.classList.contains('active-view')&&category!==selectedResourceCategory;
   selectedResourceCategory=category;
   document.querySelectorAll('[data-resource-filter]').forEach(button=>{
     const active=button.dataset.resourceFilter===category;
@@ -436,9 +434,7 @@ function setResourceFilter(category='Tous'){
   });
   renderPathwayGuide(category);
   renderResources();
-  if(reposition){
-    window.requestAnimationFrame(()=>document.querySelector('#pathway-guide-root')?.scrollIntoView({block:'start',behavior:reduceMotion.matches?'auto':'smooth'}));
-  }
+
 }
 
 function resourceStatus(data,{offline=false}={}){
@@ -530,22 +526,16 @@ function renderResources(data=currentResourcesData,{offline=false}={}){
   resources.forEach(resource=>{
     const url=safeResourceUrl(resource.url);
     if(!url)return;
-    const type=resourceTypeDetails[resource.type]||resourceTypeDetails.Lien;
-    const article=createElement('article','resource-card');
-    const mark=createElement('div',`resource-mark type-${normalizeSearch(resource.type).replace(/[^a-z0-9]+/g,'-')}`,type.mark);
-    const copy=createElement('div','resource-card-copy');
-    copy.append(createElement('small','',`${resource.category} · ${resource.type}`),createElement('h3','',resource.title));
-    if(resource.description)copy.append(createElement('p','',resource.description));
-    const footer=createElement('div','resource-card-footer');
-    const published=resource.publishedAt?`Publié le ${resourceDateFormatter.format(new Date(resource.publishedAt))}`:'Ressource de la classe';
-    const link=createElement('a','resource-open',`${type.action} →`);
+    const link=createElement('a','class-document');
     link.href=url;
     link.target='_blank';
     link.rel='noopener noreferrer';
-    footer.append(createElement('span','',published),link);
-    copy.append(footer);
-    article.append(mark,copy);
-    root.append(article);
+    const copy=createElement('span','document-copy');
+    copy.append(createElement('small','',resource.category),createElement('strong','',resource.title));
+    const arrow=createElement('span','','↗');
+    arrow.setAttribute('aria-hidden','true');
+    link.append(createElement('span','document-format',resource.type),copy,arrow);
+    root.append(link);
   });
 }
 
