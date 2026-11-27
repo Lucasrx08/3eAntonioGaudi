@@ -2,8 +2,8 @@
   "version": 2,
   "source": "ÉcoleDirecte",
   "status": "ready",
-  "eventCount": 575,
-  "updatedAt": "2026-11-26T23:06:22.924Z",
+  "eventCount": 576,
+  "updatedAt": "2026-11-27T12:37:54.537Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -48,12 +48,22 @@
     },
     {
       "id": "1d424fc45d2500bf",
-      "title": "ANGLAIS LV1",
+      "title": "ANNULE - ANGLAIS LV1",
       "start": "2026-11-27T10:00:00.000Z",
       "end": "2026-11-27T10:50:00.000Z",
       "allDay": false,
       "location": "10",
       "description": "TASSE E. - 3AB_NPLA",
+      "category": "etablissement"
+    },
+    {
+      "id": "1695c147c15fba04",
+      "title": "ETUDE",
+      "start": "2026-11-27T10:00:00.000Z",
+      "end": "2026-11-27T10:50:00.000Z",
+      "allDay": false,
+      "location": "A",
+      "description": "- 3AB_NPLA",
       "category": "etablissement"
     },
     {
@@ -5112,7 +5122,7 @@
       "start": "2027-02-12T12:45:00.000Z",
       "end": "2027-02-12T13:35:00.000Z",
       "allDay": false,
-      "location": "C, A",
+      "location": "A, C",
       "description": "- 3è Antonio GAUDI",
       "category": "etablissement"
     },
