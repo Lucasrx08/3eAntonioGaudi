@@ -38,14 +38,6 @@ jobs:
           APPLE_CALENDAR_URL: ${{ secrets.APPLE_CALENDAR_URL }}
         run: node sync-calendar.mjs
 
-      - name: Synchroniser l’emploi du temps ÉcoleDirecte
-        if: github.event_name != 'issues'
-        env:
-          CALENDAR_MODE: timetable
-          CALENDAR_URL: ${{ secrets.ECOLEDIRECTE_ICAL_URL }}
-          CALENDAR_OUTPUT: timetable.json
-        run: node sync-calendar.mjs
-
       - name: Publier les ressources communes
         if: github.event_name != 'schedule'
         env:
@@ -79,13 +71,12 @@ jobs:
             copy_if_changed resources.json
           elif [ "${{ github.event_name }}" = "schedule" ]; then
             copy_if_changed calendar.json
-            copy_if_changed timetable.json
           else
             copy_if_changed calendar.json
-            copy_if_changed timetable.json
             copy_if_changed resources.json
           fi
           cd /tmp/ma3e-live-branch
+          git rm -f --ignore-unmatch timetable.json
           git add -A
           if ! git diff --cached --quiet; then
             git commit -m "Mise à jour des données de la classe"

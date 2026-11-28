@@ -1,9 +1,39 @@
 {
   "version": 3,
   "source": "GitHub Issues",
-  "updatedAt": "2026-09-16T10:03:13.334Z",
-  "reminder": null,
+  "updatedAt": "2026-11-27T12:13:41.807Z",
+  "reminder": {
+    "id": "issue-7",
+    "title": "Brevet blanc n°1",
+    "detail": "Jeudi 3 décembre et",
+    "deadline": "vendredi 4 décembre 2026",
+    "items": [],
+    "category": "DNB",
+    "url": "",
+    "manageUrl": "https://github.com/Lucasrx08/3eAntonioGaudi/issues/7",
+    "updatedAt": "2026-11-27T12:13:25Z"
+  },
   "resources": [
+    {
+      "id": "issue-6",
+      "title": "Brevet blanc n°1 – Fournitures à prévoir",
+      "category": "DNB",
+      "type": "PDF",
+      "description": "Matériel à apporter pour chaque épreuve.",
+      "url": "https://lucasrx08.github.io/3eAntonioGaudi/documents/MA3E_Fournitures_DNB_blanc.pdf",
+      "publishedAt": "2026-11-27T12:13:24Z",
+      "updatedAt": "2026-11-27T12:13:24Z"
+    },
+    {
+      "id": "issue-5",
+      "title": "Brevet blanc n°1 – Planning des épreuves",
+      "category": "DNB",
+      "type": "PDF",
+      "description": "Horaires des épreuves et aménagements pour le tiers-temps.",
+      "url": "https://lucasrx08.github.io/3eAntonioGaudi/documents/MA3E_Brevet_blanc.pdf",
+      "publishedAt": "2026-11-27T12:13:23Z",
+      "updatedAt": "2026-11-27T12:13:23Z"
+    },
     {
       "id": "issue-4",
       "title": "VDC 1 - Mes renseignements",
@@ -19,7 +49,7 @@
       "title": "VDC 1 - Map du Bon Sauveur",
       "category": "Vie de classe",
       "type": "PDF",
-      "description": "La carte du Bon Sauveur avec les entrées, les bâtiments importants et les points de rassemblement.",
+      "description": "La map du Bon Sauveur avec les entrées, les bâtiments importants et les points de rassemblement.",
       "url": "https://github.com/user-attachments/files/31787519/FICHE.1.-.Map.du.Bon.sauveur.pdf",
       "publishedAt": "2026-09-03T11:14:07Z",
       "updatedAt": "2026-09-03T11:22:39Z"

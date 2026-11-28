@@ -1,48 +1,11 @@
-<!doctype html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#196396">
-  <meta name="description" content="Agenda, emploi du temps et ressources communes de la 3e Antonio Gaudí.">
-  <meta name="robots" content="noindex,nofollow,noarchive">
-  <meta name="color-scheme" content="light">
-  <meta name="referrer" content="no-referrer">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="Ma 3e Gaudí">
-  <link rel="preload" as="image" href="logo-bon-sauveur.webp" type="image/webp">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=20260916">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png?v=20260916">
-  <link rel="shortcut icon" href="favicon.ico?v=20260916">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=20260916">
-  <link rel="manifest" href="manifest.webmanifest?v=20260916">
-  <link rel="stylesheet" href="styles.css?v=20260916">
-  <link rel="stylesheet" href="overrides.css?v=20261127b">
-  <title>Ma 3e · Bon Sauveur</title>
-</head>
-<body>
-<div class="app-shell">
-  <header class="class-header">
-    <div class="class-heading"><img src="logo-bon-sauveur.webp" alt="Bon Sauveur" width="42" height="42"><h1>3e Antonio Gaudí</h1></div>
-    <nav class="class-nav" aria-label="Navigation principale">
-      <button type="button" data-view="home">Accueil</button><button type="button" data-view="resources">Documents</button>
-      <button type="button" data-view="agenda">Agenda</button><button type="button" data-view="timetable">Emploi du temps</button>
-    </nav>
-  </header>
-  <main class="content">
-    <section id="home" class="view active-view" tabindex="-1"><article id="reminder-card" class="focus-card is-clear"><div class="focus-badge">À JOUR</div><span class="focus-kicker">À NE PAS OUBLIER</span><h3 id="reminder-title">Aucun rappel important</h3><p id="reminder-detail">Tout est à jour pour le moment.</p><button id="reminder-action" type="button" hidden>Voir les ressources →</button></article>
-      <div class="home-doc-heading"><h2>Derniers documents</h2><button type="button" data-go="resources">Tout voir →</button></div>
-      <div id="home-docs"></div>
-    </section>
-    <section id="agenda" class="view" tabindex="-1"><div class="page-title"><span>AGENDA DE LA CLASSE</span><h2>Mes dates importantes<span>.</span></h2><p>Les dates à connaître pour s’organiser : classe, orientation, DNB, stage, certifications et établissement.</p></div><div class="agenda-sync-bar"><div><span class="sync-dot" aria-hidden="true"></span><strong>Agenda de la 3e Gaudí</strong><small id="agenda-status" aria-live="polite">Mise à jour automatique</small></div><button id="agenda-refresh" type="button">Actualiser l’agenda ↻</button></div><div id="agenda-root"><div class="calendar-empty"><strong>Agenda de la classe</strong><p>Les événements vont apparaître ici.</p></div></div></section>
-    <section id="timetable" class="view" tabindex="-1"><div class="page-title"><span>ÉCOLEDIRECTE</span><h2>Mon emploi du temps<span>.</span></h2><p>Les cours de la semaine. En cas de différence, ÉcoleDirecte reste la référence.</p></div><div class="agenda-sync-bar timetable-sync-bar"><div><span class="sync-dot" aria-hidden="true"></span><strong>ÉcoleDirecte</strong><small id="timetable-status" aria-live="polite">Mise à jour automatique</small></div><button id="timetable-refresh" type="button">Actualiser ↻</button></div><div class="timetable-toolbar" aria-label="Navigation dans les semaines"><button id="timetable-prev" type="button" aria-label="Semaine précédente" title="Semaine précédente">←</button><div><small>SEMAINE</small><strong id="timetable-week-label">—</strong></div><button id="timetable-today" type="button">Aujourd’hui</button><button id="timetable-next" type="button" aria-label="Semaine suivante" title="Semaine suivante">→</button></div><div id="timetable-board" class="timetable-desktop" aria-live="polite"></div><div id="timetable-mobile" class="timetable-mobile" aria-live="polite"></div></section>
-    <section id="resources" class="view" tabindex="-1"><div class="page-title"><h2>Documents de la classe<span>.</span></h2></div><div class="resource-tools"><label class="resource-search"><span class="sr-only">Rechercher une ressource</span><span aria-hidden="true">⌕</span><input id="resource-search" type="search" placeholder="Rechercher un document ou un lien" autocomplete="off"></label><div id="resource-filters" class="resource-filters" aria-label="Filtrer les ressources"><button class="active" type="button" data-resource-filter="Tous" aria-pressed="true">Tout</button><button type="button" data-resource-filter="Vie de classe" aria-pressed="false">Vie de classe</button><button type="button" data-resource-filter="Orientation" aria-pressed="false">Orientation</button><button type="button" data-resource-filter="DNB" aria-pressed="false">DNB</button><button type="button" data-resource-filter="Stage" aria-pressed="false">Stage</button><button type="button" data-resource-filter="Certifications" aria-pressed="false">Certifications</button></div></div><div id="resources-root" class="resource-library" aria-live="polite"></div><details class="class-guides"><summary>Guides de l’année de 3e</summary><div id="pathway-guide-root" class="pathway-board"></div></details><details class="class-guides"><summary>Espace enseignant</summary><div class="resource-publish-bar"><small id="resources-status" aria-live="polite"></small><div class="resource-publish-actions"><button id="resources-refresh" type="button">Actualiser ↻</button><a href="https://github.com/Lucasrx08/3eAntonioGaudi/issues/new?template=publication.yml" target="_blank" rel="noopener noreferrer">Espace enseignant ↗</a><a id="reminder-edit-link" href="https://github.com/Lucasrx08/3eAntonioGaudi/issues/new?template=reminder.yml" target="_blank" rel="noopener noreferrer">Modifier le rappel ↗</a></div></div></details></section>
-    <footer class="site-footer"><a href="https://www.ecoledirecte.com/login?cameFrom=%2FA%2F71%2FMessagerie" target="_blank" rel="noopener noreferrer">Messagerie ÉcoleDirecte ↗</a><button id="privacy-open" type="button">Confidentialité</button></footer>
-  </main>
-  <dialog id="privacy-dialog" aria-labelledby="privacy-title"><button id="privacy-close" class="dialog-close" type="button" aria-label="Fermer">×</button><span class="eyebrow">INFORMATIONS</span><h2 id="privacy-title">Confidentialité</h2><p>Cette application présente uniquement des informations collectives utiles aux élèves et aux familles de la 3e Gaudí.</p><ul><li>Aucun compte élève, aucune note et aucune appréciation ne sont enregistrés ici.</li><li>Aucun outil publicitaire ou statistique n’est utilisé.</li><li>Les dernières données collectives peuvent être conservées sur l’appareil pour accélérer l’affichage et permettre une consultation hors connexion.</li><li>Les documents individuels et les échanges personnels restent dans ÉcoleDirecte.</li></ul><p>Pour toute question concernant ces informations, contactez l’établissement par ses canaux habituels.</p><div class="dialog-actions"><button class="dialog-primary" id="privacy-confirm" type="button">J’ai compris</button></div></dialog>
-  
-</div>
-<script src="app.js?v=20261127b"></script><script src="overrides.js?v=20260916"></script><script src="live-data.js?v=20260916"></script>
-</body></html>
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#203c37"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><title>3e Antonio Gaudí · Bon Sauveur</title><link rel="icon" href="favicon.ico"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="classe.css"></head>
+<body><header><div class="bar"><a class="brand" href="#accueil"><img src="logo-bon-sauveur.webp" width="42" height="42" alt="Bon Sauveur"><strong>3e Antonio Gaudí</strong></a><nav aria-label="Navigation principale"><a href="#accueil">Accueil</a><a href="#agenda">Agenda</a><a href="#documents">Documents</a></nav></div></header>
+<main>
+<section id="accueil"><h1>Ma classe<span>.</span></h1><article id="rappel" hidden><small>Rappel important</small><h2 id="r-title"></h2><p id="r-date"></p><div id="r-links"></div></article><div class="section-title"><h2>Dates à venir</h2><a href="#agenda">Tout l’agenda →</a></div><div id="dates"></div></section>
+<section id="agenda" hidden><h1>Agenda<span>.</span></h1><div id="calendar"></div></section>
+<section id="documents" hidden><h1>Documents<span>.</span></h1><div id="folders" aria-label="Rubriques"></div><h2 id="folder-title"></h2><div id="files"></div><p id="load-state" role="status"></p><div id="guide"></div></section>
+<section id="enseignant" hidden><h1>Espace enseignant<span>.</span></h1>
+<form id="identity"><label>Adresse e-mail enseignante<input type="email" name="email" autocomplete="email" required></label><button>Recevoir mon code</button></form>
+<form id="verify" hidden><label>Code reçu par e-mail<input name="code" autocomplete="one-time-code" inputmode="numeric" required></label><button>Me connecter</button></form>
+<form id="upload" hidden><label>Document PDF · 5 Mo maximum<input type="file" name="pdf" accept="application/pdf,.pdf" required></label><label>Titre du document<input name="title" maxlength="100" required></label><label>Rubrique<select name="category"></select></label><button>Publier le document</button><button type="button" class="secondary" id="logout">Me déconnecter</button></form><p id="feedback" role="status"></p></section>
+</main><footer><span>Le Bon Sauveur · Saint-Lô</span><a href="#enseignant">Espace enseignant</a></footer><script defer src="classe.js"></script></body></html>

@@ -2,30 +2,10 @@
   "version": 2,
   "source": "Apple Calendar",
   "status": "ready",
-  "eventCount": 22,
-  "updatedAt": "2026-09-08T18:40:31.026Z",
+  "eventCount": 21,
+  "updatedAt": "2026-11-22T10:11:55.196Z",
   "timeZone": "Europe/Paris",
   "events": [
-    {
-      "id": "c3ced67c4aabd8ac",
-      "title": "Photos de classe",
-      "start": "2026-09-08T09:05:00.000Z",
-      "end": "2026-09-08T09:50:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "Photos de fratrie à 9h50",
-      "category": "classe"
-    },
-    {
-      "id": "bacea215ff12c5b5",
-      "title": "Exercice incendie",
-      "start": "2026-09-17T08:15:00.000Z",
-      "end": "2026-09-17T09:15:00.000Z",
-      "allDay": false,
-      "location": "",
-      "description": "",
-      "category": "etablissement"
-    },
     {
       "id": "35d1b4ce22691026",
       "title": "Cross de l'établissement",
@@ -35,6 +15,16 @@
       "location": "",
       "description": "",
       "category": "sport"
+    },
+    {
+      "id": "0667b3d0db338a38",
+      "title": "Réunion d’orientation pour les parents d’élèves de 3e",
+      "start": "2026-11-10T17:30:00.000Z",
+      "end": "2026-11-10T19:30:00.000Z",
+      "allDay": false,
+      "location": "Salle A",
+      "description": "",
+      "category": "orientation"
     },
     {
       "id": "7510e5e2f3d5f274",
