@@ -3,7 +3,7 @@
   "source": "Apple Calendar",
   "status": "ready",
   "eventCount": 21,
-  "updatedAt": "2026-11-22T10:11:55.196Z",
+  "updatedAt": "2026-11-28T08:19:50.301Z",
   "timeZone": "Europe/Paris",
   "events": [
     {
@@ -12,8 +12,6 @@
       "start": "2026-10-14T06:00:00.000Z",
       "end": "2026-10-14T10:00:00.000Z",
       "allDay": false,
-      "location": "",
-      "description": "",
       "category": "sport"
     },
     {
@@ -22,8 +20,6 @@
       "start": "2026-11-10T17:30:00.000Z",
       "end": "2026-11-10T19:30:00.000Z",
       "allDay": false,
-      "location": "Salle A",
-      "description": "",
       "category": "orientation"
     },
     {
@@ -32,8 +28,6 @@
       "start": "2026-11-15",
       "end": "2026-11-16",
       "allDay": true,
-      "location": "",
-      "description": "",
       "category": "etablissement"
     },
     {
@@ -42,8 +36,6 @@
       "start": "2026-11-19T08:00:00.000Z",
       "end": "2026-11-19T11:00:00.000Z",
       "allDay": false,
-      "location": "Parc des Expositions\n759 Rue de Torigni, 50000 Saint-Lô, France",
-      "description": "",
       "category": "orientation"
     },
     {
@@ -52,8 +44,6 @@
       "start": "2026-11-27T14:00:00.000Z",
       "end": "2026-11-27T20:00:00.000Z",
       "allDay": false,
-      "location": "",
-      "description": "",
       "category": "etablissement"
     },
     {
@@ -62,8 +52,6 @@
       "start": "2026-12-03",
       "end": "2026-12-05",
       "allDay": true,
-      "location": "",
-      "description": "",
       "category": "dnb"
     },
     {
@@ -72,8 +60,6 @@
       "start": "2026-12-20",
       "end": "2027-01-04",
       "allDay": true,
-      "location": "",
-      "description": "",
       "category": "vacances"
     },
     {
@@ -82,8 +68,6 @@
       "start": "2027-02-12T16:00:00.000Z",
       "end": "2027-02-12T19:00:00.000Z",
       "allDay": false,
-      "location": "",
-      "description": "",
       "category": "orientation"
     },
     {
@@ -92,8 +76,6 @@
       "start": "2027-02-13T08:00:00.000Z",
       "end": "2027-02-13T11:00:00.000Z",
       "allDay": false,
-      "location": "",
-      "description": "",
       "category": "orientation"
     },
     {
@@ -102,8 +84,6 @@
       "start": "2027-02-15",
       "end": "2027-02-20",
       "allDay": true,
-      "location": "",
-      "description": "",
       "category": "stage"
     },
     {
@@ -112,8 +92,6 @@
       "start": "2027-02-21",
       "end": "2027-03-08",
       "allDay": true,
-      "location": "",
-      "description": "",
       "category": "vacances"
     },
     {
@@ -122,8 +100,6 @@
       "start": "2027-03-07",
       "end": "2027-03-08",
       "allDay": true,
-      "location": "",
-      "description": "",
       "category": "etablissement"
     },
     {
@@ -132,8 +108,6 @@
       "start": "2027-04-18",
       "end": "2027-05-03",
       "allDay": true,
-      "location": "",
-      "description": "",
       "category": "vacances"
     },
     {
@@ -142,8 +116,6 @@
       "start": "2027-05-03",
       "end": "2027-05-05",
       "allDay": true,
-      "location": "",
-      "description": "",
       "category": "dnb"
     },
     {
@@ -152,8 +124,6 @@
       "start": "2027-05-06",
       "end": "2027-05-10",
       "allDay": true,
-      "location": "",
-      "description": "",
       "category": "vacances"
     },
     {
@@ -162,8 +132,6 @@
       "start": "2027-05-30",
       "end": "2027-05-31",
       "allDay": true,
-      "location": "",
-      "description": "",
       "category": "etablissement"
     },
     {
@@ -172,8 +140,6 @@
       "start": "2027-06-09T06:05:00.000Z",
       "end": "2027-06-09T09:50:00.000Z",
       "allDay": false,
-      "location": "",
-      "description": "",
       "category": "dnb"
     },
     {
@@ -182,8 +148,6 @@
       "start": "2027-06-24T06:00:00.000Z",
       "end": "2027-06-24T09:15:00.000Z",
       "allDay": false,
-      "location": "",
-      "description": "",
       "category": "dnb"
     },
     {
@@ -192,8 +156,6 @@
       "start": "2027-06-25T06:00:00.000Z",
       "end": "2027-06-25T08:00:00.000Z",
       "allDay": false,
-      "location": "",
-      "description": "",
       "category": "dnb"
     },
     {
@@ -202,8 +164,6 @@
       "start": "2027-06-28T06:00:00.000Z",
       "end": "2027-06-28T07:00:00.000Z",
       "allDay": false,
-      "location": "",
-      "description": "",
       "category": "dnb"
     },
     {
@@ -212,8 +172,6 @@
       "start": "2027-06-28T08:00:00.000Z",
       "end": "2027-06-28T10:00:00.000Z",
       "allDay": false,
-      "location": "",
-      "description": "",
       "category": "dnb"
     }
   ]
