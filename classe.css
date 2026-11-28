@@ -1,1 +1,85 @@
-:root{--ink:#203c37;--muted:#536861;--line:#d9e1da;--accent:#c4dc77;color:var(--ink);background:#fafbf7;font:16px/1.5 'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}*{box-sizing:border-box}body{margin:0}a{color:inherit;text-underline-offset:4px}header{position:sticky;top:0;z-index:2;background:#fff;border-bottom:1px solid var(--line)}.bar,main,footer{width:min(960px,calc(100% - 36px));margin:auto}.bar,.brand,nav,.section-title,footer{display:flex;align-items:center;justify-content:space-between;gap:12px}.bar{min-height:66px}.brand{text-decoration:none}.brand img{object-fit:contain}nav a,#folders a{padding:10px 14px;text-decoration:none;border-radius:9px;font-weight:650}nav [aria-current],#folders [aria-current]{background:#e7efda}main{padding:42px 0 64px;min-height:70vh}h1,h2,p{margin:0}h1{font-size:clamp(36px,6vw,62px);letter-spacing:-.065em;line-height:1.05;margin-bottom:26px}h1 span{color:#82a640}h2{font-size:clamp(22px,3vw,30px);line-height:1.18;letter-spacing:-.035em}#rappel{background:var(--ink);color:white;padding:clamp(24px,4vw,40px);border-radius:18px}#rappel small{color:var(--accent);font-weight:750}#rappel h2{font-size:clamp(30px,5vw,48px);margin:8px 0}#r-links,#folders{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}#r-links a{color:var(--ink);background:white;border-radius:7px;padding:9px 14px;text-decoration:none;font-weight:650}.section-title{margin:32px 0 10px}.section-title a,footer{font-size:14px}.row{display:flex;gap:18px;align-items:center;border-bottom:1px solid var(--line);padding:15px 0;text-decoration:none}.row time{min-width:92px;color:var(--muted);font-weight:600}.row span{flex:1}.row small{display:block;color:var(--muted)}a.row:hover span{text-decoration:underline}#folder-title,#calendar h2{margin:24px 0 5px}#folders a{border:1px solid var(--line);background:#fff}details{margin-top:22px}summary{cursor:pointer;font-weight:650}form{display:grid;gap:16px;max-width:480px}label{display:grid;gap:6px;font-weight:650}input,select,button{font:inherit;padding:11px 14px;border-radius:8px;border:1px solid var(--line);max-width:100%;min-width:0}button{background:var(--ink);color:#fff;cursor:pointer;font-weight:650}.secondary{background:white;color:var(--ink)}button:disabled{opacity:.55}#feedback,#load-state{margin-top:12px}footer{padding:18px 0;border-top:1px solid var(--line);color:var(--muted)}[hidden]{display:none!important}:focus-visible{outline:3px solid #4781ac;outline-offset:2px}@media(max-width:620px){.bar{align-items:stretch;flex-direction:column;gap:2px;padding:7px 0}.brand{justify-content:flex-start}.brand img{width:30px;height:30px}nav{gap:4px}nav a{flex:1;text-align:center;padding:9px 3px}main{padding-top:26px}#folders{display:grid;grid-template-columns:1fr 1fr}#folders a{text-align:center;padding:8px}.section-title{gap:6px}.row{gap:10px}footer{align-items:flex-start}}
+:root {
+  --vert: #96c22b;
+  --bleu: #196396;
+  --azur: #1375a8;
+  --encre: #102126;
+  --gris: #506571;
+  --ligne: #d8e4eb;
+  color: var(--encre);
+  background: #f7fafc;
+  font: 16px/1.5 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+* { box-sizing: border-box }
+body, h1, h2, p { margin: 0 }
+a { color: var(--bleu); text-underline-offset: 4px }
+header { position: sticky; top: 0; z-index: 3; background: white; border-bottom: 1px solid var(--ligne) }
+.bar, main, footer { width: min(1100px, calc(100% - 48px)); margin-inline: auto }
+.bar, .brand, nav, .section-title, footer { display: flex; align-items: center; justify-content: space-between; gap: 16px }
+.bar { min-height: 72px }
+.brand { font-weight: 800; letter-spacing: -.035em; text-decoration: none; color: var(--encre); font-size: 1.2rem }
+.brand img { object-fit: contain }
+nav { gap: 4px }
+nav a { padding: 12px 18px; text-decoration: none; font-weight: 700; border-radius: 12px }
+nav [aria-current] { background: var(--bleu); color: white }
+main { min-height: 72vh; padding-block: clamp(24px,4vw,52px) 54px }
+h1 { font-size: clamp(42px,6.4vw,78px); line-height: .98; letter-spacing: -.065em; color: var(--bleu); margin-bottom: 26px }
+h1 span { color: var(--vert) }
+h1 sup { font-size: .46em; vertical-align: super }
+h2 { font-size: clamp(23px,3vw,32px); line-height: 1.14; letter-spacing: -.04em }
+#rappel { position: relative; isolation: isolate; overflow: hidden; padding: clamp(25px,4.5vw,52px); border-radius: 24px; background: var(--bleu); color: white }
+#rappel h2 { max-width: 74%; margin: 10px 0 8px; font-size: clamp(34px,5.4vw,66px); line-height: 1; letter-spacing: -.055em }
+#rappel small { display: inline-flex; align-items: center; gap: 9px; font-weight: 700 }
+#rappel small::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--vert) }
+#r-date { font-weight: 550; font-size: clamp(16px,2vw,21px) }
+.mosaique { position: absolute; z-index: -1; display: grid; grid-template-columns: repeat(3,1fr); width: 32%; aspect-ratio: 1; right: -4%; top: -12%; transform: rotate(-14deg); pointer-events: none }
+.mosaique i { background: var(--azur); border-radius: 0 90% 0 0 }
+.mosaique i:nth-child(3n+2) { background: var(--vert); border-radius: 50% 50% 0 50% }
+.mosaique i:nth-child(3n) { background: #378ec6; transform: rotate(180deg) }
+#r-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px }
+#r-links a, button { display: inline-flex; align-items: center; justify-content: center; background: white; color: var(--bleu); border: 0; border-radius: 10px; padding: 11px 16px; text-decoration: none; font: inherit; font-weight: 750; cursor: pointer }
+#r-links a:first-child { background: var(--vert); color: var(--encre) }
+.section-title { margin: 30px 0 14px }
+.section-title a { font-weight: 650; text-decoration: none }
+#dates { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,210px),1fr)); gap: 12px }
+.row { display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--ligne); text-decoration: none }
+.row time { color: var(--bleu); font-weight: 750 }
+.row span { flex: 1; min-width: 0; overflow-wrap: anywhere }
+.row small { display: block; color: var(--gris) }
+#dates .row { border: 1px solid var(--ligne); border-top: 4px solid var(--vert); border-radius: 12px; background: white; padding: 17px 20px; align-items: flex-start; flex-direction: column; gap: 5px }
+#dates time { font-size: 1.14rem }
+#folders { display: grid; grid-template-columns: repeat(4,1fr); gap: 10px }
+#folders a, #files a, details, form { background: white; border: 1px solid var(--ligne); border-radius: 14px }
+#folders a { padding: 14px; text-decoration: none; font-weight: 750; text-align: center }
+#folders [aria-current] { background: var(--vert); border-color: var(--vert); color: var(--encre) }
+#folder-title, #calendar h2 { margin: 26px 0 12px }
+#files { display: grid; gap: 8px }
+#files a { padding: 15px 18px; font-weight: 650 }
+details { margin-top: 18px; padding: 16px 20px }
+summary { cursor: pointer; font-weight: 700; color: var(--bleu) }
+form { display: grid; gap: 16px; padding: 22px; max-width: 510px }
+label { display: grid; gap: 6px; font-weight: 650 }
+input,select { max-width:100%; min-width:0; padding:11px 13px; font:inherit; border:1px solid #9cb6c7; border-radius:8px }
+button { background: var(--bleu); color: white }
+.secondary { background: #e9f4f9; color: var(--bleu) }
+button:disabled { opacity: .55 }
+#feedback, #load-state { margin-top: 12px }
+footer { padding-block: 18px; border-top: 1px solid var(--ligne); font-size: 14px; color: var(--gris) }
+[hidden] { display:none !important }
+:focus-visible { outline: 3px solid var(--azur); outline-offset: 3px }
+@media(hover:hover) { nav a:hover, #folders a:hover, #files a:hover, #r-links a:hover { box-shadow: inset 0 -3px var(--vert) } }
+@media(prefers-reduced-motion:no-preference) { main>section:not([hidden]) { animation: enter .22s ease-out } @keyframes enter { from { opacity:.6; transform:translateY(5px) } } }
+@media(max-width:650px) {
+  .bar,main,footer { width: calc(100% - 30px) }
+  .bar { flex-direction: column; align-items: stretch; gap: 5px; padding: 7px 0 }
+  .brand { justify-content:flex-start; gap:8px; font-size:1.04rem }
+  .brand img { width:30px; height:30px }
+  nav a { flex:1; text-align:center; padding:9px 2px }
+  #rappel h2 { max-width:100% }
+  .mosaique { width:90px; top:-18px; right:-20px; opacity:.7 }
+  #r-links { gap:7px }
+  #r-links a { font-size:.94rem }
+  #folders { grid-template-columns:1fr 1fr }
+  .section-title { gap:6px }
+  .section-title a { font-size:.9rem }
+  footer { align-items:flex-start }
+}
