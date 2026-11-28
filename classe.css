@@ -89,3 +89,49 @@ footer { padding-block: 18px; border-top: 1px solid var(--ligne); font-size: 14p
   .section-title a { font-size:.9rem }
   footer { align-items:flex-start }
 }
+
+/* MA 3E : surface blanche, échéance verte et rappel prioritaire orange. */
+h1 {color:var(--encre)}
+nav [aria-current] {background:var(--vert);color:var(--encre)}
+.bento,#calendar,#latest {display:grid;gap:16px}
+.bento {grid-template-columns:minmax(0,1.45fr) minmax(0,1fr)}
+.bento:has(>[hidden]) {grid-template-columns:1fr}
+#priority,#rappel {border-radius:24px;padding:clamp(22px,3.6vw,42px)}
+#priority {background:var(--vert);color:var(--encre);display:grid;justify-items:start;align-content:start;gap:8px}
+#priority strong {font-size:clamp(45px,7vw,86px);line-height:1;letter-spacing:-.07em}
+#priority small,#rappel small,.doc-card small {font-weight:700}
+#priority a {margin-top:8px;color:var(--encre);font-weight:750}
+#rappel {background:#fff6ec;color:var(--encre);border:1px solid #f1cead}
+#rappel h2 {max-width:none;font-size:clamp(24px,3.2vw,39px)}
+#r-links a,#r-links a:first-child {background:white;color:var(--encre);border:1px solid #decdbb}
+#latest {grid-template-columns:repeat(3,minmax(0,1fr))}
+.doc-card {padding:18px;border:1px solid var(--ligne);border-radius:14px;background:white;overflow-wrap:anywhere}
+.doc-card h3 {margin:6px 0 12px;line-height:1.25}
+.doc-card small {color:var(--gris)}
+.doc-card a {display:inline-flex;align-items:center;margin-right:12px;min-height:44px}
+#files .doc-card a {padding:0;border:0}
+.agenda-tools {display:flex;align-items:end;flex-wrap:wrap;gap:12px;margin:20px 0}
+.agenda-tools label {font-size:.85rem}
+#calendar {grid-template-columns:repeat(auto-fit,minmax(min(100%,330px),1fr))}
+.calendar-panel {border-top:5px solid var(--vert);min-width:0}
+.calendar-panel.orientation {border-color:var(--azur)}
+.calendar-panel details {margin:8px 0;padding:10px 14px}
+.calendar-panel .row {display:inline-flex;vertical-align:middle;border:0;padding:5px 0;max-width:95%;flex-wrap:wrap}
+.calendar-panel details p {margin:8px 0}
+@media(max-width:680px){
+ .bento,#latest {grid-template-columns:1fr}
+ .bar {min-height:52px}
+ nav {position:fixed;z-index:5;bottom:0;left:0;right:0;display:flex;background:white;border-top:1px solid var(--ligne);padding:5px 10px calc(5px + env(safe-area-inset-bottom));box-shadow:0 -3px 16px #1021260d}
+ nav a {min-height:44px}
+ body {padding-bottom:calc(64px + env(safe-area-inset-bottom))}
+ .agenda-tools label {max-width:100%}
+}
+@media(max-width:350px){#folders{grid-template-columns:1fr}}
+textarea {resize:vertical;min-height:70px;border:1px solid var(--ligne);border-radius:8px;padding:10px;font:inherit}
+#setup {overflow-wrap:anywhere}
+nav a {display:inline-flex;align-items:center;justify-content:center;gap:6px}
+footer {flex-wrap:wrap}
+footer details {max-width:100%;margin:0}
+footer details[open] {flex-basis:100%}
+#editor {margin-top:22px}
+@media(max-width:390px){nav a {gap:3px;font-size:.9rem}nav svg{width:16px}}

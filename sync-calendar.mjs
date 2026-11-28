@@ -234,7 +234,7 @@ function occurrenceFrom(event,start,sequence){
   const id=createHash('sha1').update(`${event.uid}|${startValue}|${sequence}`).digest('hex').slice(0,16);
   return {
     id,title:event.title,start:startValue,end:endValue,allDay,
-    location:event.location,description:event.description,category:categoryFor(event)
+    category:categoryFor(event)
   };
 }
 

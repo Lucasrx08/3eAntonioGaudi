@@ -38,6 +38,13 @@ jobs:
           APPLE_CALENDAR_URL: ${{ secrets.APPLE_CALENDAR_URL }}
         run: node sync-calendar.mjs
 
+      - name: Synchroniser le calendrier iCloud orientation
+        if: github.event_name != 'issues'
+        env:
+          CALENDAR_URL: ${{ secrets.ORIENTATION_CALENDAR_URL }}
+          CALENDAR_OUTPUT: orientation.json
+        run: node sync-calendar.mjs
+
       - name: Publier les ressources communes
         if: github.event_name != 'schedule'
         env:
@@ -71,8 +78,10 @@ jobs:
             copy_if_changed resources.json
           elif [ "${{ github.event_name }}" = "schedule" ]; then
             copy_if_changed calendar.json
+            if [ -f orientation.json ]; then copy_if_changed orientation.json; fi
           else
             copy_if_changed calendar.json
+            if [ -f orientation.json ]; then copy_if_changed orientation.json; fi
             copy_if_changed resources.json
           fi
           cd /tmp/ma3e-live-branch
